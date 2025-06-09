@@ -8,7 +8,7 @@ $featuresElements = [
 "name" => 'Gerente éxito asignado',
 "subItems" => array(
 [
-"name" => "Todo el año",
+"name" => "Primer año",
 "value" => [
 "disabledIcon",
 "8 horas el primer año",

@@ -468,7 +468,7 @@ o",
 "name" => 'Gerente Éxito asignado',
 "subItems" => array(
 [
-"name" => "Todo el año",
+"name" => "Primer año",
 "value" => "8 horas el primer año"
 ],
 [

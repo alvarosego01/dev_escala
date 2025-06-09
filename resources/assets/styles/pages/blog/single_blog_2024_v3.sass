@@ -381,68 +381,60 @@ body
                                     left: 25px!important
                                 @include responsivo(smallPcTablet)
                                     left: -25px!important
-                .form7
-                    margin-bottom: 50px
-                    padding: 0 50px
-                    padding-bottom: 50px
-                    display: flex
-                    margin: 0 auto
-                    @include responsivo(telefonoTable)
-                        width: 100%
-                        display: block
-                    @include responsivo(pcMedio)
-                        width: 50%
-                        padding-left: 15px
-                        min-height: 525px
+        .form
+            padding-bottom: 50px
+            display: flex
+            @include responsivo(telefonoTable)
+                justify-content: center
+            @include responsivo(pcMedio)
+                justify-content : center
+            @include responsivo(general)
+                padding-bottom: 50px
+                padding-left: 0
+                padding-right: 0
+                margin-left: auto
+                
+            @include responsivo(smallPcTablet)
+                padding-left: 0
+                padding-right: 0
+            @include responsivo(resto)
+                padding-right: 0
+                padding-left: 0px
+                margin: 0 auto
+            .formatForm
+                display: block
+                margin: 0 auto
+                min-height: 630px
+                filter: drop-shadow(0px 4px 30px rgba(0, 127, 150, 0.20))
+                border-radius: 20px
+                padding: 0px 30px 30px
+                @include responsivo(smallPcTablet)
+                    padding: 0px 20px 30px
+                h5.titleFormat
+                    color: #2C4857!important
+                    font-family: "Mulish", sans-serif!important
+                    font-size: 24px!important
+                    font-weight: 800!important
+                    line-height: 1!important
+                    padding-bottom: 15px!important
                     @include responsivo(general)
-                        padding-bottom: 60px
-                        min-height: 520px
+                        font-size: 20px
                     @include responsivo(smallPcTablet)
-                        padding-left: 20px
-                        padding-right: 0
-                        padding-bottom: 55px
-                        min-height: 520px
-                    @include responsivo(resto)
-                        // padding-bottom: 0
-                        padding-right: 0
-                        min-height: auto
-                        padding-left: 60px
-                    .formatForm
-                        display: block
-                        margin: 0 auto
-                        background-color: white
-                        filter: drop-shadow(0px 4px 30px rgba(0, 127, 150, 0.20))
-                        border-radius: 20px
-                        padding: 0px 30px 30px
-                        @include responsivo(smallPcTablet)
-                            padding: 0px 20px 30px
-                        h5.titleFormat
-                            color: #2C4857!important
-                            font-family: "Mulish", sans-serif!important
-                            font-size: 24px!important
-                            font-weight: 800!important
-                            line-height: 1
-                            padding-bottom: 15px!important
-                            @include responsivo(general)
-                                font-size: 20px
-                            @include responsivo(smallPcTablet)
-                                font-size: 18px
-
-                        input[type="button"]
-                            font-weight: 900!important
-                            font-size: 22px!important
-                            border-radius: 10px
-                            font-family: "Mulish", sans-serif!important
-                            width: 100%
-                            text-transform: none!important
-                            background: linear-gradient(90deg, #F34F36 0%, #007F96 100%)!important
-                            transition: background 0.3s ease
-                            &:hover
-                                background: linear-gradient(90deg, #ff6b60 0%, #1fdad3 100%)!important
-                                color: #fff
+                        font-size: 18px
+                input[type="button"]
+                    font-weight: 900!important
+                    font-size: 22px!important
+                    border-radius: 10px
+                    font-family: "Mulish", sans-serif!important
+                    width: 100%
+                    text-transform: none!important
+                    background: linear-gradient(90deg, #F34F36 0%, #007F96 100%)!important
+                    transition: background 0.3s ease
+                    &:hover
+                        background: linear-gradient(90deg, #ff6b60 0%, #1fdad3 100%)!important
+                        color: #fff
                     .containElements
                         margin: 0 auto
-
                 .imageReviewsMobile
                     position: relative
                     @include responsivo(telefonoTable)

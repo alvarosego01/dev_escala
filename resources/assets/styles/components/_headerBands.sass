@@ -808,14 +808,14 @@
                     font-family: 'Mulish', sans-serif
                     font-size: 20px
                     font-style: normal
-                    font-weight: 900
+                    font-weight: 400
                     line-height: 1
                     @include responsivo(telefonoTable)
                         margin-left: auto
                         margin-right: auto
                         text-align: center
                         width: auto
-                        font-weight: 900
+                        font-weight: 400
                         font-size: 18px 
                         margin-bottom: 8px
 
@@ -833,18 +833,22 @@
                         text-align: left
                     span
                         line-height: 1
-                        background: linear-gradient(270deg, #FFF 0%, #83E3D0 100%)
-                        background-clip: text
-                        -webkit-background-clip: text
-                        -webkit-text-fill-color: transparent
+                     
                         margin-left: 2px
                         font-weight: 900
                         @include responsivo(telefonoTable)
                             font-size: 18px
+                            background: linear-gradient(90deg, #83E3D0 0%, #F1685A 100%)
+                            background-clip: text
+                            -webkit-background-clip: text
+                            -webkit-text-fill-color: transparent
                         @include responsivo(pcMedio)
                             margin-right: 0px
                             margin-left: 0px
-                            
+                            background: linear-gradient(90deg, #83E3D0 0%, #F1685A 100%)
+                            background-clip: text
+                            -webkit-background-clip: text
+                            -webkit-text-fill-color: transparent                            
                         @include responsivo(general)
                             margin: 0
                             margin-left: 5px
