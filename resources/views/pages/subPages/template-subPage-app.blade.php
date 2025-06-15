@@ -2,290 +2,218 @@
 
     <div class="sections">
 
-        @php
-        $elementsReviews = [
-
-        [
-        'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
-        'text' => 'Escala / plataforma CRM',
-        'points' => '4.9 / 5',
-        ],
-        [
-        'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
-        'text' => 'Escala / plataforma CRM',
-        'points' => '4.8 / 5',
-        ],
-        [
-        'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
-        'text' => 'Escala / plataforma CRM',
-        'points' => '4.8 / 5',
-        ]
-        ];
-        @endphp
-
-        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol escala_app escala_app_0 ">
 
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/app_bg_0.svg') }}')" class="backgroundFull">
+        <section id="lead-form" class="hero2025 escala_app_0">
 
+            <div class="backgroundFull"
+                style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-hero-app-escala-2025.webp') !!}')">
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
+                        <div class="sectionText">
+                            <span>Acelera tus ventas estés <br class="DT_e">
+                                donde estés con la </span>
+                            <h1 class="principalBigTitle">
+                                App móvil de Escala
+                            </h1>
 
-                        <div class="groupElements row">
+                            <h1 class="principalBigTitleMb">
+                                App móvil de Escala
 
+                            </h1>
+                            <p class="principalBigText">
+                                Accede a tu CRM desde el celular <br class="DT_e">
+                                descargando la aplicación <br class="DT_e">
+                                gratuita de Escala
+                            </p>
+                            <div class="containerImage">
+                                <img class="appEscala" alt="Ilustración app escala"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/imagen app escala 2025 hero.webp') !!}"
+                                    loading="lazy">
 
-                            <div class="info col-md-12 col-lg-8 ">
-
-
-                                <div class="containElements row threeCol">
-
-                                    <div class="ele ele2 col-md-12 col-lg-7">
-
-                                        <h1 class="principalBigTitle blackColor">
-                                            <span>
-                                                Acelera tus ventas estés
-                                                <br class="space">
-                                                <!-- <br class="space"> -->
-                                                donde estés con la
-                                            </span> <br class="space">
-                                            App móvil de Escala
-                                        </h1>
-
-                                        <p class="principalBigText grayColorTexts">
-                                            Accede a tu CRM desde el celular descargando <br class="space">
-                                            la aplicación gratuita de Escala
-                                        </p>
-
-
-                                        <div class="features">
-                                            <div class="element">
-                                                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.escala.crm.app&pli=1">
-                                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_1.png') }}" alt="" class="icon">
-                                                </a>
-                                            </div>
-                                            <div class="element">
-                                                <a target="_blank" href="https://apps.apple.com/ar/app/escala-crm/id6499237262">
-
-                                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_2.png') }}" alt="" class="icon">
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="elements hideOnmobile hideOnTablet">
-
-                                            @foreach ($elementsReviews as $item)
-                                            <div class="refersElement">
-
-                                                <div class="infoInner">
-                                                    <div class="tag">
-                                                        <div class="containerImage">
-                                                            <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                        </div>
-
-                                                        <span class="points">
-                                                            {!! $item['points'] !!}
-                                                        </span>
-                                                    </div>
-                                                    <p class="text">
-                                                        {!! $item['text'] !!}
-                                                    </p>
-                                                    <div class="stars">
-                                                        <div class="containerImage">
-                                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-                                            @endforeach
-
-                                        </div>
-
-                                    </div>
-
-                                    <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
-
-                                        <div class="containerImage">
-                                            <img alt="Ilustración app escala para dispositivos móviles" src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_0.png') }}" loading="lazy">
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-
-
+                                <img alt="icono app escala google play"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/app_image_1.png') !!}"
+                                    loading="lazy">
+                                <img alt="icono  app store"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/app_image_2.png') !!}"
+                                    loading="lazy">
                             </div>
-                            <div class="form7 col-md-12 col-lg-4 ">
-                                <div class="containElements">
-
-                                    <div class="formatForm redirectWeb" redirectweb="true">
-
-
-                                        <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
-                                            personalizado de Escala</h5>
-
-
-                                        @php
-                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                        $_rs = [];
-                                        $_formShortcode = null;
-                                        if ($_data = get_posts($_args)) {
-                                        foreach ($_data as $_key) {
-                                        $_rs[$_key->ID] = $_key->post_title;
-                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                        }
-                                        }
-                                        } else {
-                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                        }
-                                        @endphp
-                                        {!! do_shortcode($_formShortcode) !!}
-
-
-                                    </div>
-
-                                </div>
-
-
-                            </div>
-
-                            <div class="imageReviewsMobile hideOnDesktop">
-
-                                <div class="image">
-                                    <div class="containerImage">
-                                        <img alt="Ilustración app escala para dispositivos móviles" src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_0.png') }}" loading="lazy">
-                                    </div>
-
-                                </div>
-
-                                <div class="elements">
-
-                                    @foreach ($elementsReviews as $item)
-                                    <div class="refersElement">
-
-                                        <div class="infoInner">
-                                            <div class="tag">
-                                                <div class="containerImage">
-                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                </div>
-
-                                                <span class="points">
-                                                    {!! $item['points'] !!}
-                                                </span>
-                                            </div>
-                                            <p class="text">
-                                                {!! $item['text'] !!}
-                                            </p>
-                                            <div class="stars">
-                                                <div class="containerImage">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                    @endforeach
-
-                                </div>
-
-                            </div>
-
-
-
-
-
                         </div>
-
                     </section>
 
+                    <section class="innerSectionElement sct2">
+                        <div class="containerImage">
+                            <img alt="Ilustración app escala"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/imagen app escala 2025 hero.webp') !!}"
+                                loading="lazy">
+
+                        </div>
+                    </section>
+
+                    <section class="innerSectionElement sct3">
+                        <div class="form7">
+                            <div class="containElements">
+
+                                <div class="formatForm redirectWeb" redirectweb="true">
+
+                                    <h5 class="titleFormat blackcolor"> Recibe un <br class="space">
+                                        demo personalizado</h5>
+
+                                    @php
+                                    $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                    $_rs = [];
+                                    $_formShortcode = null;
+                                    if ($_data = get_posts($_args)) {
+                                    foreach ($_data as $_key) {
+                                    $_rs[$_key->ID] = $_key->post_title;
+                                    if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                    $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                    }
+                                    }
+                                    } else {
+                                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                    }
+                                    @endphp
+                                    {!! do_shortcode($_formShortcode) !!}
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
                 </div>
+            </div>
+        </section>
+
+        <section class="customSection sectionParent escala_app_1">
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+                    <div class="groupElements row">
+                        <div class="info col-md-12 col-lg-8 ">
+                            <div class="containElements">
+                                @php
+                                $elementsReviews = [
+                                [
+                                'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                                'text' => 'Escala / plataforma CRM',
+                                'points' => '4.9 / 5',
+                                ],
+                                [
+                                'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                                'text' => 'Escala / plataforma CRM',
+                                'points' => '4.8 / 5',
+                                ],
+                                [
+                                'logo' =>
+                                App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
+                                'text' => 'Escala / plataforma CRM',
+                                'points' => '4.8 / 5',
+                                ]
+                                ];
+                                @endphp
+                                <div class="ele reviews">
+                                    <div class="elements">
+                                        <div class="iconApp">
+                                            <a target="_blank"
+                                                href="https://www.getapp.com/customer-management-software/crm/category-leaders">
+                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_app_record_2025_category.svg') !!}"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+                                        @foreach ($elementsReviews as $item)
+                                        <div class="refersElement">
+
+                                            <div class="infoInner">
+                                                <div class="tag">
+                                                    <div class="containerImage">
+                                                        <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                    </div>
+
+                                                    <span class="points">
+                                                        {!! $item['points'] !!}
+                                                    </span>
+                                                </div>
+                                                <p class="text">
+                                                    {!! $item['text'] !!}
+                                                </p>
+                                                <div class="stars">
+                                                    <div class="containerImage">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icons-stars-yellow.svg') !!}"
+                                                            loading="lazy">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        @endforeach
+
+                                    </div>
 
 
-
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
 
         </section>
 
 
 
-        @php
-        $parameters = [
-        'type' => 'backgroundColor',
-        'classSection' => 'escala_app_14',
-        'enableTitle' => true,
-        'titlePrincipal' => '
-        <span>No pierdas oportunidades de negocio
-        </span>
-        por no tener acceso a una computadora
-        ',
-        'overlay' => false,
-        'enableButton' => false
-        ];
-        @endphp
-
-        {{-- @contain_multiple_cards_T2($parameters)
-        @endcontain_multiple_cards_T2 --}}
 
 
-        <div class="sectionInfo_2">
-
-            @contain_multiple_cards_T2($parameters)
-            @endcontain_multiple_cards_T2
-
-
-        </div>
 
         <section class="sectionParent customSection escala_app_2">
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/appEscala/app_bg_1.svg') }}')" class="backgroundFull">
-                <div class="section-row">
-                    <section class="innerSectionElement sct2">
-                        <div class="groupElements row">
-                            <div class="image col-md-12 col-lg-4">
-                                <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/appEscala/app_image_3.png') !!}" loading="lazy">
-                                    <img src="{!! App::setFilePath('/assets/images/appEscala/app_image_4.png') !!}" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="info col-md-12 col-lg-8 sectionTexts textRight">
-                                <h3 class="secondaryTitle">
-                                    Accede al CRM de Escala<br class="space">
-                                    desde cualquier lugar y en <br class="space">
-                                    cualquier momento
-                                    <br class="space">
-                                    <br class="space">
-                                    <span>Escanea el código QR para descargar la<br class="space">
-                                        aplicación
-                                        directamente desde la App Store.</span>
-                                </h3>
-
+            <div class="section-row">
+                <section class="innerSectionElement sct1">
+                    <h2 class="primaryTitle">
+                        No pierdas oportunidades de negocio <br class="space">
+                        por no tener acceso a una computadora
+                    </h2>
+                </section>
+                <section class="innerSectionElement sct2">
+                    <div class="groupElements row">
+                        <div class="image col-md-12 col-lg-4">
+                            <div class="containerImage">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/app-img-qr-descargar-2025-1.webp') !!}"
+                                    loading="lazy">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/app-img-qr-descargar-2025-2.webp') !!}"
+                                    loading="lazy">
                             </div>
                         </div>
-                    </section>
-                </div>
+                        <div class="info col-md-12 col-lg-8 sectionTexts textRight">
+                            <h3 class="secondaryTitle">
+                                Accede al CRM de Escala <br class="space">
+                                desde cualquier lugar y en <br class="space">
+                                cualquier momento
+                                <br class="space">
+                                <br class="space">
+                            </h3>
+                            <span>Escanea el código QR para descargar la<br class="space">
+                                aplicación directamente desde la App Store.</span>
+                        </div>
+                    </div>
+                </section>
             </div>
+
         </section>
 
 
         @php
         $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'escala_app_15',
+        'classSection' => 'escala_app_3',
         'enableTitle' => true,
-        'titlePrincipal' => '
-        <span>Optimiza la gestión
-        </span>
-        de tu negocio
-        ',
+        'titlePrincipal' => false,
         'overlay' => false,
         'enableButton' => false,
         'elements' => [
         [
-        'img' => App::setFilePath('/assets/images/appEscala/app_image_5.png'),
+        'img' => App::setFilePath('/assets/images/illustrations/others/crea-actualiza-contactos-card-1.webp'),
         'title' => '
         Crea y actualiza <br class="space">
         contactos
@@ -298,7 +226,7 @@
         'background_item' => false,
         ],
         [
-        'img' => App::setFilePath('/assets/images/appEscala/app_image_6.png'),
+        'img' => App::setFilePath('/assets/images/illustrations/others/gestiona-oportunidades-card-2.webp'),
         'title' => '
         Gestiona oportunidades
         <br class="space">
@@ -313,159 +241,72 @@
         ',
         'enableButton' => false,
         'background_item' => false,
-        ]
         ],
-        ];
-        @endphp
-
-        {{-- @contain_multiple_cards_T2($parameters)
-        @endcontain_multiple_cards_T2 --}}
-
-
-        <div class="sectionInfo_2">
-
-            @contain_multiple_cards_T2($parameters)
-            @endcontain_multiple_cards_T2
-
-            <div class="overlay" style="background-image: url({!! App::setFilePath('/assets/images/banners/escala_app_3.svg') !!})">
-
-
-            </div>
-
-        </div>
-
-
-        <section class="sectionParent customSection escala_app_20">
-            <div>
-                <div class="section-row">
-                    <section class="innerSectionElement sct2">
-                        <div class="groupElements row">
-                            <div class="image">
-                                <div class="containerImage">
-                                    <img src="{!!  App::setFilePath('/assets/images/gifs/app_escala_gift_sec_20.gif') !!}" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="info col-md-12 col-lg-8 sectionTexts textRight">
-                                <h3 class="secondaryTitle">
-                                    Gestiona el WhatsApp Inbox <br class="DT_e">
-                                    de Escala desde tu celular
-                                </h3>
-                                <p>
-                                    Tú y tu equipo podrán conversar y gestionar los WhatsApps <br class="DT_e">
-                                    de tu negocio para aumentar su nivel de eficiencia.
-                                </p>
-                                <a href="https://escala.com/whatsapp-inbox-app-movil-escala/" target="_blank">Conocer más</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </section>
-
-        @php
-        $parameters = [
-        'type' => 'backgroundColor',
-        'classSection' => 'escala_app_15',
-        'overlay' => false,
-        'enableButton' => false,
-        'elements' => [
         [
-        'img' => App::setFilePath('/assets/images/appEscala/app_image_7.png'),
+        'img' => App::setFilePath('/assets/images/illustrations/others/programa-tareas-card-3.webp'),
         'title' => '
-        Programa tareas <br class="space">
-        y actividades
+        Programa tareas y <br class="space">
+        actividades
         ',
-        'text' => '
-        Crea, gestiona y recibe recordatorios
-        <br class="space">
-        de tus tareas y actividades ¡para que
-        <br class="space">
-        no se escape ningún lead!
+        'text' => 'Crea, gestiona y recibe <br class="space">
+        recordatorios de tus tareas y <br class="space">
+        actividades ¡para que no se <br class="space">
+        escape ningún lead!
         ',
         'enableButton' => false,
         'background_item' => false,
-        ],[
-        'img' => App::setFilePath('/assets/images/appEscala/app_image_8.png'),
+        ],
+        [
+        'img' => App::setFilePath('/assets/images/illustrations/others/sincroniza-card-4.webp'),
         'title' => '
         Sincronización en <br class="space">
         tiempo real
         ',
         'text' => '
-        Actualiza datos desde cualquier
-        <br class="space">
-        dispositivo y mantén toda tu
-        <br class="space">
+        Actualiza datos desde cualquier <br class="space">
+        dispositivo y mantén toda tu <br class="space">
         información al día.
         ',
         'enableButton' => false,
         'background_item' => false,
-        ],
+        ]
+
         ],
         ];
         @endphp
 
-        {{-- @contain_multiple_cards_T2($parameters)
-        @endcontain_multiple_cards_T2 --}}
 
+        @contain_multiple_cards_T2($parameters)
+        @endcontain_multiple_cards_T2
 
-        <div class="sectionInfo_2">
-
-            @contain_multiple_cards_T2($parameters)
-            @endcontain_multiple_cards_T2
-
-            <div class="overlay" style="background-image: url({!! App::setFilePath('/assets/images/banners/escala_app_3.svg') !!})">
-
-
-            </div>
-
-        </div>
         <div class="btnCenter">
             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                Solicita un demo gratuito
+                Solicita un demo gratuito →
             </a>
         </div>
 
+        <section class="customSection sectionParent escala_app_4">
 
-
-        <section class="customSection sectionParent escala_app_16">
-
-            <div class="section-row">
-
-
-                <section class="innerSectionElement sct2">
-                    <img src="{!! App::setFilePath('/assets/images/banners/back_overlay_app-escala.png') !!}" alt="" class="overlay">
-
-                    <div class="containElements">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-5 column-img">
-                                <div class="img-container">
-                                    <img src="{!! App::setFilePath('/assets/images/person/am/landing_crm_am_2.png') !!}" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="col-md-10 col-lg-7 column-text">
-                                <p>
-                                    <span>
-                                        "La App de Escala es una herramienta
-                                        <br class="DT_e">
-                                        indispensable para tener acceso inmediato
-                                        <br class="DT_e">
-                                        y continuo a tu CRM desde cualquier lugar,
-                                        <br class="DT_e">
-                                        con notificaciones en tiempo real, donde
-                                        <br class="DT_e">
-                                        podrás optimizar la gestión de tu negocio
-                                        <br class="DT_e">
-                                        desde un solo lugar." .
-
-                                        <br class="space"><br class="space">
-                                        <span class="sub">
-                                            Andrés Moreno <br class="space">
-                                            <small>Fundador de Escala & Open English</small>
-                                        </span>
-                                </p>
-
-                            </div>
+            <div class="section-row" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-section-4-app-escala-2025.webp') !!})">
+                <section class="innerSectionElement sct1">
+                    <div class="img-left">
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/person/am/am-seo-escala-2025-app.webp') !!}" loading="lazy">
                         </div>
+
+                    </div>
+                    <div class="text-right">
+                        <p>
+                            <b>“El CRM es el corazón de las operaciones <br class="space">
+                                de todo negocio.</b> Diseñamos Escala para <br class="space">
+                            facilitarle a pequeñas y medianas empresas <br class="space">
+                            tener una cultura cliente-céntrica y optimizar <br class="space">
+                            resultados de venta/servicio”.
+                        </p>
+                        <span>
+                            <b>Andrés Moreno,</b> <br class="space">
+                            Fundador de escala & Open English
+                        </span>
                     </div>
                 </section>
             </div>
@@ -473,7 +314,9 @@
         </section>
 
 
-        <section class="customSection sectionParent escala_app_17">
+
+
+        <section class="customSection sectionParent escala_app_5">
 
             <div class="section-row">
 
@@ -484,20 +327,31 @@
                             <div class="row">
                                 <div class="text-center col-md-12 col-lg-12">
                                     <h2 class="primaryTitle">
-                                        ¿Cómo <span class="blackColor2"> descargar y usar</span> la app <br class="DT_e">
-                                        móvil de Escala?
+                                        ¿Cómo descargar y usar la
+                                        <br class="space">
+                                        app móvil de Escala?
                                     </h2>
-                                    <div class="ele video col-md-12" style=".vjs-big-play-button{display:none!important}">
+                                    <div class="ele video col-md-12">
+                                        <div class="containerImage">
+                                            <img src="{!! App::setFilePath('/assets/images/banners/bg-video-cover.png') !!}"
+                                                loading="lazy">
+
+                                        </div>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') !!}"
+                                            loading="lazy">
+                                        style=".vjs-big-play-button{display:none!important}">
 
                                         @php
                                         $videoEmbed = App::setFilePath('/assets/videos/app_escala_video.mp4');
-                                        $videoCover = App::setFilePath('/assets/images/appEscala/bg-video-usar-app.png');
+                                        $videoCover =
+                                        App::setFilePath('/assets/images/appEscala/bg-video-usar-app.png');
                                         @endphp
 
                                         @if (isset($videoEmbed) && $videoEmbed != null)
                                         <div class="youtubeImageContainer ">
 
-                                            <video class="video-js" controls preload="none" poster="{{ $videoCover }}" {{-- poster="MY_VIDEO_POSTER.jpg" --}} data-setup="{
+                                            <video class="video-js" controls preload="none" poster="{{ $videoCover }}"
+                                                {{-- poster="MY_VIDEO_POSTER.jpg" --}} data-setup="{
                                           autoplay: false
                                         }">
                                                 <source src="{{ $videoEmbed }}" type="video/mp4" />
@@ -506,9 +360,11 @@
                                                     To view this video please enable JavaScript, and consider
                                                     upgrading to a
                                                     web browser that
-                                                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports
+                                                    <a href="https://videojs.com/html5-video-support/"
+                                                        target="_blank">supports
                                                         HTML5 video</a>
                                                 </p>
+
                                             </video>
 
 
@@ -529,191 +385,109 @@
 
 
 
+        <section class="customSection sectionParent  escala_app_6">
 
-
-        @php
-        $desk_reviews = [
-        [
-        'area' => 'Finanzas',
-        'text' => '
-        <strong>“Gracias a Escala ahorramos 70% del tiempo invertido</strong> por el equipo comercial en tareas operativas y aumentamos 20% la cantidad de clientes.”
-        ',
-        'logo' => App::setFilePath('/assets/images/logos/logo_saeta.png'),
-        'name' => 'Claudio Radovich, Fundador',
-        ],
-        [
-        'area' => 'Consultoría',
-        'text' => '
-        <strong>“Logramos 2X nuestra facturación</strong> en menos de 6 meses y multiplicar 4X los nuevos leads gracias a Escala.”
-        ',
-        'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
-        'name' => 'William Ávila, CEO',
-        ],
-        [
-        'area' => 'Salud y bienestar',
-        'text' => '<strong>“Aumentamos 5X la tasa de recuperación</strong> de carrito de compra abandonado y 41% la tasa de apertura promedio en campañas de Email Marketing.”',
-        'logo' => App::setFilePath('/assets/images/logos/logo_rgg.png'),
-        'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
-        ],
-        ];
-
-        @endphp
-
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/app_bg_2.svg') !!})" class="customSection sectionParent escala_app_18 ">
-
-            <div class="section-row">
-
-
-                <section class="innerSectionElement sct1">
-
-
-                    <div class="row">
-
-                        <div class="slideshowCards col-md-12 col-lg-9">
-                            <div class="containElements">
-
-                                <div id="carousel-testimonials-desktop" class="owl-carousel owl-theme">
-
-                                    @if (isset($desk_reviews) && $desk_reviews != null)
-                                    @foreach ($desk_reviews as $index => $item)
-                                    <div class="item @if ($index === array_key_first($desk_reviews)) active @endif ">
-
-                                        <div class="testimonial">
-
-                                            <div class="containElements">
-
-                                                <div class="area">
-                                                    <h3>
-                                                        {!! $item['area'] !!}
-                                                    </h3>
-                                                </div>
-
-                                                <div class="quote">
-                                                    <div class="containerImage">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/open_comi.png') !!}" loading="lazy">
-
-                                                    </div>
-                                                </div>
-
-                                                <p class="text">
-                                                    {!! $item['text'] !!}
-                                                </p>
-
-                                                <div class="byCompany">
-                                                    <div class="logo">
-                                                        <div class="containerImage">
-                                                            <img alt="TrustPilot review" src="{!! $item['logo'] !!}" alt="" loading="lazy">
-                                                        </div>
-                                                    </div>
-                                                    <div class="data">
-                                                        <span class="name">
-                                                            {!! $item['name'] !!}
-                                                        </span>
-                                                        <div class="stars">
-                                                            <div class="containerImage">
-                                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-
-                                        </div>
-
-
-                                    </div>
-                                    @endforeach
-                                    @endif
-
-
-
-                                    {{-- <ol class="carousel-indicators">
-
-                            @if (isset($desk_reviews) && $desk_reviews != null)
-
-                            @foreach ($desk_reviews as $index => $item)
-
-                            <button type="button" data-bs-target="#carousel-testimonials-desktop" data-bs-slide-to="{{ $index }}" @if ($index === array_key_first($desk_reviews)) class="active" aria-current="true" @endif aria-label="Slide {{ $index }}"></button>
-
-                                    @endforeach
-
-                                    @endif
-
-                                    </ol> --}}
-
-
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="info col-md-12 col-lg-3">
-                            <div class="containElements">
-                                <h2 class="primaryTitle blackColor">
-
-                                    Nuestros clientes <br class="space">
-                                    <span>dicen por qué</span>
-
-                                </h2>
-                                <p class="primaryText">
-                                    el CRM de Escala es el más completo
-                                </p>
-                                <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                    Prueba Gratis
-                                </a>
-                            </div>
-                        </div>
-
+            <div class="section-row ">
+                <div class="row sct1">
+                    <div class="text-center col-12">
+                        <h2 class="title">
+                            El CRM de Escala centraliza y simplifica <br class="DT_e">
+                            tu proceso comercial con IA
+                        </h2>
                     </div>
+                </div>
 
+                <div class=" row sct2">
+                    <div class="mb-4 col-lg-4 col-md-12 box-internal">
+                        <div class="card-box"
+                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
+                            <img class="img-top"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue_white.png') !!}"
+                                alt="">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>Aumentamos las <br class="DT_e">
+                                        ventas en un 100%.</b> <br class="DT_e">
+                                    El acompañamiento <br class="DT_e">
+                                    del equipo de Escala <br class="DT_e">
+                                    ha sido fundamental.
+                                    <br class="space">
+                                    <br class="space">
 
-                </section>
-
+                                </h5>
+                                <div class="card-text">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_miguel_urrego_poctlab.png') !!}"
+                                        alt="">
+                                    <div class="text-internal">
+                                        <span class="card-title">Miguel Urrego</span>
+                                        <p class="card-text">Líder Comercial Poctlab</p>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-4 col-lg-4 col-md-12 box-internal">
+                        <div class="card-box"
+                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
+                            <img class="img-top"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue_white.png') !!}"
+                                alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Escala ha sido un gran <br class="DT_e">
+                                    aliado para <b> mejorar nuestra operación <br class="DT_e">
+                                        comercial,</b> automatizar
+                                    <br class="DT_e">
+                                    tareas y optimizar nuestra
+                                    <br class="DT_e"> inversión en marketing.
+                                </h5>
+                                <div class="card-text">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/miller_romero_taller_cinco.png') !!}"
+                                        alt="">
+                                    <div class="text-internal">
+                                        <span class="card-title">Miller Romero</span>
+                                        <p class="card-text">Líder Comunicaciones Taller Cinco</p>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-4 col-lg-4 col-md-12 box-internal">
+                        <div class="card-box"
+                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
+                            <img class="img-top"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue_white.png') !!}"
+                                alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Escala no solo ofrecen un <b> software robusto y amigable,</b>
+                                    sino también un servicio excepcional que asegura que aprovechemos al máximo
+                                    la herramienta.
+                                </h5>
+                                <div class="card-text">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/catalina_gonzalez_katagogo.png') !!}"
+                                        alt="">
+                                    <div class="text-internal">
+                                        <span class="card-title">Catalina González Goez
+                                        </span>
+                                        <p class="card-text"> CEO KataGoGo</p>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-
-            {{-- <img src="{!! App::setFilePath('/assets/images/banners/background_space_4.png') !!}" alt="" class="overlaySpace"> --}}
-
-
         </section>
 
-
-        <script>
-            jQuery('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    768: {
-                        items: 3
-                    },
-                    1000: {
-                        items: 3
-                    },
-                    1250: {
-                        items: 3
-                    },
-                    1500: {
-                        items: 4
-                    }
-                }
-            })
-        </script>
-
-
-
-
-
-
         <section class="sectionParent customSection escala_app_19">
-            <div style="background-image: url('{!! App::setFilePath('/assets/images/appEscala/app_bg_3.svg') !!}')" class="backgroundFull">
-                <div class="section-row">
+            <div 
+              >
+                <div class="section-row" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-section-7-app-escala-2025.webp') !!}')">
                     <section class="innerSectionElement sct2">
                         <div class="groupElements row">
                             <div class="info col-md-12 col-lg-8 sectionTexts textRight">
@@ -726,22 +500,26 @@
                                 </h3>
                                 <div class="features">
                                     <div class="element">
-                                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.escala.crm.app&pli=1">
+                                        <a target="_blank"
+                                            href="https://play.google.com/store/apps/details?id=com.escala.crm.app&pli=1">
 
-                                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_1.png') }}" alt="" class="icon">
+                                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_1.png') }}"
+                                                alt="" class="icon">
                                         </a>
                                     </div>
                                     <div class="element">
                                         <a target="_blank" href="https://apps.apple.com/ar/app/escala-crm/id6499237262">
 
-                                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_2.png') }}" alt="" class="icon">
+                                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_2.png') }}"
+                                                alt="" class="icon">
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="image col-md-12 col-lg-4">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/appEscala/app_image_9.png') !!}" loading="lazy">
+                                    <img src="{!! App::setFilePath('/assets/images/appEscala/app_image_9.png') !!}"
+                                        loading="lazy">
                                 </div>
                             </div>
 
