@@ -176,8 +176,8 @@
                     </h2>
                 </section>
                 <section class="innerSectionElement sct2">
-                    <div class="groupElements row">
-                        <div class="image col-md-12 col-lg-4">
+                    <div class="groupElements ">
+                        <div class="image">
                             <div class="containerImage">
                                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/app-img-qr-descargar-2025-1.webp') !!}"
                                     loading="lazy">
@@ -185,13 +185,11 @@
                                     loading="lazy">
                             </div>
                         </div>
-                        <div class="info col-md-12 col-lg-8 sectionTexts textRight">
+                        <div class="info  ">
                             <h3 class="secondaryTitle">
                                 Accede al CRM de Escala <br class="space">
                                 desde cualquier lugar y en <br class="space">
                                 cualquier momento
-                                <br class="space">
-                                <br class="space">
                             </h3>
                             <span>Escanea el código QR para descargar la<br class="space">
                                 aplicación directamente desde la App Store.</span>
@@ -207,7 +205,7 @@
         $parameters = [
         'type' => 'backgroundColor',
         'classSection' => 'escala_app_3',
-        'enableTitle' => true,
+        'enableTitle' => false,
         'titlePrincipal' => false,
         'overlay' => false,
         'enableButton' => false,
@@ -484,9 +482,8 @@
             </div>
         </section>
 
-        <section class="sectionParent customSection escala_app_19">
-            <div 
-              >
+        <section class="sectionParent customSection escala_app_7">
+            <div>
                 <div class="section-row" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-section-7-app-escala-2025.webp') !!}')">
                     <section class="innerSectionElement sct2">
                         <div class="groupElements row">
