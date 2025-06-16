@@ -295,11 +295,12 @@
                     </div>
                     <div class="text-right">
                         <p>
-                            <b>“El CRM es el corazón de las operaciones <br class="space">
-                                de todo negocio.</b> Diseñamos Escala para <br class="space">
-                            facilitarle a pequeñas y medianas empresas <br class="space">
-                            tener una cultura cliente-céntrica y optimizar <br class="space">
-                            resultados de venta/servicio”.
+                            <b>"La App de Escala es una herramienta <br class="DT_e">
+                                indispensable para tener acceso inmediato <br class="DT_e">
+                                y continuo a tu CRM</b> desde cualquier lugar, <br class="DT_e">
+                            con notificaciones en tiempo real, donde <br class="DT_e">
+                            podrás optimizar la gestión de tu negocio <br class="DT_e">
+                            desde un solo lugar."
                         </p>
                         <span>
                             <b>Andrés Moreno,</b> <br class="space">
@@ -320,62 +321,67 @@
 
                 <section class="innerSectionElement sct0">
 
-                    <div class="containElements">
-                        <div class="container mt-5">
-                            <div class="row">
-                                <div class="text-center col-md-12 col-lg-12">
-                                    <h2 class="primaryTitle">
-                                        ¿Cómo descargar y usar la
-                                        <br class="space">
-                                        app móvil de Escala?
-                                    </h2>
-                                    <div class="ele video col-md-12">
-                                        <div class="containerImage">
-                                            <img src="{!! App::setFilePath('/assets/images/banners/bg-video-cover.png') !!}"
-                                                loading="lazy">
+                    <h2 class="primaryTitle">
+                        ¿Cómo descargar y usar la <br class="space">
+                        app móvil de Escala?
+                    </h2>
 
-                                        </div>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') !!}"
-                                            loading="lazy">
-                                        style=".vjs-big-play-button{display:none!important}">
+                </section>
 
-                                        @php
-                                        $videoEmbed = App::setFilePath('/assets/videos/app_escala_video.mp4');
-                                        $videoCover =
-                                        App::setFilePath('/assets/images/appEscala/bg-video-usar-app.png');
-                                        @endphp
-
-                                        @if (isset($videoEmbed) && $videoEmbed != null)
-                                        <div class="youtubeImageContainer ">
-
-                                            <video class="video-js" controls preload="none" poster="{{ $videoCover }}"
-                                                {{-- poster="MY_VIDEO_POSTER.jpg" --}} data-setup="{
-                                          autoplay: false
-                                        }">
-                                                <source src="{{ $videoEmbed }}" type="video/mp4" />
-                                                <source src="{{ $videoEmbed }}" type="video/webm" />
-                                                <p class="vjs-no-js">
-                                                    To view this video please enable JavaScript, and consider
-                                                    upgrading to a
-                                                    web browser that
-                                                    <a href="https://videojs.com/html5-video-support/"
-                                                        target="_blank">supports
-                                                        HTML5 video</a>
-                                                </p>
-
-                                            </video>
-
-
-                                        </div>
-                                        @endif
-
-                                    </div>
+                <section class="innerSectionElement sct1">
+                    <div class="groupElements">
+                        <div class="info col-md-12 col-lg-8">
+                            <div class="containerImage">
+                                <img class="bgOverlay" src="{!! App::setFilePath('/assets/images/banners/bg-video-cover.png') !!}" loading="lazy">
+                                <img class="btnIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') !!}" loading="lazy" style="cursor: pointer;" onclick="playVideo()">
+                            </div>
+                            <div class="video">
+                                @php
+                                $videoEmbed = App::setFilePath('/assets/videos/app_escala_video.mp4');
+                                $videoCover = App::setFilePath('/assets/images/appEscala/bg-video-usar-app.png');
+                                @endphp
+                                @if (isset($videoEmbed) && $videoEmbed != null)
+                                <div class="youtubeImageContainer">
+                                    <video id="myVideo" class="video-js" controls preload="none" poster="{{ $videoCover }}" data-setup='{"autoplay": false}'>
+                                        <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                        <source src="{{ $videoEmbed }}" type="video/webm" />
+                                        <p class="vjs-no-js">
+                                            To view this video please enable JavaScript, and consider upgrading to a
+                                            web browser that
+                                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                        </p>
+                                    </video>
                                 </div>
+                                @endif
                             </div>
                         </div>
                     </div>
-
                 </section>
+
+                <script>
+                    function playVideo() {
+                        // Obtener el player de Video.js
+                        var player = videojs('myVideo');
+
+                        // Reproducir el video
+                        player.play();
+
+                        // Ocultar elementos (opcional)
+                        document.querySelector('.btnIcon').style.display = 'none';
+
+
+                        // Mostrar controles (opcional)
+                        player.controls(true);
+                    }
+
+                    // Inicializar el player cuando el DOM esté listo
+                    document.addEventListener('DOMContentLoaded', function() {
+                        // Esperar a que Video.js esté listo
+                        videojs('myVideo').ready(function() {
+                            console.log('Video.js player ready');
+                        });
+                    });
+                </script>
 
             </div>
 
@@ -389,8 +395,8 @@
                 <div class="row sct1">
                     <div class="text-center col-12">
                         <h2 class="title">
-                            El CRM de Escala centraliza y simplifica <br class="DT_e">
-                            tu proceso comercial con IA
+                            Nuestros clientes dicen por qué <br class="space">
+                            el CRM de Escala es el más completo
                         </h2>
                     </div>
                 </div>
