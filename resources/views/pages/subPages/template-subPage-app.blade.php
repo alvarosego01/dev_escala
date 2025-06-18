@@ -28,9 +28,9 @@
                                 gratuita de Escala
                             </p>
                             <div class="containerImage">
-                                <img class="appEscala" alt="Ilustración app escala"
+                                <!-- <img class="appEscala" alt="Ilustración app escala"
                                     src="{!! App::setFilePath('/assets/images/illustrations/others/imagen app escala 2025 hero.webp') !!}"
-                                    loading="lazy">
+                                    loading="lazy"> -->
 
                                 <img alt="icono app escala google play"
                                     src="{!! App::setFilePath('/assets/images/illustrations/others/app_image_1.png') !!}"
