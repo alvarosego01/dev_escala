@@ -343,7 +343,7 @@
                 <div class="row sct1">
                     <div class="text-center col-12">
                         <h2 class="title">
-                            El CRM de Escala centraliza y simplifica <br class="DT_e">
+                            El CRM de Escala centraliza y automatiza <br class="DT_e">
                             tu proceso comercial con IA
                         </h2>
                     </div>
@@ -433,14 +433,7 @@
                     </div>
                 </div>
 
-                <div class="imageMobileCenter">
-                    <div class="btnCenter" >
-                        <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Empieza ahora →
-                        </a>
-                    </div>
 
-                </div>
 
             </div>
         </section>
@@ -481,8 +474,9 @@
                 </section>
 
                 <div class="btnCenter">
+                    <h3>¿Como podemos ayudarte a vender más?</h3>
                     <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
-                        Empieza ahora →
+                        Tener sesión personalizada →
                     </a>
                 </div>
             </div>
@@ -692,8 +686,9 @@
 
                 </section>
                 <div class="btnCenter">
+                     <h3>¿Cómo automatizar tus ventas con IA?</h3>
                     <a class="primaryButton  hoverInEffect openPopUpButton popup-general-demo-2022">
-                        Empieza ahora →
+                       Tener sesión personalizada →
                     </a>
                 </div>
             </div>
@@ -728,7 +723,7 @@
                 </section>
                 <div class="btnCenter">
                     <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                        Aprender más →
+                      Empezar ahora →
                     </a>
                 </div>
             </div>
@@ -793,10 +788,8 @@
                             </h2>
                             <div class="btnSection">
                                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                    Empieza ahora →</a>
-                                <a class="text-white openPopUpButton popup-general-demo-2022">
-                                    Hablar con asesor</a>
-
+                                   Empezar ahora →</a>
+                              
                             </div>
                         </div>
                     </section>
