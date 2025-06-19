@@ -161,7 +161,7 @@
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
 
-                                        <h5 class="titleFormat"> Recibe un <br class="space"> demo personalizado</h5>
+                                         <h5 class="titleFormat"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
 
 
                                         @php
@@ -183,7 +183,7 @@
 
                                         <script>
                                             jQuery('.formatForm .wpcf7 input.wpcf7-form-control.wpcf7-submit').val(
-                                                'Recibir el Demo →')
+                                                'Empezar ahora →')
                                         </script>
                                     </div>
 
