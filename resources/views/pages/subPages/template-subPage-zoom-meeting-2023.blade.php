@@ -2,14 +2,14 @@
 
     <div class="sections">
         <section class="customSection sectionParent subPage_zoom_meeting_2023_0">
-            <div class="backgroundFull"> 
+            <div class="backgroundFull">
                 <div class="section-row">
 
                     <section class="innerSectionElement sct1">
 
                         <div class="containElements">
                             <h1 class="primaryTitle blackColor">
-                                <span>¡Éxito!</span> ¿Cuándo deseas recibir el demo?
+                                ¡Éxito! ¿Cuándo deseas tener la sesión <br class="DT_e"> para conocer Escala?
                             </h1>
 
                         </div>
@@ -26,7 +26,7 @@
                                         </div>
                                         <div class="action">
                                             <a href="https://us02web.zoom.us/j/6758915436" class=" primaryButton hoverInEffect">
-                                            Iniciar Zoom ahora →
+                                                Iniciar Zoom ahora →
                                             </a>
                                             <small>
                                                 La videollamada por Zoom <br class="space">
@@ -43,7 +43,7 @@
                                     <a class="trans" target="_blank" href="https://api.whatsapp.com/send?phone=17863042407&text=Hola%21%20Me%20interesa%20recibir%20un%20demo%20personalizado%20de%20Escala">
                                         <img src="{!! App::setFilePath('/assets/images/icons/whatsapp-white.svg') !!}" alt="Icono whatsapp">
                                         Coordínalo por WhatsApp →
-                                     
+
                                     </a>
                                 </div>
 
