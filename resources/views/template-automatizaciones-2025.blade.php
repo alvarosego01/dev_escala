@@ -29,9 +29,9 @@
                                             Escala las ventas de tu empresa
                                         </h1>
                                         <span class="principalBigText">
-                                        con CRM,  <br class="DT_e">
-                                        Automatización  <br class="DT_e">
-                                        y WhatsApp
+                                            con CRM, <br class="DT_e">
+                                            Automatización <br class="DT_e">
+                                            y WhatsApp
                                         </span>
                                     </div>
 
@@ -56,8 +56,7 @@
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-
-                                        <h5 class="titleFormat blackcolor"> Recibe un demo personalizado</h5>
+                                        <h5 class="titleFormat"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
 
 
                                         @php
@@ -78,7 +77,7 @@
                                         {!! do_shortcode($_formShortcode) !!}
 
                                         <script>
-                                            jQuery('.formatForm .wpcf7 input.wpcf7-form-control.wpcf7-submit').val('RECIBIR EL DEMO')
+                                            jQuery('.formatForm .wpcf7 input.wpcf7-form-control.wpcf7-submit').val('Empezar ahora →')
                                         </script>
                                     </div>
 
@@ -272,7 +271,7 @@
 
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                   QUIERO VENDER MÁS
+                     Tener sesión personalizada →
                 </a>
             </div>
             <div class="imageReviewsMobile hideOnDesktop">
@@ -371,7 +370,7 @@
                     </span>
                     <div class="btnCenter">
                         <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            ¡ESCALA AHORA!
+                            Empezar ahora →
                         </a>
                     </div>
                 </section>
@@ -433,7 +432,7 @@
 
                     <div class="btnCenter">
                         <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            CONOCER HERRAMIENTAS
+                           Tener sesión personalizada →
                         </a>
                     </div>
                 </section>
@@ -485,7 +484,7 @@
                 </section>
                 <div class="btnCenter">
                     <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                        ¡WOW! LO NECESITO
+                 Empezar ahora →
                     </a>
                 </div>
             </div>
@@ -627,7 +626,7 @@
                                     Tienes mucho que ganar y poco que perder
                                 </span>
                                 <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                    EMPEZAR A CRECER AHORA
+                                  Empezar ahora →
                                 </a>
                             </div>
 

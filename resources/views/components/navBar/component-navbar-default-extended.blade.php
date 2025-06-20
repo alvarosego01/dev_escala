@@ -216,7 +216,7 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
                     <div class="menusSection">
                         <a class="iconWhatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=17863042407"> <img src="{!! App::setFilePath('/assets/images/icons/icon-whatsapp.png') !!}" alt="Icono whatsapp" > +1(786) 3042407</a>
                         <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                        Solicita un demo →
+                        Hablar con asesor →
                         </a>
                     </div>
 
