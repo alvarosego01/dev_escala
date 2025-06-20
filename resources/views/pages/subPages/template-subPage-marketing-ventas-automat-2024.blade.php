@@ -71,7 +71,7 @@
                     </section>
                 </div>
                 <div class="section-row-2">
-                    <section class="innerSectionElement sct1">
+                    <section class="innerSectionElement sctO1">
                         <div class="groupElements row">
                             <div class="info col-md-12 col-lg-8 ">
                                 <div class="containElements">
