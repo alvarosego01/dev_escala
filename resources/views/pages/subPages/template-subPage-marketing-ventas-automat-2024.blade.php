@@ -70,80 +70,83 @@
                         </div>
                     </section>
                 </div>
+                <div class="section-row-2">
+                    <section class="innerSectionElement sct1">
+                        <div class="groupElements row">
+                            <div class="info col-md-12 col-lg-8 ">
+                                <div class="containElements">
+                                    @php
+                                    $elementsReviews = [
+                                    [
+                                    'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                                    'text' => 'Escala / plataforma CRM',
+                                    'points' => '4.9 / 5',
+                                    ],
+                                    [
+                                    'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                                    'text' => 'Escala / plataforma CRM',
+                                    'points' => '4.8 / 5',
+                                    ],
+                                    [
+                                    'logo' =>
+                                    App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
+                                    'text' => 'Escala / plataforma CRM',
+                                    'points' => '4.8 / 5',
+                                    ]
+                                    ];
+                                    @endphp
+                                    <div class="ele reviews">
+                                        <div class="elements">
+                                            <div class="iconApp">
+                                                <a target="_blank"
+                                                    href="https://www.getapp.com/customer-management-software/crm/category-leaders">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_app_record_2025_category.svg') !!}"
+                                                        loading="lazy">
+                                                </a>
+                                            </div>
+                                            @foreach ($elementsReviews as $item)
+                                            <div class="refersElement">
+
+                                                <div class="infoInner">
+                                                    <div class="tag">
+                                                        <div class="containerImage">
+                                                            <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                        </div>
+
+                                                        <span class="points">
+                                                            {!! $item['points'] !!}
+                                                        </span>
+                                                    </div>
+                                                    <p class="text">
+                                                        {!! $item['text'] !!}
+                                                    </p>
+                                                    <div class="stars">
+                                                        <div class="containerImage">
+                                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icons-stars-yellow.svg') !!}"
+                                                                loading="lazy">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            @endforeach
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
         </section>
         <section class="customSection sectionParent marketing_ventas_automat_2024_1">
             <div class="section-row">
 
-                <section class="innerSectionElement sct1">
-                    <div class="groupElements row">
-                        <div class="info col-md-12 col-lg-8 ">
-                            <div class="containElements">
-                                @php
-                                $elementsReviews = [
-                                [
-                                'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
-                                'text' => 'Escala / plataforma CRM',
-                                'points' => '4.9 / 5',
-                                ],
-                                [
-                                'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
-                                'text' => 'Escala / plataforma CRM',
-                                'points' => '4.8 / 5',
-                                ],
-                                [
-                                'logo' =>
-                                App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
-                                'text' => 'Escala / plataforma CRM',
-                                'points' => '4.8 / 5',
-                                ]
-                                ];
-                                @endphp
-                                <div class="ele reviews">
-                                    <div class="elements">
-                                        <div class="iconApp">
-                                            <a target="_blank"
-                                                href="https://www.getapp.com/customer-management-software/crm/category-leaders">
-                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_app_record_2025_category.svg') !!}"
-                                                    loading="lazy">
-                                            </a>
-                                        </div>
-                                        @foreach ($elementsReviews as $item)
-                                        <div class="refersElement">
 
-                                            <div class="infoInner">
-                                                <div class="tag">
-                                                    <div class="containerImage">
-                                                        <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                    </div>
-
-                                                    <span class="points">
-                                                        {!! $item['points'] !!}
-                                                    </span>
-                                                </div>
-                                                <p class="text">
-                                                    {!! $item['text'] !!}
-                                                </p>
-                                                <div class="stars">
-                                                    <div class="containerImage">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icons-stars-yellow.svg') !!}"
-                                                            loading="lazy">
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-                                        @endforeach
-
-                                    </div>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </div>
 
         </section>
@@ -435,15 +438,15 @@
         <section class="customSection sectionParent marketing_ventas_automat_2024_7">
 
             <div class="section-row ">
-                <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-4-md-aceleradora-desktop.svg') }}')">
+                <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-automatizaciones-section-7.webp') }}')">
                     <div class="cards left">
-                        <span>“Uno de los mayores retos de liderar un <br class="DT_e">
+                        <p>“Uno de los mayores retos de liderar un <br class="DT_e">
                             negocio es enfocarse en lo que es <br class="DT_e">
                             importante y hacer que cada minuto cuente. <br class="DT_e">
                             Con la automatización de escala podrás <br class="DT_e">
                             ahorrarte el tiempo de hacer tareas <br class="DT_e">
                             repetitivas e invertirlo en los proyectos que <br class="DT_e">
-                            agregan valor a tu negocio”.</span>
+                            agregan valor a tu negocio”.</p>
 
                         <span class="colorEspecial">
                             <b>Andrés Moreno,</b> <br class="space">
@@ -460,10 +463,62 @@
         </section>
 
 
+        <section class="customSection sectionParent fullWidth sectionParent marketing_ventas_automat_2024_8">
+            <div class="section-row">
+                <section class="innerSectionElement1">
+                    <div class="containElements">
+                        <h2 class="primaryTitle">
+                            Qué dicen nuestros clientes <br class="space">
+                            sobre el CRM de Escala
+                        </h2>
+                    </div>
+                </section>
+
+                <section class="innerSectionElement2">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-1-automatizaciones.webp') !!}"
+                        alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-2-automatizaciones.webp') !!}"
+                        alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-3-automatizaciones.webp') !!}"
+                        alt="">
+                </section>
+
+
+            </div>
+
+        </section>
+
+
+        <section class="customSection sectionParent marketing_ventas_automat_2024_9">
+            <div class="section-row " style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-automatizaciones-section-9 (1).webp') }}')">
+                <div class="containElements">
+                    <section class="innerSectionElement sct1">
+                        <div class="containElement">
+                            <img alt=""
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/ceo-escala-alfonso-email.webp') }}"
+                                loading="lazy">
+                        </div>
+                    </section>
+                    <section class="innerSectionElement sct2">
+                        <div class="containElement">
+                            <h2 class="title">
+                                Potencia las operaciones <br class="DT_e">
+                                de tu negocio y logra <br class="DT_e">
+                                tus metas
+                            </h2>
+
+                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                Automatizar ahora →
+                            </a>
+
+                        </div>
+                    </section>
 
 
 
-
+                </div>
+            </div>
+        </section>
 
 
 
