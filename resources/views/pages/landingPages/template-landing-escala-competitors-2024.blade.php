@@ -106,8 +106,7 @@
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
-                                            personalizado de Escala</h5>
+                                        <h5 class="titleFormat"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
 
 
                                         @php
@@ -127,7 +126,9 @@
                                         @endphp
                                         {!! do_shortcode($_formShortcode) !!}
 
-
+                                        <script>
+                                            jQuery('.formatForm .wpcf7 input.wpcf7-form-control.wpcf7-submit').val('Empezar ahora →')
+                                        </script>
                                     </div>
 
                                 </div>
@@ -304,7 +305,7 @@
                             @if (isset($videoEmbed) && $videoEmbed != null)
                             <div class="youtubeImageContainer ">
 
-                                <video class="video-js video_2 videoCover" >
+                                <video class="video-js video_2 videoCover">
                                     <source src="{{ $videoCover }}" type="video/mp4">
                                     Tu navegador no soporta videos HTML5.
                                 </video>
@@ -414,7 +415,7 @@
 
 
                         <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Conocer Escala
+                             Tener sesión personalizada →
                         </a>
 
                     </div>
@@ -874,7 +875,7 @@
                                     </div>
 
                                     <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                        Recibir un tour
+                                        Empezar ahora →
                                     </a>
 
 
@@ -1056,7 +1057,7 @@
 
 
                         <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Más información
+                        Tener sesión personalizada →
                         </a>
 
                     </div>
@@ -1145,7 +1146,7 @@
 
 
                         <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Empezar ahora
+                           Empezar ahora →
                         </a>
 
                     </div>
