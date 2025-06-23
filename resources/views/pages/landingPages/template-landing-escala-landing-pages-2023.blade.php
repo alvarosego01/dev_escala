@@ -334,7 +334,6 @@
                         las herramientas están nativamente integradas <br class="DT_e">
                         para que:
 
-
                         <ul>
                             <li>Los contactos que se registren se guarden <br class="DT_e">
                                 automáticamente en tu base de datos </li>
@@ -447,7 +446,7 @@
 
 
 
-        <section class="customSection sectionParent fullWidth sectionParent landing_landingPage_2023_4">
+        <section class="customSection sectionParent  sectionParent landing_landingPage_2023_4">
             <div class="section-row">
                 <section class="innerSectionElement1">
                     <div class="containElements">
@@ -472,324 +471,119 @@
 
         </section>
 
+        <section class="customSection sectionParent landing_landingPage_2023_5">
 
+            <div class="section-row ">
+                <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-5-landing-page.webp') }}')">
+                    <div class="cards left">
+                        <p>“En mis compañías utilizamos decenas de landing <br class="DT_e">
+                            pages para crecer. Gracias a Escala aumentamos <br class="DT_e">
+                            10X nuestra eficiencia al crear y publicarlas.”</p>
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_landing_3.svg') !!})" class="customSection sectionParent landing_landingPage_2023_11">
-
-            <div class="section-row">
-
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <div class="image">
-
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing_landingpage_img_6.png') !!}" alt="">
-                            </div>
-
-                        </div>
-
-                        <div class="info">
-                            <p class="text">
-                                Descubre por ti mismo la mejor <br class="space">
-                                <span>herramienta de landing pages</span>
-                            </p>
-
-
-                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Recibir demo
-                            </a>
-
-                        </div>
-
+                        <span class="colorEspecial">
+                            <b>Andrés Moreno,</b> <br class="space">
+                            Fundador de escala & Open English
+                        </span>
                     </div>
-
+                    <div class="cards right ">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/am-fundador-escala-open-english.webp') !!}"
+                            alt="">
+                    </div>
                 </section>
 
             </div>
-
         </section>
 
 
-        <section class='w-full customSection sectionParent landing_landingPage_2023_12'>
-
+        <section class="w-full customSection sectionParent  landing_landingPage_2023_6">
             <div class="section-row">
-
-                <section class='innerSectionElement sct0 '>
-                    <div class='containElements'>
+                <section class="innerSectionElement sct0">
+                    <div class="containElements">
                         <h2 class="primaryTitle">
-                            Qué dicen nuestros clientes sobre las landing <br class="DT_e">
-                            pages que construyen en Escala
-
-                        </h2>
-                    </div>
-
-                </section>
-                <section class='innerSectionElement sct1 '>
-                    <div class='containElements'>
-
-                        @php
-                        $reviews = [
-                        App::setFilePath('/assets/images/illustrations/others/landingpages_review_1.png'),
-                        App::setFilePath('/assets/images/illustrations/others/landingpages_review_2.png'),
-                        App::setFilePath('/assets/images/illustrations/others/landingpages_review_3.png')
-                        ]
-                        @endphp
-
-                        @foreach ($reviews as $item)
-                        <div class="review">
-                            <div class="containerImage">
-                                <img src="{!! $item !!}" loading="lazy">
-                            </div>
-                        </div>
-                        @endforeach
-
-                    </div>
-
-                </section>
-            </div>
-
-        </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_landing_4.svg') !!})" class="customSection sectionParent landing_landingPage_2023_13">
-
-            <div class="section-row">
-
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <div class="info">
-                            <p class="text">
-                                “En mis compañías utilizamos decenas de landing <br class="DT_e">
-                                pages para crecer. Gracias a Escala <span>
-                                    aumentamos <br class="DT_e">
-                                    10X nuestra eficiencia
-                                </span> al crear y publicarlas.”
-                                <br class="space">
-                                <br class="space">
-                                <span class="sub">
-                                    Andrés Moreno <br class="space">
-                                    <small>Fundador de escala & Open English</small>
-                                </span>
-
-                            </p>
-
-                        </div>
-
-                        <div class="image">
-
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/person/am/andres_landing_page 1.png') !!}" alt="">
-                            </div>
-
-                        </div>
-
-
-                    </div>
-
-                </section>
-
-            </div>
-
-        </section>
-
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_landing_5.svg') !!})" class="customSection sectionParent landing_landingPage_2023_14">
-
-            <div class="section-row">
-
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <h2 class="primaryTitle blackColor">
                             ¿Nuevo en creación de landing pages? <br class="space">
-                            <span>¡No te preocupes, te entrenamos!</span>
+                            ¡No te preocupes, te entrenamos!
                         </h2>
-
                     </div>
-
                 </section>
-
-                <section class="innerSectionElement sct2">
-
+                <section class="innerSectionElement sct1">
                     <div class="containElements">
 
-                        <div class="info">
-                            <p class="text">
+                        <div class="info-second">
+                            <p>
                                 Nuestro equipo de servicio y <br class="DT_e">
                                 entrenadores Escala te orientan desde <br class="DT_e">
                                 el día 1 para que consigas mejores <br class="DT_e">
                                 resultados con tus páginas.
-                                <br class="space"><br class="space">
-                                <span>
-                                    ¡Ninguna otra plataforma te <br class="space">
-                                    acompaña mejor!
-                                </span>
                             </p>
-                        </div>
-                        <div class="image">
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing_landingpage_img_7.png') !!}" alt="">
-                            </div>
+                            <h3>¡Ninguna otra plataforma te <br class="DT_e">
+                                acompaña mejor!</h3>
                         </div>
 
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-section-6-landing-pages-2025.webp') !!}" loading="lazy">
+                        </div>
                     </div>
-
                 </section>
-
-                <section class="innerSectionElement sct3">
-
-                    <div class="containElements">
-
-
-                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Conocer más
-                        </a>
-
-                    </div>
-
-                </section>
+                <div class="btnCenter">
+                    <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                        Conocer más →
+                    </a>
+                </div>
 
             </div>
 
         </section>
 
-
-
-
-
-
-
-        <section class='w-full customSection sectionParent landing_landingPage_2023_15'>
-
+        <section class="customSection sectionParent fullWidth landing_landingPage_2023_7">
             <div class="section-row">
-
-                <section class='innerSectionElement sct0 '>
-                    <div class='containElements'>
-
+                <section class="innerSectionElement1">
+                    <div class="containElements">
                         <h2 class="primaryTitle">
                             ¿Por qué Escala?
                         </h2>
-
                     </div>
                 </section>
 
-                <section class='innerSectionElement sct1 '>
-                    <div class='containElements'>
-
-                        <div class="image">
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing_landingpage_img_8.png') !!}" alt="">
-                            </div>
-                        </div>
-
-                        <div class="info">
-
-                            @php
-                            $elements = [
-                            [
-                            'title' => 'Potente herramienta de email marketing',
-                            'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_0.png'),
-
-                            ],
-                            [
-                            'title' => 'Servicio de Acompañamiento VIP',
-                            'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_1.png'),
-
-                            ],
-                            [
-                            'title' => 'Encuentras muchas más herramientas de <br class="DT_e"> marketing y ventas integradas',
-                            'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_2.png'),
-
-                            ],
-                            [
-                            'title' => 'Todo 100% en español',
-                            'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_3.png'),
-
-                            ],
-                            [
-                            'title' => 'Educación de negocio de primera',
-                            'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_4.png'),
-
-                            ],
-                            [
-                            'title' => 'Implementamos parte de la primera <br class="DT_e"> campaña por ti ',
-                            'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_5.png'),
-
-                            ]
-                            ];
-                            @endphp
-
-                            <ul class="elements selectorInfo">
-
-                                @foreach ($elements as $item)
-                                <li class="element " info_index="{!! $loop->index !!}">
-                                    <div class="icon">
-                                        <div class="containerImage">
-                                            <img src="{!! $item['icon'] !!}" loading="lazy">
-                                        </div>
-                                    </div>
-                                    <h3>
-                                        {!! $item['title'] !!}
-                                    </h3>
-                                </li>
-                                @endforeach
-
-                            </ul>
-
-
-                        </div>
-
-                    </div>
+                <section class="innerSectionElement2">
+                    <ul>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/marketing-icon.webp') !!}" loading="lazy">Potente herramienta de <br class="DT_e"> email marketing </li>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/acompañamiento-vip-icon.webp') !!}" loading="lazy">Servicio de Acompañamiento VIP </li>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/herramientas-icon.webp') !!}" loading="lazy">Encuentras muchas más <br class="DT_e"> herramientas de marketing y <br class="DT_e"> ventas integradas </li>
+                    </ul>
+                    <ul>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/plataforma-en-españo-iconl.webp') !!}" loading="lazy">Todo 100% en español </li>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/educacion-icon.webp') !!}" loading="lazy">Educación de negocio de primera </li>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/implementacion-icon.webp') !!}" loading="lazy">Implementamos parte de la <br class="DT_e"> primera campaña por ti </li>
+                    </ul>
                 </section>
+
 
             </div>
 
         </section>
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_landing_6.svg') !!})" class='w-full customSection sectionParent landing_landingPage_2023_16'>
+        <section class="customSection sectionParent  landing_landingPage_2023_8">
+            <div class="section-row " style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-8-landing-page.webp') }}')">
+                <div class="containElements">
+                    <section class="innerSectionElement sct1">
+                        <div class="containElement">
+                            <h2 class="title">
+                                Acelera el crecimiento <br class="space">
+                                de tu negocio
+                            </h2>
 
-            <div class="section-row">
+                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                Conoce Escala →
+                            </a>
 
-                <section class='innerSectionElement sct0 '>
-                    <div class="containElements">
+                        </div>
+                    </section>
 
-                        <h2 class="title">
-                            Acelera el crecimiento de <br class="space">
-                            tu negocio
-                        </h2>
 
-                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Conoce Escala
-                        </a>
 
-                    </div>
-                </section>
-
+                </div>
             </div>
-
         </section>
-
-
-
     </div>
 
 
