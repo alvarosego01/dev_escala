@@ -489,7 +489,7 @@
 
 
         <section class="customSection sectionParent marketing_ventas_automat_2024_9">
-            <div class="section-row " style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-automatizaciones-section-9 (1).webp') }}')">
+            <div class="section-row " style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-automatizaciones-section-9.webp') }}')">
                 <div class="containElements">
                     <section class="innerSectionElement sct1">
                         <div class="containElement">
