@@ -1,6 +1,6 @@
 <div id="subPage_whatsapp_2022">
     <div class="sections">
-        
+
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol subpage_whatsapp_0 ">
 
 
@@ -51,8 +51,7 @@
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor"> Recibe un <br class="space">
-                                            demo personalizado</h5>
+                                        <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
 
                                         @php
                                         $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
@@ -332,7 +331,7 @@
                 <section class="innerSectionElement sct1">
                     <div class="btnCenter">
                         <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
-                            Prueba Escala ahora →
+                            Tener sesión personalizada →
                         </a>
                     </div>
                 </section>
@@ -578,7 +577,7 @@
                                 funcionalidades de
                                 la plataforma.</p>
                             <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
-                                Prueba Escala ahora →
+                                Empezar ahora →
                             </a>
                         </div>
                     </section>

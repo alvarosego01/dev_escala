@@ -44,8 +44,7 @@
 
                                 <div class="formatForm redirectWeb" redirectweb="true">
 
-                                    <h5 class="titleFormat blackcolor"> Recibe un <br class="space">
-                                        demo personalizado</h5>
+                                    <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
 
                                     @php
                                     $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
@@ -227,7 +226,7 @@
 
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                    Recibe un demo →
+                    Tener sesión personalizada →
                 </a>
             </div>
         </section>
@@ -358,7 +357,7 @@
             </div>
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                    Solicitar un demo →
+                    Empezar ahora →
                 </a>
             </div>
         </section>
@@ -508,7 +507,7 @@
                             </h2>
 
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Automatizar ahora →
+                                Empezar ahora →
                             </a>
 
                         </div>
