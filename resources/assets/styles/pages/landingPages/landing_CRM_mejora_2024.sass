@@ -844,7 +844,24 @@
                                 
                             img
                                 margin-top: 8px
-        
+
+        .btnCenter
+            margin-top: 100px
+            .primaryButton 
+                font-size: 30px!important
+                padding: 25px 80px!important
+                background: linear-gradient(90deg, #F34F36 0%, #007F96 100%)!important
+                transition: background 0.3s ease
+                font-family: "Mulish", sans-serif!important
+                @include responsivo(telefonoTable)
+                    padding: 25px 50px!important
+                    font-size: 25px!important
+                @include responsivo(smallPcTablet)
+                    padding: 25px 55px!important
+                &:hover
+                    background: linear-gradient(90deg, #ff6b60 0%, #1fdad3 100%)!important
+                    color: #fff          
+                    
 #landing_CRM_2024 .landing_CRM_2024_5
     padding-top: 0
     padding-bottom: 0

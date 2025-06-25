@@ -51,8 +51,7 @@
 
                                 <div class="formatForm redirectWeb" redirectweb="true">
 
-                                    <h5 class="titleFormat blackcolor"> Recibe un <br class="space">
-                                        demo personalizado</h5>
+                                    <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
 
                                     @php
                                     $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
@@ -83,7 +82,7 @@
 
         <section class="customSection sectionParent landing_CRM_2024_1">
             <img class="imgFlotante" src="{!! App::setFilePath('/assets/images/banners/bg-fondo-blur-blue.svg') !!}" loading="lazy">
-             <img class="imgFlotante2" src="{!! App::setFilePath('/assets/images/banners/bg-fondo-blur-blue.svg') !!}" loading="lazy">
+            <img class="imgFlotante2" src="{!! App::setFilePath('/assets/images/banners/bg-fondo-blur-blue.svg') !!}" loading="lazy">
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
@@ -176,12 +175,12 @@
                         </p>
                     </div>
                 </section>
-                <section class="innerSectionElement sct2 " >
+                <section class="innerSectionElement sct2 ">
 
                     <div class="containElements">
                         <div class="containerImage">
                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-chica-escala-feliz-crm-1.webp') !!}" loading="lazy">
-                            <img class="imgMb" src="{!! App::setFilePath('/assets/images/illustrations/others/img-chica-escala-feliz-crm-1-mb.webp') !!}" loading="lazy"> 
+                            <img class="imgMb" src="{!! App::setFilePath('/assets/images/illustrations/others/img-chica-escala-feliz-crm-1-mb.webp') !!}" loading="lazy">
                         </div>
                         <div class="info-second">
                             <p>
@@ -240,7 +239,11 @@
 
                     </div>
                 </section>
-
+                <div class="btnCenter">
+                    <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
+                        Tener sesión personalizada →
+                    </a>
+                </div>
 
             </div>
 
@@ -426,7 +429,7 @@
             </div>
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                    Prueba Escala ahora →
+                    Empezar ahora →
                 </a>
             </div>
         </section>

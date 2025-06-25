@@ -57,8 +57,7 @@
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
 
-                                        <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
-                                            personalizado de Escala</h5>
+                                        <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
 
 
                                         @php
@@ -384,7 +383,7 @@
                             <ol>
                                 <li>
                                     Suscríbete al plan pro de Escala con WhatsApp API.
-                                    Si aún no eres cliente <a class="openPopUpButton popup-general-demo-2022">¡Haz click aquí para recibir un demo
+                                    Si aún no eres cliente <a class="openPopUpButton popup-general-demo-2022">¡Haz click aquí para Empezar ahora →
                                         o hablar con un asesor!</a>
                                 </li>
                                 <li>Conecta tu cuenta de WhatsApp a Escala. ¿Necesitas apoyo?<a href="https://api.whatsapp.com/send?phone=17863042407" target="_blank"> Comunícate con nuestro equipo de soporte</a> </li>
