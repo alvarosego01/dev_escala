@@ -63,8 +63,7 @@
                 <div class="formatForm redirectWeb" redirectweb="true">
 
 
-                  <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
-                    personalizado de Escala</h5>
+                  <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
 
 
                   @php
@@ -542,8 +541,8 @@ compras en un 150% con Escala”
                 <div class="formatForm redirectWeb" redirectweb="true">
 
 
-                  <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
-                    personalizado de Escala</h5>
+                  <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
+
 
 
                   @php
