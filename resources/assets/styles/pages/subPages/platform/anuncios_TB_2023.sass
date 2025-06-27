@@ -228,6 +228,10 @@
                     border-radius: 20px
                     padding: 0px 30px 30px
                     max-width: 550px!important
+                    @include responsivo(telefonoTable)
+                        max-width: 100%!important
+                    @include responsivo(pcMedio)
+                        max-width: 400px!important
                     @include responsivo(smallPcTablet)
                         padding: 0px 20px 30px
                     h5.titleFormat
