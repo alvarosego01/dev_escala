@@ -48,6 +48,7 @@
             width: 95%
             height: auto!important
             flex-direction: column
+            gap: 0
         @include responsivo(pcMedio)
             width: 95%
             height: auto!important
@@ -78,7 +79,7 @@
             height: auto
             border-radius: 0px 0px 20px 20px
             background-position: center
-            background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-section-hero-2025-crm-mb.svg')!important
+            background-image: url('http://localhost/escala/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-hero-anuncios-2025-mb.webp')!important
         @include responsivo(pcMedio)
             padding-top: 100px!important
             padding-bottom: 75px!important
@@ -125,7 +126,7 @@
                     font-family: 'Mulish', sans-serif
                     font-weight: 800
                     @include responsivo(telefonoTable)
-                        display: none
+                        font-size: 40px
                     @include responsivo(pcMedio)
                         text-align: center
                         br
@@ -180,6 +181,7 @@
                     top: 3px
                     @include responsivo(telefonoTable)
                         top: 10px
+                        display: none
                     @include responsivo(pcMedio)
                         top: 10px
                     img
@@ -253,6 +255,15 @@
                 .containElements
                     margin: 0 auto
 
+        .innerSectionElement.sct3
+            display: none
+            @include responsivo(telefonoTable)
+                display: block
+                padding-top: 30px
+                img
+                    height: 186px
+            .containerImage
+                padding: 0
 
 #anuncios_TB_2023  .customSection.sectionParent.anuncios_TB_2023_1
     padding: 0
@@ -507,7 +518,7 @@
     text-align: center
     @include responsivo(telefonoTable)
         padding: 0
-            padding-bottom: 100px 
+        padding-bottom: 100px 
     @include responsivo(pcMedio)
         padding: 0
         padding-bottom: 100px 
@@ -544,7 +555,8 @@
                 flex-direction: column
                 gap: 30px
                 padding: 30px 20px 0px 20px
-                background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-automatizaciones-section-7-mb.webp')!important
+                border-radius: 20px
+                background-image: url('http://localhost/escala/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-anuncios-2025-mb.webp')!important
             @include responsivo(pcMedio)
                 flex-direction: column
                 gap: 30px
@@ -1029,10 +1041,11 @@
         min-height: 380px
         @include responsivo(telefonoTable)
             background-position: center
-            background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-automatizaciones-section-9-mb.webp')!important
+            background-image: url('http://localhost/escala/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-anuncios-2025-section-6-mb.webp')!important
             width: 100%
             position: relative
-            padding: 40px 10px 0px 10px
+            padding: 0px 10px 0px 10px
+            border-radius: 60px 60px 0px 0px
         @include responsivo(pcMedio)
             width: 95%
             position: relative
@@ -1053,19 +1066,10 @@
                 padding: 75px 0
                 .containElement
                     margin: 0
-                    @include responsivo(telefonoTable)
-                        display: flex
-                        justify-content: center
-                        align-items: center
-                        flex-direction: column
-                        
-
-                    @include responsivo(pcMedio)
-                        display: flex
-                        justify-content: center
-                        align-items: center
-                        flex-direction: column
-                        
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    flex-direction: column
 
                     .title
                         color: #fff

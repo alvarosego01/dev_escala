@@ -51,6 +51,12 @@
 
                         </div>
                     </section>
+                    <section class="innerSectionElement sct3">
+                        <div class="containerImage">
+                            <img alt="Ilustración de CEO ESCALA" src="{!! App::setFilePath('/assets/images/illustrations/others/ceo-escala-2025-alfonso-hero-anuncios.webp') !!}" loading="lazy">
+                        </div>
+
+                    </section>
                 </div>
             </div>
         </section>
@@ -287,7 +293,7 @@
             </div>
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                    Optimizar resultados →
+                    Tener sesión personalizada →
                 </a>
             </div>
         </section>
@@ -330,7 +336,7 @@
                             </h2>
 
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Probar email marketing ahora →
+                               Empezar ahora →
                             </a>
 
                         </div>
