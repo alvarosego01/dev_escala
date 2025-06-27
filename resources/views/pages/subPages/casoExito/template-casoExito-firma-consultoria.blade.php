@@ -335,7 +335,7 @@
 
                             <div class="buttonSection">
                                 <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                  Recibir un demo
+                                  Empezar ahora →
                                 </a>
 
                                 <a href="https://escala.com/caso-de-uso-consultoria" class="whiteHiper" target="_blank">

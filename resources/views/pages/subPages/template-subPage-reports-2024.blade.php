@@ -138,8 +138,7 @@
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
 
-                                        <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
-                                            personalizado de Escala</h5>
+                                        <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
 
 
                                         @php
@@ -406,7 +405,7 @@
                                     </p>
 
                                     <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                        Recibir un demo
+                                        Empezar ahora →
                                     </a>
 
 

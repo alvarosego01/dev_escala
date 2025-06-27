@@ -47,8 +47,7 @@
 
                                 <div class="formatForm redirectWeb" redirectweb="true">
 
-                                    <h5 class="titleFormat blackcolor"> Recibe un <br class="space">
-                                        demo personalizado</h5>
+                                        <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
 
                                     @php
                                     $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
@@ -360,7 +359,7 @@
             </div>
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                    Solicitar un demo →
+                  Tener sesión personalizada →
                 </a>
             </div>
         </section>
@@ -495,44 +494,6 @@
         </section>
 
 
-        <section class="w-full customSection sectionParent  landing_landingPage_2023_6">
-            <div class="section-row">
-                <section class="innerSectionElement sct0">
-                    <div class="containElements">
-                        <h2 class="primaryTitle">
-                            ¿Nuevo en creación de landing pages? <br class="space">
-                            ¡No te preocupes, te entrenamos!
-                        </h2>
-                    </div>
-                </section>
-                <section class="innerSectionElement sct1">
-                    <div class="containElements">
-
-                        <div class="info-second">
-                            <p>
-                                Nuestro equipo de servicio y <br class="DT_e">
-                                entrenadores Escala te orientan desde <br class="DT_e">
-                                el día 1 para que consigas mejores <br class="DT_e">
-                                resultados con tus páginas.
-                            </p>
-                            <h3>¡Ninguna otra plataforma te <br class="DT_e">
-                                acompaña mejor!</h3>
-                        </div>
-
-                        <div class="containerImage">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-section-6-landing-pages-2025.webp') !!}" loading="lazy">
-                        </div>
-                    </div>
-                </section>
-                <div class="btnCenter">
-                    <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                        Conocer más →
-                    </a>
-                </div>
-
-            </div>
-
-        </section>
 
         <section class="customSection sectionParent fullWidth landing_landingPage_2023_7">
             <div class="section-row">
@@ -573,7 +534,7 @@
                             </h2>
 
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Conoce Escala →
+                               Empezar ahora →
                             </a>
 
                         </div>

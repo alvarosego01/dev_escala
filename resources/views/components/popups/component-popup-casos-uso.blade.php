@@ -25,8 +25,7 @@
 
                                         <h2 class="primaryTitle">
                                             <span style="color: #2C4857;">
-                                                Recibe un <br class="space">
-                                                demo personalizado
+                                                Conoce Escala en una <br class="space"> sesión personalizada
                                             </span>
                                         </h2>
 

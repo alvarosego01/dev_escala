@@ -1058,7 +1058,7 @@
                             </p>
 
                             <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Recibir un demo
+                                Empezar ahora →
                             </a>
 
 
