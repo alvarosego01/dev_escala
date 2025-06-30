@@ -44,7 +44,7 @@
 
                 @if (isset($enable_menu_1c_3c) && $enable_menu_1c_3c == 1)
                 <div class="menuContainer menu-b-social-networks-container">
-
+                    <!-- 
                     @php
                     $title_menu_1c_3c = ACF_CUSTOM::_getField('title_menu_1c_3c', $footerTemplate_id);
                     @endphp
@@ -52,10 +52,12 @@
                     <h3 class="titleMenu">
                         {!! $title_menu_1c_3c !!}
                     </h3>
-                    @endif
+                    @endif -->
+                    <h3 class="titleMenu">
+                        Encuéntranos en:
+                    </h3>
 
-
-                    @php
+                    <!-- @php
                     $menu_1c_3c = ACF_CUSTOM::_getField('menu_1c_3c', $footerTemplate_id);
                     @endphp
                     @if (isset($menu_1c_3c) && $menu_1c_3c != null)
@@ -68,8 +70,15 @@
                     'depth' => 3,
                     'walker' => new \App\wp_bootstrap5_navwalker(),
                     ]) !!}
-                    @endif
+                    @endif -->
+                    <div class="social-img-networks-container">
+                        <a href="https://www.facebook.com/escalasoftware/"><img src="{!! App::setFilePath('/assets/images/illustrations/others/facebook 1.webp') !!}" alt="Icono redes escala"></a>
+                        <a href="https://www.instagram.com/escala/"><img src="{!! App::setFilePath('/assets/images/illustrations/others/instagram 1.webp') !!}" alt="Icono redes escala"></a>
+                        <a href="http://linkedin.com/company/escalaonline/"><img src="{!! App::setFilePath('/assets/images/illustrations/others/linkedin 1.webp') !!}" alt="Icono redes escala"></a>
+                        <a href="https://www.youtube.com/c/escalasoftware"><img src="{!! App::setFilePath('/assets/images/illustrations/others/youtube 1.webp') !!}" alt="Icono redes escala"></a>
+                        <a href="https://www.google.com/maps/place/escala+%7C+Plataforma+de+ventas+y+marketing+digital/@9.474492,-123.3187054,3z/data=!3m1!4b1!4m6!3m5!1s0x88d9b7162e059609:0xa43eb601ff26431!8m2!3d9.474492!4d-123.3187054!16s%2Fg%2F11lkggbg8m?entry=ttu&g_ep=EgoyMDI1MDYyNi4wIKXMDSoASAFQAw%3D%3D"><img src="{!! App::setFilePath('/assets/images/illustrations/others/Maps.webp') !!}" alt="Icono redes escala"></a>
 
+                    </div>
                 </div>
                 @endif
 
