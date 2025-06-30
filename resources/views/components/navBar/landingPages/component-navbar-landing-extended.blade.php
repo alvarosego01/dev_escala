@@ -26,7 +26,7 @@
                             </a>
                         @elseif (isset($type) && $type === 'light')
                             <a class="navbar-brand normal">
-                            <img src="{!! App::setFilePath('/assets/images/logos/logo_all_white.png') !!}" alt="Logo" class="logo-img">
+                            <img src="{!! App::setFilePath('/assets/images/logos/logo_all_white_orange.png') !!}" alt="Logo" class="logo-img">
                             </a>
                         @else
                           <a class="navbar-brand normal">
