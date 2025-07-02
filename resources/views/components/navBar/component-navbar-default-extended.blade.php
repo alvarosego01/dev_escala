@@ -67,15 +67,15 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
                     @endif
                     @if (isset($type) && $type === 'white')
                     <a class="navbar-brand normal" href="{!! home_url() !!}">
-                        <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
+                        <img src="{!! App::setFilePath('/assets/images/logos/logo-nuevo-escala-azul-oscuro.webp') !!}" alt="Logo" class="logo-img">
                     </a>
                     @endif
                     <a class="fixed navbar-brand" href="{!! home_url() !!}">
-                        <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
+                        <img src="{!! App::setFilePath('/assets/images/logos/logo-nuevo-escala-azul-oscuro.webp') !!}" alt="Logo" class="logo-img">
                     </a>
                     @else
                     <a class="navbar-brand normal" href="{!! home_url() !!}">
-                        <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
+                        <img src="{!! App::setFilePath('/assets/images/logos/logo-nuevo-escala-azul-oscuro.webp') !!}" alt="Logo" class="logo-img">
                     </a>
                     @endif
 
@@ -170,7 +170,7 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
 
             <div class="M_e logo">
                 <a class="navbar-brand" href="{!! home_url() !!}">
-                    <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
+                    <img src="{!! App::setFilePath('/assets/images/logos/logo-nuevo-escala-azul-oscuro.webp') !!}" alt="Logo" class="logo-img">
                 </a>
             </div>
 
