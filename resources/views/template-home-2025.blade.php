@@ -211,7 +211,7 @@
 
                                             </div>
                                             @endforeach
-                                          
+
                                         </div>
 
 
@@ -284,23 +284,48 @@
                 <section class="innerSectionElement1">
                     <div class="containElements">
                         <h2 class="primaryTitle">
-                            NO más
+                            Estos problemas están frenando el <br class="DT_e">
+                            crecimiento de tu empresa
                         </h2>
                     </div>
                 </section>
 
-                <section class="innerSectionElement2">
-                    <ul>
-                        <li> <img src="{!! App::setFilePath('/assets/images/icons/icon-x-gris.webp') !!}" loading="lazy"> Leads sin seguimiento.</li>
-                        <li> <img src="{!! App::setFilePath('/assets/images/icons/icon-x-gris.webp') !!}" loading="lazy">Falta de estandarización en el <br class="DT_e"> proceso comercial. </li>
-                        <li> <img src="{!! App::setFilePath('/assets/images/icons/icon-x-gris.webp') !!}" loading="lazy"> Herramientas complicadas o <br class="DT_e"> poco integradas.
-                        </li>
-                    </ul>
-                    <ul>
-                        <li> <img src="{!! App::setFilePath('/assets/images/icons/icon-x-gris.webp') !!}" loading="lazy"> Mala gestión de conversaciones por <br class="DT_e"> WhatsApp, Instagram o Facebook.</li>
-                        <li> <img src="{!! App::setFilePath('/assets/images/icons/icon-x-gris.webp') !!}" loading="lazy">Desalineación entre marketing <br class="DT_e"> y ventas. </li>
-                        <li> <img src="{!! App::setFilePath('/assets/images/icons/icon-x-gris.webp') !!}" loading="lazy">Reportes poco claros o tardíos. </li>
-                    </ul>
+                <section class="innerSectionElement sct2">
+                    <div class="groupElements">
+                        <h4 class="titleFloat">1</h4>
+                        <div class="info">
+                            <span>Leads que se enfrían <br class="DT_e">
+                                sin el seguimiento <br class="DT_e">
+                                adecuado</span>
+
+                        </div>
+                    </div>
+                    <div class="groupElements">
+                        <h4 class="titleFloat">2</h4>
+                        <div class="info">
+                            <span>Conversaciones en <br class="DT_e">
+                                WhatsApp y redes que <br class="DT_e">
+                                se pierden en el “limbo”</span>
+                        </div>
+                    </div>
+                    <div class="groupElements">
+                        <h4 class="titleFloat">3</h4>
+                        <div class="info">
+                            <span>Procesos de venta <br class="DT_e">
+                                desordenados y cada <br class="DT_e">
+                                vendedor trabajando a <br class="DT_e">
+                                su manera.</span>
+                        </div>
+                    </div>
+                    <div class="groupElements">
+                        <h4 class="titleFloat">4</h4>
+                        <div class="info">
+                            <span>Poca visibilidad (o cero) <br class="DT_e">
+                                de lo que pasa en ventas. <br class="DT_e">
+                                Reportes confusos <br class="DT_e">
+                                impiden tomar decisiones.</span>
+                        </div>
+                    </div>
                 </section>
 
 
