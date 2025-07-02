@@ -793,13 +793,13 @@
                         margin: 0 auto
                         height: 35px
                     @include responsivo(pcMedio)
-                        height: 30px
+                        height: 29px
                         margin: 0px 6px
                         display: none
                     @include responsivo(general)
-                        height: 35px
+                        height: 29px
                     @include responsivo(smallPcTablet)
-                        height: 30px
+                        height: 29px
                         margin: 0px 6px
 
                 .hashTitle
@@ -808,47 +808,44 @@
                     font-family: 'Mulish', sans-serif
                     font-size: 20px
                     font-style: normal
-                    font-weight: 400
+                    font-weight: 900
                     line-height: 1
                     @include responsivo(telefonoTable)
                         margin-left: auto
                         margin-right: auto
                         text-align: center
                         width: auto
-                        font-weight: 400
+                        font-weight: 900
                         font-size: 18px 
                         margin-bottom: 8px
 
                     @include responsivo(pcMedio)
-                        font-size: 18px 
+                        font-size: 16px 
                         text-align: center
                         margin-bottom: 10px
                     @include responsivo(general)
                         text-align: left
                     @include responsivo(smallPcTablet)
                         font-size: 17px
-                        width: 60%
+                        width: 42%
                         
                     @include responsivo(resto)
                         text-align: left
                     span
                         line-height: 1
-                     
+                        background: linear-gradient(90deg, #83E3D0 63.24%, #FFF 100%)
+                        background-clip: text
+                        -webkit-background-clip: text
+                        -webkit-text-fill-color: transparent
                         margin-left: 2px
                         font-weight: 900
                         @include responsivo(telefonoTable)
                             font-size: 18px
-                            background: linear-gradient(90deg, #83E3D0 0%, #F1685A 100%)
-                            background-clip: text
-                            -webkit-background-clip: text
-                            -webkit-text-fill-color: transparent
+                          
                         @include responsivo(pcMedio)
                             margin-right: 0px
                             margin-left: 0px
-                            background: linear-gradient(90deg, #83E3D0 0%, #F1685A 100%)
-                            background-clip: text
-                            -webkit-background-clip: text
-                            -webkit-text-fill-color: transparent                            
+                                           
                         @include responsivo(general)
                             margin: 0
                             margin-left: 5px
@@ -970,7 +967,7 @@
                         margin: 0
                         left: 0
                     @include responsivo(smallPcTablet)
-                        margin: 0 15px 
+                        margin: 0  6px
                     @include responsivo(resto)
                         margin: 0
                         font-size: 18px!important

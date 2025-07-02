@@ -26,7 +26,7 @@
 
                         <!-- Logo que se mostrará cuando el nav tenga la clase fixedNav -->
                         <a class="fixed navbar-brand">
-                            <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}"
+                            <img src="{!! App::setFilePath('/assets/images/logos/logo-nuevo-escala-azul-oscuro.webp') !!}"
                                 alt="Logo" class="logo-img fixed-logo" style="display: none;">
                         </a>
                     </span>
