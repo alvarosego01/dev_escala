@@ -13,20 +13,20 @@
                     <span class="navbar-brand">
                         @if (isset($type) && $type === 'default')
                         <a class="navbar-brand normal">
-                            <img src="{!! App::setFilePath('/assets/images/logos/logotipo-escala-blanco.png') !!}"
+                            <img src="{!! App::setFilePath('/assets/images/logos/log-escala-blanco-2025.webp') !!}"
                                 alt="Logo" class="logo-img default-logo">
                         </a>
 
                         @else
                         <a class="navbar-brand normal">
-                            <img src="{!! App::setFilePath('/assets/images/logos/logotipo-escala-blanco.png') !!}"
+                            <img src="{!! App::setFilePath('/assets/images/logos/log-escala-blanco-2025.webp') !!}"
                                 alt="Logo" class="logo-img default-logo">
                         </a>
                         @endif
 
                         <!-- Logo que se mostrará cuando el nav tenga la clase fixedNav -->
                         <a class="fixed navbar-brand">
-                            <img src="{!! App::setFilePath('/assets/images/logos/logo-nuevo-escala-azul-oscuro.webp') !!}"
+                            <img src="{!! App::setFilePath('/assets/images/logos/log-escala-oscuro-2025.webp') !!}"
                                 alt="Logo" class="logo-img fixed-logo" style="display: none;">
                         </a>
                     </span>
