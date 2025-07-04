@@ -284,8 +284,8 @@
                 <section class="innerSectionElement1">
                     <div class="containElements">
                         <h2 class="primaryTitle">
-                            Estos problemas están frenando el <br class="DT_e">
-                            crecimiento de tu empresa
+                            Estos problemas frenan el crecimiento <br class="DT_e">
+                            de tu empresa:
                         </h2>
                     </div>
                 </section>
@@ -294,36 +294,34 @@
                     <div class="groupElements">
                         <h4 class="titleFloat">1</h4>
                         <div class="info">
-                            <span>Leads que se enfrían <br class="DT_e">
-                                sin el seguimiento <br class="DT_e">
-                                adecuado</span>
+                            <span>Muchos prospectos pierden <br class="DT_e">
+                                interés y no tienen el <br class="DT_e">
+                                seguimiento adecuado.</span>
 
                         </div>
                     </div>
                     <div class="groupElements">
                         <h4 class="titleFloat">2</h4>
                         <div class="info">
-                            <span>Conversaciones en <br class="DT_e">
-                                WhatsApp y redes que <br class="DT_e">
-                                se pierden en el “limbo”</span>
+                            <span>Mensajes de WhatsApp y <br class="DT_e">
+                                redes sociales se quedan sin <br class="DT_e">
+                                gestión o respuesta.</span>
                         </div>
                     </div>
                     <div class="groupElements">
                         <h4 class="titleFloat">3</h4>
                         <div class="info">
-                            <span>Procesos de venta <br class="DT_e">
-                                desordenados y cada <br class="DT_e">
-                                vendedor trabajando a <br class="DT_e">
-                                su manera.</span>
+                            <span>Procesos de venta poco <br class="DT_e">
+                                estandarizados: cada <br class="DT_e">
+                                vendedor trabaja a su manera.</span>
                         </div>
                     </div>
                     <div class="groupElements">
                         <h4 class="titleFloat">4</h4>
                         <div class="info">
-                            <span>Poca visibilidad (o cero) <br class="DT_e">
-                                de lo que pasa en ventas. <br class="DT_e">
-                                Reportes confusos <br class="DT_e">
-                                impiden tomar decisiones.</span>
+                            <span>Poca o cero visibilidad de lo <br class="DT_e">
+                                que pasa en ventas. Reportes <br class="DT_e">
+                                confusos o poco útiles.</span>
                         </div>
                     </div>
                 </section>
@@ -337,10 +335,17 @@
             <div class="section-row ">
                 <div class="row sct1">
                     <div class="text-center col-12">
+                        <span class="text">Estos problemas no se resuelven <br class="DT_e">
+                            por falta de estrategia ni talento.</span>
                         <h2 class="title">
-                            Logra que tus vendedores cierren <br class="DT_e">
-                            <span> más ventas con menos esfuerzo </span>
+                            Tus vendedores necesitan el CRM de Escala para <br class="DT_e">
+                            <span> cerrar más ventas con menos esfuerzo.</span>
                         </h2>
+                    </div>
+                    <div class="btnCenter">
+                        <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
+                            Empezar ahora →
+                        </a>
                     </div>
                 </div>
 
@@ -427,13 +432,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="btnCenter">
-                    <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
-                        Tener sesión personalizada →
-                    </a>
-                </div>
-
             </div>
         </section>
 
@@ -444,6 +442,7 @@
         <section class="customSection sectionParent automatizacionesSection_2025-3">
 
             <div class="section-row">
+                <img class="imgBlur" src="{!! App::setFilePath('/assets/images/banners/bg-card-escala-blur-blue.svg') !!}" loading="lazy">
 
                 <section class="innerSectionElement sct1">
 
@@ -458,12 +457,12 @@
 
                 <section class="innerSectionElement sct2">
                     <ul>
-                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/gestion-leads-icon.webp') !!}" loading="lazy">Mejora la gestión con <br class="DT_e"> leads y clientes por <br class="DT_e"> distintos canales </li>
-                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/control-de-gestion.webp') !!}" loading="lazy">Obtén más visibilidad y <br class="DT_e"> control sobre la gestión <br class="DT_e"> comercial </li>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/gestion-leads-icon.webp') !!}" loading="lazy">Mejora la gestión con leads y <br class="DT_e"> clientes por distintos canales </li>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/control-de-gestion.webp') !!}" loading="lazy">Obtén más visibilidad y control<br class="DT_e"> sobre la gestión comercial </li>
                         </li>
                     </ul>
                     <ul>
-                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/centralizar-comunicacion.webp') !!}" loading="lazy">Centraliza la <br class="DT_e"> comunicación de leads, <br class="DT_e"> clientes, tareas y procesos </li>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/centralizar-comunicacion.webp') !!}" loading="lazy">Centraliza la comunicación de<br class="DT_e"> leads, clientes, tareas y procesos </li>
                         <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/aumenta-la-eficiencia.webp') !!}" loading="lazy">Aumenta la eficiencia <br class="DT_e"> automatizando acciones y <br class="DT_e"> conversaciones </li>
                     </ul>
 
@@ -472,15 +471,191 @@
                 <section class="innerSectionElement sct3">
 
                     <h3 class="subtitle">
-                        <span> Potenciados por IA</span> <sup> <img alt=""
+
+                        <span> Todo potenciados por IA</span> <sup> <img alt=""
                                 src="{{ App::setFilePath('/assets/images/illustrations/others/icon-star-paid-media.webp') }}"
                                 loading="lazy"></sup>
                         <br class="space">
                         y el mejor servicio al cliente
                     </h3>
                 </section>
+            </div>
+            <div class="btnCenter">
+                <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
+                    Empieza ahora →
+                </a>
+            </div>
+        </section>
 
-                <section class="innerSectionElement sct4">
+        <section class="w-full customSection sectionParent automatizacionesSection_2025-4">
+            <div class="section-row">
+                <section class="innerSectionElement sct1 ">
+                    <div class="containElements">
+
+                        @php
+                        $parameters = [
+                        'type' => 'backgroundColor',
+                        'classSection' => 'automatizacionesSection_2025-5',
+                        'img' => App::setFilePath('/assets/images/illustrations/others/oportunidades-img-paid-media.webp'),
+                        'title' => 'Gestiona contactos y
+                        oportunidades de venta <br class="DT_e">
+                        más fácil y rápido
+                        ',
+                        'text' => '
+                        <ul>
+                            <li>Puedes ver quiénes son tus <br class="DT_e">
+                                prospectos, en qué etapa del <br class="DT_e">
+                                proceso están y qué necesitas <br class="DT_e">
+                                hacer para avanzar.</li>
+                            <li>Te avisa cuándo dar seguimiento, para <br class="DT_e">
+                                que nunca se te escape una <br class="DT_e">
+                                oportunidad.</li>
+                            <li>Puedes registrar llamadas, correos y <br class="DT_e">
+                                notas rápidamente, sin perder tiempo <br class="DT_e">
+                                buscando información en miles de lugares.
+                            </li>
+                        </ul>
+                        <span>
+                            Es como tener un asistente personal<br class="DT_e">
+                             que organiza tus ventas y te ayuda a 
+                             cerrar más rápido.
+                        </span>
+
+                        ',
+                        'side' => 'left',
+                        ];
+                        @endphp
+                        @contain_text_image_T1($parameters)
+                        @endcontain_text_image_T1
+
+                        @php
+                        $parameters = [
+                        'type' => 'backgroundColor',
+                        'classSection' => 'automatizacionesSection_2025-5-1',
+                        'img' => App::setFilePath('/assets/images/illustrations/others/imbox-img-paid-media.webp'),
+                        'title' => 'Conversa por WhatsApp,<br class="DT_e">
+                        Email,
+                        Facebook e Instagram <br class="DT_e">
+                        desde el mismo lugar',
+                        'text' => '
+                        <span>Ya tú y tu equipo no tienen 
+                            que andar saltando entre 
+                            apps, perdiendo tiempo o 
+                            conversaciones importantes.
+                        </span>
+                        <br class="space">
+                        <br class="space">
+                        El Inbox en el CRM de Escala permite que
+                        todo quede organizado, y puedas ver el
+                        historial completo de cada persona, sin
+                        importar por dónde te contactaron. Así,
+                        respondes rápido, sin caos, y das una
+                        experiencia súper profesional.
+
+                        ',
+                        'side' => 'right',
+                        ];
+                        @endphp
+                        @contain_text_image_T1($parameters)
+                        @endcontain_text_image_T1
+
+                        @php
+                        $parameters = [
+                        'type' => 'backgroundColor',
+                        'classSection' => 'automatizacionesSection_2025-5-2',
+                        'img' => App::setFilePath('/assets/images/illustrations/others/agentes-ia-img-paid-media.webp'),
+                        'title' => 'Agentes de IA trabajan <br class="space">
+                        por ti 24/7',
+                        'text' => '
+                        <span>La inteligencia artificial 
+                            en Escala <br class="DT_e">
+                             atiende las 
+                            conversaciones en el Inbox
+                             logrando:</span>
+                        <br class="space">
+                        <br class="space">
+                        <ul>
+                            <li>Precalificar prospectos</li>
+                            <li>Conversar con tus contactos <br class="DT_e">
+                                por WhatsApp</li>
+                            <li>Capturar y actualizar datos <br class="DT_e">
+                                en tu CRM
+                            </li>
+                            <li>Agendar citas directamente en los <br class="DT_e">
+                                calendarios de tu equipo</li>
+                            <li>Enviar cotizaciones de productos o <br class="DT_e">
+                                servicios cargados en tu CRM</li>
+                            <li>Derivar la conversación a un vendedor <br class="DT_e">
+                                cuando sea necesario
+                            </li>
+                        </ul>
+                        <br class="space">
+                        <p class="text">A diferencia de los chatbots con IA, los <br class="DT_e">
+                            Agentes de IA en Escala leen, procesan <br class="DT_e">
+                            la información compartida en la conversación
+                            y responden hasta cumplir el objetivo deseado.
+                        </p>
+                        ',
+                        'side' => 'left',
+                        ];
+                        @endphp
+                        @contain_text_image_T1($parameters)
+                        @endcontain_text_image_T1
+
+                        @php
+                        $parameters = [
+                        'type' => 'backgroundColor',
+                        'classSection' => 'automatizacionesSection_2025-5-3',
+                        'img' => App::setFilePath('/assets/images/illustrations/others/automatizaciones-img-paid-media.webp'),
+                        'title' => 'Automatiza para <br class="space">
+                        aumentar tu <br class="space">
+                        productividad',
+                        'text' => '
+                        <span>Escala CRM te ayuda  a automatizar 
+                            tareas 
+                            repetitivas como:</span>
+
+                        <br class="space">
+                        <br class="space">
+                        <ul>
+                            <li>
+                                Enviar emails y WhatsApps de seguimiento
+                            </li>
+                            <li>Crear recordatorios
+                            </li>
+                            <li>Actualizar el estado de tus prospectos
+                            </li>
+                            <li>Asignar leads o prospectos
+                                a vendedores
+                            </li>
+                        </ul>
+                        <br class="space">
+                        <p class="text">Así tú y tu equipo pueden enfocarse en
+                            vender mientras el CRM se encarga de lo
+                            tedioso. Ahorra tiempo y evita errores, con
+                            Escala logras que cada minuto trabajado
+                            sea mucho más efectivo.
+                        </p>
+                        ',
+                        'side' => 'right',
+                        ];
+                        @endphp
+                        @contain_text_image_T1($parameters)
+                        @endcontain_text_image_T1
+
+
+
+                    </div>
+                </section>
+
+            </div>
+        </section>
+
+        <section class="customSection sectionParent automatizacionesSection_2025-6-0">
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
 
                     <div class="info">
 
@@ -529,171 +704,6 @@
             </div>
 
         </section>
-
-        <section class="w-full customSection sectionParent automatizacionesSection_2025-4">
-            <div class="section-row">
-                <section class="innerSectionElement sct1 ">
-                    <div class="containElements">
-
-                        @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
-                        'classSection' => 'automatizacionesSection_2025-5',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/oportunidades-img-paid-media.webp'),
-                        'title' => 'Gestiona contactos y
-                        oportunidades de venta <br class="DT_e">
-                        más fácil y rápido
-                        ',
-                        'text' => '
-                        <ul>
-                            <li>Puedes ver quiénes son tus <br class="DT_e">
-                                prospectos, en qué etapa del <br class="DT_e">
-                                proceso están y qué necesitas <br class="DT_e">
-                                hacer para avanzar.</li>
-                            <li>Te avisa cuándo dar seguimiento, para <br class="DT_e">
-                                que nunca se te escape una <br class="DT_e">
-                                oportunidad.</li>
-                            <li>Puedes registrar llamadas, correos y <br class="DT_e">
-                                notas rápidamente, sin perder tiempo <br class="DT_e">
-                                buscando información en miles de lugares.
-                            </li>
-                        </ul>
-                        <span>
-                            Es como tener un asistente <br class="DT_e">
-                            personal que organiza tus <br class="DT_e">
-                            ventas y te ayuda a cerrar <br class="DT_e">
-                            más rápido.
-                        </span>
-
-                        ',
-                        'side' => 'left',
-                        ];
-                        @endphp
-                        @contain_text_image_T1($parameters)
-                        @endcontain_text_image_T1
-
-                        @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
-                        'classSection' => 'automatizacionesSection_2025-5-1',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/imbox-img-paid-media.webp'),
-                        'title' => 'Conversa por <br class="DT_e">
-                        WhatsApp, Email, <br class="DT_e">
-                        Facebook e Instagram <br class="DT_e">
-                        desde el mismo lugar',
-                        'text' => '
-                        <span>Ya tú y tu equipo no tienen <br class="DT_e">
-                            que andar saltando entre <br class="DT_e">
-                            apps, perdiendo tiempo o <br class="DT_e">
-                            conversaciones importantes.
-                        </span>
-                        <br class="space">
-                        <br class="space">
-                        El Inbox en el CRM de Escala permite que 
-                        todo quede organizado, y puedas ver el 
-                        historial completo de cada persona, sin 
-                        importar por dónde te contactaron. Así, 
-                        respondes rápido, sin caos, y das una 
-                        experiencia súper profesional.
-
-                        ',
-                        'side' => 'right',
-                        ];
-                        @endphp
-                        @contain_text_image_T1($parameters)
-                        @endcontain_text_image_T1
-
-                        @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
-                        'classSection' => 'automatizacionesSection_2025-5-2',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/agentes-ia-img-paid-media.webp'),
-                        'title' => 'Agentes de IA trabajan <br class="space">
-                        por ti 24/7',
-                        'text' => '
-                        <span>La inteligencia artificial <br class="DT_e">
-                            en Escala atiende las <br class="DT_e">
-                            conversaciones en el <br class="DT_e">
-                            Inbox logrando:</span>
-                        <br class="space">
-                        <br class="space">
-                        <ul>
-                            <li>Precalificar prospectos</li>
-                            <li>Conversar con tus contactos <br class="DT_e">
-                                por WhatsApp</li>
-                            <li>Capturar y actualizar datos <br class="DT_e">
-                                en tu CRM
-                            </li>
-                            <li>Agendar citas directamente en los <br class="DT_e">
-                                calendarios de tu equipo</li>
-                            <li>Enviar cotizaciones de productos o <br class="DT_e">
-                                servicios cargados en tu CRM</li>
-                            <li>Derivar la conversación a un vendedor <br class="DT_e">
-                                cuando sea necesario
-                            </li>
-                        </ul>
-                        <br class="space">
-                        <p class="text">A diferencia de los chatbots con IA, los <br class="DT_e">
-                            Agentes de IA en Escala leen, procesan <br class="DT_e">
-                            la información compartida en la conversación
-                            y responden hasta cumplir el objetivo deseado.
-                        </p>
-                        ',
-                        'side' => 'left',
-                        ];
-                        @endphp
-                        @contain_text_image_T1($parameters)
-                        @endcontain_text_image_T1
-
-                        @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
-                        'classSection' => 'automatizacionesSection_2025-5-3',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/automatizaciones-img-paid-media.webp'),
-                        'title' => 'Automatiza para <br class="space">
-                        aumentar tu <br class="space">
-                        productividad',
-                        'text' => '
-                        <span>Escala CRM te ayuda <br class="DT_e">
-                            a automatizar tareas <br class="DT_e">
-                            repetitivas como:</span>
-
-                        <br class="space">
-                        <br class="space">
-                        <ul>
-                            <li>
-                                Enviar emails y WhatsApps de seguimiento
-                            </li>
-                            <li>Crear recordatorios
-                            </li>
-                            <li>Actualizar el estado de tus prospectos
-                            </li>
-                            <li>Asignar leads o prospectos
-                                a vendedores
-                            </li>
-                        </ul>
-                        <br class="space">
-                        <p class="text">Así tú y tu equipo pueden enfocarse en 
-                            vender mientras el CRM se encarga de lo 
-                            tedioso. Ahorra tiempo y evita errores, con
-                            Escala logras que cada minuto trabajado
-                            sea mucho más efectivo.
-                        </p>
-                        ',
-                        'side' => 'right',
-                        ];
-                        @endphp
-                        @contain_text_image_T1($parameters)
-                        @endcontain_text_image_T1
-
-
-
-                    </div>
-                </section>
-
-            </div>
-        </section>
-
 
         <section class="customSection sectionParent automatizacionesSection_2025-6">
 
