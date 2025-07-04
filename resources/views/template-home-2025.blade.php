@@ -742,7 +742,7 @@
                 </div>
 
                 <div class="containerElement sct2">
-                    <a href="https://escala.com/casos-de-exito-poctlab/" class="image-container">
+                    <div  class="image-container">
                         <img alt="" class="img-2"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/card_white_img_poctlab.png') }}"
                             loading="lazy">
@@ -750,9 +750,9 @@
                         <img alt="" class="img-1"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_poctlab_card_blue.png') }}"
                             loading="lazy">
-                    </a>
+                    </div>
 
-                    <a href="https://escala.com/casos-de-exito-taller-5/" class="image-container">
+                    <div  class="image-container">
                         <img alt="" class="img-2"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_taller_5_card.png') }}"
                             loading="lazy">
@@ -760,9 +760,9 @@
                         <img alt="" class="img-1"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_taller_5_card_blue.png') }}"
                             loading="lazy">
-                    </a>
+                    </div>
 
-                    <a href="https://escala.com/casos-de-exito-real-de-los-cues/" class="image-container">
+                    <div  class="image-container">
                         <img alt="" class="img-2"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_cues_real_card.png') }}"
                             loading="lazy">
@@ -770,7 +770,7 @@
                         <img alt="" class="img-1"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_cues_real_card_blue.png') }}"
                             loading="lazy">
-                    </a>
+                    </div>
                 </div>
             </div>
         </section>
