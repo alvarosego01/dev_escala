@@ -516,7 +516,7 @@
                             </li>
                         </ul>
                         <span>
-                            Es como tener un asistente personal<br class="DT_e">
+                            Es como tener un asistente personal
                             que organiza tus ventas y te ayuda a
                             cerrar más rápido.
                         </span>
@@ -548,9 +548,7 @@
                         El Inbox en el CRM de Escala permite que
                         todo quede organizado, y puedas ver el
                         historial completo de cada persona, sin
-                        importar por dónde te contactaron. Así,
-                        respondes rápido, sin caos, y das una
-                        experiencia súper profesional.
+                        importar por dónde te contactaron. 
 
                         ',
                         'side' => 'right',
@@ -590,8 +588,8 @@
                             </li>
                         </ul>
                         <br class="space">
-                        <p class="text">A diferencia de los chatbots con IA, los <br class="DT_e">
-                            Agentes de IA en Escala leen, procesan <br class="DT_e">
+                        <p class="text">A diferencia de los chatbots con IA, los
+                            Agentes de IA en Escala leen, procesan 
                             la información compartida en la conversación
                             y responden hasta cumplir el objetivo deseado.
                         </p>
@@ -632,9 +630,7 @@
                         <br class="space">
                         <p class="text">Así tú y tu equipo pueden enfocarse en
                             vender mientras el CRM se encarga de lo
-                            tedioso. Ahorra tiempo y evita errores, con
-                            Escala logras que cada minuto trabajado
-                            sea mucho más efectivo.
+                            tedioso. 
                         </p>
                         ',
                         'side' => 'right',
