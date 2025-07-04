@@ -473,7 +473,7 @@
                 </section>
 
                 <div class="btnCenter">
-                    <h3>¿Cómo puedes escalar las ventas de tu empresa?</h3>
+                    <h3>Conoce Escala más a fondo</h3>
                     <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
                         Tener sesión personalizada →
                     </a>
