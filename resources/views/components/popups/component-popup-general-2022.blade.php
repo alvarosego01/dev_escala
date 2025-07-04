@@ -25,7 +25,7 @@
 
                                         <h2 class="primaryTitle">
                                             <span style="color: #2C4857;">
-                                                > Conoce Escala en una <br class="space"> sesión personalizada
+                                                Conoce Escala en una <br class="space"> sesión personalizada
                                             </span>
                                         </h2>
 
@@ -79,11 +79,10 @@
                                             <img src="{!! App::setFilePath('/assets/images/logos/logotipo-escala-blanco.png') !!}" alt="Logo" class="logo-img">
 
                                         </div>
-
                                         <h3 class="thirdTitle">
-                                            Empieza a vender <span> más inteligentemente</span> con Escala
+                                            Vende más con <br class="space">
+                                            menos esfuerzo
                                         </h3>
-
                                     </div>
                                     <div class="sect2">
 

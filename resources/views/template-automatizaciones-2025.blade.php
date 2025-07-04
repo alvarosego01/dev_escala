@@ -344,7 +344,7 @@
                     </div>
                     <div class="btnCenter">
                         <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
-                            Empezar ahora →
+                            Empieza ahora →
                         </a>
                     </div>
                 </div>
@@ -517,8 +517,8 @@
                         </ul>
                         <span>
                             Es como tener un asistente personal<br class="DT_e">
-                             que organiza tus ventas y te ayuda a 
-                             cerrar más rápido.
+                            que organiza tus ventas y te ayuda a
+                            cerrar más rápido.
                         </span>
 
                         ',
@@ -538,9 +538,9 @@
                         Facebook e Instagram <br class="DT_e">
                         desde el mismo lugar',
                         'text' => '
-                        <span>Ya tú y tu equipo no tienen 
-                            que andar saltando entre 
-                            apps, perdiendo tiempo o 
+                        <span>Ya tú y tu equipo no tienen
+                            que andar saltando entre
+                            apps, perdiendo tiempo o
                             conversaciones importantes.
                         </span>
                         <br class="space">
@@ -567,11 +567,11 @@
                         'title' => 'Agentes de IA trabajan <br class="space">
                         por ti 24/7',
                         'text' => '
-                        <span>La inteligencia artificial 
+                        <span>La inteligencia artificial
                             en Escala <br class="DT_e">
-                             atiende las 
+                            atiende las
                             conversaciones en el Inbox
-                             logrando:</span>
+                            logrando:</span>
                         <br class="space">
                         <br class="space">
                         <ul>
@@ -611,8 +611,8 @@
                         aumentar tu <br class="space">
                         productividad',
                         'text' => '
-                        <span>Escala CRM te ayuda  a automatizar 
-                            tareas 
+                        <span>Escala CRM te ayuda a automatizar
+                            tareas
                             repetitivas como:</span>
 
                         <br class="space">
@@ -754,7 +754,7 @@
                 </section>
                 <div class="btnCenter">
                     <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                        Tener sesión personalizada →
+                        Empezar ahora →
                     </a>
                 </div>
             </div>
@@ -835,7 +835,7 @@
                             </h2>
 
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Empezar ahora →
+                                Empieza ahora →
                             </a>
 
                         </div>
