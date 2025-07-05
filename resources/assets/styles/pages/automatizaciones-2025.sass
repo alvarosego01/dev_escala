@@ -744,14 +744,6 @@ img
                     max-width: 100%
                 @include responsivo(pcMedio)
                     max-width: 100%
-                .titleFloat
-                    color: #F1685A
-                    font-size: 100px
-                    font-weight: 900
-                    margin-bottom: -60px
-                    z-index: 0
-                    text-align: center
-                    
                 .info
                     background-color: #fff
                     border-radius: 20px
@@ -761,12 +753,13 @@ img
                     display: flex
                     justify-content: center
                     align-items: center
+                    gap: 30px
                     padding: 20px
-                    z-index: 1
                     position: relative
-                    text-align: center
+                    text-align: left
                     @include responsivo(pcMedio)
                         width: 100%
+                        min-width: 420px
                     @include responsivo(smallPcTablet)
                         min-width: auto
                     span
@@ -775,7 +768,12 @@ img
                         font-weight: 500
                         line-height: 1
                         color: #212A31
-         
+                    .titleFloat
+                        color: #F1685A
+                        font-size: 100px
+                        font-weight: 900
+                        text-align: center
+
 #automatizacionesSection_2025 .customSection.sectionParent.automatizacionesSection_2025-1
     padding: 0
     background-color: transparent
@@ -887,7 +885,7 @@ img
             text-align: center
             font-family: "Mulish", sans-serif   
             line-height: 1
-            font-weight: 700
+            font-weight: 600
             margin-bottom: 40px
             display: block
         h2.title
@@ -1383,6 +1381,7 @@ img
                           
 
                     ul
+                        padding-bottom: 10px
                         li::marker
                             color: #F1685A  
                         li
@@ -1414,7 +1413,8 @@ img
                         font-family: "Mulish", sans-serif
                         line-height: 1
                         font-weight: 600
-                        margin-top: 10px
+                        margin-bottom: 40px
+                        display: block
                         @include responsivo(telefonoTable)
                             text-align: center
                         @include responsivo(pcMedio)
@@ -1494,7 +1494,15 @@ img
                             margin-right: 0
 
                 color: #fff  
-
+#automatizacionesSection_2025 .automatizacionesSection_2025-5
+    section.innerSectionElement.sct2.left
+        .info
+            span
+                margin-bottom: 0!important
+                margin-top: 10px!important
+    .innerSectionElement.sct2
+        ul
+            padding-bottom: 0px!important
 #automatizacionesSection_2025 .automatizacionesSection_2025-5-1
     section.innerSectionElement.sct2.left
         .info

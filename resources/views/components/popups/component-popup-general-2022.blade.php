@@ -79,13 +79,13 @@
                                             <img src="{!! App::setFilePath('/assets/images/logos/logotipo-escala-blanco.png') !!}" alt="Logo" class="logo-img">
 
                                         </div>
+
+                                    </div>
+                                    <div class="sect2">
                                         <h3 class="thirdTitle">
                                             Vende más con <br class="space">
                                             menos esfuerzo
                                         </h3>
-                                    </div>
-                                    <div class="sect2">
-
                                         <div class="containerImage imageHero">
 
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-ceo-escala-2025-alfonso.png') !!}" alt="CEO escala 2025 Alfonso">

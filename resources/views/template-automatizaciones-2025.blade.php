@@ -292,8 +292,9 @@
 
                 <section class="innerSectionElement sct2">
                     <div class="groupElements">
-                        <h4 class="titleFloat">1</h4>
                         <div class="info">
+                        <h4 class="titleFloat">1</h4>
+
                             <span>Muchos prospectos pierden <br class="DT_e">
                                 interés y no tienen el <br class="DT_e">
                                 seguimiento adecuado.</span>
@@ -301,24 +302,27 @@
                         </div>
                     </div>
                     <div class="groupElements">
-                        <h4 class="titleFloat">2</h4>
                         <div class="info">
+                        <h4 class="titleFloat">2</h4>
+
                             <span>Mensajes de WhatsApp y <br class="DT_e">
                                 redes sociales se quedan sin <br class="DT_e">
                                 gestión o respuesta.</span>
                         </div>
                     </div>
                     <div class="groupElements">
-                        <h4 class="titleFloat">3</h4>
                         <div class="info">
+                        <h4 class="titleFloat">3</h4>
+
                             <span>Procesos de venta poco <br class="DT_e">
                                 estandarizados: cada <br class="DT_e">
                                 vendedor trabaja a su manera.</span>
                         </div>
                     </div>
                     <div class="groupElements">
-                        <h4 class="titleFloat">4</h4>
                         <div class="info">
+                        <h4 class="titleFloat">4</h4>
+
                             <span>Poca o cero visibilidad de lo <br class="DT_e">
                                 que pasa en ventas. Reportes <br class="DT_e">
                                 confusos o poco útiles.</span>
@@ -533,9 +537,8 @@
                         'type' => 'backgroundColor',
                         'classSection' => 'automatizacionesSection_2025-5-1',
                         'img' => App::setFilePath('/assets/images/illustrations/others/imbox-img-paid-media.webp'),
-                        'title' => 'Conversa por WhatsApp,<br class="DT_e">
-                        Email,
-                        Facebook e Instagram <br class="DT_e">
+                        'title' => 'Conversa por WhatsApp,
+                        Email, Facebook e Instagram
                         desde el mismo lugar',
                         'text' => '
                         <span>Ya tú y tu equipo no tienen
@@ -543,12 +546,10 @@
                             apps, perdiendo tiempo o
                             conversaciones importantes.
                         </span>
-                        <br class="space">
-                        <br class="space">
                         El Inbox en el CRM de Escala permite que
                         todo quede organizado, y puedas ver el
                         historial completo de cada persona, sin
-                        importar por dónde te contactaron. 
+                        importar por dónde te contactaron.
 
                         ',
                         'side' => 'right',
@@ -570,8 +571,6 @@
                             atiende las
                             conversaciones en el Inbox
                             logrando:</span>
-                        <br class="space">
-                        <br class="space">
                         <ul>
                             <li>Precalificar prospectos</li>
                             <li>Conversar con tus contactos <br class="DT_e">
@@ -587,9 +586,8 @@
                                 cuando sea necesario
                             </li>
                         </ul>
-                        <br class="space">
                         <p class="text">A diferencia de los chatbots con IA, los
-                            Agentes de IA en Escala leen, procesan 
+                            Agentes de IA en Escala leen, procesan
                             la información compartida en la conversación
                             y responden hasta cumplir el objetivo deseado.
                         </p>
@@ -605,16 +603,14 @@
                         'type' => 'backgroundColor',
                         'classSection' => 'automatizacionesSection_2025-5-3',
                         'img' => App::setFilePath('/assets/images/illustrations/others/automatizaciones-img-paid-media.webp'),
-                        'title' => 'Automatiza para <br class="space">
-                        aumentar tu <br class="space">
+                        'title' => 'Automatiza y
+                        aumenta tu <br class="space">
                         productividad',
                         'text' => '
                         <span>Escala CRM te ayuda a automatizar
                             tareas
                             repetitivas como:</span>
 
-                        <br class="space">
-                        <br class="space">
                         <ul>
                             <li>
                                 Enviar emails y WhatsApps de seguimiento
@@ -627,10 +623,9 @@
                                 a vendedores
                             </li>
                         </ul>
-                        <br class="space">
                         <p class="text">Así tú y tu equipo pueden enfocarse en
                             vender mientras el CRM se encarga de lo
-                            tedioso. 
+                            tedioso.
                         </p>
                         ',
                         'side' => 'right',
@@ -690,7 +685,7 @@
                     <div class="info2"><span>la eficiencia del equipo comercial</span></div>
                     <div class="btnCenter">
                         <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
-                            Empieza ahora →
+                            Empezar ahora →
                         </a>
                     </div>
                 </section>
@@ -750,7 +745,7 @@
                 </section>
                 <div class="btnCenter">
                     <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                        Empezar ahora →
+                        Empieza ahora →
                     </a>
                 </div>
             </div>
@@ -827,11 +822,11 @@
                     <section class="innerSectionElement sct2">
                         <div class="containElement">
                             <h2 class="title">
-                                Acelera el crecimiento <br class="DT_e"> de tus ventas <br class="DT_e"> inteligentemente
+                                Acelera el crecimiento <br class="DT_e"> de tus ventas
                             </h2>
 
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Empieza ahora →
+                                Empezar ahora →
                             </a>
 
                         </div>
