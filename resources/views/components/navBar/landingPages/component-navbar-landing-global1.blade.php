@@ -22,11 +22,11 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
                 <div class="logo">
                     <span class="navbar-brand" >
                         <!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-                        {{-- <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img"> --}}
+                        {{-- <img src="{!! App::setFilePath('/assets/images/logos/log-escala-oscuro-2025.webp') !!}" alt="Logo" class="logo-img"> --}}
 
                         @if (isset($type) && $type === 'default')
                             <a class="navbar-brand normal">
-                            <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
+                            <img src="{!! App::setFilePath('/assets/images/logos/log-escala-oscuro-2025.webp') !!}" alt="Logo" class="logo-img">
                             </a>
                         @elseif (isset($type) && $type === 'light')
                             <a class="navbar-brand normal">
@@ -34,7 +34,7 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
                             </a>
                         @else
                           <a class="navbar-brand normal">
-                            <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
+                            <img src="{!! App::setFilePath('/assets/images/logos/log-escala-oscuro-2025.webp') !!}" alt="Logo" class="logo-img">
                             </a>
                         @endif
 

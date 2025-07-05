@@ -11,6 +11,12 @@
         display: none
     @include responsivo(pcMedio)
         display: none
+.principal-global-landing-trasp-light
+    .menuButton 
+        @include responsivo(telefonoTable)
+            display: block!important
+        @include responsivo(pcMedio)
+            display: block!important
 .menuButton 
     @include responsivo(telefonoTable)
         display: none!important
@@ -198,13 +204,13 @@ header.customHeader.customSection
                         img,
                         svg
                             width: auto
-                            height: 37.5px
+                            height: 33.5px
                             @include responsivo(telefonoTable)
                                 height: 22.5px
                             @include responsivo(pcMedio)
                                 height: 30px
                             @include responsivo(general)
-                                height: 35px
+                                height: 30.5px
 
 
 
