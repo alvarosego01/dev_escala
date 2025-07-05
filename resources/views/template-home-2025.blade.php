@@ -292,8 +292,9 @@
 
                 <section class="innerSectionElement sct2">
                     <div class="groupElements">
-                        <h4 class="titleFloat">1</h4>
+                        
                         <div class="info">
+                            <h4 class="titleFloat">1</h4>
                             <span>Leads que se enfrían <br class="DT_e">
                                 sin el seguimiento <br class="DT_e">
                                 adecuado</span>
@@ -301,16 +302,18 @@
                         </div>
                     </div>
                     <div class="groupElements">
-                        <h4 class="titleFloat">2</h4>
+                        
                         <div class="info">
+                            <h4 class="titleFloat">2</h4>
                             <span>Conversaciones en <br class="DT_e">
                                 WhatsApp y redes que <br class="DT_e">
                                 se pierden en el “limbo”</span>
                         </div>
                     </div>
                     <div class="groupElements">
-                        <h4 class="titleFloat">3</h4>
                         <div class="info">
+                        <h4 class="titleFloat">3</h4>
+
                             <span>Procesos de venta <br class="DT_e">
                                 desordenados y cada <br class="DT_e">
                                 vendedor trabajando a <br class="DT_e">
@@ -318,8 +321,9 @@
                         </div>
                     </div>
                     <div class="groupElements">
-                        <h4 class="titleFloat">4</h4>
                         <div class="info">
+                        <h4 class="titleFloat">4</h4>
+
                             <span>Poca visibilidad (o cero) <br class="DT_e">
                                 de lo que pasa en ventas. <br class="DT_e">
                                 Reportes confusos <br class="DT_e">
@@ -430,7 +434,7 @@
 
                 <div class="btnCenter">
                     <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
-                        Tener sesión personalizada →
+                        Empieza ahora →
                     </a>
                 </div>
 
@@ -685,9 +689,8 @@
 
                 </section>
                 <div class="btnCenter">
-                    <h3>¿Cómo automatizar tus ventas con IA?</h3>
                     <a class="primaryButton  hoverInEffect openPopUpButton popup-general-demo-2022">
-                        Tener sesión personalizada →
+                        Empezar ahora →
                     </a>
                 </div>
             </div>
@@ -722,7 +725,7 @@
                 </section>
                 <div class="btnCenter">
                     <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                        Empezar ahora →
+                        Empieza ahora →
                     </a>
                 </div>
             </div>
@@ -742,7 +745,7 @@
                 </div>
 
                 <div class="containerElement sct2">
-                    <div  class="image-container">
+                    <div class="image-container">
                         <img alt="" class="img-2"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/card_white_img_poctlab.png') }}"
                             loading="lazy">
@@ -752,7 +755,7 @@
                             loading="lazy">
                     </div>
 
-                    <div  class="image-container">
+                    <div class="image-container">
                         <img alt="" class="img-2"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_taller_5_card.png') }}"
                             loading="lazy">
@@ -762,7 +765,7 @@
                             loading="lazy">
                     </div>
 
-                    <div  class="image-container">
+                    <div class="image-container">
                         <img alt="" class="img-2"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_cues_real_card.png') }}"
                             loading="lazy">

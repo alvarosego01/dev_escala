@@ -2797,7 +2797,7 @@
                             display: block
                         .sect1
                             padding: 0 25px
-                            padding-top: 35px
+                            padding-top: 50px
                             width: 100%
                             @include responsivo(telefonoTable)
                                 padding-top: 30px
@@ -2825,8 +2825,30 @@
                                     @include responsivo(pcMedio)
                                         height: 25px
                                         margin: auto
+
+
+                        .sect2
+                            background-color: transparent
+                            margin-bottom: 0
+                            padding: 0px 25px 35px 25px
+                            position: relative
+                            top: -85px
+                            @include responsivo(telefonoTable)
+                                top: -30px
+                            @include responsivo(pcMedio)
+                                top: 0px
+                            .containerImage
+                                background-color: transparent
+                                padding: 0
+                                margin: 0
+                                img
+                                    width: auto
+                                    height: 415px
+                                    @include responsivo(telefonoTable)
+                                        height: 345px
+
                             .thirdTitle
-                                margin-bottom: 25px
+                                margin-bottom: 35px
                                 font-family: 'Mulish', sans-serif
                                 font-style: normal
                                 font-weight: 900
@@ -2834,39 +2856,7 @@
                                 line-height: 1
                                 text-align: center
                                 color: #fff
-                                span
-                                    font-weight: 900
-                                    display: block
-                                    height: 34px
-                                    background: linear-gradient(90deg, #F1685A 8.09%, #83E3D0 90.57%)
-                                    background-clip: text
-                                    -webkit-background-clip: text
-                                    -webkit-text-fill-color: transparent
-                                @include responsivo(telefonoTable)
-                                    font-size: 25px
-                                    height: 28px
 
-                        .sect2
-                            background-color: transparent
-                            margin-bottom: 0
-                            padding: 0px 25px 35px 25px
-                            position: relative
-                            top: -20px
-                            @include responsivo(telefonoTable)
-                                top: 0
-                            @include responsivo(pcMedio)
-                                top: 0
-                            .containerImage
-                                background-color: transparent
-                                padding: 0
-                                margin: 0
-                                img
-                                    width: auto
-                                    height: 400px
-                                    @include responsivo(telefonoTable)
-                                        height: 335px
-
-                                        
 .customPopUp.modal.popup_casos_uso_new
     &.left_side
         .groupElements
