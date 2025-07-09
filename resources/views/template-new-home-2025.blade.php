@@ -54,31 +54,31 @@
                                         const videoPlayers = document.querySelectorAll('.video-player');
 
                                         videoPlayers.forEach(player => {
-                                            // Elementos del reproductor
                                             const cover = player.querySelector('.video-cover');
                                             const iframeContainer = player.querySelector('.video-iframe-container');
-                                            const iframe = iframeContainer.querySelector('iframe');
+                                            const originalIframe = iframeContainer.querySelector('iframe');
+                                            const originalSrc = originalIframe.src.replace(/(\?|&)autoplay=1/, '');
 
-                                            // Función para iniciar el video
                                             function playVideo() {
-                                                // 1. Agregar clase activa
                                                 player.classList.add('video-active');
-
-                                                // 2. Obtener src original (sin autoplay)
-                                                const src = iframe.src;
-
-                                                // 3. Cambiar src para forzar autoplay
-                                                if (!src.includes('autoplay=1')) {
-                                                    iframe.src = src.includes('?') ?
-                                                        `${src}&autoplay=1` :
-                                                        `${src}?autoplay=1`;
+                                                // Elimina el iframe anterior si existe
+                                                while (iframeContainer.firstChild) {
+                                                    iframeContainer.removeChild(iframeContainer.firstChild);
                                                 }
+                                                // Crea un nuevo iframe con autoplay=1
+                                                const newIframe = document.createElement('iframe');
+                                                let srcWithAutoplay = originalSrc;
+                                                srcWithAutoplay += (srcWithAutoplay.includes('?') ? '&' : '?') + 'autoplay=1';
+                                                newIframe.src = srcWithAutoplay;
+                                                newIframe.width = originalIframe.width;
+                                                newIframe.height = originalIframe.height;
+                                                newIframe.frameBorder = originalIframe.frameBorder;
+                                                newIframe.allow = originalIframe.allow;
+                                                newIframe.allowFullscreen = true;
+                                                iframeContainer.appendChild(newIframe);
                                             }
 
-                                            // Evento click en toda el área
                                             player.addEventListener('click', playVideo);
-
-                                            // Opcional: tecla Enter para accesibilidad
                                             player.addEventListener('keydown', (e) => {
                                                 if (e.key === 'Enter') {
                                                     playVideo();
