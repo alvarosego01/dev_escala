@@ -24,7 +24,7 @@
                                         <h2 class="primaryTitle">
                                             Elige el caso de éxito que deseas conocer
                                         </h2>
-                                    
+
                                     </div>
                                     <style>
                                         #popup-casosUso_general_new .cards {
@@ -33,7 +33,7 @@
 
                                         #popup-casosUso_general_new .cards.active {
                                             display: block;
-                                        } 
+                                        }
                                     </style>
                                     <div class="sect2">
                                         <div class="cards saludBienestar">
@@ -42,19 +42,21 @@
                                                     <a href="/escala/casos-de-exito-poctlab/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/poctlab_logo_card_new.png') !!}" loading="lazy">
                                                     </a>
-                                                    <span>Laboratorio Clínico</span>
+                                                    <span> <a href="/escala/casos-de-exito-poctlab/">Laboratorio Clínico</a></span>
                                                 </div>
                                                 <div class="card">
                                                     <a href="https://escala.com/caso-de-uso-salud-y-fitness/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/life_nutrition_popup_new.png') !!}" loading="lazy">
                                                     </a>
-                                                    <span>Nutrición</span>
+
+                                                    <span> <a href="https://escala.com/caso-de-uso-salud-y-fitness/">Nutrición</a></span>
                                                 </div>
                                                 <div class="card">
                                                     <a href="https://escala.com/caso-de-uso-bienestar-y-salud/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/bienestar_popup_new.png') !!}" loading="lazy">
                                                     </a>
-                                                    <span>Bienestar</span>
+
+                                                    <span><a href="https://escala.com/caso-de-uso-bienestar-y-salud/">Bienestar</a></span>
                                                 </div>
                                             </div>
 
@@ -66,15 +68,15 @@
                                                     <a href="https://escala.com/casos-de-exito-real-de-los-cues/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/real_de_los_cues_popup.png') !!}" loading="lazy">
                                                     </a>
-                                                    <span>Bienes Raíces</span>
+                                                    <span> <a href="https://escala.com/casos-de-exito-real-de-los-cues/">Bienes Raíces</a></span>
                                                 </div>
                                                 <div class="card">
                                                     <a href="https://escala.com/caso-de-exito-bg-construcciones/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/b&g_logo_popup.png') !!}" loading="lazy">
                                                     </a>
-                                                    <span>Constructora</span>
+                                                    <span><a href="https://escala.com/caso-de-exito-bg-construcciones/">Constructora</a></span>
                                                 </div>
-                                        
+
                                             </div>
 
                                         </div>
@@ -84,15 +86,15 @@
                                                     <a href="https://escala.com/caso-de-exito-loyal-seguros/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/loyal_seguros_popup.png') !!}" loading="lazy">
                                                     </a>
-                                                    <span>Aseguradora</span>
+                                                    <span><a href="https://escala.com/caso-de-exito-loyal-seguros/">Aseguradora</a></span>
                                                 </div>
                                                 <div class="card">
                                                     <a href="https://escala.com/caso-de-exito-gestion-financiera/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/saeta_logo_popup') !!}" loading="lazy">
                                                     </a>
-                                                    <span>Gestión Financiera</span>
+                                                    <span><a href="https://escala.com/caso-de-exito-gestion-financiera/">Gestión Financiera </a></span>
                                                 </div>
-                                                
+
                                             </div>
 
                                         </div>
