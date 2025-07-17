@@ -729,18 +729,19 @@
         display: none
         top: 75px
     @include responsivo(pcMedio)
-        background-position: 53.2%
+        background-position: 50% center
         top: 80px
     @include responsivoSpecial(2100px, 99999px)
         background-size: cover
     @include responsivo(general)
-        background-position: center
-
+        background-position:48% center
+    @include responsivo(smallPcTablet)
+        background-position: 50% center
     @include responsivo(resto)
-        background-position: 48% center
+        background-position: 50% center
 
     .section-row
-        width: 1270px!important
+        width: 1135px!important
         padding: 7.5px 0
         @include responsivo(telefonoTable)
             width: 95%!important
@@ -816,8 +817,9 @@
                         text-align: center
                         width: auto
                         font-weight: 900
-                        font-size: 18px 
-                        margin-bottom: 8px
+                        font-size: 17px 
+                        margin-bottom: 18px
+                        line-height: 1.5
 
                     @include responsivo(pcMedio)
                         font-size: 16px 
@@ -827,21 +829,22 @@
                         text-align: left
                     @include responsivo(smallPcTablet)
                         font-size: 17px
-                        width: 42%
+                        width: 100%
                         
                     @include responsivo(resto)
                         text-align: left
                     span
                         line-height: 1
-                        background: linear-gradient(90deg, #83E3D0 63.24%, #FFF 100%)
-                        background-clip: text
-                        -webkit-background-clip: text
-                        -webkit-text-fill-color: transparent
+                        // background: linear-gradient(90deg, #83E3D0 63.24%, #FFF 100%)
+                        // background-clip: text
+                        // -webkit-background-clip: text
+                        // -webkit-text-fill-color: transparent
+                        color: #83E3D0
                         margin-left: 2px
                         font-weight: 900
                         @include responsivo(telefonoTable)
-                            font-size: 18px
-                          
+                            font-size: 13px
+                            display: block
                         @include responsivo(pcMedio)
                             margin-right: 0px
                             margin-left: 0px
@@ -856,7 +859,14 @@
                         b 
                             @include responsivo(telefonoTable)
                                 font-size: 22px
-                                display: block                              
+                                display: block    
+                    .semiBold
+                        font-weight: 600!important      
+                        color: #fff            
+                        @include responsivo(telefonoTable)
+                            display: block!important      
+                            font-weight: 600!important      
+
                     .colorSpecial
                         background: linear-gradient(90deg, #83E3D0 0%, #F1685A 100%)
                         background-clip: text
