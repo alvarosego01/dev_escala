@@ -309,171 +309,138 @@
 
                     <div class="mobile-pricing-container">
                         <?php
-                        // Datos de los planes
+                        // Datos completos de los planes según la tabla
                         $planes = [
                             [
                                 'nombre' => 'Bronce',
-                                'subtitulo' => 'Plan',
-                                'inversion' => [
-                                    'mensual' => '$40 / mes',
-                                    'anual' => '$384 / año <span>($32 / mes)</span>'
-                                ],
-                                'beneficios' => [
-                                    'creditos' => '40,000',
-                                    'conversaciones' => '100',
-                                    'mensajes' => '1,200',
-                                    'agentes' => '2',
-                                    'asistente_ia' => 'checkmark',
-                                    'chat_soporte' => 'checkmark-not',
-                                    'implementacion' => 'checkmark-not',
-                                    'acceso_tecnologia' => 'checkmark-not'
-                                ]
+                                'subtitulo' => 'Tier 1',
+                                'precio_mensual' => '$40 / mes',
+                                'mensajes_mes' => '800',
+                                'valor_mensaje' => '$0,0500',
+                                'agentes_ia' => 'Ilimitado',
+                                'chat_soporte' => 'checkmark',
+                                'acceso_tecnologia' => 'checkmark-not'
                             ],
                             [
                                 'nombre' => 'Plata',
-                                'subtitulo' => 'Plan',
-                                'inversion' => [
-                                    'mensual' => '$200 / mes',
-                                    'anual' => '$1,920 / año <span>($160 / mes)</span>'
-                                ],
-                                'beneficios' => [
-                                    'creditos' => '200,000',
-                                    'conversaciones' => '500',
-                                    'mensajes' => '6,000',
-                                    'agentes' => '5',
-                                    'asistente_ia' => 'checkmark',
-                                    'chat_soporte' => 'checkmark',
-                                    'implementacion' => 'checkmark-not',
-                                    'acceso_tecnologia' => 'checkmark-not'
-                                ]
+                                'subtitulo' => 'Tier 2',
+                                'precio_mensual' => '$110 / mes',
+                                'mensajes_mes' => '2,400',
+                                'valor_mensaje' => '$0,0458',
+                                'agentes_ia' => 'Ilimitado',
+                                'chat_soporte' => 'checkmark',
+                                'acceso_tecnologia' => 'checkmark-not'
                             ],
                             [
                                 'nombre' => 'Oro',
-                                'subtitulo' => 'Plan',
-                                'inversion' => [
-                                    'mensual' => '$1,000 / mes',
-                                    'anual' => '$9,600 / año <span>($800 / mes)</span>'
-                                ],
-                                'beneficios' => [
-                                    'creditos' => '1,000,000',
-                                    'conversaciones' => '2,500',
-                                    'mensajes' => '30,000',
-                                    'agentes' => 'Ilimitados',
-                                    'asistente_ia' => 'checkmark',
-                                    'chat_soporte' => 'checkmark',
-                                    'implementacion' => 'checkmark',
-                                    'acceso_tecnologia' => 'checkmark-not'
-                                ]
+                                'subtitulo' => 'Tier 3',
+                                'precio_mensual' => '$200 / mes',
+                                'mensajes_mes' => '4,800',
+                                'valor_mensaje' => '$0,0417',
+                                'agentes_ia' => 'Ilimitado',
+                                'chat_soporte' => 'checkmark',
+                                'acceso_tecnologia' => 'checkmark-not'
                             ],
                             [
                                 'nombre' => 'Platino',
-                                'subtitulo' => 'Plan',
-                                'inversion' => [
-                                    'mensual' => '$2,000 / mes',
-                                    'anual' => '$19,200 / año <span>($1,600 / mes)</span>'
-                                ],
-                                'beneficios' => [
-                                    'creditos' => '2,000,000',
-                                    'conversaciones' => '5,000',
-                                    'mensajes' => '60,000',
-                                    'agentes' => 'Ilimitados',
-                                    'asistente_ia' => 'checkmark',
-                                    'chat_soporte' => 'checkmark',
-                                    'implementacion' => 'checkmark',
-                                    'acceso_tecnologia' => 'checkmark'
-                                ]
+                                'subtitulo' => 'Tier 4',
+                                'precio_mensual' => '$330 / mes',
+                                'mensajes_mes' => '9,600',
+                                'valor_mensaje' => '$0,0344',
+                                'agentes_ia' => 'Ilimitado',
+                                'chat_soporte' => 'checkmark',
+                                'acceso_tecnologia' => 'checkmark-not'
+                            ],
+                            [
+                                'nombre' => 'Diamante',
+                                'subtitulo' => 'Tier 5',
+                                'precio_mensual' => '$600 / mes',
+                                'mensajes_mes' => '20,000',
+                                'valor_mensaje' => '$0,0300',
+                                'agentes_ia' => 'Ilimitados',
+                                'chat_soporte' => 'checkmark',
+                                'acceso_tecnologia' => 'checkmark'
+                            ],
+                            [
+                                'nombre' => 'Zafiro',
+                                'subtitulo' => 'Tier 6',
+                                'precio_mensual' => '$1,000 / mes',
+                                'mensajes_mes' => '40,000',
+                                'valor_mensaje' => '$0,0250',
+                                'agentes_ia' => 'Ilimitado',
+                                'chat_soporte' => 'checkmark',
+                                'acceso_tecnologia' => 'checkmark'
+                            ],
+                            [
+                                'nombre' => 'Esmeralda',
+                                'subtitulo' => 'Tier 7',
+                                'precio_mensual' => '$1,800 / mes',
+                                'mensajes_mes' => '96,000',
+                                'valor_mensaje' => '$0,0188',
+                                'agentes_ia' => 'Ilimitado',
+                                'chat_soporte' => 'checkmark',
+                                'acceso_tecnologia' => 'checkmark'
                             ]
                         ];
 
-                        // Generar los planes dinámicamente
+                        // Generar los planes
                         foreach ($planes as $plan) {
                             echo '<div class="mobile-plan" onclick="toggleMobilePlan(this)">
-    <div class="mobile-plan-header">
-    <div class="mobile-plan-header-internal">
-        <h3>' . ($plan['subtitulo'] ? '<span>' . $plan['subtitulo'] . '</span> ' : '') . $plan['nombre'] . '</h3>
-        <span class="mobile-arrow"><i class="fa-solid fa-caret-down"></i></span>
-    </div>
-    </div>
-    <div class="mobile-plan-content">
-        <div class="mobile-feature-columns">
-            <div class="mobile-feature-names">
-                <div class="mobile-section-title">Inversión</div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-name">Mensual</div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-name">Anual</div>
-                </div>
-                
-                <div class="mobile-section-title">Beneficios</div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-name">Créditos / mes</div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-name">Conversaciones / mes <span>(aprox.)</span></div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-name">Mensajes / mes <span>(aprox.)</span></div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-name">Agentes</div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-name">Asistente de IA <span>(auto-guiado)</span></div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-name">Chat de soporte</div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-name">Implementación Personalizada</div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-name">Acceso al equipo de Tecnología</div>
+            <div class="mobile-plan-header">
+                <div class="mobile-plan-header-internal">
+                    <h3><span>' . $plan['subtitulo'] . '</span> ' . $plan['nombre'] . '</h3>
+                    <span class="mobile-arrow"><i class="fa-solid fa-caret-down"></i></span>
                 </div>
             </div>
-            
-            <div class="mobile-feature-values">
-                <div class="mobile-section-space"></div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-value">' . $plan['inversion']['mensual'] . '</div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-value">' . $plan['inversion']['anual'] . '</div>
-                </div>
-                
-                <div class="mobile-section-space"></div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-value">' . $plan['beneficios']['creditos'] . '</div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-value">' . $plan['beneficios']['conversaciones'] . '</div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-value">' . $plan['beneficios']['mensajes'] . '</div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-value">' . $plan['beneficios']['agentes'] . '</div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-value"><span class="' . $plan['beneficios']['asistente_ia'] . '"></span></div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-value"><span class="' . $plan['beneficios']['chat_soporte'] . '"></span></div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-value"><span class="' . $plan['beneficios']['implementacion'] . '"></span></div>
-                </div>
-                <div class="mobile-feature-row">
-                    <div class="mobile-feature-value"><span class="' . $plan['beneficios']['acceso_tecnologia'] . '"></span></div>
+            <div class="mobile-plan-content">
+                <div class="mobile-feature-columns">
+                    <div class="mobile-feature-names">
+                        <div class="mobile-feature-row">
+                            <div class="mobile-feature-name">Precio</div>
+                        </div>
+                        <div class="mobile-feature-row">
+                            <div class="mobile-feature-name">Mensajes / mes*</div>
+                        </div>
+                        <div class="mobile-feature-row">
+                            <div class="mobile-feature-name">Valor por mensaje*</div>
+                        </div>
+                        <div class="mobile-feature-row">
+                            <div class="mobile-feature-name">Agentes IA</div>
+                        </div>
+                        <div class="mobile-feature-row">
+                            <div class="mobile-feature-name">Chat de soporte</div>
+                        </div>
+                        <div class="mobile-feature-row">
+                            <div class="mobile-feature-name">Acceso al equipo de Tecnología</div>
+                        </div>
+                    </div>
+                    
+                    <div class="mobile-feature-values">
+                        <div class="mobile-feature-row">
+                            <div class="mobile-feature-value">' . $plan['precio_mensual'] . '</div>
+                        </div>
+                        <div class="mobile-feature-row">
+                            <div class="mobile-feature-value">' . $plan['mensajes_mes'] . '</div>
+                        </div>
+                        <div class="mobile-feature-row">
+                            <div class="mobile-feature-value">' . $plan['valor_mensaje'] . '</div>
+                        </div>
+                        <div class="mobile-feature-row">
+                            <div class="mobile-feature-value">' . $plan['agentes_ia'] . '</div>
+                        </div>
+                        <div class="mobile-feature-row">
+                            <div class="mobile-feature-value"><span class="' . $plan['chat_soporte'] . '"></span></div>
+                        </div>
+                        <div class="mobile-feature-row">
+                            <div class="mobile-feature-value"><span class="' . $plan['acceso_tecnologia'] . '"></span></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>';
+        </div>';
                         }
                         ?>
                     </div>
-
                     <script>
                         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                             anchor.addEventListener('click', function(e) {
@@ -619,7 +586,7 @@
 
                 </section>
 
-              
+
             </div>
         </section>
 

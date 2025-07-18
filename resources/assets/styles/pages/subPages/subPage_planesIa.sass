@@ -145,8 +145,10 @@ img
             width: 67%
             margin: 0 auto
             @include responsivo(telefonoTable)
-                margin-bottom: 60px
-                width: 95%
+                margin-bottom: 0px
+                padding-bottom: 0px
+
+                width: 80%
             @include responsivo(pcMedio)
                 width: 90%
             @include responsivo(smallPcTablet)
@@ -167,7 +169,6 @@ img
                 padding: 0
                 margin: 0
 
-                    
                 li
                     font-size: 18px
                     font-weight: 600
@@ -183,7 +184,8 @@ img
             padding:20px 0px 40px 0px
             position: relative
             @include responsivo(telefonoTable)
-                padding: 0
+                padding:20px 0px 40px 0px
+
             /* Contenedor principal */
 
             .img-fluid
@@ -423,12 +425,13 @@ img
                     h3
                         font-weight: 800
                         font-size: 24px
-                        color: #2C4857
+                        color: #F1685A 
                         margin: 0 
                          
                         span
                             font-weight: 700
-                        
+                            color: #2C4857
+
 
             .mobile-arrow
                 font-size: 16px
@@ -480,7 +483,8 @@ img
                 align-items: center
                 font-size: 20px
                 font-weight: 600
-
+                &:last-child
+                    height: 95px
             .mobile-feature-name
                 font-weight: 700
                 font-size: 20px
