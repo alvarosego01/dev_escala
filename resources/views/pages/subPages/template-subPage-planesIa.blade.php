@@ -11,7 +11,7 @@
                         WhatsApp, Instagram y Facebook</p>
                 </div>
                 <div class="innerSectionElement sct1">
-     
+
                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/ceo-escala-alfonso-agentes-ia.png') !!}"
                         alt="">
                 </div>
@@ -20,63 +20,45 @@
 
         <section class="customSection sectionParent subPage_planesIa_1">
             <div class="section-row">
-                <div class="innerSectionElement sct0">
-                    <span>Todos los precios están en USD</span>
-                </div>
+
 
                 <div class="innerSectionElement sct1">
                     <img src="{{ App::setFilePath('/assets/images/banners/bg-planes-ia-blur-blue.svg') }}"
                         alt="Ilustración de Planes de IA" class="img-fluid">
                     <!-- Versión desktop (columnas con divs) -->
+
+
                     <div class="pricing-container">
                         <!-- Columna Comparar -->
                         <div class="comparar-column">
-                            <div class="column-header no-bg">
+                            <div class="column-header">
+                                <div class="section-title bg-blue radius">Plan</div>
 
                             </div>
                             <div class="column-body">
-                                <div class="section-title bg-blue radius">Inversión</div>
                                 <div class="feature-row">
-                                    <span class="feature-name">Mensual</span>
+                                    <span class="feature-name">Precio</span>
                                     <span class="feature-value"></span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-name">Anual</span>
-                                    <span class="feature-value"></span>
-                                </div>
-
-                                <div class="section-title bg-blue">Beneficios</div>
-                                <div class="feature-row">
-                                    <span class="feature-name">Créditos / mes</span>
+                                    <span class="feature-name">Mensajes / mes*</span>
                                     <span class="feature-value"></span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-name">Conversaciones / mes <span>(aprox.)</span></span>
+                                    <span class="feature-name">Valor por mensaje*</span>
                                     <span class="feature-value"></span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-name">Mensajes / mes <span>(aprox.)</span></span>
+                                    <span class="feature-name">Cantidad de Agentes IA</span>
                                     <span class="feature-value"></span>
-                                </div>
-                                <div class="feature-row">
-                                    <span class="feature-name">Agentes</span>
-                                    <span class="feature-value"></span>
-                                </div>
-                                <div class="feature-row">
-                                    <span class="feature-name">Asistente de IA <span>(auto-guiado)</span></span>
-
                                 </div>
                                 <div class="feature-row">
                                     <span class="feature-name">Chat de soporte</span>
-
-                                </div>
-                                <div class="feature-row">
-                                    <span class="feature-name">Implementación Personalizada</span>
-
+                                    <span class="feature-value"></span>
                                 </div>
                                 <div class="feature-row radius-1">
                                     <span class="feature-name">Acceso al equipo de Tecnología</span>
-
+                                    <span class="feature-value"></span>
                                 </div>
                             </div>
                         </div>
@@ -85,53 +67,34 @@
                         <!-- Columna Bronce -->
                         <div class="pricing-column">
                             <div class="internalColumn">
+
                                 <div class="column-header">
-                                    <div class="plan-name"><span>Plan</span> Bronce</div>
+                                    <div class="plan-name"><span>Tier 1</span> Bronce</div>
                                 </div>
                                 <div class="column-body">
-                                    <div class="section-title"></div>
                                     <div class="feature-row">
 
                                         <span class="feature-value">$40 / mes</span>
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">$384 / año <span> ($32 / mes)</span></span>
-                                    </div>
-
-                                    <div class="section-title"></div>
-                                    <div class="feature-row">
-
-                                        <span class="feature-value">40,000</span>
+                                        <span class="feature-value">800</span>
                                     </div>
                                     <div class="feature-row">
-
-                                        <span class="feature-value">100</span>
+                                        <span class="feature-value">$0,0500</span>
                                     </div>
                                     <div class="feature-row">
-
-                                        <span class="feature-value">1,200</span>
+                                        <span class="feature-value">Ilimitado</span>
                                     </div>
                                     <div class="feature-row">
-
-                                        <span class="feature-value">2</span>
+                                        <span class="feature-value"> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}"
+                                                alt=""></span>
                                     </div>
                                     <div class="feature-row">
-
-                                        <span class="feature-value checkmark"></span>
+                                        <span class="feature-value"> <img src="{!! App::setFilePath('/assets/images/icons/close-check.png') !!}"
+                                                alt=""></span>
                                     </div>
-                                    <div class="feature-row">
 
-                                        <span class="feature-value checkmark-not"></span>
-                                    </div>
-                                    <div class="feature-row">
-
-                                        <span class="feature-value checkmark-not"></span>
-                                    </div>
-                                    <div class="feature-row">
-
-                                        <span class="feature-value checkmark-not"></span>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -139,51 +102,31 @@
                         <div class="pricing-column">
                             <div class="internalColumn">
                                 <div class="column-header">
-                                    <div class="plan-name"><span>Plan</span> Plata</div>
+                                    <div class="plan-name"><span>Tier 2</span> Plata</div>
                                 </div>
                                 <div class="column-body">
-                                    <div class="section-title"></div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">$200 / mes</span>
+                                        <span class="feature-value">$110 / mes</span>
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">$1,920 / año <span>($160 / mes)</span></span>
+                                        <span class="feature-value">2,400</span>
                                     </div>
 
-                                    <div class="section-title"></div>
                                     <div class="feature-row">
-
-                                        <span class="feature-value">200,000</span>
+                                        <span class="feature-value">$0,0458</span>
                                     </div>
                                     <div class="feature-row">
-
-                                        <span class="feature-value">500</span>
+                                        <span class="feature-value">Ilimitado</span>
                                     </div>
                                     <div class="feature-row">
-
-                                        <span class="feature-value">6,000</span>
+                                        <span class="feature-value"> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}"
+                                                alt=""></span>
                                     </div>
                                     <div class="feature-row">
-
-                                        <span class="feature-value">5</span>
-                                    </div>
-                                    <div class="feature-row">
-
-                                        <span class="feature-value checkmark"></span>
-                                    </div>
-                                    <div class="feature-row">
-
-                                        <span class="feature-value checkmark"></span>
-                                    </div>
-                                    <div class="feature-row">
-
-                                        <span class="feature-value checkmark-not"></span>
-                                    </div>
-                                    <div class="feature-row">
-
-                                        <span class="feature-value checkmark-not"></span>
+                                        <span class="feature-value"> <img src="{!! App::setFilePath('/assets/images/icons/close-check.png') !!}"
+                                                alt=""></span>
                                     </div>
                                 </div>
                             </div>
@@ -192,51 +135,32 @@
                         <div class="pricing-column">
                             <div class="internalColumn">
                                 <div class="column-header">
-                                    <div class="plan-name"><span>Plan</span> Oro</div>
+                                    <div class="plan-name"><span>Tier 3</span> Oro</div>
                                 </div>
                                 <div class="column-body">
-                                    <div class="section-title"></div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">$1,000 / mes</span>
+                                        <span class="feature-value">$200 / mes</span>
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">$9,600 / año <span>($800 / mes)</span></span>
+                                        <span class="feature-value">4,800</span>
                                     </div>
 
-                                    <div class="section-title"></div>
                                     <div class="feature-row">
-
-                                        <span class="feature-value">1,000,000</span>
+                                        <span class="feature-value">$0,0417</span>
                                     </div>
                                     <div class="feature-row">
+                                        <span class="feature-value">Ilimitado</span>
+                                    </div>
 
-                                        <span class="feature-value">2,500</span>
+                                    <div class="feature-row">
+                                        <span class="feature-value"> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}"
+                                                alt=""></span>
                                     </div>
                                     <div class="feature-row">
-
-                                        <span class="feature-value">30,000</span>
-                                    </div>
-                                    <div class="feature-row">
-
-                                        <span class="feature-value">Ilimitados</span>
-                                    </div>
-                                    <div class="feature-row">
-
-                                        <span class="feature-value checkmark"></span>
-                                    </div>
-                                    <div class="feature-row">
-
-                                        <span class="feature-value checkmark"></span>
-                                    </div>
-                                    <div class="feature-row">
-
-                                        <span class="feature-value checkmark"></span>
-                                    </div>
-                                    <div class="feature-row">
-
-                                        <span class="feature-value checkmark-not"></span>
+                                        <span class="feature-value"> <img src="{!! App::setFilePath('/assets/images/icons/close-check.png') !!}"
+                                                alt=""></span>
                                     </div>
                                 </div>
                             </div>
@@ -246,51 +170,135 @@
                         <div class="pricing-column">
                             <div class="internalColumn">
                                 <div class="column-header">
-                                    <div class="plan-name"><span>Plan</span> Platino</div>
+                                    <div class="plan-name"><span>Tier 4</span> Platino</div>
                                 </div>
                                 <div class="column-body">
-                                    <div class="section-title"></div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">$2,000 / mes</span>
+                                        <span class="feature-value">$330 / mes</span>
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">$19,200 / año <span>($1,600 / mes)</span></span>
+                                        <span class="feature-value">9,600</span></span>
                                     </div>
 
-                                    <div class="section-title"></div>
                                     <div class="feature-row">
-
-                                        <span class="feature-value">2,000,000</span>
+                                        <span class="feature-value">$0,0344</span>
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">5,000</span>
+                                        <span class="feature-value">Ilimitado</span>
+                                    </div>
+                                    <div class="feature-row">
+                                        <span class="feature-value"> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}"
+                                                alt=""></span>
+                                    </div>
+                                    <div class="feature-row">
+                                        <span class="feature-value"> <img src="{!! App::setFilePath('/assets/images/icons/close-check.png') !!}"
+                                                alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Columna Diamante -->
+                        <div class="pricing-column">
+                            <div class="internalColumn">
+                                <div class="column-header">
+                                    <div class="plan-name"><span>Tier 5</span> Diamante</div>
+                                </div>
+                                <div class="column-body">
+                                    <div class="feature-row">
+
+                                        <span class="feature-value">$600 / mes</span>
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">60,000</span>
+                                        <span class="feature-value">20,000</span>
                                     </div>
-                                    <div class="feature-row">
 
+                                    <div class="feature-row">
+                                        <span class="feature-value">$0,0300</span>
+                                    </div>
+
+                                    <div class="feature-row">
                                         <span class="feature-value">Ilimitados</span>
                                     </div>
                                     <div class="feature-row">
+                                        <span class="feature-value"> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}"
+                                                alt=""></span>
+                                    </div>
+                                    <div class="feature-row">
+                                        <span class="feature-value"> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}"
+                                                alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
 
-                                        <span class="feature-value checkmark"></span>
+                        </div>
+                        <!-- Columna Zafiro -->
+                        <div class="pricing-column">
+                            <div class="internalColumn">
+                                <div class="column-header">
+                                    <div class="plan-name"><span>Tier 6</span> Zafiro</div>
+                                </div>
+                                <div class="column-body">
+                                    <div class="feature-row">
+
+                                        <span class="feature-value">$1,000 / mes</span>
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value checkmark"></span>
+                                        <span class="feature-value">40,000</span>
+                                    </div>
+                                    <div class="feature-row">
+                                        <span class="feature-value">$0,0250</span>
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value checkmark"></span>
+                                        <span class="feature-value">Ilimitado</span>
+                                    </div>
+                                    <div class="feature-row">
+                                        <span class="feature-value"> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}"
+                                                alt=""></span>
+                                    </div>
+                                    <div class="feature-row">
+                                        <span class="feature-value"> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}"
+                                                alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Columna Esmeralda -->
+                        <div class="pricing-column">
+                            <div class="internalColumn">
+                                <div class="column-header">
+                                    <div class="plan-name"><span>Tier 7</span> Esmeralda</div>
+                                </div>
+                                <div class="column-body">
+                                    <div class="feature-row">
+
+                                        <span class="feature-value">$1,800 / mes</span>
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value checkmark"></span>
+                                        <span class="feature-value">96,000</span>
+                                    </div>
+                                    <div class="feature-row">
+
+                                        <span class="feature-value">$0,0188</span>
+                                    </div>
+                                    <div class="feature-row">
+                                        <span class="feature-value">Ilimitado</span>
+                                    </div>
+                                    <div class="feature-row">
+                                        <span class="feature-value"> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}"
+                                                alt=""></span>
+                                    </div>
+                                    <div class="feature-row">
+                                        <span class="feature-value"> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}"
+                                                alt=""></span>
                                     </div>
                                 </div>
                             </div>
@@ -467,7 +475,6 @@
                     </div>
 
                     <script>
-                
                         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                             anchor.addEventListener('click', function(e) {
                                 const href = this.getAttribute('href');
@@ -490,6 +497,14 @@
 
 
                 </div>
+                <div class="innerSectionElement sct2-1">
+                    <span>Notas:</span>
+                    <ul>
+                        <li>*Solo cuentan los mensajes donde interviene un agente de IA</li>
+                        <li>Los Agentes Conversacionales de IA son un add-on del CRM de Escala. No una solución separada.</li>
+                        <li>Todos los precios están en USD</li>
+                    </ul>
+                </div>
                 <div class="innerSectionElement sct3">
                     <h2 class="title">
                         ¿Necesitas créditos adicionales?
@@ -498,61 +513,83 @@
                         <!-- Columna Comparar -->
                         <div class="comparar-column">
                             <div class="column-body">
-                                <div class="section-title bg-blue radius">Inversión</div>
-                                <div class="section-title bg-blue radius-1">Créditos adicionales</div>
+                                <div class="section-title bg-blue radius">Plan</div>
+                                <div class="section-title bg-blue-2">Precio único total</div>
+                                <div class="section-title bg-blue-2">Mensajes</div>
+                                <div class="section-title bg-blue-2 radius-1">Valor por mensaje</div>
                             </div>
                         </div>
                         <!-- Columna creditos precios -->
                         <div class="pricing-column">
                             <div class="column-body">
                                 <div class="feature-row">
-                                    <span class="feature-value">$50</span>
+                                    <span class="feature-value value-header">Paquete A</span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-value">50,000</span>
+                                    <span class="feature-value">$90</span>
                                 </div>
-
+                                <div class="feature-row">
+                                    <span class="feature-value">1,600</span>
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-value">$0,0563</span>
+                                </div>
                             </div>
                         </div>
                         <!-- Columna creditos precios -->
                         <div class="pricing-column">
                             <div class="column-body">
                                 <div class="feature-row">
-                                    <span class="feature-value">$100</span>
+                                    <span class="feature-value value-header">Paquete B</span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-value">100,000</span>
+                                    <span class="feature-value">$150</span>
                                 </div>
-
+                                <div class="feature-row">
+                                    <span class="feature-value">3,200</span>
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-value">$0,0469</span>
+                                </div>
                             </div>
                         </div>
                         <!-- Columna creditos precios -->
                         <div class="pricing-column">
                             <div class="column-body">
+                                <div class="feature-row">
+                                    <span class="feature-value value-header">Paquete C</span>
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-value">$300</span>
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-value">7,000</span>
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-value">$0,0429</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Columna creditos precios -->
+                        <div class="pricing-column">
+                            <div class="column-body">
+                                <div class="feature-row">
+                                    <span class="feature-value value-header">Paquete D</span>
+                                </div>
                                 <div class="feature-row">
                                     <span class="feature-value">$500</span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-value">500,000</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- Columna creditos precios -->
-                        <div class="pricing-column">
-                            <div class="column-body">
-                                <div class="feature-row">
-                                    <span class="feature-value">$1,000</span>
+                                    <span class="feature-value">14,000</span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-value">1,000,000</span>
+                                    <span class="feature-value">$0,0357</span>
                                 </div>
-
                             </div>
                         </div>
                     </div>
 
-                    <span>Los créditos no tienen límite de tiempo (con contrato vigente) </span>
+                    <span><span>Nota:</span> Los créditos no tienen límite de tiempo (con contrato vigente) </span>
                 </div>
             </div>
 
@@ -582,13 +619,7 @@
 
                 </section>
 
-                <section class="innerSectionElement sct2">
-                    <p>
-                        <span>Nota:</span> Los Agentes Conversacionales de IA son un add-on del <br class="DT_e">
-                        CRM de Escala. No una solución separada.
-                    </p>
-
-                </section>
+              
             </div>
         </section>
 
