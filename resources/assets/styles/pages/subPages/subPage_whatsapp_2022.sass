@@ -285,13 +285,39 @@ html
                                     height: 529px
                                     position: relative
                                     margin-top: auto
-
+                            .play-icon
+                                height: 130px
+                                position: absolute
+                                top: 43%
+                                left: 42%
+                                transform: translate(-50%, -50%)
+                                z-index: 1
+                                cursor: pointer
+                                animation: pulse 2s infinite ease-in-out
+                                @include responsivo(telefonoTable)
+                                    height: 90px
+                                    left: 27%
+                                @include responsivo(pcMedio)
+                                    height: 90px
+                                    left: 27%
+                                @include responsivo(smallPcTablet)
+                                    left: 37%
+                                @include responsivo(general)
+                                    left: 43%
+                                // Animación del icono
+                                @keyframes pulse
+                                    0%
+                                        transform: scale(1)
+                                    50%
+                                        transform: scale(1.1)
+                                    100%
+                                        transform: scale(1)
                 .form7
                     margin-bottom: 50px
                     padding-bottom: 0
                     padding-top: 100px
                     display: flex
-                    
+                    z-index: 0!important
                     @include responsivo(general)
                         padding-bottom: 50px
                         width: 27%
@@ -306,6 +332,7 @@ html
                         padding-right: 0
                         padding-left: 0px
                         margin: 0 auto
+                    
                     .formatForm
                         display: block
                         margin: 0 auto
@@ -348,9 +375,26 @@ html
                         display: block!important
                     @include responsivo(pcMedio)
                         display: block!important
-
-                    img
-                        height: 363px
+                    .containerImage
+                        position: relative
+                        img
+                            height: 363px
+                        .play-icon
+                            height: 130px
+                            position: absolute
+                            top: 43%
+                            left: 42%
+                            transform: translate(-50%, -50%)
+                            z-index: 1
+                            cursor: pointer
+                            animation: pulse 2s infinite ease-in-out
+                            @include responsivo(telefonoTable)
+                                height: 90px
+                                left: 49%
+                            @include responsivo(pcMedio)
+                                height: 90px
+                                left: 49%
+                             
 
 #subPage_whatsapp_2022 .customSection.sectionParent.subpage_whatsapp_1
     padding: 0
