@@ -61,6 +61,8 @@
             left: 0
         @include responsivo(pcMedio)
             top: 0
+            left: 0
+            width: 95%
         @include responsivo(general)
             top: -225px
             left: 0
@@ -416,7 +418,7 @@
                         @include responsivo(smallPcTablet)
                             height: 395px
                             padding-top: 20px
-                    .iconClick
+                    .play-icon
                         height: 90px
                         position: absolute
                         top: 72%
@@ -428,8 +430,8 @@
 
                         @include responsivo(smallPcTablet)
                             height: 130px
-                            top: 65%
-                            left: 43%
+                            top: 62%
+                            left: 49%
                             
         .innerSectionElement.sct2
             overflow: hidden
@@ -469,11 +471,11 @@
                     @include responsivo(general)
                         height: 398px
                         
-                .iconClick
+                .play-icon
                     height: 130px
                     position: absolute
-                    top: 50%
-                    left: 26%
+                    top: 45%
+                    left: 42%
                     transform: translate(-50%, -50%)
                     z-index: 1
                     cursor: pointer
@@ -486,7 +488,7 @@
                         left: 27%
 
                     @include responsivo(general)
-                        left: 22%
+                        left: 43%
                     // Animación del icono
                     @keyframes pulse
                         0%

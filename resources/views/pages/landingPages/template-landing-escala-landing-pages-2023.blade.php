@@ -30,14 +30,42 @@
                                 programar) ¡y publica!
                             </p>
                             <div class="containerImage">
-                                <img alt="Ilustración de chica feliz construye landing page" src="{!! App::setFilePath('/assets/images/illustrations/others/chica-feliz-landing-page-escala-hero-2025.webp') !!}" loading="lazy">
+                                <div class="video-cover" id="video-cover-landing" tabindex="0" data-video-src="https://player.vimeo.com/video/1099467673?autoplay=1">
+                                    <img alt="Ilustración de chica feliz construye landing page" src="{!! App::setFilePath('/assets/images/illustrations/others/chica-feliz-landing-page-escala-hero-2025.webp') !!}" loading="lazy">
+                                    <div class="play-button">
+                                        <img class="play-icon" alt="Icon play"
+                                            src="{{ App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') }}"
+                                            loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="video-modal" id="video-modal-landing" style="display:none;">
+                                    <div class="video-modal-backdrop" id="video-modal-backdrop-landing"></div>
+                                    <div class="video-modal-content">
+                                        <button class="video-modal-close" id="video-modal-close-landing" aria-label="Cerrar">&times;</button>
+                                        <div class="video-iframe-container" id="video-iframe-container-landing"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </section>
 
                     <section class="innerSectionElement sct2">
                         <div class="containerImage">
-                            <img alt="Ilustración de chica feliz construye landing page" src="{!! App::setFilePath('/assets/images/illustrations/others/chica-feliz-landing-page-escala-hero-2025.webp') !!}" loading="lazy">
+                            <div class="video-cover" id="video-cover-landing-2" tabindex="0" data-video-src="https://player.vimeo.com/video/1099467673?autoplay=1">
+                                <img alt="Ilustración de chica feliz construye landing page" src="{!! App::setFilePath('/assets/images/illustrations/others/chica-feliz-landing-page-escala-hero-2025.webp') !!}" loading="lazy">
+                                <div class="play-button">
+                                    <img class="play-icon" alt="Icon play"
+                                        src="{{ App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') }}"
+                                        loading="lazy">
+                                </div>
+                            </div>
+                            <div class="video-modal" id="video-modal-landing-2" style="display:none;">
+                                <div class="video-modal-backdrop" id="video-modal-backdrop-landing-2"></div>
+                                <div class="video-modal-content">
+                                    <button class="video-modal-close" id="video-modal-close-landing-2" aria-label="Cerrar">&times;</button>
+                                    <div class="video-iframe-container" id="video-iframe-container-landing-2"></div>
+                                </div>
+                            </div>
                         </div>
                     </section>
 
@@ -47,7 +75,7 @@
 
                                 <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
+                                    <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
 
                                     @php
                                     $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
@@ -359,7 +387,7 @@
             </div>
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                  Tener sesión personalizada →
+                    Tener sesión personalizada →
                 </a>
             </div>
         </section>
@@ -534,7 +562,7 @@
                             </h2>
 
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                               Empezar ahora →
+                                Empezar ahora →
                             </a>
 
                         </div>
