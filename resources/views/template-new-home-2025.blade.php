@@ -31,8 +31,7 @@
                         <div class="groupElements row">
                             <div class="info col-md-12 col-lg-8 ">
                                 <div class="video-player">
-                                    <!-- Portada clickeable -->
-                                    <div class="video-cover" id="video-cover-main">
+                                    <div class="video-cover" id="video-cover-main" tabindex="0" data-video-src="https://player.vimeo.com/video/1083588922?autoplay=1">
                                         <img class="cover-image" alt="Ilustración Andrés Moreno"
                                             src="{{ App::setFilePath('/assets/images/illustrations/others/img_am_home_crm_inteligente_escala_2025.png') }}"
                                             loading="lazy">
@@ -42,7 +41,6 @@
                                                 loading="lazy">
                                         </div>
                                     </div>
-                                    <!-- Popup Modal para el video -->
                                     <div class="video-modal" id="video-modal-main" style="display:none;">
                                         <div class="video-modal-backdrop" id="video-modal-backdrop-main"></div>
                                         <div class="video-modal-content">
@@ -51,172 +49,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <style>
-                                    .video-modal {
-                                        position: fixed;
-                                        z-index: 10000;
-                                        top: 0; left: 0; right: 0; bottom: 0;
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: center;
-                                        background: rgba(0,0,0,0.8);
-                                    }
-                                    .video-modal-content {
-                                        position: relative;
-                                        border-radius: 10px;
-                                        padding: 0;
-                                        box-shadow: 0 2px 20px rgba(0,0,0,0.2);
-                                        max-width: 98vw;
-                                        max-height: 98vh;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: flex-end;
-                                        z-index: 1000;
-                                        background: transparent;
-
-                                    }
-                                    .video-modal-close {
-                                        background: transparent;
-                                        border: none;
-                                        font-size: 3rem;
-                                        color: #fff;
-                                        cursor: pointer;
-                                        position: absolute;
-                                        top: -45px;
-                                        right: 0px;
-                                        z-index: 2;
-                                    }
-                                    .video-iframe-container {
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: center;
-                                        width: 100%;
-                                        height: 100%;
-                                        padding: 2vw;
-                                        box-sizing: border-box;
-                                    }
-                                    .video-iframe-container iframe {
-                                        width: 800px;
-                                        height: 450px;
-                                        max-width: 98vw;
-                                        max-height: 80vh;
-                                        min-width: 320px;
-                                        min-height: 180px;
-                                        border-radius: 12px;
-                                        background: #000;
-                                        display: block;
-                                    }
-                                    @media (max-width: 900px) {
-                                        .video-iframe-container iframe {
-                                            width: 98vw;
-                                            height: 56vw;
-                                            max-width: 100vw;
-                                            max-height: 60vh;
-                                        }
-                                    }
-                                    @media (max-width: 600px) {
-                                        .video-iframe-container {
-                                            padding: 0;
-                                        }
-                                        .video-iframe-container iframe {
-                                            width: 98vw;
-                                            height: 56vw;
-                                            min-width: 0;
-                                            min-height: 0;
-                                            max-width: 100vw;
-                                            max-height: 60vh;
-                                        }
-                                    }
-                                </style>
-                                <script>
-                                    document.addEventListener('DOMContentLoaded', function() {
-                                        const cover = document.getElementById('video-cover-main');
-                                        const modal = document.getElementById('video-modal-main');
-                                        const closeBtn = document.getElementById('video-modal-close-main');
-                                        const backdrop = document.getElementById('video-modal-backdrop-main');
-                                        const iframeContainer = document.getElementById('video-iframe-container-main');
-                                        const videoSrc = "https://player.vimeo.com/video/1083588922?h=hash_value&autoplay=1";
-
-                                        function openModal() {
-                                            modal.style.display = 'flex';
-                                            // Forzar visibilidad del contenedor
-                                            iframeContainer.style.display = 'block';
-                                            // Por defecto, min-width 800px (desktop)
-                                            iframeContainer.style.minWidth = '800px';
-                                            iframeContainer.style.width = '';
-                                            iframeContainer.style.maxWidth = '';
-                                            iframeContainer.style.minHeight = 'auto';
-                                            // En tablet/móvil, usar 96vw (solo JS, para máxima compatibilidad)
-                                            if (window.innerWidth <= 1024) {
-                                                iframeContainer.style.minWidth = '0';
-                                                iframeContainer.style.width = '96vw';
-                                                iframeContainer.style.maxWidth = '96vw';
-                                            }
-                                            // Lazy load iframe only on open
-                                            if (!iframeContainer.querySelector('iframe')) {
-                                                const iframe = document.createElement('iframe');
-                                                iframe.src = videoSrc;
-                                                // No width ni height aquí, solo CSS
-                                                iframe.frameBorder = 0;
-                                                iframe.allow = "autoplay; fullscreen; picture-in-picture";
-                                                iframe.setAttribute('allowfullscreen', '');
-                                                iframe.setAttribute('loading', 'lazy');
-                                                iframe.style.background = '#000';
-                                                iframe.style.display = 'block';
-                                                iframe.onerror = function() {
-                                                    const errorMsg = document.createElement('div');
-                                                    errorMsg.textContent = 'No se pudo cargar el video. Verifica la URL o tu conexión.';
-                                                    errorMsg.style.background = '#fff';
-                                                    errorMsg.style.padding = '20px';
-                                                    errorMsg.style.textAlign = 'center';
-                                                    iframeContainer.appendChild(errorMsg);
-                                                };
-                                                iframe.onload = function() {
-                                                    console.log('Iframe cargado y visible');
-                                                };
-                                                iframeContainer.appendChild(iframe);
-                                                console.log('Iframe insertado en el DOM');
-                                            } else {
-                                                console.log('Iframe ya existe en el DOM');
-                                            }
-                                            // Verificar si el iframe está en el DOM tras 500ms
-                                            setTimeout(function() {
-                                                const ifr = iframeContainer.querySelector('iframe');
-                                                if (!ifr) {
-                                                    const errorMsg = document.createElement('div');
-                                                    errorMsg.textContent = 'Error: El iframe no se insertó.';
-                                                    errorMsg.style.background = '#fff';
-                                                    errorMsg.style.padding = '20px';
-                                                    errorMsg.style.textAlign = 'center';
-                                                    iframeContainer.appendChild(errorMsg);
-                                                    console.error('Error: El iframe no se insertó');
-                                                } else {
-                                                    console.log('Iframe está presente en el DOM');
-                                                }
-                                            }, 500);
-                                            document.body.style.overflow = 'hidden';
-                                        }
-                                        function closeModal() {
-                                            modal.style.display = 'none';
-                                            // Remove iframe to stop playback and free resources
-                                            while (iframeContainer.firstChild) {
-                                                iframeContainer.removeChild(iframeContainer.firstChild);
-                                            }
-                                            document.body.style.overflow = '';
-                                        }
-                                        cover.addEventListener('click', openModal);
-                                        cover.addEventListener('keydown', function(e) {
-                                            if (e.key === 'Enter') openModal();
-                                        });
-                                        closeBtn.addEventListener('click', closeModal);
-                                        backdrop.addEventListener('click', closeModal);
-                                        // Cerrar con ESC
-                                        document.addEventListener('keydown', function(e) {
-                                            if (modal.style.display === 'flex' && e.key === 'Escape') closeModal();
-                                        });
-                                    });
-                                </script>
-
+                           
+                          
                                 <div class="containElements">
                                     @php
                                     $elementsReviews = [
@@ -290,7 +124,7 @@
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
 
-                                         <h5 class="titleFormat"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
+                                        <h5 class="titleFormat"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
 
 
                                         @php
@@ -815,9 +649,9 @@
 
                 </section>
                 <div class="btnCenter">
-                     <h3>¿Cómo automatizar tus ventas con IA?</h3>
+                    <h3>¿Cómo automatizar tus ventas con IA?</h3>
                     <a class="primaryButton  hoverInEffect openPopUpButton popup-general-demo-2022">
-                       Tener sesión personalizada →
+                        Tener sesión personalizada →
                     </a>
                 </div>
             </div>
@@ -852,7 +686,7 @@
                 </section>
                 <div class="btnCenter">
                     <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                      Empezar ahora →
+                        Empezar ahora →
                     </a>
                 </div>
             </div>
@@ -917,8 +751,8 @@
                             </h2>
                             <div class="btnSection">
                                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                   Empezar ahora →</a>
-                              
+                                    Empezar ahora →</a>
+
                             </div>
                         </div>
                     </section>

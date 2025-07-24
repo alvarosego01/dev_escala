@@ -17,15 +17,45 @@
                                 conversaciones de WhatsApp, <br class="space">
                                 Instagram y Facebook
                             </p>
+
                             <div class="containerImage">
-                                <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/img-hero-chica-omnicanal-2025.png') !!}" loading="lazy">
+                                <div class="video-cover" id="video-cover-landing" tabindex="0" data-video-src="https://player.vimeo.com/video/1101634324?autoplay=1">
+                                    <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/img-hero-chica-omnicanal-2025.png') !!}" loading="lazy">
+                                    <div class="play-button">
+                                        <img class="play-icon" alt="Icon play"
+                                            src="{{ App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') }}"
+                                            loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="video-modal" id="video-modal-landing" style="display:none;">
+                                    <div class="video-modal-backdrop" id="video-modal-backdrop-landing"></div>
+                                    <div class="video-modal-content">
+                                        <button class="video-modal-close" id="video-modal-close-landing" aria-label="Cerrar">&times;</button>
+                                        <div class="video-iframe-container" id="video-iframe-container-landing"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </section>
 
                     <section class="innerSectionElement sct2">
                         <div class="containerImage">
-                            <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/img-hero-chica-omnicanal-2025.png') !!}" loading="lazy">
+                            <div class="video-cover" id="video-cover-landing-2" tabindex="0" data-video-src="https://player.vimeo.com/video/1101634324?autoplay=1">
+                                <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/img-hero-chica-omnicanal-2025.png') !!}" loading="lazy">
+
+                                <div class="play-button">
+                                    <img class="play-icon" alt="Icon play"
+                                        src="{{ App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') }}"
+                                        loading="lazy">
+                                </div>
+                            </div>
+                            <div class="video-modal" id="video-modal-landing-2" style="display:none;">
+                                <div class="video-modal-backdrop" id="video-modal-backdrop-landing-2"></div>
+                                <div class="video-modal-content">
+                                    <button class="video-modal-close" id="video-modal-close-landing-2" aria-label="Cerrar">&times;</button>
+                                    <div class="video-iframe-container" id="video-iframe-container-landing-2"></div>
+                                </div>
+                            </div>
                         </div>
                     </section>
 
