@@ -383,9 +383,12 @@ function calculateFinal(data) {
     let iaPricing = {
         No: 0,
         Bronce: 40,
-        Plata: 200,
-        Oro: 1000,
-        Platino: 2000
+        Plata: 110,
+        Oro: 200,
+        Platino: 330,
+        Diamante: 600,
+        Zafiro: 1000,
+        Esmeralda: 1800
     };
     let _iaField = iaPricing[data._iaField] || 0;
 
