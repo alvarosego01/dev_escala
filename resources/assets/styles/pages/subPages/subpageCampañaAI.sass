@@ -283,13 +283,13 @@ img
             height: auto
             border-radius: 0px 0px 20px 20px
             background-position: center
-            background-image: url('http://localhost/escala/escalawp-content/themes/oceanwp-child/resources/assets/images/banners/bg-hero-2025-ai-mb.webp')!important
+            background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-hero-2025-ai-mb.webp')!important
         @include responsivo(pcMedio)
             padding-top: 100px!important
             padding-bottom: 0!important
             height: auto
             border-radius: 0px 0px 20px 20px
-            background-image: url('http://localhost/escala/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-hero-2025-ai-mb.webp')!important
+            background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-hero-2025-ai-mb.webp')!important
 
         @include responsivo(general)
             background-position: 60%
@@ -348,7 +348,8 @@ img
                     animation: pulse 2s infinite ease-in-out
                     @include responsivo(telefonoTable)
                         height: 90px
-                        left: 10%
+                        left: 30%
+                        top: 43%
                     @include responsivo(pcMedio)
                         height: 90px
                         left: 25%
@@ -639,6 +640,9 @@ img
             @include responsivo(telefonoTable)
                 br
                     display: none!important
+            @include responsivo(pcMedio)
+                br
+                    display: none!important
             @include responsivo(smallPcTablet)
                 font-size: 22px
                 br
@@ -672,13 +676,19 @@ img
             margin-bottom: 60px
             position: relative
             @include responsivo(telefonoTable)
-                flex-direction: column
+                flex-direction: column-reverse  
             @include responsivo(pcMedio)
-                flex-direction: column
+                flex-direction: column-reverse  
             .ai-features-image
                 width: auto
                 position: absolute
                 left: 0
+                @include responsivo(telefonoTable)
+                    position: relative
+                    margin-top: -120px
+                @include responsivo(pcMedio)
+                    position: relative
+                    margin-top: -120px
                 div
                     min-width: 405px
                     img
@@ -686,6 +696,10 @@ img
                         filter: drop-shadow(0 4px 20px rgba(0, 127, 150, 0.10))
                         z-index: 1
                         position: relative
+                        @include responsivo(telefonoTable)
+                            height: 170px
+                        @include responsivo(pcMedio)
+                            height: 270px
                         @include responsivo(smallPcTablet)
                             height: 270px
                     .img-fonto
@@ -694,6 +708,10 @@ img
                         left: -170px
                         top: 30px
                         z-index: 0  
+                        @include responsivo(telefonoTable)
+                            left: -40px
+                            top: -30px
+                            height: 350px
 
             .ai-features-list
                 width: 85%
@@ -705,13 +723,29 @@ img
                 display: flex
                 align-items: center
                 position: relative
-                
+                @include responsivo(telefonoTable)
+                    flex-direction: column-reverse
+                    width: 100%
+                @include responsivo(pcMedio)
+                    flex-direction: column-reverse
+
+
                 div.div-space
                     width: 40%
+                    @include responsivo(telefonoTable)
+                        height: 110px
+                    @include responsivo(pcMedio)
+                        height: 110px
 
                 div.ai-features-list-text
                     width: 60%
+                    @include responsivo(telefonoTable)
+                        width: 100%
+                    @include responsivo(pcMedio)
+                        width: 100%
                     ul
+                        @include responsivo(telefonoTable)
+                            padding: 0
                         li::marker
                             color: #F1685A       
 
@@ -772,7 +806,7 @@ img
                     width: 100%
                     gap: 0px
 
-                    padding: 20px
+                    padding: 20px 10px
                    
                 @include responsivo(pcMedio)
                     width:  100%     
@@ -812,7 +846,7 @@ img
                         font-family: "Mulish", sans-serif
                         margin: 0
                         @include responsivo(telefonoTable)
-                            font-size: 30px
+                            font-size:25px
                             padding: 0
                             padding-bottom: 20px
                         @include responsivo(pcMedio)
@@ -829,7 +863,7 @@ img
                             -webkit-text-fill-color: transparent
                             font-feature-settings: 'liga' off, 'clig' off    
                             @include responsivo(telefonoTable)
-                                font-size: 30px
+                                font-size: 25px
                                 padding: 0
                                 padding-bottom: 20px
                             @include responsivo(pcMedio)
@@ -1076,10 +1110,10 @@ img
     height: 405px
     @include responsivo(telefonoTable)
         background-position: center
-        background-image: url('http://localhost/escala/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-section-5-2025-ai-mb.webp')!important
+        height: auto
+        background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-section-5-2025-ai-mb.webp')!important
     @include responsivo(pcMedio)
-        background-position: left 24px
-        height: 355px
+        height: 270px
     @include responsivo(smallPcTablet)
         background-position: center
         height: 335px
@@ -1117,8 +1151,9 @@ img
             @include responsivo(telefonoTable)
                 flex-direction: column-reverse
                 padding-top: 40px
+                top: 0
             @include responsivo(pcMedio)
-            
+                top: -20px
             @include responsivo(general)
                 top: -25px
             .innerSectionElement.sct1
@@ -1144,6 +1179,10 @@ img
 
             .innerSectionElement.sct2
                 margin: 0!important
+                @include responsivo(telefonoTable)
+                    width: 95%
+                @include responsivo(pcMedio)
+                    width: 70%
                 @include responsivo(smallPcTablet)
                     width: 54%
                 .containElement
@@ -1172,7 +1211,7 @@ img
                             font-size: 40px
                             text-align: center
                         @include responsivo(pcMedio)
-                            font-size: 38px
+                            font-size: 37px
                         @include responsivo(smallPcTablet)
                             font-size: 45px
                     .primaryButton 
