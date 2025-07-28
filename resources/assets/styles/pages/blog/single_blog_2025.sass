@@ -169,7 +169,9 @@
 
 #single_blog_2025 .index-section
     .section-row
-        padding: 48px 0 32px 0
+        display: flex
+        gap: 30px
+
         @include responsivo(telefonoTable)
             width: 95%
         @include responsivo(pcMedio)
@@ -183,10 +185,12 @@
         @include responsivo(resto)
             width: 100%!important
             max-width: 1240px!important
-    background: #f7fafc
-    border-radius: 12px
-    padding: 24px
-    margin-bottom: 40px
+        .innerSectionElement.sct0
+            width: 75%
+
+        .innerSectionElement.sct1
+            width: 25%
+            
     .index-title
         font-weight: 600
         margin-bottom: 12px
