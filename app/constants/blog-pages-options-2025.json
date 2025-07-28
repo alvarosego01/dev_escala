@@ -1,0 +1,78 @@
+[
+
+  {
+    "post_type": "post",
+    "name": "[Blog - 2025] Single settings - General",
+    "fields": [
+      { "key": "main_topic", "label": "Etiqueta principal", "type": "text", "default": "" },
+      { "key": "main_title", "label": "Título principal (H1)", "type": "rich_text", "default": "" },
+      { "key": "main_subtitle", "label": "Subtítulo", "type": "rich_text", "default": "" },
+      { "key": "main_image", "label": "Imagen principal", "type": "image", "default": "" },
+      { "key": "main_image_caption", "label": "Texto sobre imagen", "type": "text", "default": "" },
+      { "key": "author", "label": "Autor", "type": "text", "default": "" },
+      { "key": "reading_time", "label": "Tiempo de lectura", "type": "text", "default": "" },
+      {
+        "key": "content_blocks",
+        "label": "Bloques de contenido",
+        "type": "complex",
+        "layouts": [
+          {
+            "name": "index",
+            "key": "index",
+            "label": "Índice de artículo",
+            "fields": [
+              { "key": "index_items", "label": "Ítems del índice", "type": "rich_text", "default": "" }
+            ]
+          },
+          {
+            "name": "text_block",
+            "key": "text_block",
+            "label": "Bloque de texto",
+            "fields": [
+              { "key": "title", "label": "Título", "type": "text", "default": "" },
+              { "key": "content", "label": "Contenido", "type": "rich_text", "default": "" }
+            ]
+          },
+          {
+            "name": "highlight_block",
+            "key": "highlight_block",
+            "label": "Bloque destacado",
+            "fields": [
+              { "key": "content", "label": "Contenido", "type": "rich_text", "default": "" }
+            ]
+          },
+          {
+            "name": "space_block",
+            "key": "space_block",
+            "label": "Espaciador",
+            "fields": [
+              {
+                "key": "space_size",
+                "label": "Tamaño del espacio",
+                "type": "select",
+                "options": [
+                  { "label": "Pequeño", "value": "mb-md" },
+                  { "label": "Mediano", "value": "mb-xl" },
+                  { "label": "Grande", "value": "mb-xxl" }
+                ],
+                "default": "mb-xl"
+              }
+            ]
+          },
+          {
+            "name": "cta_banner",
+            "key": "cta_banner",
+            "label": "Banner CTA",
+            "fields": [
+              { "key": "image", "label": "Imagen", "type": "image", "default": "" },
+              { "key": "title", "label": "Título", "type": "text", "default": "" },
+              { "key": "content", "label": "Contenido", "type": "rich_text", "default": "" },
+              { "key": "button_text", "label": "Texto del botón", "type": "text", "default": "" },
+              { "key": "button_url", "label": "URL del botón", "type": "url", "default": "#" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

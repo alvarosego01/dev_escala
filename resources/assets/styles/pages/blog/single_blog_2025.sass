@@ -1,0 +1,226 @@
+
+
+@import ../../common/global
+
+  
+.mb-md
+    margin-bottom: 32px
+.mb-xl
+    margin-bottom: 56px
+.mb-xxl
+    height: 80px
+    @include responsivo(general)
+        height: 50px
+    @include responsivo(telefonoTable)
+        height: 30px
+.space-block
+    width: 100%
+#single_blog_2025
+    background: #FAFBFD
+// Header principal
+#single_blog_2025 .blog-header-section
+    background: #FAFBFD
+    .section-row
+        padding: 40px 0 50px 0
+        display: flex
+        gap: 20px
+        align-items: center
+        justify-content: center
+        @include responsivo(telefonoTable)
+            width: 95%
+            flex-direction: column
+        @include responsivo(pcMedio)
+            width: 95%
+            flex-direction: column
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1140px!important
+        @include responsivo(smallPcTablet)
+            width: 100%!important
+            max-width: 950px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1240px!important
+        .innerSectionElement.sct0,
+        .innerSectionElement.sct1
+            flex: 1 1 0%
+            min-width: 0
+            /* Si quieres un espacio entre ellos, puedes agregar margin-right a sct0 o gap al contenedor padre */
+
+        .innerSectionElement.sct0    
+            @include responsivo(telefonoTable)
+                text-align: center
+            @include responsivo(pcMedio)
+                text-align: center
+            .topic-label
+                display: inline-block
+                background: #F1685A
+                color: #fff
+                font-family: 'Mulish', sans-serif
+                font-weight: 500
+                border-radius: 5px
+                padding: 3px 25px
+                margin-bottom: 40px
+                font-size: 14px
+            h1
+                font-size: 36px
+                font-weight: 800
+                margin-bottom: 20px
+                color: #2C4857
+                font-family: 'Mulish', sans-serif
+                line-height: 1.2
+            .subtitle
+                color: #2C4857
+                font-size: 22px
+                font-family: 'Mulish', sans-serif
+                font-weight: 600
+                line-height: 1.2
+                margin-bottom: 30px
+
+            .meta
+                display: flex
+                align-items: center
+                flex-direction: row
+                gap: 20px
+                @include responsivo(telefonoTable)
+                    align-items: center
+                    justify-content: center
+                    display: none
+                @include responsivo(pcMedio)
+                    align-items: center
+                    justify-content: center
+                    display: none
+                .img
+                    img
+                        height: 52px
+                        width: 52px
+                .meta-text
+                    display: flex
+                    flex-direction: column
+                    gap: 4px
+                    .title-meta
+                        color: #2C4857
+                        font-size: 16px
+                        font-weight: 700
+                        font-family: 'Mulish', sans-serif
+                        margin: 0
+
+                    .meta-info
+                        color: #007F96
+                        h4
+                            display: inline
+                            color: #007F96
+                            font-size: 16px
+                            line-height: 1
+                            font-weight: 400
+                            font-family: 'Mulish', sans-serif
+        
+        .innerSectionElement.sct1 
+            .main-image
+                img
+                    max-width: 100%
+                    width: auto
+                    height: 380px
+                    @include responsivo(telefonoTable)
+                        height: 192px
+                    @include responsivo(pcMedio)
+                        height: 260px
+                    @include responsivo(smallPcTablet)
+                        height: 292px
+            .meta
+                gap: 20px
+                display: none
+                margin-top: 40px
+                @include responsivo(telefonoTable)
+                    display: flex!important
+                    align-items: center
+                    justify-content: center
+                @include responsivo(pcMedio)
+                    display: flex!important
+                    align-items: center
+                    justify-content: center
+
+                .img
+                    img
+                        height: 52px
+                        width: 52px
+                .meta-text
+                    display: flex
+                    flex-direction: column
+                    gap: 4px
+                    .title-meta
+                        color: #2C4857
+                        font-size: 16px
+                        font-weight: 700
+                        font-family: 'Mulish', sans-serif
+                        margin: 0
+
+                    .meta-info
+                        color: #007F96
+                        h4
+                            display: inline
+                            color: #007F96
+                            font-size: 16px
+                            line-height: 1
+                            font-weight: 400
+                            font-family: 'Mulish', sans-serif
+
+
+
+#single_blog_2025 .index-section
+    .section-row
+        padding: 48px 0 32px 0
+        @include responsivo(telefonoTable)
+            width: 95%
+        @include responsivo(pcMedio)
+            width: 90%
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1140px!important
+        @include responsivo(smallPcTablet)
+            width: 100%!important
+            max-width: 900px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1240px!important
+    background: #f7fafc
+    border-radius: 12px
+    padding: 24px
+    margin-bottom: 40px
+    .index-title
+        font-weight: 600
+        margin-bottom: 12px
+    .index-items
+        font-size: 1.1rem
+
+// Bloque de texto
+#single_blog_2025 .text-block-section
+    margin-bottom: 40px
+    h2
+        font-size: 2rem
+        font-weight: 600
+        margin-bottom: 16px
+    .text-block-content
+        font-size: 1.15rem
+        color: #333
+
+    // Bloque destacado
+#single_blog_2025 .highlight-block-section
+    background: #eaf6f3
+    border-left: 5px solid #2bbbad
+    padding: 20px 28px
+    border-radius: 8px
+    margin-bottom: 40px
+    .highlight-content
+        font-size: 1.1rem
+        color: #1a3a3a
+
+    // Banner CTA
+#single_blog_2025 .cta-banner-section
+    background: #fff6f0
+    border-radius: 16px
+    padding: 32px 24px
+    margin-bottom: 48px
+    .btn
+        background: #e05a2b
+        border: none
