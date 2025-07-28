@@ -1,4 +1,4 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/banner-mc-julio-17.webp') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-masterclass-2025-junio.webp') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -7,9 +7,15 @@
             <div class="containElements">
 
                 <div class="contain">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-star-white.webp') !!}" alt="" class="icon">
 
                     <span class="hashTitle">
-                        <span>Masterclass gratuita:</span> Cómo escalar ventas con <span class="semiBold">CRM · IA · Automatizaciones · WhatsApp</span>
+                        Organiza tu equipo comercial y automatiza los procesos con <span>IA y CRM</span>
+                    </span>
+
+                    <div class="separator"></div>
+                    <span class="sub">
+                        Masterclass gratuita - 6 de agosto
                     </span>
                 </div>
 
@@ -25,7 +31,7 @@
 </section>
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/banner-mc-julio-17-mb.webp') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-masterclass-mb-2025-junio.webp') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -33,9 +39,15 @@
             <div class="containElements">
 
                 <div class="contain">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-star-white.webp') !!}" alt="" class="icon">
 
                     <span class="hashTitle">
-                        <span>Masterclass gratuita:</span> Cómo escalar ventas con <span class="semiBold">CRM · IA · Automatizaciones · WhatsApp</span>
+                        Organiza tu equipo comercial y automatiza los procesos con <span>Inteligencia Artificial y CRM</span>
+                    </span>
+
+                    <div class="separator"></div>
+                    <span class="sub">
+                        Masterclass gratuita - 6 de agosto
                     </span>
                 </div>
 

@@ -738,6 +738,9 @@ o",
                                                                 <option value="Plata">Plata</option>
                                                                 <option value="Oro">Oro</option>
                                                                 <option value="Platino">Platino</option>
+                                                                <option value="Diamante">Diamante</option>
+                                                                <option value="Zafiro">Zafiro</option>
+                                                                <option value="Esmeralda">Esmeralda</option>
                                                             </select>
 
                                                             <div class="quantity-nav">
