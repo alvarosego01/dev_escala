@@ -18,6 +18,7 @@ class CarbonFields
         add_action('after_setup_theme', array($this, 'carbon_fields_init'));
         add_action('carbon_fields_register_fields', [$this, 'register_blocks']);
         add_action('carbon_fields_register_fields', [$this, 'register_blog_ops']);
+        add_action('carbon_fields_register_fields', [$this, 'register_blog_ops_2025']);
     }
 
     public function carbon_fields_init()
@@ -48,38 +49,63 @@ class CarbonFields
         $name = $setting['name'];
         $post_type = $setting['post_type'];
 
-        Container::make('post_meta', $name)
-            ->where('post_type', '=', $post_type)
-            ->add_fields($fields);
+        $container = Container::make('post_meta', $name)
+            ->where('post_type', '=', $post_type);
+
+        // Solo mostrar campos 2025 si la plantilla es la nueva
+        if (strpos($name, '2025') !== false) {
+            $container->where('post_template', '=', 'views/single-post-2025.blade.php');
+        } else {
+            // Solo mostrar campos 2024 si la plantilla NO es la 2025
+            $container->where('post_template', '!=', 'views/single-post-2025.blade.php');
+        }
+
+        $container->add_fields($fields);
 
     }
 
-     function load_post_type_settings($post_id)
+    function load_post_type_settings($post_id)
     {
         $sections_settings = array(
-            'blog' => THEME_ROOT_PATH . '/app/constants/blog-pages-options.json'
+            'blog' => THEME_ROOT_PATH . '/app/constants/blog-pages-options.json',
+            'blog2025' => THEME_ROOT_PATH . '/app/constants/blog-pages-options-2025.json'
         );
 
         $settings = null;
+        $template = get_page_template_slug($post_id);
 
         foreach ($sections_settings as $key => $sect) {
-
-        if (file_exists($sect)) {
-
-            $theme_settings = json_decode(file_get_contents($sect), true);
-
-            foreach ($theme_settings as $setting) {
-                if(get_post_type($post_id) == $setting['post_type']) {
-                    $settings[$setting['post_type']] = $this->get_layer_postType_settings($setting, $post_id);
+            if (file_exists($sect)) {
+                $theme_settings = json_decode(file_get_contents($sect), true);
+                foreach ($theme_settings as $setting) {
+                    if(get_post_type($post_id) == $setting['post_type']) {
+                        $settings[$key] = $this->get_layer_postType_settings($setting, $post_id);
+                    }
                 }
             }
-
-        }
         }
 
-        // $_GLOBALS['settings_cb'] = $settings;
+        // Si la plantilla es la nueva, devolver la config de blog2025, si no la de blog
+        if ($template && strpos($template, '2025') !== false && isset($settings['blog2025'])) {
+            return ['post' => $settings['blog2025']];
+        } elseif (isset($settings['blog'])) {
+            return ['post' => $settings['blog']];
+        }
         return $settings;
+    }
 
+    // Nueva función para registrar los campos de la plantilla 2025
+    public function register_blog_ops_2025()
+    {
+        $json_path = THEME_ROOT_PATH . '/app/constants/blog-pages-options-2025.json';
+        if (file_exists($json_path)) {
+            $settings = json_decode(file_get_contents($json_path), true);
+            if (isset($settings) && is_array($settings) && !empty($settings)) {
+                foreach ($settings as $setting) {
+                    $this->register_custom_postType_ops($setting);
+                }
+            }
+        }
     }
 
     private function get_layer_postType_settings($post, $post_id, $setting_id = null)
