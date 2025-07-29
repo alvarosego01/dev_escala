@@ -51,6 +51,16 @@
             ]
           },
           {
+            "name": "text_block_h3",
+            "key": "text_block_h3",
+            "label": "Bloque de texto H3",
+            "fields": [
+              { "key": "title", "label": "Título", "type": "text", "default": "" },
+              { "key": "content", "label": "Contenido", "type": "rich_text", "default": "" },
+              { "key": "anchor_id", "label": "ID de ancla (opcional, para navegación)", "type": "text", "default": "" }
+            ]
+          },
+          {
             "name": "highlight_block",
             "key": "highlight_block",
             "label": "Bloque destacado",

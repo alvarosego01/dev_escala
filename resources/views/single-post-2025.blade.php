@@ -91,7 +91,18 @@ $blocks = $post['content_blocks'] ?? [];
                     ])
                     @break
                     @case('text_block')
-                    @include('components.blog2025.text-block', ['title' => $block['title'], 'content' => $block['content']])
+                    @include('components.blog2025.text-block', [
+                        'title' => $block['title'],
+                        'content' => $block['content'],
+                        'anchor_id' => $block['anchor_id'] ?? null
+                    ])
+                    @break
+                    @case('text_block_h3')
+                    @include('components.blog2025.text-block-h3', [
+                        'title' => $block['title'],
+                        'content' => $block['content'],
+                        'anchor_id' => $block['anchor_id'] ?? null
+                    ])
                     @break
                     @case('highlight_block')
                     @include('components.blog2025.highlight-block', ['content' => $block['content']])

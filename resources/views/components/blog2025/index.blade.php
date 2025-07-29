@@ -1,6 +1,7 @@
 <section class="index-section">
+  <div class="index-title"><h3>{{ $index_title ?? '¿Qué discutiremos en este artículo?' }}</h3></div>
+
   <div class="index contain">
-  <div class="index-title"><strong>{{ $index_title ?? '¿Qué discutiremos en este artículo?' }}</strong></div>
   <div class="index-items">
     @if(!empty($index_items) && is_array($index_items))
       <ul>
@@ -12,9 +13,11 @@
       </ul>
     @endif
   </div>
-  </div>
-  
+
   <div class="imagen">
     <img src="{{ App::setFilePath('/assets/images/illustrations/others/andres-moreno-escala.webp') }}">
   </div>
+  </div>
+
+
 </section>

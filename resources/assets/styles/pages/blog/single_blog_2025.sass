@@ -212,6 +212,54 @@
             max-width: 1165px!important
         .innerSectionElement.sct0
             width: 70%
+            .index-section
+                background: #fff
+                border-radius: 15px
+                box-shadow: 0 4px 20px 0 rgba(0, 127, 150, 0.10)
+                padding: 30px
+                padding-bottom: 0
+                gap: 30px
+
+                h3
+                    font-size: 32px
+                    font-weight: 700
+                    color: #2C4857
+                    font-family: 'Mulish', sans-serif
+                    margin-bottom: 20px
+                    line-height: 1.2
+                .index.contain
+                    display: flex
+                    justify-content: space-between
+                    .index-items
+                        display: flex
+                        flex-direction: column
+                        gap: 20px
+                        padding-bottom: 30px
+                        ul
+                            margin: 0
+                            li 
+                                &::marker
+                                    color: #F1685A
+                            li
+                                color: #007F96
+                                font-size: 16px
+                                font-weight: 400
+                                font-family: 'Mulish', sans-serif
+                                line-height: 1.2
+                                &:not-last-child
+                                margin-bottom: 16px
+                            
+                                a 
+                                    color: #007F96
+                                    text-decoration: none
+                                    &:hover
+                                        color: #212A31
+                    .imagen
+                        margin-top: auto
+                        img
+                            width: auto
+                            height: 288px
+
 
         .innerSectionElement.sct1
             width: 30%
@@ -279,15 +327,9 @@
 
 
 
-    .index-title
-        font-weight: 600
-        margin-bottom: 12px
-    .index-items
-        font-size: 1.1rem
 
 // Bloque de texto
 #single_blog_2025 .text-block-section
-    margin-bottom: 40px
     h2
         font-size: 32px
         font-family: 'Mulish', sans-serif
@@ -295,7 +337,13 @@
         margin-bottom: 30px
         color: #2C4857
         line-height: 1.2
-
+    h3
+        font-size: 22px
+        font-family: 'Mulish', sans-serif
+        font-weight: 700
+        margin-bottom: 30px
+        color: #2C4857
+        line-height: 1.2
     .text-block-content
         font-size: 16px
         font-weight: 400
@@ -307,7 +355,24 @@
           color: #007F96
           &:hover
             color: #212A31
-
+        ul
+            margin: 0
+            br:first-child,
+            br:last-child
+                display: none
+            li 
+                color: #212A31
+                font-size: 16px
+                font-weight: 400
+                font-family: 'Mulish', sans-serif
+                line-height: 1.2
+                &:not-last-child
+                    margin-bottom: 16px
+                a 
+                    color: #212A31
+                    text-decoration: none
+                    &:hover
+                        color: #007F96
     // Bloque destacado
 #single_blog_2025 .highlight-block-section
     background: #eaf6f3
