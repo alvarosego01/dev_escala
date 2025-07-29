@@ -1,4 +1,4 @@
-<section class="cta-banner-section">
+<section class="cta-banner-section" @if(!empty($anchor_id)) id="{{ $anchor_id }}" @endif>
   <div class="row align-items-center">
     @if(!empty($image))
       <div class="col-md-4">

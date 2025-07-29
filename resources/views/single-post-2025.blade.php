@@ -105,7 +105,8 @@ $blocks = $post['content_blocks'] ?? [];
                     'title' => $block['title'],
                     'content' => $block['content'],
                     'button_text' => $block['button_text'],
-                    'button_url' => $block['button_url']
+                    'button_url' => $block['button_url'],
+                    'anchor_id' => $block['anchor_id'] ?? null
                     ])
                     @break
                     @endswitch
