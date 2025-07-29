@@ -86,26 +86,35 @@ $blocks = $post['content_blocks'] ?? [];
                     @switch($block['_type'])
                     @case('index')
                     @include('components.blog2025.index', [
-                        'index_items' => $block['index_items'],
-                        'index_title' => $block['index_title'] ?? null
+                    'index_items' => $block['index_items'],
+                    'index_title' => $block['index_title'] ?? null
                     ])
                     @break
                     @case('text_block')
                     @include('components.blog2025.text-block', [
-                        'title' => $block['title'],
-                        'content' => $block['content'],
-                        'anchor_id' => $block['anchor_id'] ?? null
+                    'title' => $block['title'],
+                    'content' => $block['content'],
+                    'anchor_id' => $block['anchor_id'] ?? null
                     ])
                     @break
                     @case('text_block_h3')
                     @include('components.blog2025.text-block-h3', [
-                        'title' => $block['title'],
-                        'content' => $block['content'],
-                        'anchor_id' => $block['anchor_id'] ?? null
+                    'title' => $block['title'],
+                    'content' => $block['content'],
+                    'anchor_id' => $block['anchor_id'] ?? null
                     ])
                     @break
                     @case('highlight_block')
-                    @include('components.blog2025.highlight-block', ['content' => $block['content']])
+                    @include('components.blog2025.highlight-block', [
+                    'content' => $block['content'],
+                    'anchor_id' => $block['anchor_id'] ?? null
+                    ])
+                    @break
+                    @case('share_block')
+                    @include('components.blog2025.share-block', [
+                    'topic' => $block['topic'] ?? '',
+                    'anchor_id' => $block['anchor_id'] ?? null
+                    ])
                     @break
                     @case('space_block')
                     @include('components.blog2025.space-block', ['space_size' => $block['space_size']])
@@ -136,11 +145,11 @@ $blocks = $post['content_blocks'] ?? [];
 
                     @php
                     $recent_posts = new WP_Query([
-                        'post_type' => 'post',
-                        'posts_per_page' => 4,
-                        'post__not_in' => [get_the_ID()],
-                        'orderby' => 'date',
-                        'order' => 'DESC',
+                    'post_type' => 'post',
+                    'posts_per_page' => 4,
+                    'post__not_in' => [get_the_ID()],
+                    'orderby' => 'date',
+                    'order' => 'DESC',
                     ]);
                     @endphp
                     <section class="recent-posts-widget">
@@ -148,24 +157,28 @@ $blocks = $post['content_blocks'] ?? [];
                         <hr>
                         <ul>
                             @foreach($recent_posts->posts as $idx => $recent)
-                                @if($idx < 4)
-                                    <li>
-                                        <a href="{{ get_permalink($recent->ID) }}">{{ get_the_title($recent->ID) }}</a>
-                                        <hr>
-                                        @if($idx < 3)
-                                            
-                                        @endif
+                            @if($idx < 4)
+                                <li>
+                                <a href="{{ get_permalink($recent->ID) }}">{{ get_the_title($recent->ID) }}</a>
+                                <hr>
+                                @if($idx < 3)
+
+                                    @endif
                                     </li>
-                                @endif
-                            @endforeach
+                                    @endif
+                                    @endforeach
                         </ul>
                         <h3>Suscríbete al Escala Blog</h3>
                         <a class="btn btn-primary sub" href="#">Suscribirme →</a>
                     </section>
                     @php wp_reset_postdata(); @endphp
                 </div>
+            </div>
+            <div class="section-row row-2">
+
 
             </div>
+
         </section>
 
 

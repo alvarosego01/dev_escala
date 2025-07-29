@@ -1,5 +1,4 @@
 [
-
   {
     "post_type": "post",
     "name": "[Blog - 2025] Single settings - General",
@@ -97,6 +96,15 @@
               { "key": "content", "label": "Contenido", "type": "rich_text", "default": "" },
               { "key": "button_text", "label": "Texto del botón", "type": "text", "default": "" },
               { "key": "button_url", "label": "URL del botón", "type": "url", "default": "#" },
+              { "key": "anchor_id", "label": "ID de ancla (opcional, para navegación)", "type": "text", "default": "" }
+            ]
+          },
+          {
+            "name": "share_block",
+            "key": "share_block",
+            "label": "Bloque compartir en",
+            "fields": [
+              { "key": "topic", "label": "Texto del topic", "type": "text", "default": "" },
               { "key": "anchor_id", "label": "ID de ancla (opcional, para navegación)", "type": "text", "default": "" }
             ]
           }

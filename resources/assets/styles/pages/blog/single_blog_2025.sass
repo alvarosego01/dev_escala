@@ -4,9 +4,13 @@
 
   
 .mb-md
-    margin-bottom: 32px
+    height: 20px
+    @include responsivo(telefonoTable)
+        height: 20px
 .mb-xl
-    margin-bottom: 56px
+    height: 30px
+    @include responsivo(telefonoTable)
+        height: 30px
 .mb-xxl
     height: 50px
     @include responsivo(telefonoTable)
@@ -15,7 +19,7 @@
     width: 100%
 #single_blog_2025
     background: #FAFBFD
-// Header principal
+// Menu de navegación blog
 #single_blog_2025 .breadcrumb
     width: 100%!important
     max-width: 1305px!important
@@ -42,7 +46,7 @@
       &:hover
         color: #007F96
 
-
+//Bloque header seccion
 #single_blog_2025 .blog-header-section
     background: #FAFBFD
     .section-row
@@ -84,7 +88,7 @@
                 font-family: 'Mulish', sans-serif
                 font-weight: 500
                 border-radius: 5px
-                padding: 3px 25px
+                padding: 2px 25px
                 margin-bottom: 40px
                 font-size: 14px
             h1
@@ -191,7 +195,7 @@
                             font-family: 'Mulish', sans-serif
 
 
-
+// Bloque de indice
 #single_blog_2025 .index-section
     .section-row
         display: flex
@@ -373,6 +377,13 @@
                     text-decoration: none
                     &:hover
                         color: #007F96
+
+
+
+
+
+
+
     // Bloque destacado
 #single_blog_2025 .highlight-block-section
     background: #eaf6f3
@@ -383,8 +394,35 @@
     .highlight-content
         font-size: 1.1rem
         color: #1a3a3a
+//Bloque topic y compartir
 
-    // Banner CTA
+#single_blog_2025 .share-block-section
+    .topic-label
+        display: inline-block
+        background: #F1685A
+        color: #fff
+        font-family: 'Mulish', sans-serif
+        font-weight: 500
+        border-radius: 5px
+        padding: 2px 25px
+        margin-bottom: 32px
+        font-size: 14px
+    h3
+        font-size: 22px
+        font-family: 'Mulish', sans-serif
+        font-weight: 700
+        margin-bottom: 20px
+        color: #2C4857
+        line-height: 1.2
+    .social-share-buttons
+        display: flex
+        gap: 30px
+        img
+            width: auto
+            height: 35px
+            box-shadow: 0 4px 20px 0 rgba(0, 127, 150, 0.10)
+            border-radius: 5px
+//Bloque de Banner CTA
 #single_blog_2025 .cta-banner-section
     background: #fff6f0
     border-radius: 16px
