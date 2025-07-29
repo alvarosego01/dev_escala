@@ -2,11 +2,12 @@
     Template Name: [B] Blog - Single - 2025
     Template Post Type: post
 --}}
+
 @php
 use App\Classes\CarbonFields;
 $carbon_fields = new CarbonFields();
 $settings = $carbon_fields->load_post_type_settings(get_the_ID());
-$post = $settings['post'];
+$post = $settings['post'] ?? null;
 $blocks = $post['content_blocks'] ?? [];
 @endphp
 
@@ -84,7 +85,10 @@ $blocks = $post['content_blocks'] ?? [];
                     @foreach($blocks as $block)
                     @switch($block['_type'])
                     @case('index')
-                    @include('components.blog2025.index', ['index_items' => $block['index_items']])
+                    @include('components.blog2025.index', [
+                        'index_items' => $block['index_items'],
+                        'index_title' => $block['index_title'] ?? null
+                    ])
                     @break
                     @case('text_block')
                     @include('components.blog2025.text-block', ['title' => $block['title'], 'content' => $block['content']])
