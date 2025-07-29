@@ -19,8 +19,16 @@ $blocks = $post['content_blocks'] ?? [];
     <div class="sections">
         {{-- Header principal --}}
         <section class="blog-header-section customSection sectionParent fullWidth">
+            <div class="breadcrumb ">
+                <nav aria-label="breadcrumb">
+                    <a href="/escala/blog/">Blog/</a>
+                    {{ $post['main_title'] ?? get_the_title() }}/
+                </nav>
+            </div>
             <div class="section-row">
+
                 <div class="innerSectionElement sct0">
+
                     <div class="topic-label">{{ $post['main_topic'] ?? '' }}</div>
                     <h1>{!! $post['main_title'] ?? '' !!}</h1>
                     <div class="subtitle">{!! $post['main_subtitle'] ?? '' !!}</div>
@@ -100,6 +108,7 @@ $blocks = $post['content_blocks'] ?? [];
                     @endforeach
                 </div>
                 <div class="innerSectionElement sct1">
+                    <div class="space-block mb-xxl"></div>
                     <section class="share-section">
                         <h3>Compartir en</h3>
                         <div class="social-share-buttons">
@@ -111,22 +120,31 @@ $blocks = $post['content_blocks'] ?? [];
 
                     @php
                     $recent_posts = new WP_Query([
-                    'post_type' => 'post',
-                    'posts_per_page' => 4,
-                    'post__not_in' => [get_the_ID()],
-                    'orderby' => 'date',
-                    'order' => 'DESC',
+                        'post_type' => 'post',
+                        'posts_per_page' => 4,
+                        'post__not_in' => [get_the_ID()],
+                        'orderby' => 'date',
+                        'order' => 'DESC',
                     ]);
                     @endphp
                     <section class="recent-posts-widget">
                         <h3>Artículos populares</h3>
+                        <hr>
                         <ul>
-                            @foreach($recent_posts->posts as $recent)
-                            <li>
-                                <a href="{{ get_permalink($recent->ID) }}">{{ get_the_title($recent->ID) }}</a>
-                            </li>
+                            @foreach($recent_posts->posts as $idx => $recent)
+                                @if($idx < 4)
+                                    <li>
+                                        <a href="{{ get_permalink($recent->ID) }}">{{ get_the_title($recent->ID) }}</a>
+                                        <hr>
+                                        @if($idx < 3)
+                                            
+                                        @endif
+                                    </li>
+                                @endif
                             @endforeach
                         </ul>
+                        <h3>Suscríbete al Escala Blog</h3>
+                        <a class="btn btn-primary sub" href="#">Suscribirme →</a>
                     </section>
                     @php wp_reset_postdata(); @endphp
                 </div>

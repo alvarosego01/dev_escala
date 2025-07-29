@@ -8,9 +8,7 @@
 .mb-xl
     margin-bottom: 56px
 .mb-xxl
-    height: 80px
-    @include responsivo(general)
-        height: 50px
+    height: 50px
     @include responsivo(telefonoTable)
         height: 30px
 .space-block
@@ -18,10 +16,37 @@
 #single_blog_2025
     background: #FAFBFD
 // Header principal
+#single_blog_2025 .breadcrumb
+    width: 100%!important
+    max-width: 1305px!important
+    margin:  0 auto
+    padding: 40px 0 50px  0
+    color: #212A31
+    font-weight: 500
+    @include responsivo(telefonoTable)
+        max-width: 95%!important
+        text-align: center
+    @include responsivo(pcMedio)
+        max-width: 95%!important
+    @include responsivo(general)
+        max-width: 1230px!important
+    @include responsivo(smallPcTablet)
+        max-width: 95%!important
+    a
+      color: #A6A6A6
+      font-size: 14px
+      font-weight: 500
+      text-decoration: none
+      font-family: 'Mulish', sans-serif
+      line-height: 1.2
+      &:hover
+        color: #007F96
+
+
 #single_blog_2025 .blog-header-section
     background: #FAFBFD
     .section-row
-        padding: 40px 0 50px 0
+        padding: 0px 0 50px 0
         display: flex
         gap: 20px
         align-items: center
@@ -170,7 +195,7 @@
 #single_blog_2025 .index-section
     .section-row
         display: flex
-        gap: 30px
+        gap: 70px
 
         @include responsivo(telefonoTable)
             width: 95%
@@ -184,13 +209,76 @@
             max-width: 900px!important
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1240px!important
+            max-width: 1165px!important
         .innerSectionElement.sct0
-            width: 75%
+            width: 70%
 
         .innerSectionElement.sct1
-            width: 25%
-            
+            width: 30%
+            .share-section
+                h3
+                    font-size: 22px
+                    font-weight: 700
+                    color: #2C4857
+                    font-family: 'Mulish', sans-serif
+                    margin-bottom: 20px
+                    line-height: 1.2
+                .social-share-buttons
+                    display: flex
+                    gap: 30px
+                    img
+                        width: auto
+                        height: 35px
+                        box-shadow: 0 4px 20px 0 rgba(0, 127, 150, 0.10)
+                        border-radius: 5px
+            .recent-posts-widget
+                background: #fff
+                border-radius: 15px
+                box-shadow: 0 4px 20px 0 rgba(0, 127, 150, 0.10)
+                padding: 30px
+                margin-top: 50px
+                h3
+                    font-size: 22px
+                    font-weight: 700
+                    color: #2C4857
+                    font-family: 'Mulish', sans-serif
+                    margin-bottom: 14px
+                    line-height: 1.2
+                hr
+                    margin: 14px 0px 22px 0px
+                    height: 2px 
+                    color:  #E9E9E9
+                ul
+                  margin: 0
+                  padding: 0
+                  li
+                    list-style: none
+                    color: #212A31
+                    font-size: 14px
+                    font-weight: 500
+                    font-family: 'Mulish', sans-serif
+                    a 
+                      color: #212A31
+                      text-decoration: none
+                      &:hover
+                        color: #007F96
+                .sub
+                    background: linear-gradient(90deg, #F34F36 0%, #007F96 100%)
+                    border: none
+                    color: #fff
+                    padding: 12px 40px
+                    border-radius: 10px
+                    width: 100%
+                    font-size: 20px
+                    font-weight: 900
+                    font-family: 'Mulish', sans-serif
+                    text-decoration: none
+                    margin-top: 6px
+                    &:hover
+                        background: linear-gradient(90deg, #ff6b60 0%, #1fdad3 100%)!important
+
+
+
     .index-title
         font-weight: 600
         margin-bottom: 12px
@@ -201,12 +289,24 @@
 #single_blog_2025 .text-block-section
     margin-bottom: 40px
     h2
-        font-size: 2rem
-        font-weight: 600
-        margin-bottom: 16px
+        font-size: 32px
+        font-family: 'Mulish', sans-serif
+        font-weight: 700
+        margin-bottom: 30px
+        color: #2C4857
+        line-height: 1.2
+
     .text-block-content
-        font-size: 1.15rem
-        color: #333
+        font-size: 16px
+        font-weight: 400
+        line-height: 1.2
+        font-family: 'Mulish', sans-serif
+        color: #212A31
+        
+        a
+          color: #007F96
+          &:hover
+            color: #212A31
 
     // Bloque destacado
 #single_blog_2025 .highlight-block-section

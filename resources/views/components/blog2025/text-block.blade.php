@@ -3,6 +3,6 @@
     <h2>{{ $title }}</h2>
   @endif
   <div class="text-block-content">
-    {!! $content ?? '' !!}
+    {!! isset($content) ? nl2br($content) : '' !!}
   </div>
 </section>
