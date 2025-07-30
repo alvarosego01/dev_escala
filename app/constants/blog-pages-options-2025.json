@@ -1,5 +1,4 @@
 [
-
   {
     "post_type": "post",
     "name": "[Blog - 2025] Single settings - General",
@@ -8,8 +7,8 @@
       { "key": "main_title", "label": "Título principal (H1)", "type": "rich_text", "default": "" },
       { "key": "main_subtitle", "label": "Subtítulo", "type": "rich_text", "default": "" },
       { "key": "main_image", "label": "Imagen principal", "type": "image", "default": "" },
-      { "key": "main_image_caption", "label": "Texto sobre imagen", "type": "text", "default": "" },
-      { "key": "author", "label": "Autor", "type": "text", "default": "" },
+      { "key": "text_autor", "label": "Autor", "type": "text", "default": "" },
+      { "key": "fecha_publicacion", "label": "Fecha de publicación", "type": "text", "default": "" },
       { "key": "reading_time", "label": "Tiempo de lectura", "type": "text", "default": "" },
       {
         "key": "content_blocks",
@@ -21,7 +20,23 @@
             "key": "index",
             "label": "Índice de artículo",
             "fields": [
-              { "key": "index_items", "label": "Ítems del índice", "type": "rich_text", "default": "" }
+              { "key": "index_title", "label": "Título del índice", "type": "text", "default": "" },
+              {
+                "key": "index_items",
+                "label": "Ítems del índice",
+                "type": "complex",
+                "layouts": [
+                  {
+                    "name": "item",
+                    "key": "item",
+                    "label": "Ítem",
+                    "fields": [
+                      { "key": "label", "label": "Nombre del ítem", "type": "text", "default": "" },
+                      { "key": "id", "label": "ID de ancla (único, sin espacios)", "type": "text", "default": "" }
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {
@@ -30,7 +45,18 @@
             "label": "Bloque de texto",
             "fields": [
               { "key": "title", "label": "Título", "type": "text", "default": "" },
-              { "key": "content", "label": "Contenido", "type": "rich_text", "default": "" }
+              { "key": "content", "label": "Contenido", "type": "rich_text", "default": "" },
+              { "key": "anchor_id", "label": "ID de ancla (opcional, para navegación)", "type": "text", "default": "" }
+            ]
+          },
+          {
+            "name": "text_block_h3",
+            "key": "text_block_h3",
+            "label": "Bloque de texto H3",
+            "fields": [
+              { "key": "title", "label": "Título", "type": "text", "default": "" },
+              { "key": "content", "label": "Contenido", "type": "rich_text", "default": "" },
+              { "key": "anchor_id", "label": "ID de ancla (opcional, para navegación)", "type": "text", "default": "" }
             ]
           },
           {
@@ -38,7 +64,8 @@
             "key": "highlight_block",
             "label": "Bloque destacado",
             "fields": [
-              { "key": "content", "label": "Contenido", "type": "rich_text", "default": "" }
+              { "key": "content", "label": "Contenido", "type": "rich_text", "default": "" },
+              { "key": "anchor_id", "label": "ID de ancla (opcional, para navegación)", "type": "text", "default": "" }
             ]
           },
           {
@@ -68,7 +95,17 @@
               { "key": "title", "label": "Título", "type": "text", "default": "" },
               { "key": "content", "label": "Contenido", "type": "rich_text", "default": "" },
               { "key": "button_text", "label": "Texto del botón", "type": "text", "default": "" },
-              { "key": "button_url", "label": "URL del botón", "type": "url", "default": "#" }
+              { "key": "button_url", "label": "URL del botón", "type": "url", "default": "#" },
+              { "key": "anchor_id", "label": "ID de ancla (opcional, para navegación)", "type": "text", "default": "" }
+            ]
+          },
+          {
+            "name": "share_block",
+            "key": "share_block",
+            "label": "Bloque compartir en",
+            "fields": [
+              { "key": "topic", "label": "Texto del topic", "type": "text", "default": "" },
+              { "key": "anchor_id", "label": "ID de ancla (opcional, para navegación)", "type": "text", "default": "" }
             ]
           }
         ]
