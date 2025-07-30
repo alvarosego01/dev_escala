@@ -119,16 +119,6 @@ $blocks = $post['content_blocks'] ?? [];
                     @case('space_block')
                     @include('components.blog2025.space-block', ['space_size' => $block['space_size']])
                     @break
-                    @case('cta_banner')
-                    @include('components.blog2025.cta-banner', [
-                    'image' => $block['image'],
-                    'title' => $block['title'],
-                    'content' => $block['content'],
-                    'button_text' => $block['button_text'],
-                    'button_url' => $block['button_url'],
-                    'anchor_id' => $block['anchor_id'] ?? null
-                    ])
-                    @break
                     @endswitch
                     @endforeach
                 </div>
@@ -174,11 +164,67 @@ $blocks = $post['content_blocks'] ?? [];
                     @php wp_reset_postdata(); @endphp
                 </div>
             </div>
-            <div class="section-row row-2">
 
+            <div class="section-row-2">
+                <div class="innerSectionElement sct0">
+                    {{-- Renderizar solo los bloques cta_banner en esta sección --}}
+                    @foreach($blocks as $block)
+                    @if($block['_type'] === 'cta_banner')
+                    @include('components.blog2025.cta-banner', [
+                    'image' => $block['image'],
+                    'title' => $block['title'],
+                    'content' => $block['content'],
+                    'button_text' => $block['button_text'],
+                    'button_url' => $block['button_url'],
+                    'anchor_id' => $block['anchor_id'] ?? null
+                    ])
+                    @endif
+                    @endforeach
+                </div>
 
+                <div class="innerSectionElement sct1">
+                    <h2>Solo para ti</h2>
+                    @php
+                    $related_args = [
+                    'post_type' => 'post',
+                    'posts_per_page' => 9,
+                    'post__not_in' => [get_the_ID()],
+                    'orderby' => 'rand',
+                    ];
+                    $related_query = new WP_Query($related_args);
+                    @endphp
+                    <div class="related-cards-grid">
+                        @foreach($related_query->posts as $related)
+                        @php
+                        $topic = carbon_get_post_meta($related->ID, 'main_topic');
+                        $title = get_the_title($related->ID);
+                        $permalink = get_permalink($related->ID);
+                        $image_id = carbon_get_post_meta($related->ID, 'main_image');
+                        $image_url = $image_id ? App::get_img($image_id, 'src') : '';
+                        $reading_time = carbon_get_post_meta($related->ID, 'reading_time');
+                        $author = carbon_get_post_meta($related->ID, 'author');
+                        @endphp
+                        <div class="related-card">
+                            <div class="card-image" style="background-image:url('{{ $image_url }}')">
+                                <div class="card-topic">{{ $topic }}</div>
+                                <a href="{{ $permalink }}">
+                                    <div class="card-title">{!! $title !!}</div>
+                                </a>
+                            </div>
+                            <div class="card-meta">
+                                <span class="card-reading-time">{{ $reading_time }}</span>
+                                <span class="card-author">{{ $author ? 'Autor del artículo' : '' }}</span>
+                            </div>
+                        </div>
+                        @endforeach
+                    </div>
+                    @php wp_reset_postdata(); @endphp
+                </div>
+                <div class="innerSectionElement sct2">
+                    <h3>¿Te gustaría recibir artículos como este directo en tu Inbox?</h3>
+                    <a class="btn btn-primary sub" href="#">Suscríbete al blog de Escala →</a>
+                </div>
             </div>
-
         </section>
 
 
