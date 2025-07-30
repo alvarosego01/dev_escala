@@ -22,7 +22,15 @@ $blocks = $post['content_blocks'] ?? [];
         <section class="blog-header-section customSection sectionParent fullWidth">
             <div class="breadcrumb ">
                 <nav aria-label="breadcrumb">
-                    <a href="/escala/blog/">Blog/</a>
+                    <a href="/escala/blog/">Blog/Topic/</a>
+                    <!-- @php
+                        $categories = get_the_category();
+                        $main_cat = $categories && count($categories) ? $categories[0] : null;
+                        $main_cat_url = $main_cat ? get_category_link($main_cat->term_id) : '';
+                    @endphp
+                    @if($main_cat)
+                        <a href="{{ $main_cat_url }}">{{ $main_cat->name }}/</a>
+                    @endif -->
                     {{ $post['main_title'] ?? get_the_title() }}/
                 </nav>
             </div>
@@ -74,7 +82,8 @@ $blocks = $post['content_blocks'] ?? [];
 
 
             </div>
-
+            <div class="hr-bottom ">
+            </div>
         </section>
         <section class="index-section customSection sectionParent fullWidth ">
             <div class="section-row">
@@ -214,7 +223,7 @@ $blocks = $post['content_blocks'] ?? [];
                         $related_posts = [];
                         if($latest_post) $related_posts[] = $latest_post;
                         foreach($random_query->posts as $related) {
-                            $related_posts[] = $related;
+                        $related_posts[] = $related;
                         }
                         $related_posts = array_slice($related_posts, 0, 9);
                         @endphp
