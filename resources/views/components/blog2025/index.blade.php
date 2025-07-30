@@ -16,6 +16,8 @@
 
   <div class="imagen">
     <img src="{{ App::setFilePath('/assets/images/illustrations/others/andres-moreno-escala.webp') }}">
+    <img class="img-mb" src="{{ App::setFilePath('/assets/images/illustrations/others/andres-moreno-escala-mb.webp') }}">
+    
   </div>
   </div>
 

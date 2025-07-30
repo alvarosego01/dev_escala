@@ -7,8 +7,8 @@
       { "key": "main_title", "label": "Título principal (H1)", "type": "rich_text", "default": "" },
       { "key": "main_subtitle", "label": "Subtítulo", "type": "rich_text", "default": "" },
       { "key": "main_image", "label": "Imagen principal", "type": "image", "default": "" },
-      { "key": "main_image_caption", "label": "Texto sobre imagen", "type": "text", "default": "" },
-      { "key": "author", "label": "Autor", "type": "text", "default": "" },
+      { "key": "text_autor", "label": "Autor", "type": "text", "default": "" },
+      { "key": "fecha_publicacion", "label": "Fecha de publicación", "type": "text", "default": "" },
       { "key": "reading_time", "label": "Tiempo de lectura", "type": "text", "default": "" },
       {
         "key": "content_blocks",

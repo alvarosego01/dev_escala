@@ -39,14 +39,12 @@ $blocks = $post['content_blocks'] ?? [];
                             <img alt="Icon escala" src="{{ App::setFilePath('/assets/images/icons/icon escala blog.webp') }}" loading="lazy">
                         </div>
                         <div class="meta-text">
-                            <h4 class="title-meta">Escala CRM</h4>
+                            <h4 class="title-meta">{{ $post['text_autor'] ?? '' }}</h4>
                             <div class="meta-info">
-                                <h4>{{ $post['author'] ?? '' }}</h4> -
+                                <h4>{{ $post['fecha_publicacion'] ?? '' }}</h4> -
                                 <h4>{{ $post['reading_time'] ?? '' }}</h4>
                             </div>
-
                         </div>
-
                     </div>
                 </div>
 
@@ -65,7 +63,7 @@ $blocks = $post['content_blocks'] ?? [];
                         <div class="meta-text">
                             <h4 class="title-meta">Escala CRM</h4>
                             <div class="meta-info">
-                                <h4>{{ $post['author'] ?? '' }}</h4> -
+                                <h4>{{ $post['fecha_publicacion'] ?? '' }}</h4> -
                                 <h4>{{ $post['reading_time'] ?? '' }}</h4>
                             </div>
 
@@ -185,24 +183,50 @@ $blocks = $post['content_blocks'] ?? [];
                 <div class="innerSectionElement sct1">
                     <h2>Solo para ti</h2>
                     @php
-                    $related_args = [
+                    // Obtener la categoría principal del post actual
+                    $categories = get_the_category();
+                    $main_cat_id = $categories && count($categories) ? $categories[0]->term_id : null;
+                    // Último post publicado de la misma categoría (excluyendo el actual)
+                    $latest_args = [
                     'post_type' => 'post',
-                    'posts_per_page' => 9,
+                    'posts_per_page' => 1,
                     'post__not_in' => [get_the_ID()],
+                    'cat' => $main_cat_id,
+                    'orderby' => 'date',
+                    'order' => 'DESC',
+                    ];
+                    $latest_query = new WP_Query($latest_args);
+                    $latest_post = $latest_query->have_posts() ? $latest_query->posts[0] : null;
+                    // 8 aleatorios de la misma categoría, excluyendo el actual y el latest
+                    $exclude_ids = [get_the_ID()];
+                    if ($latest_post) $exclude_ids[] = $latest_post->ID;
+                    $random_args = [
+                    'post_type' => 'post',
+                    'posts_per_page' => 8,
+                    'post__not_in' => $exclude_ids,
+                    'cat' => $main_cat_id,
                     'orderby' => 'rand',
                     ];
-                    $related_query = new WP_Query($related_args);
+                    $random_query = new WP_Query($random_args);
                     @endphp
-                    <div class="related-cards-grid">
-                        @foreach($related_query->posts as $related)
+                    <div class="related-cards">
+                        @php
+                        $related_posts = [];
+                        if($latest_post) $related_posts[] = $latest_post;
+                        foreach($random_query->posts as $related) {
+                            $related_posts[] = $related;
+                        }
+                        $related_posts = array_slice($related_posts, 0, 9);
+                        @endphp
+                        @foreach($related_posts as $related)
                         @php
                         $topic = carbon_get_post_meta($related->ID, 'main_topic');
                         $title = get_the_title($related->ID);
                         $permalink = get_permalink($related->ID);
-                        $image_id = carbon_get_post_meta($related->ID, 'main_image');
-                        $image_url = $image_id ? App::get_img($image_id, 'src') : '';
+                        $image_id = get_post_thumbnail_id($related->ID);
+                        $image_url = $image_id ? wp_get_attachment_image_url($image_id, 'large') : '';
                         $reading_time = carbon_get_post_meta($related->ID, 'reading_time');
-                        $author = carbon_get_post_meta($related->ID, 'author');
+                        $text_autor = carbon_get_post_meta($related->ID, 'text_autor');
                         @endphp
                         <div class="related-card">
                             <div class="card-image" style="background-image:url('{{ $image_url }}')">
@@ -211,9 +235,16 @@ $blocks = $post['content_blocks'] ?? [];
                                     <div class="card-title">{!! $title !!}</div>
                                 </a>
                             </div>
-                            <div class="card-meta">
-                                <span class="card-reading-time">{{ $reading_time }}</span>
-                                <span class="card-author">{{ $author ? 'Autor del artículo' : '' }}</span>
+                            <div class="card-meta card-meta-flex">
+                                <span class="card-meta-icon">
+                                    <img src="{{ App::setFilePath('/assets/images/icons/icon-escala-blog-2025.webp') }}" alt="icono Escala">
+                                </span>
+                                <span class="meta-text">
+                                    <div class="meta-info">
+                                        <h4>{{ implode(' ', array_slice(explode(' ', $reading_time ?? ''), 0, 2)) }}</h4>
+                                        <h4 class="title-meta">{{ $text_autor ?? '' }}</h4>
+                                    </div>
+                                </span>
                             </div>
                         </div>
                         @endforeach
