@@ -107,6 +107,16 @@
               { "key": "topic", "label": "Texto del topic", "type": "text", "default": "" },
               { "key": "anchor_id", "label": "ID de ancla (opcional, para navegación)", "type": "text", "default": "" }
             ]
+          },
+          {
+            "name": "image_block",
+            "key": "image_block",
+            "label": "Bloque de imagen",
+            "fields": [
+              { "key": "image_desktop", "label": "Imagen desktop", "type": "image", "default": "" },
+              { "key": "image_mobile", "label": "Imagen mobile", "type": "image", "default": "" },
+              { "key": "anchor_id", "label": "ID de ancla (opcional)", "type": "text", "default": "" }
+            ]
           }
         ]
       }

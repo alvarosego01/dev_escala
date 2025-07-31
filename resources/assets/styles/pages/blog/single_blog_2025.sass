@@ -502,6 +502,27 @@
             border-radius: 5px
 
 
+// Bloque de imagen simple
+#single_blog_2025 .image-block-section
+    width: 100%
+    display: flex
+    justify-content: center
+    .image-block-img,
+    .image-block-img-desktop,
+    .image-block-img-mobile
+        height: 297px
+        width: auto
+        max-width: 100%
+        display: block
+        object-fit: cover
+    .image-block-img-mobile
+        display: none
+    @include responsivo(telefonoTable)
+        .image-block-img-desktop
+            display: none
+        .image-block-img-mobile
+            display: block
+
 
 #single_blog_2025 .index-section
     .section-row-2

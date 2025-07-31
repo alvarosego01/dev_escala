@@ -91,43 +91,51 @@ $blocks = $post['content_blocks'] ?? [];
                     {{-- Renderizado dinámico de bloques --}}
                     @foreach($blocks as $block)
                     @switch($block['_type'])
-                    @case('index')
-                    @include('components.blog2025.index', [
-                    'index_items' => $block['index_items'],
-                    'index_title' => $block['index_title'] ?? null
-                    ])
-                    @break
-                    @case('text_block')
-                    @include('components.blog2025.text-block', [
-                    'title' => $block['title'],
-                    'content' => $block['content'],
-                    'anchor_id' => $block['anchor_id'] ?? null
-                    ])
-                    @break
-                    @case('text_block_h3')
-                    @include('components.blog2025.text-block-h3', [
-                    'title' => $block['title'],
-                    'content' => $block['content'],
-                    'anchor_id' => $block['anchor_id'] ?? null
-                    ])
-                    @break
-                    @case('highlight_block')
-                    @include('components.blog2025.highlight-block', [
-                    'content' => $block['content'],
-                    'anchor_id' => $block['anchor_id'] ?? null
-                    ])
-                    @break
-                    @case('share_block')
-                    @include('components.blog2025.share-block', [
-                    'topic' => $block['topic'] ?? '',
-                    'anchor_id' => $block['anchor_id'] ?? null
-                    ])
-                    @break
-                    @case('space_block')
-                    @include('components.blog2025.space-block', ['space_size' => $block['space_size']])
-                    @break
+                        @case('index')
+                            @include('components.blog2025.index', [
+                                'index_items' => $block['index_items'],
+                                'index_title' => $block['index_title'] ?? null
+                            ])
+                            @break
+                        @case('text_block')
+                            @include('components.blog2025.text-block', [
+                                'title' => $block['title'],
+                                'content' => $block['content'],
+                                'anchor_id' => $block['anchor_id'] ?? null
+                            ])
+                            @break
+                        @case('text_block_h3')
+                            @include('components.blog2025.text-block-h3', [
+                                'title' => $block['title'],
+                                'content' => $block['content'],
+                                'anchor_id' => $block['anchor_id'] ?? null
+                            ])
+                            @break
+                        @case('highlight_block')
+                            @include('components.blog2025.highlight-block', [
+                                'content' => $block['content'],
+                                'anchor_id' => $block['anchor_id'] ?? null
+                            ])
+                            @break
+                        @case('share_block')
+                            @include('components.blog2025.share-block', [
+                                'topic' => $block['topic'] ?? '',
+                                'anchor_id' => $block['anchor_id'] ?? null
+                            ])
+                            @break
+                        @case('space_block')
+                            @include('components.blog2025.space-block', ['space_size' => $block['space_size']])
+                            @break
+                        @case('image_block')
+                            @include('components.blog2025.image-block', [
+                                'image_desktop' => $block['image_desktop'] ?? '',
+                                'image_mobile' => $block['image_mobile'] ?? '',
+                                'anchor_id' => $block['anchor_id'] ?? null
+                            ])
+                            @break
                     @endswitch
                     @endforeach
+
                 </div>
                 <div class="innerSectionElement sct1">
                     <div class="space-block mb-xxl"></div>
