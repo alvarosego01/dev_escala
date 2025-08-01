@@ -502,6 +502,27 @@
             border-radius: 5px
 
 
+// Bloque de imagen simple
+#single_blog_2025 .image-block-section
+    width: 100%
+    display: flex
+    justify-content: center
+    .image-block-img,
+    .image-block-img-desktop,
+    .image-block-img-mobile
+        height: 297px
+        width: auto
+        max-width: 100%
+        display: block
+        object-fit: cover
+    .image-block-img-mobile
+        display: none
+    @include responsivo(telefonoTable)
+        .image-block-img-desktop
+            display: none
+        .image-block-img-mobile
+            display: block
+
 
 #single_blog_2025 .index-section
     .section-row-2
@@ -648,13 +669,18 @@
                 .card-image
                     background-size: cover
                     background-position: center
-                    height: 340px
+                    height: 251px
                     width: auto
                     position: relative
                     display: flex
                     flex-direction: column
                     padding: 38px
-                    border-radius: 15px
+                    @include responsivo(telefonoTable)
+                        height: 233px
+                    @include responsivo(pcMedio)
+                        height: 233px
+                    @include responsivo(smallPcTablet)
+                        height: 190px
                     .card-topic
                         color: #fff
                         font-size: 24px
@@ -691,6 +717,22 @@
                         img
                             width: 70px
                             height: 70px
+                h4.card-title
+                    padding: 30px 35
+                    font-size: 24px 
+                    color: #2C4857
+                    font-weight: 700
+                    font-family: 'Mulish', sans-serif
+                    line-height: 1
+
+                a
+                    text-decoration: none
+                    // Hover global para todos los hijos
+                    &:hover, &:hover *
+                        color: #007F96 !important
+                     
+
+
 
         .innerSectionElement.sct2
             text-align: center

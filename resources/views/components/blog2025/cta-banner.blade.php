@@ -16,7 +16,7 @@
       <h3>{{ $title }}</h3>
       @endif
       @if(!empty($button_text) && !empty($button_url))
-      <a href="{{ $button_url }}" class="btn btn-primary mt-3">{{ $button_text }}</a>
+      <a href="{{ $button_url }}" class="btn btn-primary  menuHoverInEffect openPopUpButton popup-general-demo-2022 mt-3">{{ $button_text }}</a>
       @endif
     </div>
   </div>

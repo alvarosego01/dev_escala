@@ -91,43 +91,51 @@ $blocks = $post['content_blocks'] ?? [];
                     {{-- Renderizado dinámico de bloques --}}
                     @foreach($blocks as $block)
                     @switch($block['_type'])
-                    @case('index')
-                    @include('components.blog2025.index', [
-                    'index_items' => $block['index_items'],
-                    'index_title' => $block['index_title'] ?? null
-                    ])
-                    @break
-                    @case('text_block')
-                    @include('components.blog2025.text-block', [
-                    'title' => $block['title'],
-                    'content' => $block['content'],
-                    'anchor_id' => $block['anchor_id'] ?? null
-                    ])
-                    @break
-                    @case('text_block_h3')
-                    @include('components.blog2025.text-block-h3', [
-                    'title' => $block['title'],
-                    'content' => $block['content'],
-                    'anchor_id' => $block['anchor_id'] ?? null
-                    ])
-                    @break
-                    @case('highlight_block')
-                    @include('components.blog2025.highlight-block', [
-                    'content' => $block['content'],
-                    'anchor_id' => $block['anchor_id'] ?? null
-                    ])
-                    @break
-                    @case('share_block')
-                    @include('components.blog2025.share-block', [
-                    'topic' => $block['topic'] ?? '',
-                    'anchor_id' => $block['anchor_id'] ?? null
-                    ])
-                    @break
-                    @case('space_block')
-                    @include('components.blog2025.space-block', ['space_size' => $block['space_size']])
-                    @break
+                        @case('index')
+                            @include('components.blog2025.index', [
+                                'index_items' => $block['index_items'],
+                                'index_title' => $block['index_title'] ?? null
+                            ])
+                            @break
+                        @case('text_block')
+                            @include('components.blog2025.text-block', [
+                                'title' => $block['title'],
+                                'content' => $block['content'],
+                                'anchor_id' => $block['anchor_id'] ?? null
+                            ])
+                            @break
+                        @case('text_block_h3')
+                            @include('components.blog2025.text-block-h3', [
+                                'title' => $block['title'],
+                                'content' => $block['content'],
+                                'anchor_id' => $block['anchor_id'] ?? null
+                            ])
+                            @break
+                        @case('highlight_block')
+                            @include('components.blog2025.highlight-block', [
+                                'content' => $block['content'],
+                                'anchor_id' => $block['anchor_id'] ?? null
+                            ])
+                            @break
+                        @case('share_block')
+                            @include('components.blog2025.share-block', [
+                                'topic' => $block['topic'] ?? '',
+                                'anchor_id' => $block['anchor_id'] ?? null
+                            ])
+                            @break
+                        @case('space_block')
+                            @include('components.blog2025.space-block', ['space_size' => $block['space_size']])
+                            @break
+                        @case('image_block')
+                            @include('components.blog2025.image-block', [
+                                'image_desktop' => $block['image_desktop'] ?? '',
+                                'image_mobile' => $block['image_mobile'] ?? '',
+                                'anchor_id' => $block['anchor_id'] ?? null
+                            ])
+                            @break
                     @endswitch
                     @endforeach
+
                 </div>
                 <div class="innerSectionElement sct1">
                     <div class="space-block mb-xxl"></div>
@@ -165,8 +173,8 @@ $blocks = $post['content_blocks'] ?? [];
                                     @endif
                                     @endforeach
                         </ul>
-                        <h3>Suscríbete al Escala Blog</h3>
-                        <a class="btn btn-primary sub" href="#">Suscribirme →</a>
+                        <!-- <h3>Suscríbete al Escala Blog</h3>
+                        <a class="btn btn-primary sub" href="#">Suscribirme →</a> -->
                     </section>
                     @php wp_reset_postdata(); @endphp
                 </div>
@@ -238,32 +246,19 @@ $blocks = $post['content_blocks'] ?? [];
                         $text_autor = carbon_get_post_meta($related->ID, 'text_autor');
                         @endphp
                         <div class="related-card">
-                            <div class="card-image" style="background-image:url('{{ $image_url }}')">
-                                <div class="card-topic">{{ $topic }}</div>
-                                <a href="{{ $permalink }}">
-                                    <div class="card-title">{!! $title !!}</div>
-                                </a>
-                            </div>
-                            <div class="card-meta card-meta-flex">
-                                <span class="card-meta-icon">
-                                    <img src="{{ App::setFilePath('/assets/images/icons/icon-escala-blog-2025.webp') }}" alt="icono Escala">
-                                </span>
-                                <span class="meta-text">
-                                    <div class="meta-info">
-                                        <h4>{{ implode(' ', array_slice(explode(' ', $reading_time ?? ''), 0, 2)) }}</h4>
-                                        <h4 class="title-meta">{{ $text_autor ?? '' }}</h4>
-                                    </div>
-                                </span>
-                            </div>
+                            <a href="{{ $permalink }}">
+                                <div class="card-image" style="background-image:url('{{ $image_url }}')"></div>
+                                <h4 class="card-title">{!! $title !!}</h4>
+                            </a>
                         </div>
                         @endforeach
                     </div>
                     @php wp_reset_postdata(); @endphp
                 </div>
-                <div class="innerSectionElement sct2">
+                <!-- <div class="innerSectionElement sct2">
                     <h3>¿Te gustaría recibir artículos como este directo en tu Inbox?</h3>
                     <a class="btn btn-primary sub" href="#">Suscríbete al blog de Escala →</a>
-                </div>
+                </div> -->
             </div>
         </section>
 
