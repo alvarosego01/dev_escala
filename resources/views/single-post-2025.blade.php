@@ -173,8 +173,8 @@ $blocks = $post['content_blocks'] ?? [];
                                     @endif
                                     @endforeach
                         </ul>
-                        <h3>Suscríbete al Escala Blog</h3>
-                        <a class="btn btn-primary sub" href="#">Suscribirme →</a>
+                        <!-- <h3>Suscríbete al Escala Blog</h3>
+                        <a class="btn btn-primary sub" href="#">Suscribirme →</a> -->
                     </section>
                     @php wp_reset_postdata(); @endphp
                 </div>
@@ -246,32 +246,19 @@ $blocks = $post['content_blocks'] ?? [];
                         $text_autor = carbon_get_post_meta($related->ID, 'text_autor');
                         @endphp
                         <div class="related-card">
-                            <div class="card-image" style="background-image:url('{{ $image_url }}')">
-                                <div class="card-topic">{{ $topic }}</div>
-                                <a href="{{ $permalink }}">
-                                    <div class="card-title">{!! $title !!}</div>
-                                </a>
-                            </div>
-                            <div class="card-meta card-meta-flex">
-                                <span class="card-meta-icon">
-                                    <img src="{{ App::setFilePath('/assets/images/icons/icon-escala-blog-2025.webp') }}" alt="icono Escala">
-                                </span>
-                                <span class="meta-text">
-                                    <div class="meta-info">
-                                        <h4>{{ implode(' ', array_slice(explode(' ', $reading_time ?? ''), 0, 2)) }}</h4>
-                                        <h4 class="title-meta">{{ $text_autor ?? '' }}</h4>
-                                    </div>
-                                </span>
-                            </div>
+                            <a href="{{ $permalink }}">
+                                <div class="card-image" style="background-image:url('{{ $image_url }}')"></div>
+                                <h4 class="card-title">{!! $title !!}</h4>
+                            </a>
                         </div>
                         @endforeach
                     </div>
                     @php wp_reset_postdata(); @endphp
                 </div>
-                <div class="innerSectionElement sct2">
+                <!-- <div class="innerSectionElement sct2">
                     <h3>¿Te gustaría recibir artículos como este directo en tu Inbox?</h3>
                     <a class="btn btn-primary sub" href="#">Suscríbete al blog de Escala →</a>
-                </div>
+                </div> -->
             </div>
         </section>
 
