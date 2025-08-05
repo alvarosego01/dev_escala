@@ -22,7 +22,7 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
 
                         @if (isset($type) && $type === 'default')
                         <a class="navbar-brand normal">
-                            <img src="{!! App::setFilePath('/assets/images/logos/') !!}" alt="Logo" class="logo-img">
+                            <img src="{!! App::setFilePath('/assets/images/logos/log-escala-blanco-2025.webp') !!}" alt="Logo" class="logo-img">
                         </a>
                         @elseif (isset($type) && $type === 'light')
                         <a class="navbar-brand normal">
