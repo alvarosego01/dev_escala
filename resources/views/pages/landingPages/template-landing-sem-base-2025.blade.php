@@ -17,7 +17,7 @@
                                 menos esfuerzo.
                             </h1>
 
-                         
+
                             <p class="principalBigText">
                                 ¿Y si sumaras al equipo un nuevo integrante <br class="DT_e">
                                 más efectivo que tu mejor vendedor, y capaz <br class="DT_e">
@@ -352,7 +352,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_1',
                         'img' => App::setFilePath('/assets/images/illustrations/others/no-chatbox.webp'),
-                        'text' => '<span>No es un Chatbox con IA</span> son Agentes <br class="DT_e"> integrados al Inbox que piensan <br class="DT_e"> parecido a un humano (y trabajan 24/7)',
+                        'text' => '<span>No es un Chatbox con IA,</span> son Agentes <br class="DT_e"> integrados al Inbox que piensan <br class="DT_e"> parecido a un humano (y trabajan 24/7)',
                         'side' => 'left',
                         ]);
                         @endphp
@@ -411,7 +411,7 @@
                 <div class="row sct1">
                     <div class="text-center col-12">
                         <h2 class="title">
-                           Que han logrado nuestros clientes
+                            Que han logrado nuestros clientes
                         </h2>
                     </div>
                 </div>
@@ -442,6 +442,9 @@
 
                                         <div class="cardImg">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-bandera-col.webp') !!}" loading="lazy">
+                                            <span>Colombia</span>
+                                        </div>
+                                        <div class="cardStart">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}"
                                                 alt="">
                                         </div>
@@ -472,6 +475,9 @@
                                         <p class="card-text">Líder Comunicaciones Taller Cinco</p>
                                         <div class="cardImg">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-bandera-col.webp') !!}" loading="lazy">
+                                            <span>Colombia</span>
+                                        </div>
+                                        <div class="cardStart">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}"
                                                 alt="">
                                         </div>
@@ -500,6 +506,9 @@
                                         <p class="card-text"> CEO KataGoGo</p>
                                         <div class="cardImg">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-bandera-col.webp') !!}" loading="lazy">
+                                            <span>Colombia</span>
+                                        </div>
+                                        <div class="cardStart">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}"
                                                 alt="">
                                         </div>
@@ -515,7 +524,7 @@
             </div>
         </section>
 
-        <section class="customSection sectionParent landing_sem_base_7" >
+        <section class="customSection sectionParent landing_sem_base_7">
             <div class="section-row " style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-7-sem-base.webp') }}')">
                 <div class="containElements">
                     <section class="innerSectionElement sct1">
@@ -560,52 +569,75 @@
                         Preguntas Frecuentes
                     </h2>
 
-                    <div class="containElement">
-                        <div class="card">
-                            <div class="img">
-                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-1.webp') !!}" loading="lazy">
+                        <div class="containElement faq-accordion">
+                            <div class="faq-card">
+                                <div class="img">
+                                    <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-1.webp') !!}" loading="lazy">
+                                </div>
+                                <div class="info">
+                                    <button class="faq-question" type="button">
+                                        ¿Necesito saber de tecnología o IA?
+                                    </button>
+                                    <div class="faq-answer" style="display:none;">
+                                        <span>
+                                            No. Nuestro equipo configura todo por ti en 30 días. Solo te enfocas en vender.
+                                        </span>
+                                    </div>
+                                    <hr>
+
+                                </div>
                             </div>
-                            <div class="info">
-                                <h3>
-                                    ¿Necesito saber de tecnología o IA?
-                                </h3>
-                                <span>
-                                    No. Nuestro equipo configura todo por ti en 30 días. Solo te enfocas en vender.
-                                </span>
-                                <hr>
+                            <div class="faq-card">
+                                <div class="img">
+                                    <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-2.webp') !!}" loading="lazy">
+                                </div>
+                                <div class="info">
+                                    <button class="faq-question" type="button">
+                                        ¿Puedo integrarlo con mis herramientas actuales?
+                                    </button>
+                                    <div class="faq-answer" style="display:none;">
+                                        <span>
+                                            Sí. Escala se conecta con tus formularios, WhatsApp, correo y redes fácilmente.
+                                        </span>
+                                    </div>
+                                    <hr>
+
+                                </div>
+                            </div>
+
+                            <div class="faq-card">
+                                <div class="img">
+                                    <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-3.webp') !!}" loading="lazy">
+                                </div>
+                                <div class="info">
+                                    <button class="faq-question" type="button">
+                                        ¿Y si ya tengo un CRM?
+                                    </button>
+                                    <div class="faq-answer" style="display:none;">
+                                        <span>
+                                            Perfecto. La mayoría de nuestros clientes llegan desde otros CRM… y no vuelven atrás.
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="card">
-                            <div class="img">
-                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-2.webp') !!}" loading="lazy">
-                            </div>
-                            <div class="info">
-                                <h3>
-                                    ¿Puedo integrarlo con mis herramientas actuales?
-                                </h3>
-                                <span>
-                                    Sí. Escala se conecta con tus formularios, WhatsApp, correo y redes fácilmente.
-                                </span>
-                                <hr>
-
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="img">
-                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-3.webp') !!}" loading="lazy">
-                            </div>
-                            <div class="info">
-                                <h3>
-                                    ¿Y si ya tengo un CRM?
-                                </h3>
-                                <span>
-                                    Perfecto. La mayoría de nuestros clientes llegan desde otros CRM… y no vuelven atrás.
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+                        <script>
+                            document.addEventListener('DOMContentLoaded', function() {
+                                var questions = document.querySelectorAll('.faq-question');
+                                questions.forEach(function(btn) {
+                                    btn.addEventListener('click', function() {
+                                        var answer = btn.nextElementSibling;
+                                        var isOpen = answer.style.display === 'block';
+                                        // Close all answers
+                                        document.querySelectorAll('.faq-answer').forEach(function(a) {
+                                            a.style.display = 'none';
+                                        });
+                                        // Toggle current
+                                        answer.style.display = isOpen ? 'none' : 'block';
+                                    });
+                                });
+                            });
+                        </script>
 
                 </section>
 
