@@ -569,52 +569,75 @@
                         Preguntas Frecuentes
                     </h2>
 
-                    <div class="containElement">
-                        <div class="card">
-                            <div class="img">
-                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-1.webp') !!}" loading="lazy">
+                        <div class="containElement faq-accordion">
+                            <div class="faq-card">
+                                <div class="img">
+                                    <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-1.webp') !!}" loading="lazy">
+                                </div>
+                                <div class="info">
+                                    <button class="faq-question" type="button">
+                                        ¿Necesito saber de tecnología o IA?
+                                    </button>
+                                    <div class="faq-answer" style="display:none;">
+                                        <span>
+                                            No. Nuestro equipo configura todo por ti en 30 días. Solo te enfocas en vender.
+                                        </span>
+                                    </div>
+                                    <hr>
+
+                                </div>
                             </div>
-                            <div class="info">
-                                <h3>
-                                    ¿Necesito saber de tecnología o IA?
-                                </h3>
-                                <span>
-                                    No. Nuestro equipo configura todo por ti en 30 días. Solo te enfocas en vender.
-                                </span>
-                                <hr>
+                            <div class="faq-card">
+                                <div class="img">
+                                    <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-2.webp') !!}" loading="lazy">
+                                </div>
+                                <div class="info">
+                                    <button class="faq-question" type="button">
+                                        ¿Puedo integrarlo con mis herramientas actuales?
+                                    </button>
+                                    <div class="faq-answer" style="display:none;">
+                                        <span>
+                                            Sí. Escala se conecta con tus formularios, WhatsApp, correo y redes fácilmente.
+                                        </span>
+                                    </div>
+                                    <hr>
+
+                                </div>
+                            </div>
+
+                            <div class="faq-card">
+                                <div class="img">
+                                    <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-3.webp') !!}" loading="lazy">
+                                </div>
+                                <div class="info">
+                                    <button class="faq-question" type="button">
+                                        ¿Y si ya tengo un CRM?
+                                    </button>
+                                    <div class="faq-answer" style="display:none;">
+                                        <span>
+                                            Perfecto. La mayoría de nuestros clientes llegan desde otros CRM… y no vuelven atrás.
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="card">
-                            <div class="img">
-                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-2.webp') !!}" loading="lazy">
-                            </div>
-                            <div class="info">
-                                <h3>
-                                    ¿Puedo integrarlo con mis herramientas actuales?
-                                </h3>
-                                <span>
-                                    Sí. Escala se conecta con tus formularios, WhatsApp, correo y redes fácilmente.
-                                </span>
-                                <hr>
-
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="img">
-                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-3.webp') !!}" loading="lazy">
-                            </div>
-                            <div class="info">
-                                <h3>
-                                    ¿Y si ya tengo un CRM?
-                                </h3>
-                                <span>
-                                    Perfecto. La mayoría de nuestros clientes llegan desde otros CRM… y no vuelven atrás.
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+                        <script>
+                            document.addEventListener('DOMContentLoaded', function() {
+                                var questions = document.querySelectorAll('.faq-question');
+                                questions.forEach(function(btn) {
+                                    btn.addEventListener('click', function() {
+                                        var answer = btn.nextElementSibling;
+                                        var isOpen = answer.style.display === 'block';
+                                        // Close all answers
+                                        document.querySelectorAll('.faq-answer').forEach(function(a) {
+                                            a.style.display = 'none';
+                                        });
+                                        // Toggle current
+                                        answer.style.display = isOpen ? 'none' : 'block';
+                                    });
+                                });
+                            });
+                        </script>
 
                 </section>
 

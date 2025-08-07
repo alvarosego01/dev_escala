@@ -1524,7 +1524,7 @@ img
                 gap: 0
                 @include responsivo(telefonoTable)
                     padding: 50px 20px
-                .card
+                .faq-card
                     border: none
                     display: flex
                     flex-direction: row
@@ -1540,12 +1540,15 @@ img
                     .img
                         width: auto
                         img
-                            height: 60px
+                            height: 40px
                             width: auto
 
                     .info
+                        text-align: left
+                        @include responsivo(telefonoTable)
+                            text-align: center
                         width: 100%
-                        h3
+                        .faq-question
                             font-family: 'Mulish', sans-serif
                             font-style: normal
                             font-weight: 700
@@ -1553,8 +1556,10 @@ img
                             line-height: 1
                             color: #2c4857
                             font-size: 30px     
+                            background: transparent
                             @include responsivo(telefonoTable)
                                 text-align: center
+                                font-size: 24px
                         span
                             text-align: left
                             font-size: 24px
@@ -1565,9 +1570,12 @@ img
                             display: block     
                             @include responsivo(telefonoTable)
                                 text-align: center
+                                font-size: 20px
                         hr
                             background: #e9e9e9
                             height: 2px
                             margin:  30px 0
                             padding: 0
                             width: 100%                                           
+                        .faq-answer
+                            margin: 15px 10px
