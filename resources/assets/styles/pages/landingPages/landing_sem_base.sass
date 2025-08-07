@@ -47,6 +47,8 @@ img
         .innerSectionElement.sctO1
             padding: 50px 70px
             padding-bottom: 30px
+            @include responsivo(telefonoTable)
+                padding: 50px 30px
             @include responsivo(general)
                 padding: 50px 30px
                 padding-bottom: 30px
@@ -812,7 +814,6 @@ img
                 text-align: center
                 margin-bottom: 50px
                 @include responsivo(telefonoTable)
-                    margin-bottom: 0
                     br
                         display: none!important
                 @include responsivo(pcMedio)
@@ -843,6 +844,7 @@ img
                     flex-direction: column-reverse
                     align-items: center
                     padding: 40px 20px
+                    padding-bottom: 0px
                 @include responsivo(pcMedio)
                     flex-direction: column-reverse
                     align-items: center
@@ -1252,7 +1254,7 @@ img
                     padding: 0px 
                 @include responsivo(telefonoTable)
                     align-items: center
-                    padding: 0px 20px 30px 20px
+                    padding: 0px 10px 30px 10px
                 @include responsivo(pcMedio)
                     align-items: center
                 @include responsivo(smallPcTablet)
@@ -1286,7 +1288,7 @@ img
                         font-size: 18px
                     img
                         height: 65px
-                        width: fit-content
+                        width: auto
                         @include responsivo(smallPcTablet)
                             height: 55px
                     .text-internal
@@ -1306,18 +1308,30 @@ img
                             font-style: normal
                             font-weight: 400
                             text-align: left
-
+                            line-height: 1
                             @include responsivo(smallPcTablet)
                                 font-size: 12px
 
                 .cardImg
                     display: flex
+                    align-items: center
                     gap: 10px
+                    margin: 7px 0px
                     img
-                        margin-top: 10px
-                        height: 23px
-                        width: fit-content
-
+                        height: 19px
+                        width: auto
+                    span
+                        font-family: "Mulish", sans-serif
+                        font-size: 14px
+                        font-style: normal
+                        font-weight: 400
+                        line-height: 1
+                        color: #212A31
+                        text-align: left
+                .cardStart
+                    img
+                        height: 22px
+                        width: auto
     .btnCenter
         margin-top: 0px
         margin-bottom: 0px
