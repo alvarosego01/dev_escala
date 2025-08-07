@@ -17,13 +17,7 @@
                                 menos esfuerzo.
                             </h1>
 
-                            <h1 class="principalBigTitleMb">
-                                <span> CRM + Inteligencia <br class="DT_e">
-                                    Artificial </span>para <br class="DT_e">
-                                vender más con <br class="DT_e">
-                                menos esfuerzo.
-
-                            </h1>
+                         
                             <p class="principalBigText">
                                 ¿Y si sumaras al equipo un nuevo integrante <br class="DT_e">
                                 más efectivo que tu mejor vendedor, y capaz <br class="DT_e">
@@ -196,25 +190,6 @@
                             <img alt="Logos empresa"
                                 src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_valora.png') }}"
                                 loading="lazy">
-                        </div>
-                        <div class="logos_empresas mb_logos">
-
-                            <img alt="Logos empresa"
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_forbes.png') }}"
-                                loading="lazy">
-                            <img alt="Logos empresa"
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_valora.png') }}"
-                                loading="lazy">
-                            <img alt="Logos empresa"
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_refresh_miami.png') }}"
-                                loading="lazy">
-                            <img alt="Logos empresa"
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_yahoo_finance.png') }}"
-                                loading="lazy">
-                            <img alt="Logos empresa"
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_latam_list.png') }}"
-                                loading="lazy">
-
                         </div>
                     </section>
                 </div>
@@ -466,7 +441,7 @@
                                         <p class="card-text">Líder Comercial Poctlab</p>
 
                                         <div class="cardImg">
-                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-col-cards.png') !!}" loading="lazy">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-bandera-col.webp') !!}" loading="lazy">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}"
                                                 alt="">
                                         </div>
@@ -496,7 +471,7 @@
                                         <span class="card-title">Miller Romero</span>
                                         <p class="card-text">Líder Comunicaciones Taller Cinco</p>
                                         <div class="cardImg">
-                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-col-cards.png') !!}" loading="lazy">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-bandera-col.webp') !!}" loading="lazy">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}"
                                                 alt="">
                                         </div>
@@ -524,7 +499,7 @@
                                         </span>
                                         <p class="card-text"> CEO KataGoGo</p>
                                         <div class="cardImg">
-                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-col-cards.png') !!}" loading="lazy">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-bandera-col.webp') !!}" loading="lazy">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}"
                                                 alt="">
                                         </div>
