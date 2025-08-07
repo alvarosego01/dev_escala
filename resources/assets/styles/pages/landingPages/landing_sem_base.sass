@@ -1299,6 +1299,8 @@ img
                             font-size: 20px
                             font-style: normal
                             font-weight: 700
+                            display: inline-block
+                            margin-bottom: 7px
                             @include responsivo(smallPcTablet)
                                 font-size: 16px
                         .card-text
@@ -1557,9 +1559,15 @@ img
                             color: #2c4857
                             font-size: 30px     
                             background: transparent
+                            display: flex
+                            justify-content: space-between
+                            align-items: center
+                            width: 100%
                             @include responsivo(telefonoTable)
                                 text-align: center
                                 font-size: 24px
+                                flex-direction: column
+                                gap: 20px
                         span
                             text-align: left
                             font-size: 24px
@@ -1579,3 +1587,4 @@ img
                             width: 100%                                           
                         .faq-answer
                             margin: 15px 10px
+                        

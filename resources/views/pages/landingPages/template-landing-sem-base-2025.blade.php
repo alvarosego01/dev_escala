@@ -569,75 +569,103 @@
                         Preguntas Frecuentes
                     </h2>
 
-                        <div class="containElement faq-accordion">
-                            <div class="faq-card">
-                                <div class="img">
-                                    <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-1.webp') !!}" loading="lazy">
-                                </div>
-                                <div class="info">
-                                    <button class="faq-question" type="button">
-                                        ¿Necesito saber de tecnología o IA?
-                                    </button>
-                                    <div class="faq-answer" style="display:none;">
-                                        <span>
-                                            No. Nuestro equipo configura todo por ti en 30 días. Solo te enfocas en vender.
-                                        </span>
-                                    </div>
-                                    <hr>
-
-                                </div>
+                    <div class="containElement faq-accordion">
+                        <div class="faq-card">
+                            <div class="img">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-1.webp') !!}" loading="lazy">
                             </div>
-                            <div class="faq-card">
-                                <div class="img">
-                                    <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-2.webp') !!}" loading="lazy">
-                                </div>
-                                <div class="info">
-                                    <button class="faq-question" type="button">
-                                        ¿Puedo integrarlo con mis herramientas actuales?
-                                    </button>
-                                    <div class="faq-answer" style="display:none;">
-                                        <span>
-                                            Sí. Escala se conecta con tus formularios, WhatsApp, correo y redes fácilmente.
-                                        </span>
-                                    </div>
-                                    <hr>
+                            <div class="info">
+                                <button class="faq-question" type="button">
+                                    ¿Necesito saber de tecnología o IA?
+                                    <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
+                                            <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </span>
 
+                                </button>
+                                <div class="faq-answer" style="display:none;">
+                                    <span>
+                                        No. Nuestro equipo configura todo por ti en 30 días. Solo te enfocas en vender.
+                                    </span>
                                 </div>
+                                <hr>
+
                             </div>
+                        </div>
+                        <div class="faq-card">
+                            <div class="img">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-2.webp') !!}" loading="lazy">
+                            </div>
+                            <div class="info">
+                                <button class="faq-question" type="button">
+                                    ¿Puedo integrarlo con mis herramientas actuales?
+                                    <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
+                                            <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </span>
 
-                            <div class="faq-card">
-                                <div class="img">
-                                    <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-3.webp') !!}" loading="lazy">
+                                </button>
+                                <div class="faq-answer" style="display:none;">
+                                    <span>
+                                        Sí. Escala se conecta con tus formularios, WhatsApp, correo y redes fácilmente.
+                                    </span>
                                 </div>
-                                <div class="info">
-                                    <button class="faq-question" type="button">
-                                        ¿Y si ya tengo un CRM?
-                                    </button>
-                                    <div class="faq-answer" style="display:none;">
-                                        <span>
-                                            Perfecto. La mayoría de nuestros clientes llegan desde otros CRM… y no vuelven atrás.
-                                        </span>
-                                    </div>
+                                <hr>
+
+                            </div>
+                        </div>
+
+                        <div class="faq-card">
+                            <div class="img">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-3.webp') !!}" loading="lazy">
+                            </div>
+                            <div class="info">
+                                <button class="faq-question" type="button">
+                                    ¿Y si ya tengo un CRM?
+                                    <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
+                                            <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </span>
+                                </button>
+                                <div class="faq-answer" style="display:none;">
+                                    <span>
+                                        Perfecto. La mayoría de nuestros clientes llegan desde otros CRM… y no vuelven atrás.
+                                    </span>
                                 </div>
                             </div>
                         </div>
-                        <script>
-                            document.addEventListener('DOMContentLoaded', function() {
-                                var questions = document.querySelectorAll('.faq-question');
-                                questions.forEach(function(btn) {
-                                    btn.addEventListener('click', function() {
-                                        var answer = btn.nextElementSibling;
-                                        var isOpen = answer.style.display === 'block';
-                                        // Close all answers
-                                        document.querySelectorAll('.faq-answer').forEach(function(a) {
-                                            a.style.display = 'none';
-                                        });
-                                        // Toggle current
-                                        answer.style.display = isOpen ? 'none' : 'block';
+                    </div>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            var questions = document.querySelectorAll('.faq-question');
+                            questions.forEach(function(btn) {
+                                btn.addEventListener('click', function() {
+                                    var answer = btn.nextElementSibling;
+                                    var arrow = btn.querySelector('.faq-arrow');
+                                    var svg = arrow ? arrow.querySelector('svg') : null;
+                                    var isOpen = answer.style.display === 'block';
+                                    // Close all answers and reset arrows
+                                    document.querySelectorAll('.faq-answer').forEach(function(a) {
+                                        a.style.display = 'none';
                                     });
+                                    document.querySelectorAll('.faq-arrow').forEach(function(ar) {
+                                        ar.style.transform = 'rotate(0deg)';
+                                    });
+                                    // Toggle current
+                                    if (!isOpen) {
+                                        answer.style.display = 'block';
+                                        if (arrow) arrow.style.transform = 'rotate(180deg)';
+                                    } else {
+                                        answer.style.display = 'none';
+                                        if (arrow) arrow.style.transform = 'rotate(0deg)';
+                                    }
                                 });
                             });
-                        </script>
+                        });
+                    </script>
 
                 </section>
 
