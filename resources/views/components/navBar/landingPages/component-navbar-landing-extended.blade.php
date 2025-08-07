@@ -22,8 +22,12 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
 
                         @if (isset($type) && $type === 'default')
                         <a class="navbar-brand normal">
-                            <img src="{!! App::setFilePath('/assets/images/logos/') !!}" alt="Logo" class="logo-img">
+                            <img src="{!! App::setFilePath('/assets/images/logos/log-escala-blanco-2025.webp') !!}" alt="Logo" class="logo-img">
                         </a>
+                        <div class="banner-crm">
+                            <span><b>El CRM #1</b> en Colombia </span>
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-col-cards.webp') !!}" class="icon-img-nav">
+                        </div>
                         @elseif (isset($type) && $type === 'light')
                         <a class="navbar-brand normal">
                             <img src="{!! App::setFilePath('/assets/images/logos/log-escala-blanco-2025.webp') !!}" alt="Logo" class="logo-img">
@@ -85,7 +89,17 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
                 </div>
 
             </div>
+            @if (isset($type) && $type === 'default')
 
+            <div class="banner-crm-2">
+                <span><b>El CRM #1</b> en Colombia </span>
+                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-col-cards.webp') !!}" class="icon-img-nav">
+            </div>
+            @elseif (isset($type) && $type === 'light')
+
+            @else
+
+            @endif
 
         </div>
     </nav>

@@ -17,6 +17,12 @@
             display: block!important
         @include responsivo(pcMedio)
             display: block!important
+.principal-global-landing-trasp-white
+    .menuButton 
+        @include responsivo(telefonoTable)
+            display: block!important
+        @include responsivo(pcMedio)
+            display: block!important
 .menuButton 
     @include responsivo(telefonoTable)
         display: none!important
@@ -201,6 +207,9 @@ header.customHeader.customSection
                     align-content: center
                     .navbar-brand
                         margin: auto
+                        display: flex
+                        gap: 20px
+                        align-items: center
                         img,
                         svg
                             width: auto
@@ -211,8 +220,46 @@ header.customHeader.customSection
                                 height: 30px
                             @include responsivo(general)
                                 height: 30.5px
-
-
+                        .banner-crm
+                            background: linear-gradient(90deg, #007F96 0%, #F1685A 100%)
+                            border-radius: 100px
+                            display: flex
+                            gap: 12px
+                            align-items: center
+                            padding: 5px 30px
+                            @include responsivo(telefonoTable)
+                                display: none!important
+                            span
+                                color: #fff
+                                font-size: 20px
+                                font-family: 'Mulish', sans-serif
+                                font-weight: 400
+                                line-height: 1
+                            .icon-img-nav
+                                height: 22px 
+                                width: auto
+            .banner-crm-2
+                display: none
+                background: linear-gradient(90deg, #007F96 0%, #F1685A 100%)
+                border-radius: 100px
+                display: flex
+                gap: 12px
+                align-items: center
+                padding: 5px 30px
+                margin: 0 auto
+                margin-top: 15px!important
+                width: 262px
+                @include responsivo(telefonoTable)
+                    display: block!important
+                span
+                    color: #fff
+                    font-size: 16px
+                    font-family: 'Mulish', sans-serif
+                    font-weight: 400
+                    line-height: 1
+                .icon-img-nav
+                    height: 22px 
+                    width: auto
 
 
 
@@ -1044,7 +1091,8 @@ header.customHeader.customSection.principal-global-landing-trasp-light.transpare
                     //                 top: 0
                     //                 bottom: 0
 
-
+                    .navbar-brand
+                        flex-direction: row-reverse
         &:not(.fixedNav)
             background-color: transparent!important
             box-shadow: none
