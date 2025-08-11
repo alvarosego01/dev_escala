@@ -459,10 +459,10 @@ img
                         font-size: 40px
                     @include responsivo(general)
                         margin-top: 0
-                        font-size: 50px
+                        font-size: 47px
                         width: 540px
                     @include responsivo(smallPcTablet)
-                        font-size: 50px
+                        font-size: 47px
                     @include responsivo(resto)
                         margin-top: 0
                         font-size: 50px
@@ -472,6 +472,12 @@ img
                         -webkit-background-clip: text
                         -webkit-text-fill-color: transparent
                         font-feature-settings: 'liga' off, 'clig' off
+                    .span-imbox
+                        background: linear-gradient(264deg, #D5FFC5 21.85%, #92BDFA 60.34%, #B587FA 96.67%)!important
+                        background-clip: text !important
+                        -webkit-background-clip: text !important
+                        -webkit-text-fill-color: transparent !important
+                        font-feature-settings: 'liga' off, 'clig' off !important
                 .principalBigText
                     font-family: 'Mulish', sans-serif
                     font-style: normal
@@ -1259,7 +1265,9 @@ img
                             display: none!important
                     @include responsivo(smallPcTablet)
                         br
-                            display: none!important  
+                            display: none!important 
+
+
         .innerSectionElement.sct1
             .containElements
 
@@ -1277,6 +1285,18 @@ img
                             height: 375px
                         @include responsivo(resto)
                             height: 425px
+
+            .text-blue
+                font-family: 'Mulish', sans-serif
+                font-size: 30px
+                font-weight: 700
+                line-height: 1
+                color: #007F96
+                display: block
+                text-align: center
+                margin-top: 40px
+
+
         .innerSectionElement.sct2
             span
                 text-align: left
@@ -1679,11 +1699,11 @@ img
         @include responsivo(general)
             width: 100%!important
             max-width: 1075px!important
-            height: 390px
+            height: 393px
         @include responsivo(smallPcTablet)
             max-width: 1000px!important
             padding: 0
-            height: 365px
+            height: 396px
         @include responsivo(resto)
             width: 100%!important
             max-width: 1250px!important
@@ -1721,18 +1741,22 @@ img
                         @include responsivo(general)
                             height: 412px
                         @include responsivo(smallPcTablet)
-                            height: 390px
+                            height: 416px
                         @include responsivo(resto)
                             height: 462px
 
             .innerSectionElement.sct2
                 margin: 0!important
+                width: 70%
+
                 @include responsivo(telefonoTable)
                     width: 95%
                 @include responsivo(pcMedio)
                     width: 95%
                 @include responsivo(smallPcTablet)
                     width: 54%
+                @include responsivo(general)
+                    width: 70%
                 .containElement
                     margin: 0
                     margin-top: 15px
