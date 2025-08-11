@@ -330,7 +330,10 @@ class SetComponents extends Controller
                 'views/template-landing-escala-blog-2024.blade.php',
                 'views/template-landing-escala-landing-pages-2023.blade.php',
                 'views/template-landing-escala-email-marketing-campaigns-2023.blade.php',
+                // Sem landing page 2025
                 'views/template-landing-sem-base-2025.blade.php',
+                'views/template-landing-sem-crm-whatsapp-ia-2025.blade.php',
+
                 'views/template-subPage-acompanamiento-2023.blade.php',
                 'views/template-subPage-educacion-2023.blade.php',
                 'views/template-subPage-implementacion-2023.blade.php',
