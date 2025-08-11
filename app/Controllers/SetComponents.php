@@ -333,6 +333,8 @@ class SetComponents extends Controller
                 // Sem landing page 2025
                 'views/template-landing-sem-base-2025.blade.php',
                 'views/template-landing-sem-crm-whatsapp-ia-2025.blade.php',
+                'views/template-landing-sem-crm-inbox-2025.blade.php',
+                'views/template-landing-sem-crm-automatizaciones-2025.blade.php',
 
                 'views/template-subPage-acompanamiento-2023.blade.php',
                 'views/template-subPage-educacion-2023.blade.php',
