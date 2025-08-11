@@ -284,12 +284,13 @@ add_action('wp_enqueue_scripts', function () {
         wp_enqueue_style('landing_paid_media__orange_.css', asset_path('styles/pages/landingPages/landing_paid_media_orange_2024.css'), false, THEME_VERSION);
     }
 
-    // Aplicar estilos landing_sem_base.css a todas las páginas dentro de semCo
+    // Aplicar estilos y scripts landing_sem_base solo a las páginas dentro de semCo
     if (
         is_page_template('views/template-landing-sem-base-2025.blade.php') ||
         is_page_template('views/template-landing-sem-crm-whatsapp-ia-2025.blade.php')
     ) {
         wp_enqueue_style('landing_sem_base.css', asset_path('styles/pages/landingPages/landing_sem_base.css'), false, THEME_VERSION);
+        wp_enqueue_script('_semBase.js', asset_path('scripts/pages/_semBase.js'), ['jquery'], THEME_VERSION, true);
     }
 
     // -------------------------------------- //

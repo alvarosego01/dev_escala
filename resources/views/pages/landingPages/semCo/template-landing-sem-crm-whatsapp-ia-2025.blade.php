@@ -405,6 +405,7 @@
                 </a>
             </div>
         </section>
+
         <section class="customSection sectionParent landing_sem_base_3_1">
 
             <div class="section-row">
@@ -448,6 +449,70 @@
             </div>
 
         </section>
+
+        <section class="customSection sectionParent landing_sem_base_2_1">
+
+            <div class="section-row">
+                <section class="innerSectionElement sct0">
+                    <h2 class="primaryTitle">
+                        ¿Por qué elegir Escala CRM para mejorar <br class="space">
+                        tu gestión de WhatsApp?
+                    </h2>
+                </section>
+                <section class="innerSectionElement sct1">
+                    <div class="containElements">
+                        <div class="cards">
+                            <img class="img-left"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-crm-centralizar.webp') !!}"
+                                alt="">
+                            <span>
+                                Centralizas la gestión de WhatsApp en un CRM Todo-en-uno
+                            </span>
+
+                        </div>
+                        <div class="cards">
+                            <img class="img-left"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-ia-automatizas.webp') !!}"
+                                alt="">
+                            <span>
+                                Automatizas con Inteligencia Artificial, no estás limitado flujos y chatbots
+                            </span>
+                        </div>
+                        <div class="cards">
+                            <img class="img-left"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-implementacion.webp') !!}"
+                                alt="">
+                            <span>
+                                Implementación y herramienta fácil de usar
+                            </span>
+                        </div>
+                        <div class="cards">
+                            <img class="img-left"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-acompañamiento.webp') !!}"
+                                alt="">
+                            <span>
+                                Obtienes acompañamiento VIP para maximizar resultados
+                            </span>
+                        </div>
+                        <div class="cards">
+                            <img class="img-left"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-ia-integraciones.webp') !!}"
+                                alt="">
+                            <span>
+                                Puedes integrar otras herramientas para seguir optimizando ventas
+                            </span>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+            <div class="btnCenter">
+                <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                    Conocer Escala →
+                </a>
+            </div>
+        </section>
+
 
         <section class="customSection sectionParent landing_sem_base_6">
 
@@ -731,34 +796,6 @@
                             </div>
                         </div>
                     </div>
-                    <script>
-                        document.addEventListener('DOMContentLoaded', function() {
-                            var questions = document.querySelectorAll('.faq-question');
-                            questions.forEach(function(btn) {
-                                btn.addEventListener('click', function() {
-                                    var answer = btn.nextElementSibling;
-                                    var arrow = btn.querySelector('.faq-arrow');
-                                    var svg = arrow ? arrow.querySelector('svg') : null;
-                                    var isOpen = answer.style.display === 'block';
-                                    // Close all answers and reset arrows
-                                    document.querySelectorAll('.faq-answer').forEach(function(a) {
-                                        a.style.display = 'none';
-                                    });
-                                    document.querySelectorAll('.faq-arrow').forEach(function(ar) {
-                                        ar.style.transform = 'rotate(0deg)';
-                                    });
-                                    // Toggle current
-                                    if (!isOpen) {
-                                        answer.style.display = 'block';
-                                        if (arrow) arrow.style.transform = 'rotate(180deg)';
-                                    } else {
-                                        answer.style.display = 'none';
-                                        if (arrow) arrow.style.transform = 'rotate(0deg)';
-                                    }
-                                });
-                            });
-                        });
-                    </script>
 
                 </section>
 
