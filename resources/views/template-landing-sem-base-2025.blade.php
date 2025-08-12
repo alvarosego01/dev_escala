@@ -10,7 +10,7 @@
 @section('content')
 
 
-@include('pages.landingPages.template-landing-sem-base-2025')
+@include('pages.landingPages.semCo.template-landing-sem-base-2025')
 
 
 @endsection

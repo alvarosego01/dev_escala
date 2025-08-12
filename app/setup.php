@@ -284,10 +284,18 @@ add_action('wp_enqueue_scripts', function () {
         wp_enqueue_style('landing_paid_media__orange_.css', asset_path('styles/pages/landingPages/landing_paid_media_orange_2024.css'), false, THEME_VERSION);
     }
 
-    //Landing page SEM base 2025 
-        if (is_page_template('views/template-landing-sem-base-2025.blade.php')) {
+    // Aplicar estilos y scripts landing_sem_base solo a las páginas dentro de semCo
+    if (
+        is_page_template('views/template-landing-sem-base-2025.blade.php') ||
+        is_page_template('views/template-landing-sem-crm-whatsapp-ia-2025.blade.php') ||
+        is_page_template('views/template-landing-sem-crm-inbox-2025.blade.php') ||
+        is_page_template('views/template-landing-sem-crm-excel-2025.blade.php') ||
+        is_page_template('views/template-landing-sem-crm-automatizaciones-2025.blade.php')
+    ) {
         wp_enqueue_style('landing_sem_base.css', asset_path('styles/pages/landingPages/landing_sem_base.css'), false, THEME_VERSION);
+        wp_enqueue_script('_semBase.js', asset_path('scripts/pages/_semBase.js'), ['jquery'], THEME_VERSION, true);
     }
+
     // -------------------------------------- //
     //  FUNCTIONALITIES 2022
     // ---Page builder
