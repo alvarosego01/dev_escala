@@ -3,7 +3,7 @@
         <section id="lead-form" class="hero2025 landing_sem_base_0">
 
             <div class="backgroundFull"
-                style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-inbox-crm-escala.webp') !!}')">
+                style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-inbox-crm-escala-1.webp') !!}')">
 
                 <div class="section-row">
 
@@ -325,7 +325,7 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_1',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/recibir-mensajes-canales.webp'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/recibir-mensajes-canales-1.webp'),
                         'text' => '<span>Recibir mensajes de tus canales clave</span> <br class="DT_e">
                         (WhatsApp, Instagram, Facebook, <br class="DT_e"> formularios…) en una sola bandeja de <br class="DT_e"> entrada.',
                         'side' => 'left',
@@ -361,7 +361,7 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_5',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/programar-mensajes-y-campañas.webp'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/img-meta-crm-escala.png'),
                         'text' => '<span>Programar mensajes y campañas</span> <br class="DT_e"> masivas desde WhatsApp con plantillas <br class="DT_e"> aprobadas por Meta.',
                         'side' => 'right',
                         ]);
@@ -421,11 +421,12 @@
 
                         <div class="right">
                             <ul>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Detectar mensajes nuevos</b> y responder miles de chats en segundos según lo hayas entrenado</span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Precalificar leads</b> </span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Agendar citas con tu equipo</b> </span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Enviar mensajes personalizados</b> y responder dudas frecuentes </span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Actualizar información</b> en el CRM según lo que se conversó </span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Detectar y atender automáticamente</b> mensajes de leads que llegan por WhatsApp, Instagram y Facebook</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Precalificar</b> prospectos y asignarlos estratégicamente a los vendedores</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Conversar</b> con prospectos, agendar citas y mantenerlos interesados</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Responder preguntas frecuentes,</b> enviar precios y materiales de venta</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Cotizar</b> agrupando productos seleccionados y dar descuentos</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Actualizar tu CRM</b> en tiempo real según el avance de cada conversación</span></li>
 
                             </ul>
                             <span>
@@ -631,7 +632,7 @@
                     <section class="innerSectionElement sct1">
                         <div class="containElement">
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/Convierte-más-conversaciones-en-ventas-con Escala-CRM.webp') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/alfonso-ceo-escala.webp') }}"
                                 loading="lazy">
                         </div>
                     </section>

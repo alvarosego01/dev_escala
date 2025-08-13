@@ -22,7 +22,7 @@
                                 ¿Y si sumaras al equipo un nuevo integrante <br class="DT_e">
                                 más efectivo que tu mejor vendedor, y capaz <br class="DT_e">
                                 de atender miles de leads al mismo tiempo… <br class="DT_e">
-                                sin pedir comisión por venta?
+                                con mucho menos costo operativo?
                             </p>
                             <div class="containerImage">
                                 <div class="video-cover" id="video-cover-landing" tabindex="0" data-video-src="https://player.vimeo.com/video/1097895831?autoplay=1">
@@ -281,7 +281,7 @@
                     </h2>
 
                     <span>
-                        Integrada a nuestro Inbox Conversacional, entrena a tu IA en minutos con información que ya <br class="DT_e">
+                        Integrada a nuestro Inbox Omnicanal, entrena a tu IA en minutos con información que ya <br class="DT_e">
                         tengas de tu empresa, para que trabaje con autonomía pero bajo tus propias reglas, y pueda:
                     </span>
 
@@ -293,10 +293,11 @@
 
                         <div class="right">
                             <ul>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Detectar automáticamente</b> mensajes de leads que llegan por WhatsApp, Instagram y Facebook </span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Detectar y atender automáticamente</b> mensajes de leads que llegan por WhatsApp, Instagram y Facebook </span></li>
                                 <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Precalificarlos y asignarlos</b> estratégicamente al vendedor correcto </span></li>
                                 <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Conversar con prospectos</b>, agendar citas y mantenerlos interesados </span></li>
                                 <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Responder preguntas frecuentes</b>, enviar precios y materiales de venta </span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Cotizar </b>agrupando productos seleccionados y dar descuentos</span></li>
                                 <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Actualizar tu CRM en tiempo real</b> según el avance de cada conversación </span></li>
                             </ul>
                             <span>
@@ -352,7 +353,7 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_1',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/no-chatbox.webp'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/recibir-mensajes-canales-1.webp'),
                         'text' => '<span>No es un Chatbox con IA,</span> son Agentes <br class="DT_e"> integrados al Inbox que piensan <br class="DT_e"> parecido a un humano (y trabajan 24/7)',
                         'side' => 'left',
                         ]);
@@ -374,7 +375,7 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_3',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/mejor-acompañamiento.webp'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/guardar-historial-conversaciones.webp'),
                         'text' => '<span>Escala ofrece el mejor</span> <br class="DT_e"> acompañamiento y servicio al cliente <br class="DT_e"> de la industria</li>
                         </ul>',
                         'side' => 'left',
@@ -386,7 +387,7 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_4',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/crm-todo-en-uno.webp'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/oportunidades-img-reportes.webp'),
                         'text' => '<span>Como CRM “todo-en-uno”</span> encuentras <br class="DT_e"> otras herramientas de marketing y <br class="DT_e"> ventas integradas en un solo lugar',
                         'side' => 'right',
                         ]);
@@ -531,7 +532,7 @@
                     <section class="innerSectionElement sct1">
                         <div class="containElement">
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/ceo-escala-seccion-img.webp') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/alfonso-ceo-escala.webp') }}"
                                 loading="lazy">
                         </div>
                     </section>
@@ -587,7 +588,7 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                        No. Nuestro equipo configura todo por ti en 30 días. Solo te enfocas en vender.
+                                    No. Solo necesitas que en tu equipo haya alguien dispuesto a aprender a escribir prompts (instrucciones para la IA). Nuestro asistente virtual con IA te guía paso a paso en la configuración y, si lo prefieres, contamos con planes de acompañamiento donde nuestro equipo de servicio se encarga de ayudarte directamente.
                                     </span>
                                 </div>
                                 <hr>
@@ -596,11 +597,11 @@
                         </div>
                         <div class="faq-card">
                             <div class="img">
-                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-2.webp') !!}" loading="lazy">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/icon-ia-integraciones.webp') !!}" loading="lazy">
                             </div>
                             <div class="info">
                                 <button class="faq-question" type="button">
-                                    ¿Puedo integrarlo con mis herramientas actuales?
+                                ¿El Agente de IA se adapta a la voz y tono de mi marca?
                                     <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
                                             <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -610,7 +611,7 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                        Sí. Escala se conecta con tus formularios, WhatsApp, correo y redes fácilmente.
+                                    Sí. A través del prompt y las instrucciones personalizadas, el agente adopta el estilo de comunicación, vocabulario y tono propios de tu marca, asegurando coherencia en todas las conversaciones.
                                     </span>
                                 </div>
                                 <hr>
@@ -620,11 +621,107 @@
 
                         <div class="faq-card">
                             <div class="img">
-                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/img-preguntas-frecuentes-3.webp') !!}" loading="lazy">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/preguntas-frecuentes-vendedores.webp') !!}" loading="lazy">
                             </div>
                             <div class="info">
                                 <button class="faq-question" type="button">
-                                    ¿Y si ya tengo un CRM?
+                                ¿Qué tan natural suena la conversación del Agente de IA?
+                                    <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
+                                            <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+
+                                </button>
+                                <div class="faq-answer" style="display:none;">
+                                    <span>
+                                    Nuestros agentes se configuran con un prompt personalizado adaptado a tu negocio. Esto les permite mantener conversaciones fluidas, coherentes y naturales, muy diferentes a los chatbots tradicionales.
+                                    </span>
+                                </div>
+                                <hr>
+
+                            </div>
+                        </div>
+
+                        <div class="faq-card">
+                            <div class="img">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/preguntas-frecuentes-por-que-es-mejor.webp') !!}" loading="lazy">
+                            </div>
+                            <div class="info">
+                                <button class="faq-question" type="button">
+                                ¿Cómo se entrena al Agente de IA para mi negocio?
+                                    <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
+                                            <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+
+                                </button>
+                                <div class="faq-answer" style="display:none;">
+                                    <span>
+                                    Se le añaden archivos e información a su base de conocimientos, junto con instrucciones personalizadas para asegurar que sus respuestas estén alineadas con tu empresa.
+                                    </span>
+                                </div>
+                                <hr>
+
+                            </div>
+                        </div>
+
+                        <div class="faq-card">
+                            <div class="img">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/icon-crm-centralizar.webp') !!}" loading="lazy">
+                            </div>
+                            <div class="info">
+                                <button class="faq-question" type="button">
+                                ¿Cómo el Agente de IA maneja información sensible o confidencial?
+                                    <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
+                                            <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+
+                                </button>
+                                <div class="faq-answer" style="display:none;">
+                                    <span>
+                                    Puedes configurar instrucciones específicas para que el agente maneje datos sensibles de acuerdo con las políticas y protocolos de tu negocio.
+                                    </span>
+                                </div>
+                                <hr>
+
+                            </div>
+                        </div>
+
+                        <div class="faq-card">
+                            <div class="img">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/icon-implementacion.webp') !!}" loading="lazy">
+                            </div>
+                            <div class="info">
+                                <button class="faq-question" type="button">
+                                ¿Puedo actualizar el contenido y las respuestas yo mismo o necesito soporte técnico?
+                                    <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
+                                            <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+
+                                </button>
+                                <div class="faq-answer" style="display:none;">
+                                    <span>
+                                    Sí. Es muy sencillo agregar nuevos archivos o instrucciones. Además, cuentas con una vista previa para probar lo que has agregado y con un asistente de IA que te ayuda a optimizar el prompt.
+                                    </span>
+                                </div>
+                                <hr>
+
+                            </div>
+                        </div>
+
+                        <div class="faq-card">
+                            <div class="img">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/preguntas-frecuentes-tiempo-agentes.webp') !!}" loading="lazy">
+                            </div>
+                            <div class="info">
+                                <button class="faq-question" type="button">
+                                ¿Cuánto tarda en estar listo un agente totalmente funcional?
                                     <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
                                             <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -633,7 +730,7 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                        Perfecto. La mayoría de nuestros clientes llegan desde otros CRM… y no vuelven atrás.
+                                    Con la ayuda de nuestro asistente de IA, tu agente puede estar configurado y funcionando a la perfección en menos de una semana.
                                     </span>
                                 </div>
                             </div>

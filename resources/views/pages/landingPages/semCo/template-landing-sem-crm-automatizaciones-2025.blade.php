@@ -11,7 +11,7 @@
                         <div class="sectionText">
 
                             <h1 class="principalBigTitle">
-                                Escala:<span>El CRM con<br class="DT_e">
+                                Escala: <span>El CRM con<br class="DT_e">
                                     Automatizaciones<br class="DT_e">
                                     Inteligentes</span> para <br class="DT_e">
                                 vender más
@@ -311,7 +311,7 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_1',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/recibir-mensajes-canales.webp'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/recibir-mensajes-canales-1.webp'),
                         'text' => '<span>Enviar mensajes individuales o <br class="DT_e">masivos</span> por WhatsApp, Email, <br class="DT_e">Instagram y Facebook para: confirmar <br class="DT_e">registros, compartir información,<br class="DT_e">responder preguntas y más.',
                         'side' => 'left',
                         ]);
@@ -394,11 +394,11 @@
 
                         <div class="right">
                             <ul>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Detectar mensajes nuevos</b> y responder miles de chats en segundos según lo hayas entrenado </span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Precalificar leads</b></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Agendar citas</b> con tu equipo </span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Enviar mensajes</b> personalizados y responder dudas frecuentes </span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Actualizar información</b> en el CRM según lo que se conversó</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Detectar y atender automáticamente</b> mensajes de leads que llegan por WhatsApp, Instagram y Facebook</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Precalificar</b> prospectos y asignarlos estratégicamente a los vendedores</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Conversar con prospectos,</b> agendar citas y mantenerlos interesados</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Responder preguntas frecuentes,</b> enviar precios y materiales de venta</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Cotizar</b> agrupando productos seleccionados y dar descuentos</span></li>
                             </ul>
                             <span>
                                 ¡Y más!
@@ -604,7 +604,7 @@
                     <section class="innerSectionElement sct1">
                         <div class="containElement">
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/Convierte-más-conversaciones-en-ventas-con Escala-CRM.webp') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/alfonso-ceo-escala.webp') }}"
                                 loading="lazy">
                         </div>
                     </section>
@@ -661,7 +661,7 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                        No. Escala está diseñado para equipos de ventas y marketing, no para técnicos. Nuestro equipo te ayuda a configurar todo y podés crear o modificar automatizaciones sin escribir una sola línea de código.
+                                        No. Escala está diseñado para equipos de ventas y marketing, no para técnicos. Nuestro equipo te ayuda a configurar todo y puedes crear o modificar automatizaciones sin escribir una sola línea de código.
                                     </span>
                                 </div>
                                 <hr>
@@ -707,7 +707,7 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                        Dependiendo del tipo de automatización pueden ser segundos o un par de horas. No es lo mismo automatizar el envío de un email post-registro (en segundos) a entrenar al Agente de Inteligencia Artificial para que precalifique prospectos.
+                                        Dependiendo del tipo de automatización pueden ser minutos o un par de horas. No es lo mismo automatizar el envío de un email post-registro (en segundos) a entrenar al Agente de Inteligencia Artificial para que precalifique prospectos.
                                     </span>
                                 </div>
                                 <hr>

@@ -323,7 +323,7 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_1',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/actualizar-informacion-de-contactos.webp'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/recibir-mensajes-canales-1.webp'),
                         'text' => '<span>Organizar fácilmente</span> tu lista de<br class="DT_e"> contactos e información relacionada',
                         'side' => 'left',
                         ]);
@@ -334,7 +334,7 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_2',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/enviar-mensajes-masivos.webp'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/automatizaciones-crm.webp'),
                         'text' => '<span>Automatizar mensajes,</span> asignaciones a <br class="DT_e">vendedores, alertas y recordatorios',
                         'side' => 'right',
                         ]);
@@ -356,7 +356,7 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_4',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/crear-reportes.webp'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/reportes-paginas-sem.webp'),
                         'text' => '<span>Visualizar resultados</span> del embudo de<br class="DT_e">venta en tiempo',
                         'side' => 'right',
                         ]);
@@ -413,10 +413,12 @@
 
                         <div class="right">
                             <ul>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Desde el Inbox,</b> puede atender mensajes de WhatsApp, Instagram y Facebook </span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Precalificar,</b> agendar citas y compartir información sobre productos y precios con prospectos</span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Actualizar información</b> en el CRM según lo que se conversó</span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Sugerir contenido</b> para emails y landing pages a partir de prompts</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Detectar y atender automáticamente</b> mensajes de leads que llegan por WhatsApp, Instagram y Facebook</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Precalificar</b> prospectos y asignarlos estratégicamente a los vendedores</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Conversar </b>con prospectos, agendar citas y mantenerlos interesados</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Responder preguntas frecuentes,</b> enviar precios y materiales de venta</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Cotizar</b> agrupando productos seleccionados y dar descuentos</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Actualizar tu CRM</b> en tiempo real según el avance de cada conversación</span></li>
                             </ul>
                             <span>
                                 ¡Y más!
@@ -498,7 +500,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/escalar-tu-empresa.webp') !!}"
                                 alt="">
                             <span>
-                                Puede escalar con tu empresa
+                            El CRM escala con tu empresa
                             </span>
                         </div>
 
@@ -681,7 +683,7 @@
                     <section class="innerSectionElement sct1">
                         <div class="containElement">
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/Convierte-más-conversaciones-en-ventas-con Escala-CRM.webp') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/alfonso-ceo-escala.webp') }}"
                                 loading="lazy">
                         </div>
                     </section>
@@ -738,7 +740,12 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                        Un CRM es una herramienta para organizar, gestionar y hacer seguimiento a contactos y oportunidades de venta. Con Escala, todo está en un solo lugar y tu equipo sabe exactamente qué hacer con cada cliente.
+                                    Un CRM (Customer Relationship Management) es una herramienta que te ayuda a organizar, gestionar y dar seguimiento a todos los contactos y oportunidades de venta de tu empresa.<br class="space">
+
+En lugar de tener la información dispersa en Excel, correos o chats, un CRM centraliza todo en un solo lugar para que tu equipo sepa a quién contactar, cuándo hacerlo y con qué mensaje.<br class="space">
+
+Con un buen CRM, podés hacer seguimiento a cada cliente desde que muestra interés hasta que te compra… y después también.
+
                                     </span>
                                 </div>
                                 <hr>
@@ -769,35 +776,14 @@
                             </div>
                         </div>
 
+
                         <div class="faq-card">
                             <div class="img">
                                 <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/preguntas-frecuentes-automatizar.webp') !!}" loading="lazy">
                             </div>
                             <div class="info">
                                 <button class="faq-question" type="button">
-                                    ¿Puedo usar Escala sin saber de tecnología?
-                                    <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
-                                            <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </button>
-                                <div class="faq-answer" style="display:none;">
-                                    <span>
-                                        Sí. Nuestro equipo configura todo por ti y te entrena para que lo uses sin complicaciones.
-                                    </span>
-                                </div>
-                                <hr>
-                            </div>
-                        </div>
-
-                        <div class="faq-card">
-                            <div class="img">
-                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/preguntas-frecuentes-tengo-crm.webp') !!}" loading="lazy">
-                            </div>
-                            <div class="info">
-                                <button class="faq-question" type="button">
-                                    ¿Y si ya tengo un CRM? <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
+                                ¿Puedo usar Escala sin saber de tecnología? <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
                                             <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
@@ -806,7 +792,7 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                        Perfecto. Muchos de nuestros clientes llegan desde otros CRM… y no vuelven atrás. </span>
+                                    Sí. Las herramientas de Escala son muy fáciles de usar, y nuestro equipo te acompaña para que lo aproveches al máximo.</span>
                                 </div>
 
                             </div>
