@@ -170,6 +170,9 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-automatizaciones-2025.blade.php')) {
         wp_enqueue_style('automatizaciones-2025.css', asset_path('styles/pages/automatizaciones-2025.css'), false, THEME_VERSION);
     }
+        if (is_page_template('views/template-automatizaciones-crm-2025.blade.php')) {
+        wp_enqueue_style('automatizaciones-crm-2025.css', asset_path('styles/pages/automatizaciones-crm-2025.css'), false, THEME_VERSION);
+    }
 
     if (is_page_template('views/template-home-DEV.blade.php')) {
         wp_enqueue_style('home_dev.css', asset_path('styles/pages/home_dev.css'), false, THEME_VERSION);
