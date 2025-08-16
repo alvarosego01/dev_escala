@@ -320,7 +320,7 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_1',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/recibir-y-responder-mensajes.webp'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/recibir-mensajes-canales-1.webp'),
                         'text' => '<span>Recibir y responder mensajes</span> <br class="DT_e"> desde un solo lugar',
                         'side' => 'left',
                         ]);
@@ -331,7 +331,7 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_2',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/enviar-mensajes-masivos.webp'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/automatizaciones-crm.webp'),
                         'text' => '<span>Enviar mensajes masivos</span>',
                         'side' => 'right',
                         ]);
@@ -375,7 +375,7 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_6',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/actualizar-informacion-de-contactos.webp'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/recibir-mensajes-canales-1.webp'),
                         'text' => '<span>Actualizar la información de contactos</span><br class="DT_e">automáticamente en el CRM',
                         'side' => 'right',
                         ]);
@@ -386,7 +386,7 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_7',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/crear-reportes.webp'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/reportes-paginas-sem.webp'),
                         'text' => 'Crear reportes de gestión <span>¡y más!</span>',
                         'side' => 'left',
                         ]);
@@ -424,10 +424,12 @@
 
                         <div class="right">
                             <ul>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Detectar mensajes nuevos</b> y atender miles de chats en segundos según lo hayas entrenado </span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Precalificar leads</b> y agendar citas con tu equipo </span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Enviar mensajes personalizados</b> y responder dudas frecuentes </span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Actualizar información</b> en el CRM según lo que se conversó </span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Detectar y atender automáticamente mensajes</b> de leads que llegan por WhatsApp, Instagram y Facebook</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Precalificar</b> prospectos y asignarlos estratégicamente a los vendedores</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Conversar con prospectos,</b> agendar citas y mantenerlos interesados</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Responder preguntas frecuentes,</b> enviar precios y materiales de venta</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Cotizar</b> agrupando productos seleccionados y dar descuentos</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Actualizar tu CRM</b> en tiempo real según el avance de cada conversación</span></li>
                             </ul>
                             <span>
                                 ¡Esto lo puede hacer también con conversaciones <br class="DT_e">
@@ -639,7 +641,7 @@
                     <section class="innerSectionElement sct1">
                         <div class="containElement">
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/Convierte-más-conversaciones-en-ventas-con Escala-CRM.webp') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/alfonso-ceo-escala.webp') }}"
                                 loading="lazy">
                         </div>
                     </section>
@@ -751,11 +753,11 @@
 
                         <div class="faq-card">
                             <div class="img">
-                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/preguntas-frecuentes-automatizar.webp') !!}" loading="lazy">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/icon-ia-integraciones.webp') !!}" loading="lazy">
                             </div>
                             <div class="info">
                                 <button class="faq-question" type="button">
-                                    ¿Puedo automatizar mensajes?
+                                    ¿La plataforma se integra con WhatsApp Business oficial?
                                     <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
                                             <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -765,7 +767,7 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                        Sí. Puedes automatizar saludos, seguimientos, respuestas frecuentes y mucho más con reglas o con Agentes de Inteligencia Artificial
+                                        Sí. Nos conectamos directamente con la integración oficial de Meta, garantizando estabilidad y cumplimiento de sus políticas.
                                     </span>
                                 </div>
                                 <hr>
@@ -775,11 +777,11 @@
 
                         <div class="faq-card">
                             <div class="img">
-                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/preguntas-frecuentes-crm.webp') !!}" loading="lazy">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/preguntas-frecuente-cuenta-verificada.webp') !!}" loading="lazy">
                             </div>
                             <div class="info">
                                 <button class="faq-question" type="button">
-                                    ¿Y si ya uso un CRM?
+                                    ¿Necesito tener una cuenta verificada o número de empresa en Meta?
                                     <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
                                             <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -789,7 +791,112 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                        Muchos de nuestros clientes vienen de otros CRM. Cuando ven lo que pueden hacer con Escala + WhatsApp, prefieren nuestras soluciones.
+                                        Solo necesitas una cuenta en Meta; no es obligatorio que esté verificada. El número puede ser nuevo o el que ya utilizas.
+                                    </span>
+                                </div>
+                                <hr>
+
+                            </div>
+                        </div>
+
+                        <div class="faq-card">
+                            <div class="img">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/preguntas-frecuentes-tengo-crm.webp') !!}" loading="lazy">
+                            </div>
+                            <div class="info">
+                                <button class="faq-question" type="button">
+                                    ¿Puedo usar mi número actual de WhatsApp?
+                                    <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
+                                            <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+
+                                </button>
+                                <div class="faq-answer" style="display:none;">
+                                    <span>
+                                        Sí. Únicamente debe ser una cuenta de WhatsApp Business.
+                                    </span>
+                                </div>
+                                <hr>
+
+                            </div>
+                        </div>
+
+                        <div class="faq-card">
+                            <div class="img">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/preguntas-frecuentes-tiempo-agentes.webp') !!}" loading="lazy">
+                            </div>
+                            <div class="info">
+                                <button class="faq-question" type="button">
+                                    ¿Cuántos agentes pueden atender por WhatsApp al mismo tiempo?
+                                    <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
+                                            <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+
+                                </button>
+                                <div class="faq-answer" style="display:none;">
+                                    <span>
+                                        Todos los que necesites, sin límite de agentes en simultáneo.
+                                    </span>
+                                </div>
+                                <hr>
+
+                            </div>
+                        </div>
+
+                        <div class="faq-card">
+                            <div class="img">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/servicio-en-español.webp') !!}" loading="lazy">
+                            </div>
+                            <div class="info">
+                                <button class="faq-question" type="button">
+                                    ¿Puedo enviar mensajes masivos por WhatsApp?
+                                    <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
+                                            <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+
+                                </button>
+                                <div class="faq-answer" style="display:none;">
+                                    <span>
+                                        Sí. Ten en cuenta que Meta cobra por las plantillas enviadas. Puedes consultar los precios oficiales aquí: <a href="https://business.whatsapp.com/products/platform-pricing?lang=es_LA" target="_blank">Tarifas de WhatsApp Business</a>.
+
+                                    </span>
+                                </div>
+                                <hr>
+
+                            </div>
+                        </div>
+
+
+                        <div class="faq-card">
+                            <div class="img">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/preguntas-frecuentes-crm.webp') !!}" loading="lazy">
+                            </div>
+                            <div class="info">
+                                <button class="faq-question" type="button">
+                                    ¿Qué es un CRM?
+                                    <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
+                                            <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+
+                                </button>
+                                <div class="faq-answer" style="display:none;">
+                                    <span>
+                                        Un CRM (Customer Relationship Management) es una herramienta que te ayuda a organizar, gestionar y dar seguimiento a todos los contactos y oportunidades de venta de tu empresa.<br class="space">
+                                        <br class="space">
+                                        <br class="space">
+                                        En lugar de tener la información dispersa en Excel, correos o chats, un CRM centraliza todo en un solo lugar para que tu equipo sepa a quién contactar, cuándo hacerlo y con qué mensaje.<br class="space">
+                                        <br class="space">
+                                        <br class="space">
+                                        Con un buen CRM, podés hacer seguimiento a cada cliente desde que muestra interés hasta que te compra… y después también.
+
                                     </span>
                                 </div>
 
