@@ -11,22 +11,18 @@
                         <div class="sectionText">
 
                             <h1 class="principalBigTitle">
-                                <span>WhatsApp +<br class="DT_e">
-                                    Escala CRM:</span> vende <br class="DT_e">
-                                más sin perder <br class="DT_e">
-                                conversaciones
+                                Vende más con<br class="DT_e">
+                                <span>WhatsApp en el CRM</span>
                             </h1>
 
 
                             <p class="principalBigText">
-                                ¿Y si tu equipo pudiera responder cada <br class="DT_e">
-                                mensaje, hacer seguimiento y cerrar más <br class="DT_e">
-                                ventas… desde un solo software que tú<br class="DT_e">
-                                puedes controlar?
+                            ¿Y si tu equipo pudiera atender todos los <br class="DT_e">
+                            mensajes desde una sola plataforma?
                             </p>
                             <div class="containerImage">
                                 <div class="video-cover" id="video-cover-landing" tabindex="0" data-video-src="https://player.vimeo.com/video/1097895831?autoplay=1">
-                                    <img alt="Andres presentando Escala CRM con integración a WhatsApp y automatización de ventas" src="{!! App::setFilePath('/assets/images/illustrations/others/andres-crm-integracion-whatsapp.webp') !!}" loading="lazy">
+                                    <img alt="Andres presentando Escala CRM con integración a WhatsApp y automatización de ventas" src="{!! App::setFilePath('/assets/images/illustrations/others/andres-crm-automatizaciones-inteligentes-ia.webp') !!}" loading="lazy">
                                     <!-- <div class="play-button">
                                         <img class="play-icon" alt="Icon play"
                                             src="{{ App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') }}"
@@ -47,7 +43,7 @@
                     <section class="innerSectionElement sct2">
                         <div class="containerImage">
                             <div class="video-cover" id="video-cover-landing-2" tabindex="0" data-video-src="https://player.vimeo.com/video/1097895831?autoplay=1">
-                                <img alt="Andres presentando Escala CRM con integración a WhatsApp y automatización de ventas" src="{!! App::setFilePath('/assets/images/illustrations/others/andres-crm-integracion-whatsapp.webp') !!}" loading="lazy">
+                                <img alt="Andres presentando Escala CRM con integración a WhatsApp y automatización de ventas" src="{!! App::setFilePath('/assets/images/illustrations/others/andres-crm-automatizaciones-inteligentes-ia.webp') !!}" loading="lazy">
 
                                 <!-- <div class="play-button">
                                     <img class="play-icon" alt="Icon play"
@@ -208,12 +204,12 @@
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <h2 class="primaryTitle">
-                        ¿Cuántas ventas está perdiendo tu empresa por no <br class="space">
-                        tener WhatsApp integrado al CRM?
+                    ¿Cuántas ventas pierden por no tener <br class="space">
+                    WhatsApp en el CRM?
                     </h2>
 
                     <span>
-                        Cuando tu equipo comercial vende desde su WhatsApp personal:
+                    Cuando tu equipo comercial vende desde su celular:
                     </span>
                 </section>
                 <section class="innerSectionElement sct1">
@@ -223,9 +219,8 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/visibilidad.webp') !!}"
                                 alt="">
                             <span>
-                                No tienes visibilidad sobre <br class="DT_e">
-                                las conversaciones ni el <br class="DT_e">
-                                proceso comercial
+                            Pierdes visibilidad sobre <br class="DT_e">
+                            conversaciones
                             </span>
 
                         </div>
@@ -233,48 +228,42 @@
                             <img class="img-top"
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/automatizar.webp') !!}"
                                 alt="">
-                            <span>No puedes automatizar <br class="DT_e">
-                                respuestas ni hacer envíos<br class="DT_e">
-                                masivos</span>
+                            <span>No puedes automatizar ni <br class="DT_e">
+                            hacer envíos masivos</span>
                         </div>
                         <div class="cards">
                             <img class="img-top"
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/conversasiones.webp') !!}"
                                 alt="">
-                            <span>Es más fácil que se pierdan <br class="DT_e">
-                                conversaciones, data… y <br class="DT_e">
-                                ventas</span>
+                            <span>Es más difícil medir y<br class="DT_e">
+                            optimizar resultados</span>
                         </div>
                         <div class="cards">
                             <img class="img-top"
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/registro-vendedores.webp') !!}"
                                 alt="">
-                            <span>Si un vendedor se va de la <br class="DT_e">
-                                empresa, se lleva la <br class="DT_e">
-                                información con él</span>
+                            <span>Pierdes información al irse<br class="DT_e">
+                            un vendedor de la empresa</span>
                         </div>
                         <div class="cards">
                             <img class="img-top"
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/registros-crm.webp') !!}"
                                 alt="">
-                            <span>Tienen que copiar <br class="DT_e">
-                                y pegar datos <br class="DT_e">
-                                manualmente al CRM </span>
+                            <span>Pierden tiempo actualizando<br class="DT_e">
+                            datos manualmente al CRM</span>
                         </div>
 
                         <div class="cards">
                             <img class="img-top"
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/vendedores-leads.webp') !!}"
                                 alt="">
-                            <span>Es manual y lento el proceso
-                                de asignar y pasar información
-                                de leads a vendedores</span>
+                            <span>Lenta asignación de <br class="DT_e">
+                            leads a vendedores</span>
                         </div>
                     </div>
                 </section>
                 <span>
-                    ¡Necesitas una mejor solución! Una donde puedas <br class="DT_e">
-                    tener <b>mayor orden y control</b>.
+                ¡Necesitas una mejor solución!</b>.
                 </span>
             </div>
 
@@ -293,12 +282,12 @@
                     <div class="containElements">
 
                         <h2 class="primaryTitle">
-                            Empodera a tus vendedores centralizando y <br class="space">
-                            automatizando las ventas por WhatsApp (con o sin IA)
+                        Empodera a tus vendedores centralizando <br class="space">
+                        y automatizando WhatsApp
                         </h2>
                         <span>
-                            Al tener WhatsApp Business directamente integrado al CRM <br class="space">
-                            en el Inbox Omnicanal de Escala, tú y tu equipo podrán:
+                        Potenciado por Inteligencia Artificial, Escala permite conectar<br class="space">
+                        tu WhatsApp al CRM para que puedas:
                         </span>
                     </div>
                 </section>
@@ -321,7 +310,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_1',
                         'img' => App::setFilePath('/assets/images/illustrations/others/recibir-mensajes-canales-1.webp'),
-                        'text' => '<span>Recibir y responder mensajes</span> <br class="DT_e"> desde un solo lugar',
+                        'text' => '<span>Todo tu equipo atienda conversaciones</span><br class="DT_e">desde una sola plataforma',
                         'side' => 'left',
                         ]);
                         @endphp
@@ -331,8 +320,8 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_2',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/automatizaciones-crm.webp'),
-                        'text' => '<span>Enviar mensajes masivos</span>',
+                        'img' => App::setFilePath('/assets/images/illustrations/others/configurar-agentes-ia.webp'),
+                        'text' => '<span>Automatizar conversaciones</span><br class="DT_e">con Agentes de IA',
                         'side' => 'right',
                         ]);
                         @endphp
@@ -343,7 +332,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_3',
                         'img' => App::setFilePath('/assets/images/illustrations/others/asignar-conversaciones.webp'),
-                        'text' => '<span>Asignar conversaciones</span> manual o <br class="DT_e">automáticamente a vendedores',
+                        'text' => '<span>Organizar y asignar conversaciones</span><br class="DT_e">muy fácilmente a vendedores',
                         'side' => 'left',
                         ]);
                         @endphp
@@ -353,7 +342,7 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_4',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/guardar-historial-de-conversaciones.webp'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/guardar-historial-crm.webp'),
                         'text' => '<span>Guardar el historial</span> de conversaciones <br class="DT_e">en el CRM',
                         'side' => 'right',
                         ]);
@@ -364,8 +353,8 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_5',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/configurar-agentes-ia.webp'),
-                        'text' => '<span>Configurar un Agente de IA</span> para que <br class="DT_e">atienda leads',
+                        'img' => App::setFilePath('/assets/images/illustrations/others/recibir-mensajes-canales-1.webp'),
+                        'text' => '<span>Actualizar la información de contactos</span><br class="DT_e">automáticamente en el CRM',
                         'side' => 'left',
                         ]);
                         @endphp
@@ -375,20 +364,9 @@
                         @php
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_6',
-                        'img' => App::setFilePath('/assets/images/illustrations/others/recibir-mensajes-canales-1.webp'),
-                        'text' => '<span>Actualizar la información de contactos</span><br class="DT_e">automáticamente en el CRM',
-                        'side' => 'right',
-                        ]);
-                        @endphp
-                        @contain_text_image_T1($parameters)
-                        @endcontain_text_image_T1
-
-                        @php
-                        $parameters = array_merge($defaultParams, [
-                        'classSection' => 'landing_sem_base_5_7',
                         'img' => App::setFilePath('/assets/images/illustrations/others/reportes-paginas-sem.webp'),
-                        'text' => 'Crear reportes de gestión <span>¡y más!</span>',
-                        'side' => 'left',
+                        'text' => '<span>Generar reportes </span>para medir resultados<br class="DT_e">en tiempo real ¡y más!',
+                        'side' => 'right',
                         ]);
                         @endphp
                         @contain_text_image_T1($parameters)
@@ -412,8 +390,8 @@
 
                 <section class="innerSectionElement sct1">
                     <h2 class="primaryTitle">
-                        ¿Qué puede hacer el Agente de Inteligencia <br class="space">
-                        Artificial de Escala en WhatsApp?
+                    ¿Qué puede hacer el Agente de Inteligencia <br class="space">
+                    Artificial en WhatsApp?
                     </h2>
 
                     <div class="containElement">
@@ -424,16 +402,15 @@
 
                         <div class="right">
                             <ul>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Detectar y atender automáticamente mensajes</b> de leads que llegan por WhatsApp, Instagram y Facebook</span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Precalificar</b> prospectos y asignarlos estratégicamente a los vendedores</span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Conversar con prospectos,</b> agendar citas y mantenerlos interesados</span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Responder preguntas frecuentes,</b> enviar precios y materiales de venta</span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Cotizar</b> agrupando productos seleccionados y dar descuentos</span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Actualizar tu CRM</b> en tiempo real según el avance de cada conversación</span></li>
+                            <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Atender automáticamente</b> mensajes de WhatsApp, Instagram y Facebook</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Precalificar y asignar prospectos </b>estratégicamente a los vendedores</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Agendar citas</b> según la disponibilidad de los vendedores</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Responder preguntas frecuentes</b> y enviar materiales de marketing y venta</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Cotizar</b>agrupando productos seleccionados y dar descuentos</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Actualizar data en el CRM en tiempo real</b> según el avance de cada conversación</span></li>
                             </ul>
                             <span>
-                                ¡Esto lo puede hacer también con conversaciones <br class="DT_e">
-                                de Instagram y Facebook!
+                            ¡Y más!
                             </span>
                         </div>
                     </div>
@@ -457,8 +434,7 @@
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <h2 class="primaryTitle">
-                        ¿Por qué elegir Escala CRM para mejorar <br class="space">
-                        tu gestión de WhatsApp?
+                    ¿Por qué elegir Escala?
                     </h2>
                 </section>
                 <section class="innerSectionElement sct1">
@@ -522,7 +498,7 @@
                 <div class="row sct1">
                     <div class="text-center col-12">
                         <h2 class="title">
-                            ¿Qué dicen nuestros clientes?
+                        ¿Qué han logrado nuestros clientes?
                         </h2>
                     </div>
                 </div>
@@ -648,14 +624,14 @@
                     <section class="innerSectionElement sct2">
                         <div class="containElement">
                             <h2 class="title">
-                                Vende más con WhatsApp <br class="DT_e"> integrado a tu CRM
+                            Escala ventas con<br class="DT_e">WhatsApp en el CRM
                             </h2>
                             <span>
-                                Solicita una sesión personalizada y gratuita.<br class="DT_e"> Te mostramos cómo Escala puede ayudarte a <br class="DT_e"> convertir más conversaciones en ventas.
+                            Solicita una sesión personalizada y gratuita.
 
                             </span>
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Tener Sesión Personalizada →
+                            Empezar ahora →
                             </a>
 
                         </div>
