@@ -1735,6 +1735,7 @@ img
             align-items: center
             padding-top: 0
             position: relative
+            gap: 40px
             @include responsivo(telefonoTable)
                 flex-direction: column
                 gap: 40px
@@ -1742,7 +1743,13 @@ img
                 flex-direction: column
                 gap: 40px
             .innerSectionElement.sct1
+                margin: 0
                 position: relative
+                left: 30px
+                @include responsivo(telefonoTable)
+                    left: 0
+                @include responsivo(pcMedio)
+                    left: 0
                 @include responsivo(smallPcTablet)
                     margin: 0
                 .containElement                       
@@ -1764,9 +1771,9 @@ img
 
             .innerSectionElement.sct2
                 position: relative
-                left: 50px
+                left: 30px
                 margin: 0!important
-                width: 55%
+                width: 46%
                 @include responsivo(telefonoTable)
                     width: 100%
                     left: 0
@@ -1775,6 +1782,7 @@ img
                     left: 0
                 @include responsivo(general)
                     width: 57%
+                    left: 0
                 @include responsivo(smallPcTablet)
                     width: 61%
                     left: 0
