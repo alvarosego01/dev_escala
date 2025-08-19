@@ -336,6 +336,7 @@ class SetComponents extends Controller
                 'views/template-landing-sem-crm-inbox-2025.blade.php',
                 'views/template-landing-sem-crm-automatizaciones-2025.blade.php',
                 'views/template-landing-sem-crm-excel-2025.blade.php',
+                'views/template-landing-sem-crm-educacion-2025.blade.php',
 
                 'views/template-automatizaciones-crm-2025.blade.php',
                 'views/template-subPage-acompanamiento-2023.blade.php',
