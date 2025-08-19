@@ -12,7 +12,7 @@
 
                             <h1 class="principalBigTitle">
                                 Convierte más <br class="DT_e"> alumnos con un
-                                <span>CRM <br class="DT_e"> para educación</span>
+                                <span class="span-educacion">CRM <br class="DT_e"> para educación</span>
                             </h1>
 
 
@@ -245,7 +245,7 @@
                     </div>
                 </section>
                 <span class="parrafo span-blue-400">
-                    ¡Cada periodo de admisiones es una carrera contra el reloj!
+                    ¡Cada período de admisiones es una carrera contra el reloj!
                 </span>
 
             </div>
