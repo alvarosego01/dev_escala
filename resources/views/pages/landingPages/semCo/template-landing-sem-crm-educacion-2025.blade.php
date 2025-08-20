@@ -286,7 +286,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_1',
                         'img' => App::setFilePath('/assets/images/illustrations/others/actualizar-informacion-de-contactos-2.webp'),
-                        'text' => '<span>Registrar y organizar<br class="DT_e">automáticamente listas</span>de contactos y<br class="DT_e"> oportunidades de venta.',
+                        'text' => '<span>Registrar y organizar<br class="DT_e">automáticamente listas </span> de contactos y<br class="DT_e"> oportunidades de venta.',
                         'side' => 'left',
                         ]);
                         @endphp
@@ -330,7 +330,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_5',
                         'img' => App::setFilePath('/assets/images/illustrations/others/Campañas-email-anuncios.webp'),
-                        'text' => '<span>Desarrollar campañas de email y <br class="DT_e">anuncios digitales</span>integradas al CRM',
+                        'text' => '<span>Desarrollar campañas de email y <br class="DT_e">anuncios digitales </span> integradas al CRM',
                         'side' => 'left',
                         ]);
                         @endphp
