@@ -48,6 +48,9 @@ img
             top: 0
         @include responsivo(pcMedio)
             top: 0
+        @include responsivo(resto)
+            max-width: 1430px!important
+            width: 100%!important
         .innerSectionElement.sctO1
             padding: 50px 70px
             padding-bottom: 30px
@@ -59,6 +62,7 @@ img
             @include responsivo(smallPcTablet)
                 padding: 50px 30px
                 padding-bottom: 30px
+
 
             .groupElements
                 height: fit-content
@@ -758,9 +762,13 @@ img
                         margin: 0
                         color: #2C4857
                         text-align: center
-                    .img-top
-                        height: 60px
-                        margin-bottom: 20px
+                        min-height: 57px
+                        @include responsivo(telefonoTable)
+                            min-height: auto
+                    .img
+                        min-height: 95px
+                        .img-top
+                            height: 60px
                             
       
         h3.secondaryTitle
@@ -1018,6 +1026,7 @@ img
 
                 .left
                     width: auto
+                    margin-top: auto
                     @include responsivo(telefonoTable)
                         width: 100%
                     @include responsivo(pcMedio)

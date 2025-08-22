@@ -172,7 +172,14 @@
         'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-1.webp'),
         'titulo' => '¿Cómo KataGoGo escaló su negocio?',
         'desc' => 'La entrevista completa en',
-        'tags' => ['Spotify', 'YouTube'],
+        'tags' => [
+        [
+        'url' => 'https://open.spotify.com/',
+        ],
+        [
+        'url' => 'https://youtube.com/',
+        ],
+        ],
         'categoria' => 'Marketing',
         'personas' => ['Alfonso Santiago', 'Catalina González'],
         'cargo' => 'CEO KataGoGo',
@@ -181,7 +188,14 @@
         'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-2.webp'),
         'titulo' => 'Reducimos el costo de adquisición un 58%: El caso de Sileo con Escala',
         'desc' => 'La entrevista completa en',
-        'tags' => ['Spotify', 'YouTube'],
+        'tags' => [
+        [
+        'url' => 'https://open.spotify.com/',
+        ],
+        [
+        'url' => 'https://youtube.com/',
+        ],
+        ],
         'categoria' => 'Educación',
         'personas' => ['Alfonso Santiago', 'Mau Tassara'],
         'cargo' => 'Director Nacional Comercial Sileo',
@@ -190,7 +204,14 @@
         'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-3.webp'),
         'titulo' => '¿Cómo la empresa Kangen aumentó 4X los leads calificados con Escala?',
         'desc' => 'La entrevista completa en',
-        'tags' => ['Spotify', 'YouTube'],
+        'tags' => [
+        [
+        'url' => 'https://open.spotify.com/',
+        ],
+        [
+        'url' => 'https://youtube.com/',
+        ],
+        ],
         'categoria' => 'Otras',
         'personas' => ['ANDRÉS MORENO', 'Areli Alarcón'],
         'cargo' => 'Gerente General Kangen',
@@ -199,7 +220,14 @@
         'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-4.webp'),
         'titulo' => '¿Cómo la Alianza Francesa aumentó 40% sus ventas con Escala?',
         'desc' => 'La entrevista completa en',
-        'tags' => ['Spotify', 'YouTube'],
+        'tags' => [
+        [
+        'url' => 'https://open.spotify.com/',
+        ],
+        [
+        'url' => 'https://youtube.com/',
+        ],
+        ],
         'categoria' => 'Educación',
         'personas' => ['ANDRÉS MORENO', 'ESTEBAN MELO'],
         'cargo' => 'Líder Mercadeo Alianza Francesa',
@@ -208,7 +236,14 @@
         'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-5.webp'),
         'titulo' => 'Por qué Escala tiene el mejor servicio Según la empresa Comunidad GIVE',
         'desc' => 'La entrevista completa en',
-        'tags' => ['Spotify', 'YouTube'],
+        'tags' => [
+        [
+        'url' => 'https://open.spotify.com/',
+        ],
+        [
+        'url' => 'https://youtube.com/',
+        ],
+        ],
         'categoria' => 'Marketing',
         'personas' => ['Andrea Ortíz', 'William Ávila'],
         'cargo' => 'Dir.a Comercial Comunidad GIVE',
@@ -217,7 +252,15 @@
         'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-6.webp'),
         'titulo' => 'Así fue como la empresa Causa y Solución duplicó su facturación en menos de 6 meses',
         'desc' => 'La entrevista completa en',
-        'tags' => ['Spotify', 'YouTube'],
+        'tags' => [
+        [
+
+        'url' => 'https://open.spotify.com/',
+        ],
+        [
+        'url' => 'https://youtube.com/',
+        ],
+        ],
         'categoria' => 'Consultoría',
         'personas' => ['Fundador Causa y Solución'],
         'cargo' => 'Fundador Causa y Solución',
@@ -240,8 +283,11 @@
                                 <p class="podcast-card__desc">{{ $card['desc'] ?? '' }}</p>
                                 <div class="podcast-card__tags">
                                     @if(!empty($card['tags']))
+                                    @php $iconUrl = App::setFilePath('/assets/images/illustrations/others/icon-spotify.webp'); @endphp
                                     @foreach($card['tags'] as $tag)
-                                    <span class="podcast-card__tag">{{ $tag }}</span>
+                                    <a class="podcast-card__tag" href="{{ $tag['url'] }}" target="_blank" style="display:inline-flex;align-items:center;gap:6px;text-decoration:none;">
+                                        <img src="{{ $iconUrl }}" alt="icon" style="width:18px;height:18px;">
+                                    </a>
                                     @endforeach
                                     @endif
                                     <span class="podcast-card__category">{{ $card['categoria'] ?? '' }}</span>
@@ -324,7 +370,7 @@
             </div>
         </section>
 
-        
+
         <!-- Sección CTA: Listo para vender más con menos esfuerzo -->
         <section class="customSection sectionParent home-casos-exito-2025-cta" style="margin-top: 40px;">
             <div style="background: linear-gradient(90deg, #0089A7 0%, #00C6B1 100%); border-radius: 20px; padding: 32px 0 24px 0; text-align: center; max-width: 900px; margin: 0 auto;">

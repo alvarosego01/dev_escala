@@ -11,15 +11,14 @@
                         <div class="sectionText">
 
                             <h1 class="principalBigTitle">
-                            <span>CRM + WhatsApp:</span>
-                            vende más con menos caos<br class="DT_e">
-                                
+                                <span>CRM + WhatsApp:</span>
+                                vende más con<br class="DT_e"> menos caos
                             </h1>
 
 
                             <p class="principalBigText">
-                            Centraliza mensajes, automatiza respuestas y<br class="DT_e">
-                            convierte más ventas en menos tiempo.
+                                Centraliza mensajes, automatiza respuestas y<br class="DT_e">
+                                convierte más ventas en menos tiempo.
                             </p>
                             <div class="containerImage">
                                 <div class="video-cover" id="video-cover-landing" tabindex="0" data-video-src="https://player.vimeo.com/video/1097895831?autoplay=1">
@@ -205,63 +204,75 @@
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <h2 class="primaryTitle">
-                    ¿Cuántas ventas pierden por no usar<br class="space">
-                    WhatsApp en el CRM?
+                        ¿Cuántas ventas pierden por no usar<br class="space">
+                        WhatsApp en el CRM?
                     </h2>
 
                 </section>
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/visibilidad.webp') !!}"
-                                alt="">
+                            <div class="img">
+                                <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/visibilidad.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>
-                            Cero visibilidad de<br class="DT_e">
-                            conversaciones
+                                Cero visibilidad de<br class="DT_e">
+                                conversaciones
                             </span>
 
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/automatizar.webp') !!}"
-                                alt="">
+                            <div class="img">
+                                <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/automatizar.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Sin envíos masivos<br class="DT_e">
-                            ni automatización</span>
+                                ni automatización</span>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/conversasiones.webp') !!}"
-                                alt="">
+                            <div class="img">
+                                <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/conversasiones.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Resultados imposibles<br class="DT_e">
-                            de medir</span>
+                                de medir</span>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/registro-vendedores.webp') !!}"
-                                alt="">
+                            <div class="img">
+                                <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/registro-vendedores.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Datos e historial<br class="DT_e">
-                            que desaparecen</span>
+                                que desaparecen</span>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/registros-crm.webp') !!}"
-                                alt="">
+                            <div class="img">
+                                <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/registros-crm.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Tiempo perdido actualizando<br class="DT_e">
-                            manualmente</span>
+                                manualmente</span>
                         </div>
 
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/vendedores-leads.webp') !!}"
-                                alt="">
+                            <div class="img">
+                                <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/vendedores-leads.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Leads mal asignados<br class="DT_e">
-                            y ventas lentas</span>
+                                y ventas lentas</span>
                         </div>
                     </div>
                 </section>
                 <span>
-                ¡Necesitas una mejor solución!</b>.
+                    ¡Necesitas una mejor solución!</b>.
                 </span>
             </div>
 
@@ -280,11 +291,11 @@
                     <div class="containElements">
 
                         <h2 class="primaryTitle">
-                        Centraliza WhatsApp en tu CRM<br class="space">
-                        y multiplica los cierres
+                            Centraliza WhatsApp en tu CRM<br class="space">
+                            y multiplica los cierres
                         </h2>
                         <span>
-                        Con Escala, tu equipo de venta podrá:
+                            Con Escala, tu equipo de venta podrá:
                         </span>
                     </div>
                 </section>
@@ -307,7 +318,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_1',
                         'img' => App::setFilePath('/assets/images/illustrations/others/recibir-mensajes-canales-1.webp'),
-                        'text' => '<span>Atender WhatsApp, Instagram y<br class="DT_e">Facebook desde un solo lugar</span>',
+                        'text' => '<span>Atender WhatsApp, Instagram y <br class="DT_e"> Facebook desde un solo lugar</span>',
                         'side' => 'left',
                         ]);
                         @endphp
@@ -329,7 +340,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_3',
                         'img' => App::setFilePath('/assets/images/illustrations/others/asignar-conversaciones.webp'),
-                        'text' => '<span>Asignar leads a vendedores<br class="DT_e">estratégicamente</span>',
+                        'text' => '<span>Asignar leads a vendedores <br class="DT_e"> estratégicamente</span>',
                         'side' => 'left',
                         ]);
                         @endphp
@@ -377,8 +388,8 @@
 
                 <section class="innerSectionElement sct1">
                     <h2 class="primaryTitle">
-                    Tu Agente de Ventas con IA<br class="space">
-                    El Agente de Escala hace por tu equipo lo que quita tiempo:
+                        Tu Agente de Ventas con IA<br class="space">
+                        El Agente de Escala hace por tu equipo lo que quita tiempo:
                     </h2>
 
                     <div class="containElement">
@@ -388,16 +399,16 @@
 
 
                         <div class="right">
-                        <ul>
-                            <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Atiende mensajes</b> en WhatsApp, Instagram y Facebook</span></li>
+                            <ul>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Atiende mensajes</b> en WhatsApp, Instagram y Facebook</span></li>
                                 <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Filtra y asigna prospectos </b>al mejor vendedor</span></li>
                                 <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Agenda citas</b> automático</span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Responde preguntas</b> y envía materiales</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Responde preguntas </b> y envía materiales</span></li>
                                 <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Genera cotizaciones</b> con o sin descuentos</span></li>
                                 <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Actualiza tu CRM en tiempo real</b></span></li>
                             </ul>
                             <span>
-                            ¡Y más!
+                                ¡Y más!
                             </span>
                         </div>
                     </div>
@@ -421,7 +432,7 @@
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <h2 class="primaryTitle">
-                    ¿Por qué Escala es diferente?
+                        ¿Por qué Escala es diferente?
                     </h2>
                 </section>
                 <section class="innerSectionElement sct1">
@@ -431,7 +442,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/agentes-ia-avanzados.webp') !!}"
                                 alt="">
                             <span>
-                            Agentes de IA avanzados que ayudan a vender (no un chatbot con IA)
+                                Agentes de IA avanzados que ayudan a vender (no un chatbot con IA)
                             </span>
 
                         </div>
@@ -440,7 +451,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/icon-ia-automatizas.webp') !!}"
                                 alt="">
                             <span>
-                            Tan fácil que tu equipo lo usa sin quejarse
+                                Tan fácil que tu equipo lo usa sin quejarse
                             </span>
                         </div>
                         <div class="cards">
@@ -448,7 +459,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/icon-ia-integraciones.webp') !!}"
                                 alt="">
                             <span>
-                            Herramientas de marketing y ventas en un solo lugar
+                                Herramientas de marketing y ventas en un solo lugar
                             </span>
                         </div>
                         <div class="cards">
@@ -456,7 +467,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/recibes-acompañamiento.webp') !!}"
                                 alt="">
                             <span>
-                            El mejor acompañamiento experto, en español
+                                El mejor acompañamiento experto, en español
                             </span>
                         </div>
                         <div class="cards">
@@ -464,7 +475,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/servicio-en-español.webp') !!}"
                                 alt="">
                             <span>
-                            Tutoriales claros y soporte en vivo eficaz
+                                Tutoriales claros y soporte en vivo eficaz
                             </span>
                         </div>
                         <div class="cards">
@@ -472,7 +483,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/escalar-tu-empresa.webp') !!}"
                                 alt="">
                             <span>
-                            Crece contigo y tu empresa
+                                Crece contigo y tu empresa
                             </span>
                         </div>
 
@@ -493,7 +504,7 @@
                 <div class="row sct1">
                     <div class="text-center col-12">
                         <h2 class="title">
-                        ¿Qué han logrado nuestros clientes?
+                            ¿Qué han logrado nuestros clientes?
                         </h2>
                     </div>
                 </div>
@@ -543,9 +554,8 @@
                                 alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Escala ha sido un gran <br class="DT_e">
-                                    aliado para <b> mejorar nuestra operación <br class="DT_e">
+                                    aliado para <b> mejorar nuestra operación
                                         comercial,</b> automatizar
-                                    <br class="DT_e">
                                     tareas y optimizar nuestra
                                     <br class="DT_e"> inversión en marketing.
                                 </h5>
@@ -619,14 +629,14 @@
                     <section class="innerSectionElement sct2">
                         <div class="containElement">
                             <h2 class="title">
-                            Escala tus ventas con<br class="DT_e">WhatsApp en el CRM
+                                Escala tus ventas con<br class="DT_e">WhatsApp en el CRM
                             </h2>
                             <span>
-                            Solicita tu sesión gratis
+                                Solicita tu sesión gratis
                             </span>
                             </span>
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Empezar ahora →
+                                Empezar ahora →
                             </a>
 
                         </div>
@@ -862,9 +872,7 @@
                                     <span>
                                         Un CRM (Customer Relationship Management) es una herramienta que te ayuda a organizar, gestionar y dar seguimiento a todos los contactos y oportunidades de venta de tu empresa.<br class="space">
                                         <br class="space">
-                                        <br class="space">
                                         En lugar de tener la información dispersa en Excel, correos o chats, un CRM centraliza todo en un solo lugar para que tu equipo sepa a quién contactar, cuándo hacerlo y con qué mensaje.<br class="space">
-                                        <br class="space">
                                         <br class="space">
                                         Con un buen CRM, podés hacer seguimiento a cada cliente desde que muestra interés hasta que te compra… y después también.
 

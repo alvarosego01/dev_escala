@@ -11,14 +11,14 @@
                         <div class="sectionText">
 
                             <h1 class="principalBigTitle">
-                                <span>CRM con Automatizaciones:<br class="DT_e">
-                                vende más sin esfuerzo</span>
+                                <span>CRM con Automatizaciones:</span><br class="DT_e">
+                                    vende más sin esfuerzo
                             </h1>
 
 
                             <p class="principalBigText">
-                            Escala hace seguimiento, recuerda tareas<br class="DT_e">
-                            y atiende prospectos 24/7
+                                Escala hace seguimiento, recuerda tareas<br class="DT_e">
+                                y atiende prospectos 24/7
                             </p>
                             <div class="containerImage">
                                 <div class="video-cover" id="video-cover-landing" tabindex="0" data-video-src="https://player.vimeo.com/video/1097895831?autoplay=1">
@@ -204,65 +204,71 @@
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <h2 class="primaryTitle">
-                    ¿Cuántas ventas pierden por<br class="space">
-                    no usar Inteligencia Artificial?
+                        ¿Cuántas ventas pierden por<br class="space">
+                        no usar Inteligencia Artificial?
                     </h2>
 
                     <span>
-                    Sin un CRM con automatizaciones inteligentes:
+                        Sin un CRM con automatizaciones inteligentes:
                     </span>
                 </section>
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/visibilidad.webp') !!}"
-                                alt="">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/visibilidad.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>
-                            Leads fríos,<br class="DT_e">
-                            sin seguimiento
+                                Leads fríos,<br class="DT_e">
+                                sin seguimiento
                             </span>
 
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/automatizar.webp') !!}"
-                                alt="">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/automatizar.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Horas perdidas<br class="DT_e">
-                            en operaciones</span>
+                                en operaciones</span>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/conversasiones.webp') !!}"
-                                alt="">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/conversasiones.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Clientes mal atendidos</span>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/registro-vendedores.webp') !!}"
-                                alt="">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/registro-vendedores.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Datos viejos,<br class="DT_e">
-                            reportes incompletos</span>
+                                reportes incompletos</span>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/registros-crm.webp') !!}"
-                                alt="">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/registros-crm.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Equipo apagando fuegos<br class="DT_e">
-                            todo el día</span>
+                                todo el día</span>
                         </div>
 
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/vendedores-leads.webp') !!}"
-                                alt="">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/vendedores-leads.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Procesos de venta<br class="DT_e">
                                 más largos</span>
                         </div>
                     </div>
                 </section>
                 <span>
-                Con Escala, todo fluye.
+                    Con Escala, todo fluye.
                 </span>
             </div>
 
@@ -275,11 +281,11 @@
                     <div class="containElements">
 
                         <h2 class="primaryTitle">
-                        Gana tiempo y ventas con <br class="space">
-                        Agentes de Inteligencia Artificial
+                            Gana tiempo y ventas con <br class="space">
+                            Agentes de Inteligencia Artificial
                         </h2>
                         <span>
-                        ¿Qué tipo de tareas puedes programar en el CRM de Escala?
+                            ¿Qué tipo de tareas puedes programar en el CRM de Escala?
                         </span>
                     </div>
                 </section>
@@ -335,7 +341,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_4',
                         'img' => App::setFilePath('/assets/images/illustrations/others/responder-preguntas.webp'),
-                        'text' => '<span>Responde preguntas y<br class="DT_e">envía materiales</span>',
+                        'text' => '<span>Responde preguntas y <br class="DT_e"> envía materiales</span>',
                         'side' => 'right',
                         ]);
                         @endphp
@@ -346,7 +352,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_5',
                         'img' => App::setFilePath('/assets/images/illustrations/others/cotizaciones.webp '),
-                        'text' => '<span>Genera cotizaciones<br class="DT_e">con o sin descuentos</span><br class="DT_e">',
+                        'text' => '<span>Genera cotizaciones <br class="DT_e"> con o sin descuentos</span><br class="DT_e">',
                         'side' => 'left',
                         ]);
                         @endphp
@@ -375,14 +381,14 @@
             </div>
         </section>
 
-        
+
 
         <section class="customSection sectionParent landing_sem_base_2_1">
 
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <h2 class="primaryTitle">
-                    ¿Por qué Escala es diferente?
+                        ¿Por qué Escala es diferente?
                     </h2>
                 </section>
                 <section class="innerSectionElement sct1">
@@ -392,7 +398,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/agentes-ia-avanzados.webp') !!}"
                                 alt="">
                             <span>
-                            Agentes de IA avanzados que ayudan a vender (no un chatbot con IA)
+                                Agentes de IA avanzados que ayudan a vender (no un chatbot con IA)
                             </span>
 
                         </div>
@@ -401,7 +407,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/icon-ia-automatizas.webp') !!}"
                                 alt="">
                             <span>
-                            Tan fácil que tu equipo lo usa sin quejarse
+                                Tan fácil que tu equipo lo usa sin quejarse
                             </span>
                         </div>
                         <div class="cards">
@@ -409,7 +415,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/icon-ia-integraciones.webp') !!}"
                                 alt="">
                             <span>
-                            Herramientas de marketing y ventas en un solo lugar
+                                Herramientas de marketing y ventas en un solo lugar
                             </span>
                         </div>
                         <div class="cards">
@@ -417,7 +423,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/recibes-acompañamiento.webp') !!}"
                                 alt="">
                             <span>
-                            El mejor acompañamiento experto, en español
+                                El mejor acompañamiento experto, en español
                             </span>
                         </div>
                         <div class="cards">
@@ -425,7 +431,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/servicio-en-español.webp') !!}"
                                 alt="">
                             <span>
-                            Tutoriales claros y soporte en vivo eficaz
+                                Tutoriales claros y soporte en vivo eficaz
                             </span>
                         </div>
                         <div class="cards">
@@ -433,7 +439,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/escalar-tu-empresa.webp') !!}"
                                 alt="">
                             <span>
-                            Crece contigo y tu empresa
+                                Crece contigo y tu empresa
                             </span>
                         </div>
 
@@ -504,9 +510,8 @@
                                 alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Escala ha sido un gran <br class="DT_e">
-                                    aliado para <b> mejorar nuestra operación <br class="DT_e">
+                                    aliado para <b> mejorar nuestra operación
                                         comercial,</b> automatizar
-                                    <br class="DT_e">
                                     tareas y optimizar nuestra
                                     <br class="DT_e"> inversión en marketing.
                                 </h5>
@@ -580,14 +585,14 @@
                     <section class="innerSectionElement sct2">
                         <div class="containElement">
                             <h2 class="title">
-                            Automatiza y vende más <br class="DT_e">desde hoy
+                                Automatiza y vende más <br class="DT_e">desde hoy
                             </h2>
                             <span>
-                            Solicita tu sesión gratis
+                                Solicita tu sesión gratis
 
                             </span>
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Empezar ahora →
+                                Empezar ahora →
                             </a>
 
                         </div>
@@ -701,9 +706,7 @@
                                     <span>
                                         Un CRM (Customer Relationship Management) es una herramienta que te ayuda a organizar, gestionar y dar seguimiento a todos los contactos y oportunidades de venta de tu empresa.<br class="DT_e">
                                         <br class="space">
-                                        <br class="space">
                                         En lugar de tener la información dispersa en Excel, correos o chats, un CRM centraliza todo en un solo lugar para que tu equipo sepa a quién contactar, cuándo hacerlo y con qué mensaje.<br class="DT_e">
-                                        <br class="space">
                                         <br class="space">
                                         Con un buen CRM, podés hacer seguimiento a cada cliente desde que muestra interés hasta que te compra… y después también.
 
