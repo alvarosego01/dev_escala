@@ -340,6 +340,8 @@ class SetComponents extends Controller
 
                 'views/template-automatizaciones-crm-2025.blade.php',
                 'views/template-automatizaciones-crm-whatsapp-2025.blade.php',
+                'views/template-home-casos-exito-2025.blade.php',
+
                 'views/template-subPage-acompanamiento-2023.blade.php',
                 'views/template-subPage-educacion-2023.blade.php',
                 'views/template-subPage-implementacion-2023.blade.php',

@@ -92,7 +92,6 @@ add_action('wp_enqueue_scripts', function () {
         wp_enqueue_script('_blog.js', asset_path('scripts/pages/_blog.js'), ['jquery'], THEME_VERSION, true);
 
         wp_enqueue_style('single_2024.css', asset_path('styles/pages/blog/single_blog_2024.css'), false, THEME_VERSION);
-        
     }
     $t = SetComponents::setTemplates('blog');
     if (is_page_template($t)) {
@@ -101,7 +100,6 @@ add_action('wp_enqueue_scripts', function () {
         wp_enqueue_script('_blog.js', asset_path('scripts/pages/_blog.js'), ['jquery'], THEME_VERSION, true);
 
         wp_enqueue_style('single_2025.css', asset_path('styles/pages/blog/single_blog_2025.css'), false, THEME_VERSION);
-        
     }
     $t = SetComponents::setTemplates('blog');
     if (is_page_template($t)) {
@@ -170,11 +168,14 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-automatizaciones-2025.blade.php')) {
         wp_enqueue_style('automatizaciones-2025.css', asset_path('styles/pages/automatizaciones-2025.css'), false, THEME_VERSION);
     }
-        if (is_page_template('views/template-automatizaciones-crm-2025.blade.php')) {
+    if (is_page_template('views/template-automatizaciones-crm-2025.blade.php')) {
         wp_enqueue_style('automatizaciones-crm-2025.css', asset_path('styles/pages/automatizaciones-crm-2025.css'), false, THEME_VERSION);
     }
     if (is_page_template('views/template-automatizaciones-crm-whatsapp-2025.blade.php')) {
         wp_enqueue_style('automatizaciones-crm-2025.css', asset_path('styles/pages/automatizaciones-crm-2025.css'), false, THEME_VERSION);
+    }
+    if (is_page_template('views/template-home-casos-exito-2025.blade.php')) {
+        wp_enqueue_style('home-casos-exito-2025.css', asset_path('styles/pages/home-casos-exito-2025.css'), false, THEME_VERSION);
     }
     if (is_page_template('views/template-home-DEV.blade.php')) {
         wp_enqueue_style('home_dev.css', asset_path('styles/pages/home_dev.css'), false, THEME_VERSION);
