@@ -18,9 +18,10 @@
 
 
                             <p class="principalBigText">
-                            Un CRM con Inteligencia Artificial que atiende,<br class="DT_e">
-                            responde y convierte prospectos<br class="DT_e">
-                            como tu mejor vendedor, 24/7.
+                                Un CRM con Inteligencia Artificial que<br class="DT_e">
+                                atiende,
+                                responde y convierte prospectos<br class="DT_e">
+                                como tu mejor vendedor, 24/7.
                             </p>
                             <div class="containerImage">
                                 <div class="video-cover" id="video-cover-landing" tabindex="0" data-video-src="https://player.vimeo.com/video/1097895831?autoplay=1">
@@ -206,43 +207,47 @@
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <h2 class="primaryTitle">
-                    ¿Qué pierdes sin un CRM con IA?
+                        ¿Qué pierdes sin un CRM con IA?
                     </h2>
 
                 </section>
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/leads-frios.webp') !!}"
-                                alt="">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/leads-frios.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>
-                            Leads fríos,<br class="DT_e">
-                            sin seguimiento
+                                Leads fríos,<br class="DT_e">
+                                sin seguimiento
                             </span>
 
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/vendedores-perdiend-tiempo.webp') !!}"
-                                alt="">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/vendedores-perdiend-tiempo.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Tiempo malgastado en<br class="DT_e">
-                            prospectos que no cierran</span>
+                                prospectos que no cierran</span>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/esfuerzo-perdido.webp') !!}"
-                                alt="">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/esfuerzo-perdido.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Horas en tareas manuales</span>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/apagando-fuegos.webp') !!}"
-                                alt="">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/apagando-fuegos.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Líderes apagando fuegos,<br class="DT_e">
                                 no creando estrategia</span>
                         </div>
-                      
+
                     </div>
                 </section>
                 <span class="span-700">
@@ -264,12 +269,12 @@
 
                 <section class="innerSectionElement sct1">
                     <h2 class="primaryTitle">
-                    Agentes de IA en tu CRM<br class="space">
-                    que venden por ti<br class="space">
+                        Agentes de IA en tu CRM<br class="space">
+                        que venden por ti<br class="space">
                     </h2>
 
                     <span>
-                    Con Escala puedes:
+                        Con Escala puedes:
                     </span>
 
                     <div class="containElement">
@@ -280,7 +285,7 @@
 
                         <div class="right">
                             <ul>
-                            <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Atender WhatsApp, Instagram y Facebook en automático</b></span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Atender WhatsApp, Instagram y Facebook en automático</b></span></li>
                                 <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Precalificar y asignar leads</b> al vendedor correcto</span></li>
                                 <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Agendar citas</b> según disponibilidad</span></li>
                                 <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Responder preguntas</b> y enviar materiales al instante</span></li>
@@ -298,7 +303,7 @@
                 <section class="innerSectionElement sct2">
 
                     <h3 class="secondaryTitle">Haz que la Inteligencia Artificial haga el trabajo que<br class="DT_e">
-                    tu equipo no tiene tiempo de hacer.</h3>
+                        tu equipo no tiene tiempo de hacer.</h3>
 
                     <div class="btnCenter">
                         <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -315,7 +320,7 @@
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <h2 class="primaryTitle">
-                    ¿Por qué Escala es diferente?
+                        ¿Por qué Escala es diferente?
                     </h2>
                 </section>
                 <section class="innerSectionElement sct1">
@@ -325,7 +330,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/agentes-ia-avanzados.webp') !!}"
                                 alt="">
                             <span>
-                            Agentes de IA avanzados que ayudan a vender (no un chatbot con IA)
+                                Agentes de IA avanzados que ayudan a vender (no un chatbot con IA)
                             </span>
 
                         </div>
@@ -334,7 +339,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/icon-ia-automatizas.webp') !!}"
                                 alt="">
                             <span>
-                            Tan fácil que tu equipo lo usa sin quejarse
+                                Tan fácil que tu equipo lo usa sin quejarse
                             </span>
                         </div>
                         <div class="cards">
@@ -342,7 +347,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/icon-ia-integraciones.webp') !!}"
                                 alt="">
                             <span>
-                            Herramientas de marketing y ventas en un solo lugar
+                                Herramientas de marketing y ventas en un solo lugar
                             </span>
                         </div>
                         <div class="cards">
@@ -350,7 +355,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/recibes-acompañamiento.webp') !!}"
                                 alt="">
                             <span>
-                            El mejor acompañamiento experto, en español
+                                El mejor acompañamiento experto, en español
                             </span>
                         </div>
                         <div class="cards">
@@ -358,7 +363,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/servicio-en-español.webp') !!}"
                                 alt="">
                             <span>
-                            Tutoriales claros y soporte en vivo eficaz
+                                Tutoriales claros y soporte en vivo eficaz
                             </span>
                         </div>
                         <div class="cards">
@@ -366,7 +371,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/escalar-tu-empresa.webp') !!}"
                                 alt="">
                             <span>
-                            Crece contigo y tu empresa
+                                Crece contigo y tu empresa
                             </span>
                         </div>
 
@@ -436,9 +441,8 @@
                                 alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Escala ha sido un gran <br class="DT_e">
-                                    aliado para <b> mejorar nuestra operación <br class="DT_e">
+                                    aliado para <b> mejorar nuestra operación
                                         comercial,</b> automatizar
-                                    <br class="DT_e">
                                     tareas y optimizar nuestra
                                     <br class="DT_e"> inversión en marketing.
                                 </h5>
@@ -512,13 +516,13 @@
                     <section class="innerSectionElement sct2">
                         <div class="containElement">
                             <h2 class="title">
-                            Escala tus ventas<br class="DT_e"> con un CRM + IA
+                                Escala tus ventas<br class="DT_e"> con un CRM + IA
                             </h2>
                             <span>
-                            Solicita tu sesión gratis hoy
+                                Solicita tu sesión gratis hoy
                             </span>
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Empezar ahora →
+                                Empezar ahora →
                             </a>
 
                         </div>
@@ -561,7 +565,7 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                    No. Solo necesitas que en tu equipo haya alguien dispuesto a aprender a escribir prompts (instrucciones para la IA). Nuestro asistente virtual con IA te guía paso a paso en la configuración y, si lo prefieres, contamos con planes de acompañamiento donde nuestro equipo de servicio se encarga de ayudarte directamente.
+                                        No. Solo necesitas que en tu equipo haya alguien dispuesto a aprender a escribir prompts (instrucciones para la IA). Nuestro asistente virtual con IA te guía paso a paso en la configuración y, si lo prefieres, contamos con planes de acompañamiento donde nuestro equipo de servicio se encarga de ayudarte directamente.
                                     </span>
                                 </div>
                                 <hr>
@@ -574,7 +578,7 @@
                             </div>
                             <div class="info">
                                 <button class="faq-question" type="button">
-                                ¿El Agente de IA se adapta a la voz y tono de mi marca?
+                                    ¿El Agente de IA se adapta a la voz y tono de mi marca?
                                     <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
                                             <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -584,7 +588,7 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                    Sí. A través del prompt y las instrucciones personalizadas, el agente adopta el estilo de comunicación, vocabulario y tono propios de tu marca, asegurando coherencia en todas las conversaciones.
+                                        Sí. A través del prompt y las instrucciones personalizadas, el agente adopta el estilo de comunicación, vocabulario y tono propios de tu marca, asegurando coherencia en todas las conversaciones.
                                     </span>
                                 </div>
                                 <hr>
@@ -598,7 +602,7 @@
                             </div>
                             <div class="info">
                                 <button class="faq-question" type="button">
-                                ¿Qué tan natural suena la conversación del Agente de IA?
+                                    ¿Qué tan natural suena la conversación del Agente de IA?
                                     <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
                                             <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -608,7 +612,7 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                    Nuestros agentes se configuran con un prompt personalizado adaptado a tu negocio. Esto les permite mantener conversaciones fluidas, coherentes y naturales, muy diferentes a los chatbots tradicionales.
+                                        Nuestros agentes se configuran con un prompt personalizado adaptado a tu negocio. Esto les permite mantener conversaciones fluidas, coherentes y naturales, muy diferentes a los chatbots tradicionales.
                                     </span>
                                 </div>
                                 <hr>
@@ -622,7 +626,7 @@
                             </div>
                             <div class="info">
                                 <button class="faq-question" type="button">
-                                ¿Cómo se entrena al Agente de IA para mi negocio?
+                                    ¿Cómo se entrena al Agente de IA para mi negocio?
                                     <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
                                             <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -632,7 +636,7 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                    Se le añaden archivos e información a su base de conocimientos, junto con instrucciones personalizadas para asegurar que sus respuestas estén alineadas con tu empresa.
+                                        Se le añaden archivos e información a su base de conocimientos, junto con instrucciones personalizadas para asegurar que sus respuestas estén alineadas con tu empresa.
                                     </span>
                                 </div>
                                 <hr>
@@ -646,7 +650,7 @@
                             </div>
                             <div class="info">
                                 <button class="faq-question" type="button">
-                                ¿Cómo el Agente de IA maneja información sensible o confidencial?
+                                    ¿Cómo el Agente de IA maneja información sensible o confidencial?
                                     <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
                                             <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -656,7 +660,7 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                    Puedes configurar instrucciones específicas para que el agente maneje datos sensibles de acuerdo con las políticas y protocolos de tu negocio.
+                                        Puedes configurar instrucciones específicas para que el agente maneje datos sensibles de acuerdo con las políticas y protocolos de tu negocio.
                                     </span>
                                 </div>
                                 <hr>
@@ -670,7 +674,7 @@
                             </div>
                             <div class="info">
                                 <button class="faq-question" type="button">
-                                ¿Puedo actualizar el contenido y las respuestas yo mismo o necesito soporte técnico?
+                                    ¿Puedo actualizar el contenido y las respuestas yo mismo o necesito soporte técnico?
                                     <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
                                             <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -680,7 +684,7 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                    Sí. Es muy sencillo agregar nuevos archivos o instrucciones. Además, cuentas con una vista previa para probar lo que has agregado y con un asistente de IA que te ayuda a optimizar el prompt.
+                                        Sí. Es muy sencillo agregar nuevos archivos o instrucciones. Además, cuentas con una vista previa para probar lo que has agregado y con un asistente de IA que te ayuda a optimizar el prompt.
                                     </span>
                                 </div>
                                 <hr>
@@ -694,7 +698,7 @@
                             </div>
                             <div class="info">
                                 <button class="faq-question" type="button">
-                                ¿Cuánto tarda en estar listo un agente totalmente funcional?
+                                    ¿Cuánto tarda en estar listo un agente totalmente funcional?
                                     <span class="faq-arrow" aria-hidden="true" style="display:inline-block;vertical-align:middle;transition:transform 0.3s;">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block">
                                             <path d="M6 10L12 16L18 10" stroke="#007F96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -703,13 +707,13 @@
                                 </button>
                                 <div class="faq-answer" style="display:none;">
                                     <span>
-                                    Con la ayuda de nuestro asistente de IA, tu agente puede estar configurado y funcionando a la perfección en menos de una semana.
+                                        Con la ayuda de nuestro asistente de IA, tu agente puede estar configurado y funcionando a la perfección en menos de una semana.
                                     </span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                  
+
 
                 </section>
 

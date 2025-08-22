@@ -11,15 +11,15 @@
                         <div class="sectionText">
 
                             <h1 class="principalBigTitle">
-                            Más inscripciones,<br class="DT_e"> menos esfuerzo con un <br class="DT_e">
+                                Más inscripciones,<br class="DT_e"> menos esfuerzo con un <br class="DT_e">
                                 <span class="span-educacion">CRM Inteligente</span>
                             </h1>
 
 
                             <p class="principalBigText">
-                            Herramientas de marketing y venta<br class="DT_e">
-                            creadas para universidades, colegios y<br class="DT_e">
-                            empresas educativas.
+                                Herramientas de marketing y venta<br class="DT_e">
+                                creadas para universidades, colegios y<br class="DT_e">
+                                empresas educativas.
                             </p>
                             <div class="containerImage">
                                 <div class="video-cover" id="video-cover-landing" tabindex="0" data-video-src="https://player.vimeo.com/video/1097895831?autoplay=1">
@@ -205,7 +205,7 @@
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <h2 class="primaryTitle">
-                    El costo de seguir con sistemas inadecuados
+                        El costo de seguir con sistemas inadecuados
                     </h2>
 
 
@@ -213,38 +213,42 @@
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/visibilidad.webp') !!}"
-                                alt="">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/visibilidad.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>
-                            Interesados que se enfrían, sin seguimiento
+                                Interesados que se enfrían, sin seguimiento
                             </span>
 
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/registro-vendedores.webp') !!}"
-                                alt="">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/registro-vendedores.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Datos perdidos y desordenados</span>
                         </div>
 
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/visibilidad-desempeño.webp') !!}"
-                                alt="">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/visibilidad-desempeño.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Poca visibilidad del proceso de admisión</span>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/vendedores-leads.webp') !!}"
-                                alt="">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/vendedores-leads.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>Equipo atascado en tareas manuales</span>
                         </div>
 
                     </div>
                 </section>
                 <span class="parrafo span-blue-400">
-                Cada admisión es una carrera contra el tiempo. No pierdas la tuya.
+                    Cada admisión es una carrera contra el tiempo. No pierdas la tuya.
                 </span>
 
             </div>
@@ -258,11 +262,11 @@
                 <section class="innerSectionElement sct0 ">
                     <div class="containElements">
                         <h2 class="primaryTitle">
-                        Centraliza y automatiza tu proceso<br class="DT_e">
-                        de admisión
+                            Centraliza y automatiza tu proceso<br class="DT_e">
+                            de admisión
                         </h2>
                         <span>
-                        Con un solo sistema inteligente:
+                            Con un solo sistema inteligente:
                         </span>
                     </div>
                 </section>
@@ -285,7 +289,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_1',
                         'img' => App::setFilePath('/assets/images/illustrations/others/actualizar-informacion-de-contactos-2.webp'),
-                        'text' => '<span>Organiza contactos y<br class="DT_e">oportunidades eficientemente</span>',
+                        'text' => '<span>Organiza contactos y <br class="DT_e"> oportunidades eficientemente</span>',
                         'side' => 'left',
                         ]);
                         @endphp
@@ -296,7 +300,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_2',
                         'img' => App::setFilePath('/assets/images/illustrations/others/comunicaciones-inbox-omnicanal.webp'),
-                        'text' => '<span>Centraliza WhatsApp,<br class="DT_e">Instagram y Facebook</span>',
+                        'text' => '<span>Centraliza WhatsApp, <br class="DT_e"> Instagram y Facebook</span>',
                         'side' => 'right',
                         ]);
                         @endphp
@@ -329,7 +333,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_5',
                         'img' => App::setFilePath('/assets/images/illustrations/others/Campañas-email-anuncios.webp'),
-                        'text' => '<span>Lanza campañas de email, landing pages y<br class="DT_e">anuncios digitales desde el mismo lugar</span>',
+                        'text' => '<span>Lanza campañas de email, landing pages y <br class="DT_e"> anuncios digitales desde el mismo lugar</span>',
                         'side' => 'left',
                         ]);
                         @endphp
@@ -340,7 +344,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_6',
                         'img' => App::setFilePath('/assets/images/illustrations/others/reportes-paginas-sem.webp'),
-                        'text' => '<span>Ten reportes en tiempo real<br class="DT_e">para optimizar resultados</span>',
+                        'text' => '<span>Ten reportes en tiempo real <br class="DT_e"> para optimizar resultados</span>',
                         'side' => 'right',
                         ]);
                         @endphp
@@ -363,8 +367,8 @@
 
                 <section class="innerSectionElement sct1">
                     <h2 class="primaryTitle">
-                    Tu agente de ventas con IA <br class="space">
-                    El Agente de Escala hace por ti lo que quita tiempo:
+                        Tu agente de ventas con IA <br class="space">
+                        El Agente de Escala hace por ti lo que quita tiempo:
                     </h2>
 
                     <div class="containElement">
@@ -374,8 +378,8 @@
 
 
                         <div class="right">
-                        <ul>
-                            <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Atiende mensajes</b> en WhatsApp, Instagram y Facebook</span></li>
+                            <ul>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Atiende mensajes</b> en WhatsApp, Instagram y Facebook</span></li>
                                 <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Filtra y asigna prospectos </b>al mejor vendedor</span></li>
                                 <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Agenda citas</b> automático</span></li>
                                 <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Responde preguntas</b> y envía materiales</span></li>
@@ -429,18 +433,18 @@
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <h2 class="primaryTitle">
-                    ¿Por qué Escala es diferente?
+                        ¿Por qué Escala es diferente?
                     </h2>
-                    
+
                 </section>
-               <section class="innerSectionElement sct1">
+                <section class="innerSectionElement sct1">
                     <div class="containElements">
                         <div class="cards">
                             <img class="img-left"
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/agentes-ia-avanzados.webp') !!}"
                                 alt="">
                             <span>
-                            Agentes de IA avanzados que ayudan a vender (no un chatbot con IA)
+                                Agentes de IA avanzados que ayudan a vender (no un chatbot con IA)
                             </span>
 
                         </div>
@@ -449,7 +453,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/icon-ia-automatizas.webp') !!}"
                                 alt="">
                             <span>
-                            Tan fácil que tu equipo lo usa sin quejarse
+                                Tan fácil que tu equipo lo usa sin quejarse
                             </span>
                         </div>
                         <div class="cards">
@@ -457,7 +461,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/icon-ia-integraciones.webp') !!}"
                                 alt="">
                             <span>
-                            Herramientas de marketing y ventas en un solo lugar
+                                Herramientas de marketing y ventas en un solo lugar
                             </span>
                         </div>
                         <div class="cards">
@@ -465,7 +469,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/recibes-acompañamiento.webp') !!}"
                                 alt="">
                             <span>
-                            El mejor acompañamiento experto, en español
+                                El mejor acompañamiento experto, en español
                             </span>
                         </div>
                         <div class="cards">
@@ -473,7 +477,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/servicio-en-español.webp') !!}"
                                 alt="">
                             <span>
-                            Tutoriales claros y soporte en vivo eficaz
+                                Tutoriales claros y soporte en vivo eficaz
                             </span>
                         </div>
                         <div class="cards">
@@ -481,7 +485,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/escalar-tu-empresa.webp') !!}"
                                 alt="">
                             <span>
-                            Crece contigo y tu empresa
+                                Crece contigo y tu empresa
                             </span>
                         </div>
 
@@ -552,9 +556,8 @@
                                 alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Escala ha sido un gran <br class="DT_e">
-                                    aliado para <b> mejorar nuestra operación <br class="DT_e">
+                                    aliado para <b> mejorar nuestra operación
                                         comercial,</b> automatizar
-                                    <br class="DT_e">
                                     tareas y optimizar nuestra
                                     <br class="DT_e"> inversión en marketing.
                                 </h5>
@@ -628,10 +631,10 @@
                     <section class="innerSectionElement sct2">
                         <div class="containElement">
                             <h2 class="title">
-                            Inscribe más alumnos <br class="DT_e"> desde hoy
+                                Inscribe más alumnos <br class="DT_e"> desde hoy
                             </h2>
                             <span>
-                            Solicita tu sesión gratuita
+                                Solicita tu sesión gratuita
                             </span>
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                 Empezar ahora →
