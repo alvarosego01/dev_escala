@@ -159,11 +159,29 @@
                         Caso de éxito destacado
                     </h2>
 
+                        <div class="featured-success-card">
+                            <div class="featured-success-card__image">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/testimonial-taller5.webp') }}" alt="Testimonial Taller 5" loading="lazy">
+                                <button class="play-button">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') }}" alt="Play">
+                                </button>
+                            </div>
+                            <div class="featured-success-card__info">
+                                <img class="logo-testimonial" src="{{ App::setFilePath('/assets/images/illustrations/others/logo-taller-cinco.webp') }}" alt="Taller Cinco" loading="lazy">
+                                <div class="featured-success-card__text">
+                                    Esta universidad, líder en formación artística, incrementó sus ingresos en más del 50% con Escala CRM en menos de 6 meses
+                                </div>
+                                <div class="featured-success-card__category">Educación</div>
+                            </div>
+                        </div>
+
                 </section>
 
 
             </div>
         </section>
+
+
         <!-- Sección de entrevistas podcast -->
         @php
         $podcastCards = [
@@ -267,7 +285,7 @@
         ],
         ];
         @endphp
-        <section class="customSection sectionParent home-casos-exito-2025-podcast">
+        <section class="customSection sectionParent home-casos-exito-2025-2">
             <div class="section-row">
                 <section class="innerSectionElement sct1">
                     <h2 class="title">Entrevistas a clientes en nuestro Escala Podcast</h2>
@@ -351,7 +369,7 @@
         ],
         ];
         @endphp
-        <section class="customSection sectionParent home-casos-exito-2025-articulos">
+        <section class="customSection sectionParent home-casos-exito-2025-3">
             <div class="section-row">
                 <section class="innerSectionElement sct1">
                     <h2 class="title">Artículos y video-testimoniales</h2>
