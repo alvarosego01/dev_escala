@@ -11,8 +11,8 @@
                         <div class="sectionText">
 
                             <h1 class="principalBigTitle">
-                                Deja Excel<br class="DT_e">
-                                <span>Gana más ventas.</span>
+                                De Excel a CRM: <br class="DT_e">
+                                <span> el cambio que escala tus ventas.</span>
                             </h1>
 
 
@@ -204,7 +204,7 @@
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <h2 class="primaryTitle">
-                        El precio de seguir en Excel
+                        El precio de seguir vendiendo con Excel
                     </h2>
 
                     <span>
@@ -237,15 +237,15 @@
                                     src="{!! App::setFilePath('/assets/images/illustrations/others/data-manual.webp') !!}"
                                     alt="">
                             </div>
-                            <span>Vendedores ocupados<br class="DT_e">
-                                en tareas inútiles</span>
+                            <span>Vendedores ocupados <br class="DT_e">
+                                en tareas operativas</span>
                         </div>
                         <div class="cards">
                             <div class="img"> <img class="img-top"
                                     src="{!! App::setFilePath('/assets/images/illustrations/others/visibilidad-desempeño.webp') !!}"
                                     alt="">
                             </div>
-                            <span>Gerentes sin claridad
+                            <span>Gerentes con poca visibilidad del proceso comercial
                             </span>
                         </div>
                         <div class="cards">
@@ -262,17 +262,15 @@
                                     src="{!! App::setFilePath('/assets/images/illustrations/others/herramientas-ventas.webp') !!}"
                                     alt="">
                             </div>
-                            <span>Demasiadas herramientas<br class="DT_e">
-                                para una sola venta</span>
+                            <span>Invertir en demasiadas herramientas</span>
                         </div>
                     </div>
                 </section>
-                <span class="parrafo">
-                    Con hojas de cálculo puedes empezar tu negocio.
+                <span class="parrafo" style="margin-bottom: 0!important;">
+                    Con hojas de cálculo puedes empezar tu negocio. <br class="DT_e">
+                    Pero necesitas el CRM adecuado para escalar.
                 </span>
-                <span>
-                    Con Escala, escalas.
-                </span>
+
             </div>
 
 
@@ -285,12 +283,9 @@
                     <div class="containElements">
 
                         <h2 class="primaryTitle">
-                            Escala CRM: ventas simples, todo en uno
+                            Escala: El CRM con IA <br class="DT_e"> para vender más fácil y rápido
                         </h2>
-                        <span>
-                            Un CRM con IA para vender más fácil y rápido:
 
-                        </span>
                         <span>
 
                         </span>
@@ -394,7 +389,7 @@
                 <section class="innerSectionElement sct1">
                     <h2 class="primaryTitle">
                         Tu agente de ventas con IA <br class="space">
-                        El Agente de Escala hace por ti lo que quita tiempo:
+                        El Agente de IA en Escala CRM vende 24/7 por ti
                     </h2>
 
                     <div class="containElement">

@@ -1052,7 +1052,7 @@ img
                         height: 13px
                         width: 14px
                         position: relative
-                        top: 4.5px
+                        top: 11.5px
 
                     ul
                         margin: 30px 0
@@ -1302,7 +1302,7 @@ img
                         height: 13px
                         width: 14px
                         position: relative
-                        top: 4.5px
+                        top: 11.5px
 
                     ul
                         margin: 30px 0
@@ -1526,6 +1526,8 @@ img
                         margin-bottom: 0
                         text-align: left
                         font-size: 24px
+                        display: flex
+                        justify-content: center
                         @include responsivo(telefonoTable)
                             font-size: 24px
                             width: fit-content!important
@@ -1533,6 +1535,7 @@ img
                             text-align: center
                             span
                                 margin-left: 0!important
+                                text-align: center
                         @include responsivo(pcMedio)
                             font-size: 24px
                             text-align: left
@@ -1580,6 +1583,7 @@ img
         section.innerSectionElement.sct2.left
             .info
                 padding-left: 35px!important
+                padding-right: 35px!important
                 @include responsivo(telefonoTable)
                     padding-left: 0!important
         section.innerSectionElement.sct2.right
@@ -1597,11 +1601,14 @@ img
                         padding-right: 0px
                     @include responsivo(pcMedio)
                         padding-right: 35px
+                        padding-left: 35px
+
                     @include responsivo(general)
-                        padding-left: 20px
                         padding-right: 35px
+                        padding-left: 35px
+
                     @include responsivo(resto)
-                        padding-left: 20px
+                        padding-left: 35px
                         padding-right: 35px
                         margin-top: 40px
                 .image
