@@ -150,7 +150,6 @@
         </section>
 
 
-
         <section class="customSection sectionParent home-casos-exito-2025-1">
 
             <div class="section-row ">
@@ -159,21 +158,60 @@
                         Caso de éxito destacado
                     </h2>
 
-                        <div class="featured-success-card">
-                            <div class="featured-success-card__image">
-                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/testimonial-taller5.webp') }}" alt="Testimonial Taller 5" loading="lazy">
-                                <button class="play-button">
+                    <div class="featured-success-card">
+                        <div class="featured-success-card__image">
+                            <div class="video col-md-12">
+                                @php
+                                $videoEmbed = App::setFilePath('/assets/videos/caso_de_exito_video_miller_romero_taller_5.mp4');
+                                $videoCover = App::setFilePath('/assets/images/illustrations/others/bg-caso-exito-taller-5-video.webp');
+                                @endphp
+
+                                @if (isset($videoEmbed) && $videoEmbed != null)
+                                <div class="youtubeImageContainer">
+                                    <video class="featured-video" id="featured-video" poster="{{ $videoCover }}">
+                                        <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                        <p>
+                                            Para ver este video, habilita JavaScript y usa un navegador compatible con HTML5 video.
+                                        </p>
+                                    </video>
+                                </div>
+                                @endif
+
+                                <button id="play-featured-video" type="button" class="play-button">
                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') }}" alt="Play">
                                 </button>
-                            </div>
-                            <div class="featured-success-card__info">
-                                <img class="logo-testimonial" src="{{ App::setFilePath('/assets/images/illustrations/others/logo-taller-cinco.webp') }}" alt="Taller Cinco" loading="lazy">
-                                <div class="featured-success-card__text">
-                                    Esta universidad, líder en formación artística, incrementó sus ingresos en más del 50% con Escala CRM en menos de 6 meses
-                                </div>
-                                <div class="featured-success-card__category">Educación</div>
+                                <script>
+                                    document.addEventListener('DOMContentLoaded', function() {
+                                        var playBtn = document.getElementById('play-featured-video');
+                                        var video = document.getElementById('featured-video');
+                                        if (playBtn && video && typeof video.play === 'function') {
+                                            playBtn.addEventListener('click', function(e) {
+                                                e.preventDefault();
+                                                video.setAttribute('controls', 'controls');
+                                                playBtn.style.display = 'none';
+                                                video.play();
+                                            });
+                                            video.addEventListener('pause', function() {
+                                                playBtn.style.display = '';
+                                            });
+                                            video.addEventListener('ended', function() {
+                                                playBtn.style.display = '';
+                                                video.removeAttribute('controls');
+                                                video.currentTime = 0;
+                                            });
+                                        }
+                                    });
+                                </script>
                             </div>
                         </div>
+                        <div class="featured-success-card__info">
+                            <img class="logo-testimonial" src="{{ App::setFilePath('/assets/images/illustrations/others/logo-caso-exito-taller-5-video.webp') }}" alt="Taller Cinco" loading="lazy">
+                            <div class="featured-success-card__text">
+                                Esta universidad, líder en formación artística, incrementó sus ingresos en más del 50% con Escala CRM en menos de 6 meses
+                            </div>
+                            <div class="featured-success-card__category">Educación</div>
+                        </div>
+                    </div>
 
                 </section>
 
@@ -188,14 +226,13 @@
 
         [
         'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-1.webp'),
-        'titulo' => '¿Cómo KataGoGo escaló su negocio?',
         'desc' => 'La entrevista completa en',
         'tags' => [
         [
-        'url' => 'https://open.spotify.com/',
+        'url' => 'https://open.spotify.com/episode/1blStnuUfTjR8PWcTiRkFy?si=db920a234d8a4c7e',
         ],
         [
-        'url' => 'https://youtube.com/',
+        'url' => 'https://youtu.be/0QKyCSECm6k?si=ooIlkoTMfNQuZ0Mb',
         ],
         ],
         'categoria' => 'Marketing',
@@ -204,14 +241,13 @@
         ],
         [
         'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-2.webp'),
-        'titulo' => 'Reducimos el costo de adquisición un 58%: El caso de Sileo con Escala',
         'desc' => 'La entrevista completa en',
         'tags' => [
         [
-        'url' => 'https://open.spotify.com/',
+        'url' => 'https://open.spotify.com/episode/3I2yOTRe4AwLLnWKTK7H6O?si=bf2e50a707c740fd',
         ],
         [
-        'url' => 'https://youtube.com/',
+        'url' => 'https://youtu.be/tJFFpMhJT4M?si=CWB6ob-UWN2tEnDh',
         ],
         ],
         'categoria' => 'Educación',
@@ -220,14 +256,13 @@
         ],
         [
         'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-3.webp'),
-        'titulo' => '¿Cómo la empresa Kangen aumentó 4X los leads calificados con Escala?',
         'desc' => 'La entrevista completa en',
         'tags' => [
         [
-        'url' => 'https://open.spotify.com/',
+        'url' => 'https://open.spotify.com/episode/5jMi8cpBKDusyiX53NmRCp?si=ef4ef7ff88cf4341',
         ],
         [
-        'url' => 'https://youtube.com/',
+        'url' => 'https://youtu.be/zlHnyqjD2ps?si=FTQpC-9WoaNTwmeI',
         ],
         ],
         'categoria' => 'Otras',
@@ -236,14 +271,13 @@
         ],
         [
         'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-4.webp'),
-        'titulo' => '¿Cómo la Alianza Francesa aumentó 40% sus ventas con Escala?',
         'desc' => 'La entrevista completa en',
         'tags' => [
         [
-        'url' => 'https://open.spotify.com/',
+        'url' => 'https://open.spotify.com/episode/2EIkeCXHhaen5aPv6XGP2Y?si=f0f9d5b5026f49f2',
         ],
         [
-        'url' => 'https://youtube.com/',
+        'url' => 'https://youtu.be/Qm7gh-0qIyI?si=_3QDDbaSsG36ys3U',
         ],
         ],
         'categoria' => 'Educación',
@@ -252,14 +286,13 @@
         ],
         [
         'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-5.webp'),
-        'titulo' => 'Por qué Escala tiene el mejor servicio Según la empresa Comunidad GIVE',
         'desc' => 'La entrevista completa en',
         'tags' => [
         [
-        'url' => 'https://open.spotify.com/',
+        'url' => 'https://open.spotify.com/episode/7A8i5DDjkSBdtP77g9e5f4?si=439a87644a0e4789',
         ],
         [
-        'url' => 'https://youtube.com/',
+        'url' => 'https://youtu.be/ScqISD9kvx8?si=ByqWEB504Onx2ubl',
         ],
         ],
         'categoria' => 'Marketing',
@@ -268,15 +301,14 @@
         ],
         [
         'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-6.webp'),
-        'titulo' => 'Así fue como la empresa Causa y Solución duplicó su facturación en menos de 6 meses',
         'desc' => 'La entrevista completa en',
         'tags' => [
         [
 
-        'url' => 'https://open.spotify.com/',
+        'url' => 'https://open.spotify.com/episode/4jhz7NEPESD2M330CGhzbE?si=dac3633721854ed3',
         ],
         [
-        'url' => 'https://youtube.com/',
+        'url' => 'https://youtu.be/JthA8wHUloE?si=gtBgidkox9MF7dq4',
         ],
         ],
         'categoria' => 'Consultoría',
@@ -293,21 +325,138 @@
                         @foreach($podcastCards as $card)
                         <div class="podcast-card">
                             <div class="podcast-card__image">
-                                <img src="{{ $card['imagen'] ?? '' }}" alt="{{ $card['titulo'] ?? '' }}" loading="lazy">
-                                <button class="play-button"><img src="{{ App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') }}" alt="Play"></button>
+                                @php
+                                $youtubeUrl = null;
+                                if (!empty($card['tags'])) {
+                                foreach ($card['tags'] as $tag) {
+                                if (strpos($tag['url'], 'youtube') !== false || strpos($tag['url'], 'youtu.be') !== false) {
+                                $youtubeUrl = $tag['url'];
+                                break;
+                                }
+                                }
+                                }
+                                $youtubeId = null;
+                                if ($youtubeUrl) {
+                                if (preg_match('/youtu\.be\/([\w-]+)/', $youtubeUrl, $matches)) {
+                                $youtubeId = $matches[1];
+                                } elseif (preg_match('/v=([\w-]+)/', $youtubeUrl, $matches)) {
+                                $youtubeId = $matches[1];
+                                }
+                                }
+                                @endphp
+                                <div class="podcast-preview-container" style="position:relative;overflow:hidden;border-top-left-radius:18px;border-top-right-radius:18px;">
+                                    @if($youtubeId)
+                                    <img class="podcast-preview-image" src="https://img.youtube.com/vi/{{ $youtubeId }}/hqdefault.jpg" alt="Preview YouTube" loading="lazy" data-youtubeid="{{ $youtubeId }}" style="width:100%;height:200px;object-fit:cover;display:block; border-radius:20px;">
+                                    @else
+                                    <img src="{{ $card['imagen'] ?? '' }}" alt="{{ $card['titulo'] ?? '' }}" loading="lazy" style="width:100%;height:200px;object-fit:cover;display:block;">
+                                    @endif
+                                    <button class="play-button" style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);" data-youtubeid="{{ $youtubeId }}"><img src="{{ App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') }}" alt="Play"></button>
+                                </div>
                             </div>
+                            <!-- El script se moverá al final del archivo -->
+                            <script>
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    function playYoutubeLimited(previewContainer, youtubeId) {
+                                        if (youtubeId && previewContainer) {
+                                            // Cargar el script de la API si no está presente
+                                            if (!window.YT) {
+                                                var tag = document.createElement('script');
+                                                tag.src = "https://www.youtube.com/iframe_api";
+                                                var firstScriptTag = document.getElementsByTagName('script')[0];
+                                                firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+                                            }
+                                            // Crear un contenedor único para el player
+                                            var playerDivId = 'yt-player-' + youtubeId + '-' + Math.floor(Math.random() * 100000);
+                                            previewContainer.innerHTML = '<div id="' + playerDivId + '"></div>';
+                                            // Esperar a que la API esté lista
+                                            function onPlayerReady(player) {
+                                                player.playVideo();
+                                            }
+
+                                            function onPlayerStateChange(event, player) {
+                                                if (event.data == YT.PlayerState.PLAYING) {
+                                                    var interval = setInterval(function() {
+                                                        var current = player.getCurrentTime();
+                                                        if (current >= 60) {
+                                                            clearInterval(interval);
+                                                            previewContainer.innerHTML = '<div class="imgTop" style="text-align:center;">' +
+                                                                '<img style="width:100%;height:200px;object-fit:cover;display:block; border-radius:20px;" class="podcast-preview-image" src="https://img.youtube.com/vi/' + youtubeId + '/hqdefault.jpg" alt="Preview YouTube" loading="lazy" data-youtubeid="' + youtubeId + '">' 
+                                                                '</div>';
+                                                        }
+                                                    }, 1000);
+                                                }
+                                            }
+                                            window.onYouTubeIframeAPIReady = function() {
+                                                var player = new YT.Player(playerDivId, {
+                                                    height: '230',
+                                                    width: '100%',
+                                                    videoId: youtubeId,
+                                                    events: {
+                                                        'onReady': function(e) {
+                                                            onPlayerReady(e.target);
+                                                        },
+                                                        'onStateChange': function(e) {
+                                                            onPlayerStateChange(e, e.target);
+                                                        }
+                                                    },
+                                                    playerVars: {
+                                                        autoplay: 1
+                                                    }
+                                                });
+                                            };
+                                            // Si la API ya está cargada
+                                            if (window.YT && window.YT.Player) {
+                                                window.onYouTubeIframeAPIReady();
+                                            }
+                                        }
+                                    }
+                                    document.querySelectorAll('.podcast-preview-image').forEach(function(img) {
+                                        img.addEventListener('click', function(e) {
+                                            e.preventDefault();
+                                            var youtubeId = img.getAttribute('data-youtubeid');
+                                            var previewContainer = img.closest('.podcast-preview-container');
+                                            playYoutubeLimited(previewContainer, youtubeId);
+                                        });
+                                    });
+                                    document.querySelectorAll('.podcast-card .play-button').forEach(function(btn) {
+                                        btn.addEventListener('click', function(e) {
+                                            e.preventDefault();
+                                            var youtubeId = btn.getAttribute('data-youtubeid');
+                                            var previewContainer = btn.closest('.podcast-preview-container');
+                                            playYoutubeLimited(previewContainer, youtubeId);
+                                        });
+                                    });
+                                });
+                            </script>
                             <div class="podcast-card__info">
-                                <h3 class="podcast-card__title">{{ $card['titulo'] ?? '' }}</h3>
                                 <p class="podcast-card__desc">{{ $card['desc'] ?? '' }}</p>
                                 <div class="podcast-card__tags">
-                                    @if(!empty($card['tags']))
-                                    @php $iconUrl = App::setFilePath('/assets/images/illustrations/others/icon-spotify.webp'); @endphp
-                                    @foreach($card['tags'] as $tag)
-                                    <a class="podcast-card__tag" href="{{ $tag['url'] }}" target="_blank" style="display:inline-flex;align-items:center;gap:6px;text-decoration:none;">
-                                        <img src="{{ $iconUrl }}" alt="icon" style="width:18px;height:18px;">
-                                    </a>
-                                    @endforeach
-                                    @endif
+                                    <div>
+                                        @if(!empty($card['tags']))
+                                        @php
+                                        $youtubeTags = array_filter($card['tags'], function($tag) {
+                                        return strpos($tag['url'], 'youtube') !== false || strpos($tag['url'], 'youtu.be') !== false;
+                                        });
+                                        $spotifyTags = array_filter($card['tags'], function($tag) {
+                                        return strpos($tag['url'], 'spotify') !== false;
+                                        });
+                                        @endphp
+                                        {{-- Primero los de YouTube --}}
+                                        @foreach($youtubeTags as $tag)
+                                        @php $iconUrl = App::setFilePath('/assets/images/illustrations/others/icon-youtube.webp'); @endphp
+                                        <a class="podcast-card__tag" href="{{ $tag['url'] }}" target="_blank">
+                                            <img src="{{ $iconUrl }}" alt="YouTube">
+                                        </a>
+                                        @endforeach
+                                        {{-- Luego los de Spotify --}}
+                                        @foreach($spotifyTags as $tag)
+                                        @php $iconUrl = App::setFilePath('/assets/images/illustrations/others/icon-spotify.webp'); @endphp
+                                        <a class="podcast-card__tag" href="{{ $tag['url'] }}" target="_blank">
+                                            <img src="{{ $iconUrl }}" alt="Spotify">
+                                        </a>
+                                        @endforeach
+                                        @endif
+                                    </div>
                                     <span class="podcast-card__category">{{ $card['categoria'] ?? '' }}</span>
                                 </div>
                             </div>
