@@ -269,13 +269,10 @@
 
                 <section class="innerSectionElement sct1">
                     <h2 class="primaryTitle">
-                        Agentes de IA en tu CRM<br class="space">
-                        que venden por ti<br class="space">
+                        El Agente de IA en Escala <br class="space">
+                        vende 24/7 por ti
                     </h2>
 
-                    <span>
-                        Con Escala puedes:
-                    </span>
 
                     <div class="containElement">
                         <div class="left">
@@ -301,10 +298,6 @@
 
                 </section>
                 <section class="innerSectionElement sct2">
-
-                    <h3 class="secondaryTitle">Haz que la Inteligencia Artificial haga el trabajo que<br class="DT_e">
-                        tu equipo no tiene tiempo de hacer.</h3>
-
                     <div class="btnCenter">
                         <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                             Empezar ahora →
