@@ -406,8 +406,8 @@
 
                 <section class="innerSectionElement sct1">
                     <h2 class="primaryTitle">
-                        Tu agente de ventas con IA <br class="space">
-                        El Agente de IA en Escala CRM vende 24/7 por ti
+                        El Agente de IA en Escala <br class="space">
+                        vende 24/7 por ti
                     </h2>
 
                     <div class="containElement">

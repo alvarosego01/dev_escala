@@ -883,7 +883,7 @@ img
 
 
         .innerSectionElement.sct1
-            margin-bottom: 50px
+            margin-bottom: 90px
             .containElements
                 display: grid
                 grid-template-columns: repeat(2, 1fr)
@@ -973,8 +973,13 @@ img
                 text-align: center
                 color: #2c4857
                 font-size: 40px
-                margin-bottom: 40px
-                
+                margin-bottom: 60px
+                @include responsivo(telefonoTable)
+                    br
+                        display: none!important
+                @include responsivo(pcMedio)
+                    br
+                        display: none!important
                 span
                     font-weight: 400
                     font-size: 40px
@@ -1014,7 +1019,7 @@ img
                 border-radius: 20px
                 padding: 40px 60px
                 padding-bottom: 0
-                margin-bottom: 50px
+                margin-bottom: 90px
                 display: flex
                 gap: 50px
                 justify-content: center
@@ -1223,7 +1228,7 @@ img
                 text-align: center
                 color: #2c4857
                 font-size: 40px
-                margin-bottom: 40px
+                margin-bottom: 60px
                 
                 span
                     font-weight: 400
@@ -1264,7 +1269,7 @@ img
                 border-radius: 20px
                 padding: 40px 60px
                 padding-bottom: 0
-                margin-bottom: 50px
+                margin-bottom: 90px
                 display: flex
                 gap: 50px
                 justify-content: center

@@ -388,8 +388,8 @@
 
                 <section class="innerSectionElement sct1">
                     <h2 class="primaryTitle">
-                        Tu Agente de Ventas con IA<br class="space">
-                        El Agente de Escala hace por tu equipo lo que quita tiempo:
+                        El Agente de IA en Escala <br class="space">
+                        vende 24/7 por ti
                     </h2>
 
                     <div class="containElement">
