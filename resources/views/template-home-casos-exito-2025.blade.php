@@ -474,55 +474,58 @@
         'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-1.webp'),
         'desc' => 'Laboratorio clínico con más de 30 años en el mercado duplicó sus ventas con el CRM de Escala en menos de un año',
         'categoria' => 'Salud',
-        'url' => '/articulo/laboratorio-clinico',
+
+        'url' => 'https://escala.com/casos-de-exito-poctlab/',
         ],
         [
         'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-5.webp'),
         'desc' => 'Aumentó 5X su tasa de recuperación de carrito de compra abandonado',
         'categoria' => 'Salud y Fitness',
-        'url' => '/articulo/recuperacion-carrito',
+        'url' => ' https://escala.com/caso-de-uso-salud-y-fitness/',
         ],
         [
         'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-2.webp'),
         'desc' => 'Esta universidad, líder en formación artística, incrementó sus ingresos en más del 50% con Escala CRM en menos de 6 meses',
         'categoria' => 'Educación',
-        'url' => '/articulo/universidad-formacion-artistica',
+
+        'url' => 'https://escala.com/casos-de-exito-taller-5/',
         ],
         [
         'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-6.webp'),
         'desc' => 'Aumentó 20% su cantidad de clientes con Escala',
         'categoria' => 'Financiera',
-        'url' => '/articulo/aumento-clientes-financiera',
+        'url' => 'https://escala.com/caso-de-exito-gestion-financiera/',
         ],
         [
         'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-8.webp'),
         'desc' => 'Mejoró su eficiencia y potenció las ventas de sus clientes con el CRM de Escala',
         'categoria' => 'Marketing',
-        'url' => '/articulo/eficiencia-ventas-marketing',
+        'url' => 'https://escala.com/casos-de-exito-kata-gogo/',
         ],
         [
         'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-3.webp'),
         'desc' => 'Real de los Cues, aumentó un 30% sus ventas del canal digital con el CRM de Escala',
         'categoria' => 'Bienes raíces',
-        'url' => '/articulo/real-de-los-cues',
+        'url' => 'https://escala.com/casos-de-exito-real-de-los-cues/',
         ],
         [
         'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-9.webp'),
         'desc' => 'Este gran distribuidor de motocicletas, incrementó sus ventas en un 30%, en menos de un año gracias al CRM de Escala',
         'categoria' => 'Automotriz',
-        'url' => '/articulo/distribuidor-motocicletas',
+        'url' => 'https://escala.com/casos-de-exito-motored/',
         ],
         [
         'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-4.webp'),
         'desc' => 'Esta aseguradora blindó su información frente a fugas de datos comerciales con Escala CRM',
         'categoria' => 'Seguros',
-        'url' => '/articulo/aseguradora-seguros',
+
+        'url' => 'https://escala.com/caso-de-exito-loyal-seguros/',
         ],
         [
         'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-7.webp'),
         'desc' => 'Esta empresa, aumentó sus ventas un 40% en menos de un año con el control y automatizaciones de Escala CRM',
         'categoria' => 'E-commerce',
-        'url' => '/articulo/empresa-ecommerce',
+        'url' => 'https://escala.com/casos-de-exito-desayunos-del-cielo/',
         ],
         ];
         @endphp
@@ -547,13 +550,13 @@
 
 
         <!-- Sección CTA: Listo para vender más con menos esfuerzo -->
-        <section class="customSection sectionParent home-casos-exito-2025-4" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-banner-home-casos-exito-demo.webp') !!}')">
-            <div class="section-row">
-                <h2>¿Listo para vender más con <br class="DT_e">
+        <section class="customSection sectionParent home-casos-exito-2025-4">
+            <div class="section-row" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-banner-home-casos-exito-demo.webp') !!}')">
+                <h2 class="title">¿Listo para vender más con <br class="DT_e">
                     menos esfuerzo?</h2>
                 <div>
-                    <a href="#demo">Hablar con asesor →</a>
-                    <a href="https://wa.me/" target="_blank">Escríbenos por WhatsApp →</a>
+                    <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">Hablar con asesor →</a>
+                    <a class="primaryButton hoverInEffect whatsapp" href="https://api.whatsapp.com/send?phone=17863042407&text=Hola%21%20Me%20interesa%20recibir%20un%20demo%20personalizado%20de%20Escala" target="_blank">Escríbenos por WhatsApp →</a>
                 </div>
             </div>
         </section>
