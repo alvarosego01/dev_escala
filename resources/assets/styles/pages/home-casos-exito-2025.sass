@@ -712,7 +712,7 @@ img
             .podcast-cards-grid
                 display: grid
                 grid-template-columns: repeat(3, 1fr)
-                gap: 30px
+                gap: 20px
                 @include responsivo(telefonoTable)
                     grid-template-columns: 1fr
                     gap: 20px
@@ -747,8 +747,8 @@ img
                         border: none
                         cursor: pointer
                         img
-                            width: 40px
-                            height: 40px
+                            width: 62px
+                            height: 62px
                 .podcast-card__info
                     padding: 0px 30px 40px 30px
                     position: relative
@@ -800,7 +800,7 @@ img
             .articulos-cards-grid
                 display: grid
                 grid-template-columns: repeat(3, 1fr)
-                gap: 30px
+                gap: 20px
                 margin-bottom: 40px
                 @include responsivo(telefonoTable)
                     grid-template-columns: 1fr
@@ -818,16 +818,36 @@ img
                 overflow: hidden
                 img
                     width: 100%
-                    height: 120px
+                    height: 199px
                     object-fit: cover
                     border-radius: 20px 20px 0 0
                 .articulo-card__info
-                    padding: 20px
+                    padding: 40px 30px
+                    display: flex
+                    flex-direction: column
+                    justify-content: space-between
+                    min-height: 210px
                     .articulo-card__desc
-                        font-size: 15px
-                        color: #212A31
-                        margin-bottom: 8px
-                    .articulo-card__category
-                        color: #F34F36
-                        font-size: 13px
+                        font-size: 20px
+                        font-family: 'Mulish', sans-serif
                         font-weight: 600
+                        line-height: 1
+                        color: #212A31
+                    .articulo-card__category
+                        color: #F1685A
+                        font-size: 14px
+                        font-family: 'Mulish', sans-serif
+                        line-height: 1
+                        font-weight: 800
+            .articulo-card
+                &:hover
+                    background-size: contain
+                    background-position: bottom right
+                    background-image: url('http://localhost/escala/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-cover-cards-articulos.webp')!important
+
+
+#home-casos-exito-2025 .customSection.sectionParent.home-casos-exito-2025-4
+    padding: 0px 0px 90px 0px
+    .section-row
+        max-width: 1200px
+        margin: 0 auto
