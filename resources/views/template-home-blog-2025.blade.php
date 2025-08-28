@@ -1,5 +1,5 @@
 {{--
-  Template Name: [B]  Landing home casos exito - 2025
+  Template Name: [B]  Landing home blog - 2025
 --}}
 
 @extends('layouts.app')
@@ -8,10 +8,10 @@
 
 
 
-<div id="home-casos-exito-2025">
+<div id="home-blog-2025">
     <div class="sections">
-        <!-- Home  casos exito landing 2025 By Escala -->
-        <section id="lead-form" class="hero2025 home-casos-exito-2025_0">
+        <!-- Home  blog landing 2025 By Escala -->
+        <section id="lead-form" class="hero2025 home-blog-2025_0">
 
             <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-home-casos-exito.svg') !!}')">
 
@@ -19,10 +19,17 @@
                     <section class="innerSectionElement sct1">
                         <div class="sectionText">
                             <h1 class="principalBigTitle">
-                                Conoce algunas <br class="DT_e">
-                                historias de éxito de <br class="DT_e">
-                                nuestros clientes
+                                Haz que tu equipo <br class="space">
+                                comercial venda más
+                                <span>
+                                    (sin enredarse con la tecnología)
+                                </span>
                             </h1>
+                            <span class="principalBigText">
+                                Encuentra guías, comparativas, casos <br class="space">
+                                reales y recursos para crecer con orden.
+
+                            </span>
 
                             <div class="containerImage">
                                 <img alt="Ilustración de Andres Moreno ESCALA" src="{!! App::setFilePath('/assets/images/illustrations/others/am-landing-home-casos-exito.webp') !!}" loading="lazy">
@@ -37,43 +44,14 @@
                         </div>
                     </section>
 
-                    <section class="innerSectionElement sct3">
-                        <div class="form7">
-                            <div class="containElements">
 
-                                <div class="formatForm redirectWeb" redirectweb="true">
-
-                                    <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
-
-                                    @php
-                                    $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                    $_rs = [];
-                                    $_formShortcode = null;
-                                    if ($_data = get_posts($_args)) {
-                                    foreach ($_data as $_key) {
-                                    $_rs[$_key->ID] = $_key->post_title;
-                                    if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                    $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                    }
-                                    }
-                                    } else {
-                                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                    }
-                                    @endphp
-                                    {!! do_shortcode($_formShortcode) !!}
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </section>
                 </div>
             </div>
             <section class="separador" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-white-reviews-landing-casos-exito.webp') !!}')">
             </section>
         </section>
 
-        <section class="customSection sectionParent home-casos-exito-2025_1_0" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-white-reviews-landing-casos-exito.webp') !!}')">
+        <section class="customSection sectionParent home-blog-2025_1_0" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-white-reviews-landing-casos-exito.webp') !!}')">
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
@@ -150,7 +128,7 @@
         </section>
 
 
-        <section class="customSection sectionParent home-casos-exito-2025-1">
+        <section class="customSection sectionParent home-blog-2025-1">
 
             <div class="section-row ">
                 <section class="innerSectionElement sct1">
@@ -317,7 +295,7 @@
         ],
         ];
         @endphp
-        <section class="customSection sectionParent home-casos-exito-2025-2">
+        <section class="customSection sectionParent home-blog-2025-2">
             <div class="section-row">
                 <section class="innerSectionElement sct1">
                     <h2 class="title">Entrevistas a clientes en nuestro Escala Podcast</h2>
@@ -529,7 +507,7 @@
         ],
         ];
         @endphp
-        <section class="customSection sectionParent home-casos-exito-2025-3">
+        <section class="customSection sectionParent home-blog-2025-3">
             <div class="section-row">
                 <section class="innerSectionElement sct1">
                     <h2 class="title">Artículos y video-testimoniales</h2>
@@ -550,7 +528,7 @@
 
 
         <!-- Sección CTA: Listo para vender más con menos esfuerzo -->
-        <section class="customSection sectionParent home-casos-exito-2025-4">
+        <section class="customSection sectionParent home-blog-2025-4">
             <div class="section-row" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-banner-home-casos-exito-demo.webp') !!}')">
                 <h2 class="title">¿Listo para vender más con <br class="DT_e">
                     menos esfuerzo?</h2>

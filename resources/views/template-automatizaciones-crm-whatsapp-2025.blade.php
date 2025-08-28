@@ -20,14 +20,13 @@
                         <div class="sectionText">
                             <h1 class="principalBigTitle">
                                 Escala las ventas <br class="space">
-                                de tu empresa <br class="space">
-
+                                de tu empresa<br class="space"> con  
+                                <span class="principalBigText">
+                                    <span class="gradient-text2"> CRM, automatización <br class="DT_e">
+                                        y WhatsApp</span>
+                                </span>
                             </h1>
 
-                            <span class="principalBigText">
-                                <span class="gradient-text2"> con CRM, automatización <br class="DT_e">
-                                y WhatsApp</span>
-                            </span>
 
 
 

@@ -20,14 +20,15 @@
                         <div class="sectionText">
                             <h1 class="principalBigTitle">
                                 Escala las ventas <br class="space">
-                                de tu empresa <br class="space">
+                                de tu empresa <br class="space"> con
+                                <span class="principalBigText">
+                                    un <span class="gradient-text">CRM <br class="space">
+                                        todo-en-uno</span> <br class="space">
+                                    y fácil de usar
+                                </span>
 
                             </h1>
-                         
-                            <span class="principalBigText">
-                                con un <span class="gradient-text">CRM todo-en-uno</span> <br class="space">
-                                y fácil de usar
-                            </span>
+
 
 
 
@@ -564,7 +565,7 @@
                             apps, perdiendo tiempo o <br class="DT_e">
                             conversaciones importantes.
                         </span>
-                       
+
                         El Inbox en el CRM de Escala permite que
                         todo quede organizado, y puedas ver el
                         historial completo de cada persona, sin
@@ -589,7 +590,7 @@
                             en Escala atiende las <br class="DT_e">
                             conversaciones en el <br class="DT_e">
                             Inbox logrando:</span>
-                        
+
                         <ul>
                             <li>Precalificar prospectos</li>
                             <li>Conversar con tus contactos <br class="DT_e">
@@ -631,7 +632,7 @@
                             a automatizar tareas <br class="DT_e">
                             repetitivas como:</span>
 
-                      
+
                         <ul>
                             <li>
                                 Enviar emails y WhatsApps de seguimiento
