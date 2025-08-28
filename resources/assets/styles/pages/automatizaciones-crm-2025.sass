@@ -145,6 +145,7 @@ img
                 top: 0
                 padding: 0
                 overflow: hidden
+                padding-right: 50px
             @include responsivoSpecial(1800px,1850px  )
                 top: 40px
             .sectionText
@@ -154,24 +155,28 @@ img
                     font-style: normal
                     font-weight: 800
                     text-align: left
-                    margin-bottom: 20px
                     line-height: 1
                     color: #fff
                     font-family: 'Mulish', sans-serif
-                    font-weight: 800
+                    width: 500px
                     @include responsivo(telefonoTable)
                         text-align: center
+                        width: auto
                         font-size: 40px
+                        margin-bottom: 40px
                         br
                             display: none!important
                     @include responsivo(pcMedio)
                         text-align: center
+                        width: auto
                         br
                             display: none!important
                         font-size: 40px
+                        margin-bottom: 40px
                     @include responsivo(general)
                         margin-top: 0
                         font-size: 50px
+                        width: 440px
                     @include responsivo(smallPcTablet)
                         font-size: 50px
                     @include responsivo(resto)
@@ -180,32 +185,40 @@ img
                 .principalBigText
                     font-family: 'Mulish', sans-serif
                     font-style: normal
-                    font-weight: 500
+                    font-weight: 800
                     text-align: left
                     margin-bottom: 0
                     line-height: 1
-                    font-size: 40px
+                    font-size: 50px
                     color: #fff
                     @include responsivo(telefonoTable)
-                        display: block
                         text-align: center !important
-                        margin-bottom: 30px
-                        font-size: 30px
                         br
                             display: none!important
+                        font-size: 40px
                     @include responsivo(pcMedio)
-                        display: block
                         text-align: center !important
-                        margin-bottom: 30px
-                        font-size: 30px
+                        br
+                            display: none!important
+                        font-size: 40px
+                    @include responsivo(smallPcTablet)
+                        font-size: 50px
+                    @include responsivo(resto)
+                        font-size: 55px
                     .gradient-text
-                        background: linear-gradient(90deg, #F1685A 37.5%, #83E3D0 85.1%)!important
+                        background: linear-gradient(98deg, #F1685A 19.7%, #83E3D0 79.71%)!important
                         background-clip: text!important
                         -webkit-background-clip: text!important
                         -webkit-text-fill-color: transparent!important
                         font-feature-settings: 'liga' off, 'clig' off!important
-
-
+                        font-weight: 800
+                    .gradient-text2   
+                        background: linear-gradient(87deg, #83E3D0 16.64%, #F1685A 77.77%)!important
+                        background-clip: text!important
+                        -webkit-background-clip: text!important
+                        -webkit-text-fill-color: transparent!important
+                        font-feature-settings: 'liga' off, 'clig' off!important
+                        font-weight: 800
 
 
 
@@ -236,8 +249,6 @@ img
                 order: 2
             @include responsivo(smallPcTablet)
                 display: none
-            @include responsivo(general)
-
             .containerImage
                 margin: 0
                 padding: 0
@@ -249,7 +260,7 @@ img
                     @include responsivo(pcMedio)
                         height: 323px
                     @include responsivo(general)
-                        height: 310px
+                        height: 340px
                 .iconClick
                     height: 130px
                     position: absolute

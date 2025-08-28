@@ -11,16 +11,15 @@
                         <div class="sectionText">
 
                             <h1 class="principalBigTitle">
-                                Convierte más <br class="DT_e"> alumnos con un
-                                <span class="span-educacion">CRM <br class="DT_e"> para educación</span>
+                                Más inscripciones,<br class="DT_e"> menos esfuerzo con un <br class="DT_e">
+                                <span class="span-educacion">CRM Inteligente</span>
                             </h1>
 
 
                             <p class="principalBigText">
-                                Organiza y automatiza tu proceso de <br class="DT_e">
-                                captación con una herramienta diseñada para <br class="DT_e">
-                                universidades, colegios y empresas <br class="DT_e">
-                                educativas.
+                                Herramientas de marketing y venta<br class="DT_e">
+                                creadas para universidades, colegios y<br class="DT_e">
+                                empresas educativas.
                             </p>
                             <div class="containerImage">
                                 <div class="video-cover" id="video-cover-landing" tabindex="0" data-video-src="https://player.vimeo.com/video/1097895831?autoplay=1">
@@ -206,7 +205,7 @@
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <h2 class="primaryTitle">
-                        ¿Cuántas inscripciones pierden por tener <br class="DT_e"> herramientas obsoletas?
+                        El costo de seguir con sistemas inadecuados
                     </h2>
 
 
@@ -214,38 +213,42 @@
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/visibilidad.webp') !!}"
-                                alt="">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/visibilidad.webp') !!}"
+                                    alt="">
+                            </div>
                             <span>
-                                Interesados que se enfrían por falta de seguimiento
+                                Interesados que se enfrían, sin seguimiento
                             </span>
 
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/registro-vendedores.webp') !!}"
-                                alt="">
-                            <span>Información dispersa en distintos lugares</span>
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/registro-vendedores.webp') !!}"
+                                    alt="">
+                            </div>
+                            <span>Datos perdidos y desordenados</span>
                         </div>
 
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/visibilidad-desempeño.webp') !!}"
-                                alt="">
-                            <span>Poca visibilidad del proceso de venta y sus resultados</span>
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/visibilidad-desempeño.webp') !!}"
+                                    alt="">
+                            </div>
+                            <span>Poca visibilidad del proceso de admisión</span>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/vendedores-leads.webp') !!}"
-                                alt="">
-                            <span>Equipo perdiendo tiempo en tareas operativas</span>
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/vendedores-leads.webp') !!}"
+                                    alt="">
+                            </div>
+                            <span>Equipo atascado en tareas manuales</span>
                         </div>
 
                     </div>
                 </section>
                 <span class="parrafo span-blue-400">
-                    ¡Cada período de admisiones es una carrera contra el reloj!
+                    Cada admisión es una carrera contra el tiempo. No pierdas la tuya.
                 </span>
 
             </div>
@@ -259,11 +262,11 @@
                 <section class="innerSectionElement sct0 ">
                     <div class="containElements">
                         <h2 class="primaryTitle">
-                            Centraliza y automatiza tu proceso <br class="DT_e">
-                            de admisión con Escala
+                            Centraliza y automatiza tu proceso<br class="DT_e">
+                            de admisión
                         </h2>
                         <span>
-                            Con nuestro CRM todo-en-uno inteligente, podrán:
+                            Con un solo sistema inteligente:
                         </span>
                     </div>
                 </section>
@@ -286,7 +289,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_1',
                         'img' => App::setFilePath('/assets/images/illustrations/others/actualizar-informacion-de-contactos-2.webp'),
-                        'text' => '<span>Registrar y organizar<br class="DT_e">automáticamente listas</span>de contactos y<br class="DT_e"> oportunidades de venta.',
+                        'text' => '<span>Organiza contactos y <br class="DT_e"> oportunidades eficientemente</span>',
                         'side' => 'left',
                         ]);
                         @endphp
@@ -297,7 +300,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_2',
                         'img' => App::setFilePath('/assets/images/illustrations/others/comunicaciones-inbox-omnicanal.webp'),
-                        'text' => '<span>Centralizar y automatizar<br class="DT_e">conversaciones</span> de WhatsApp,<br class="DT_e">Instagram y Facebook',
+                        'text' => '<span>Centraliza WhatsApp, <br class="DT_e"> Instagram y Facebook</span>',
                         'side' => 'right',
                         ]);
                         @endphp
@@ -308,7 +311,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_3',
                         'img' => App::setFilePath('/assets/images/illustrations/others/guardar-historial-conversaciones.webp'),
-                        'text' => '<span>Asignar y guardar el historial</span><br class="DT_e">automáticamente de las interacciones<br class="DT_e">con cada contacto.',
+                        'text' => '<span>Guarda historial y seguimiento<br class="DT_e">de cada cliente automáticamente</span>',
                         'side' => 'left',
                         ]);
                         @endphp
@@ -319,7 +322,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_4',
                         'img' => App::setFilePath('/assets/images/illustrations/others/guardar-historial-crm.webp'),
-                        'text' => '<span>Agendar citas y recibir recordatorios<br class="DT_e">automáticamente</span>',
+                        'text' => '<span>Agenda y recuerda citas sin esfuerzo</span>',
                         'side' => 'right',
                         ]);
                         @endphp
@@ -330,7 +333,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_5',
                         'img' => App::setFilePath('/assets/images/illustrations/others/Campañas-email-anuncios.webp'),
-                        'text' => '<span>Desarrollar campañas de email y <br class="DT_e">anuncios digitales</span>integradas al CRM',
+                        'text' => '<span>Lanza campañas de email, landing pages y <br class="DT_e"> anuncios digitales desde el mismo lugar</span>',
                         'side' => 'left',
                         ]);
                         @endphp
@@ -341,7 +344,7 @@
                         $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_sem_base_5_6',
                         'img' => App::setFilePath('/assets/images/illustrations/others/reportes-paginas-sem.webp'),
-                        'text' => '<span>Generar reportes en tiempo real</span> y ver<br class="DT_e">detalles del proceso comercial',
+                        'text' => '<span>Ten reportes en tiempo real <br class="DT_e"> para optimizar resultados</span>',
                         'side' => 'right',
                         ]);
                         @endphp
@@ -364,10 +367,11 @@
 
                 <section class="innerSectionElement sct1">
                     <h2 class="primaryTitle">
-                        ¿Qué puede hacer el Agente de Inteligencia Artificial en WhatsApp?
+                        El Agente de IA en Escala <br class="space">
+                        vende 24/7 por ti
                     </h2>
 
-                    <div class="containElement">
+                    <div class="containElement" style="margin-bottom: 0px!important;">
                         <div class="left">
                             <img alt="Ejecutiva usando Escala CRM para automatizar chats de WhatsApp, Instagram y Facebook con IA" src="{!! App::setFilePath('/assets/images/illustrations/others/automatiza-chats-precalifica leads-con-ia-en escala-crm.webp') !!}" loading="lazy">
                         </div>
@@ -375,12 +379,12 @@
 
                         <div class="right">
                             <ul>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Atender automáticamente</b> mensajes de WhatsApp, Instagram y Facebook</span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Precalificar y asignar prospectos </b>estratégicamente a los vendedores</span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Agendar citas</b> según la disponibilidad de los vendedores</span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Responder preguntas frecuentes</b> y enviar materiales de marketing y venta</span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Cotizar</b>agrupando productos seleccionados y dar descuentos</span></li>
-                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Actualizar data en el CRM en tiempo real</b> según el avance de cada conversación</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Atiende mensajes</b> en WhatsApp, Instagram y Facebook</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Filtra y asigna prospectos </b>al mejor vendedor</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Agenda citas</b> automático</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Responde preguntas</b> y envía materiales</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Genera cotizaciones</b> con o sin descuentos</span></li>
+                                <li><img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy"> <span><b>Actualiza tu CRM en tiempo real</b></span></li>
                             </ul>
                             <span>
                                 ¡Y más!
@@ -399,14 +403,13 @@
             <div class="section-row ">
                 <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner-sem-education.svg') }}')">
                     <div class="cards left">
-                        <p>“Diseñamos Escala considerando las estrategias y <br class="DT_e">
-                            mejores prácticas que le permitieron a Open English <br class="DT_e">
-                            convertirse en la empresa educativa #1 de América <br class="DT_e">
-                            Latina”</p>
+                        <p>“Escala nace de las mismas estrategias<br class="DT_e">
+                            que hicieron de Open English la #1<br class="DT_e">
+                            en educación online en Latinoamérica.”</p>
 
                         <span class="colorEspecial">
                             <b>Andrés Moreno,</b> <br class="space">
-                            Fundador de escala & Open English
+                            Fundador de Escala & Open English
                         </span>
                     </div>
                     <div class="cards right ">
@@ -429,21 +432,19 @@
 
             <div class="section-row">
                 <section class="innerSectionElement sct0">
-                    <h2 class="primaryTitle" style="margin-bottom: 0px!important;">
-                        ¿Por qué elegir Escala?
+                    <h2 class="primaryTitle">
+                        ¿Por qué Escala es diferente?
                     </h2>
-                    <span>
-                   Si bien otros CRMs en el mercado pueden tener algunas de estas características, no hay otro que las cumpla todas al mismo tiempo:
-                    </span>
+
                 </section>
-               <section class="innerSectionElement sct1">
+                <section class="innerSectionElement sct1">
                     <div class="containElements">
                         <div class="cards">
                             <img class="img-left"
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/agentes-ia-avanzados.webp') !!}"
                                 alt="">
                             <span>
-                            Cuenta con Agentes de Inteligencia Artificial avanzados
+                                Agentes de IA avanzados que ayudan a vender (no un chatbot con IA)
                             </span>
 
                         </div>
@@ -452,7 +453,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/icon-ia-automatizas.webp') !!}"
                                 alt="">
                             <span>
-                            Fácil de usar, tu equipo comercial sí lo querrá usar.
+                                Tan fácil que tu equipo lo usa sin quejarse
                             </span>
                         </div>
                         <div class="cards">
@@ -460,7 +461,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/icon-ia-integraciones.webp') !!}"
                                 alt="">
                             <span>
-                            Integra múltiples herramientas de marketing y ventas nativamente
+                                Herramientas de marketing y ventas en un solo lugar
                             </span>
                         </div>
                         <div class="cards">
@@ -468,7 +469,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/recibes-acompañamiento.webp') !!}"
                                 alt="">
                             <span>
-                            Recibes el mejor acompañamiento experto del mercado.
+                                El mejor acompañamiento experto, en español
                             </span>
                         </div>
                         <div class="cards">
@@ -476,7 +477,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/servicio-en-español.webp') !!}"
                                 alt="">
                             <span>
-                            Software con tutoriales y servicio al cliente 100% en español
+                                Tutoriales claros y soporte en vivo eficaz
                             </span>
                         </div>
                         <div class="cards">
@@ -484,7 +485,7 @@
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/escalar-tu-empresa.webp') !!}"
                                 alt="">
                             <span>
-                            El CRM escala con tu empresa
+                                Crece contigo y tu empresa
                             </span>
                         </div>
 
@@ -555,9 +556,8 @@
                                 alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Escala ha sido un gran <br class="DT_e">
-                                    aliado para <b> mejorar nuestra operación <br class="DT_e">
+                                    aliado para <b> mejorar nuestra operación
                                         comercial,</b> automatizar
-                                    <br class="DT_e">
                                     tareas y optimizar nuestra
                                     <br class="DT_e"> inversión en marketing.
                                 </h5>
@@ -631,11 +631,10 @@
                     <section class="innerSectionElement sct2">
                         <div class="containElement">
                             <h2 class="title">
-                                Empieza a inscribir más <br class="DT_e">
-                                estudiantes ahora
+                                Inscribe más alumnos <br class="DT_e"> desde hoy
                             </h2>
                             <span>
-                                Solicita una sesión gratuita y personalizada.
+                                Solicita tu sesión gratuita
                             </span>
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                 Empezar ahora →

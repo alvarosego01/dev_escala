@@ -1,5 +1,5 @@
 {{--
-  Template Name: [B]  Landing automatizaciones crm - 2025
+  Template Name: [B]  Landing automatizaciones crm whatsapp - 2025
 --}}
 
 @extends('layouts.app')
@@ -20,13 +20,11 @@
                         <div class="sectionText">
                             <h1 class="principalBigTitle">
                                 Escala las ventas <br class="space">
-                                de tu empresa <br class="space"> con
+                                de tu empresa<br class="space"> con  
                                 <span class="principalBigText">
-                                    un <span class="gradient-text">CRM <br class="space">
-                                        todo-en-uno</span> <br class="space">
-                                    y fácil de usar
+                                    <span class="gradient-text2"> CRM, automatización <br class="DT_e">
+                                        y WhatsApp</span>
                                 </span>
-
                             </h1>
 
 
