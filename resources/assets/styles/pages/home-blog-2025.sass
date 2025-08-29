@@ -20,7 +20,7 @@ img
 #home-blog-2025 .hero2025.home-blog-2025_0
     z-index: 2
     position: relative 
-    margin-top: -85px 
+    margin-top: -95px 
     .separador
         height: 185px
         margin-top: -70px
@@ -329,6 +329,11 @@ img
             border-radius: 20px
             box-shadow: 0 35px 30px 0 rgba(0, 127, 150, 0.20)
             padding: 50px
+            &:hover
+                background-size: contain
+                background-position: bottom right
+                background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-cover-cards-articulos.webp')!important
+
             @include responsivo(telefonoTable)
                 flex-direction: column-reverse
                 align-items: center
