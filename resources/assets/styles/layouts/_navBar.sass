@@ -837,19 +837,30 @@ header.customHeader.customSection.landing-global2
 
 header.customHeader.customSection.component-header-blog.navBar_blog.blog-global1
     nav.navbar
+        background-color: #0000!important
+        box-shadow: none!important
         .section-row
             .container-fluid.sct2
                 .logo
                     .navbar-brand
-                        img,
-                        svg
-
-                            @include responsivo(telefonoTable)
-                                height: 20px
-                            @include responsivo(pcMedio)
-                                height: 25px
-
-
+                        img
+                            height:  41.5px
+                ul
+                    li
+                        a
+                            color: #fff
+    nav.navbar.fixedNav
+        background-color: #fff!important
+        .section-row
+            .container-fluid.sct2
+                .logo
+                    .navbar-brand
+                        img
+                            height:  41.5px
+                ul
+                    li
+                        a
+                            color: #2c4857
 
 
 header.customHeader.customSection.principal-global-extended-trasp.transparent.default

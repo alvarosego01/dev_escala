@@ -13,7 +13,7 @@
         <!-- Home  blog landing 2025 By Escala -->
         <section id="lead-form" class="hero2025 home-blog-2025_0">
 
-            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-home-casos-exito.svg') !!}')">
+            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-home-blog-escala-2.webp') !!}')">
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
@@ -31,101 +31,25 @@
 
                             </span>
 
-                            <div class="containerImage">
-                                <img alt="Ilustración de Andres Moreno ESCALA" src="{!! App::setFilePath('/assets/images/illustrations/others/am-landing-home-casos-exito.webp') !!}" loading="lazy">
-                            </div>
+                            
                         </div>
                     </section>
 
 
                     <section class="innerSectionElement sct2">
                         <div class="containerImage">
-                            <img alt="Ilustración de Andres Moreno ESCALA" src="{!! App::setFilePath('/assets/images/illustrations/others/am-landing-home-casos-exito.webp') !!}" loading="lazy">
+                            <img alt="Ilustración de Andres Moreno ESCALA" src="{!! App::setFilePath('/assets/images/illustrations/others/am-escala-2025-blog-home.webp') !!}" loading="lazy">
                         </div>
                     </section>
 
 
                 </div>
-            </div>
-            <section class="separador" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-white-reviews-landing-casos-exito.webp') !!}')">
-            </section>
-        </section>
-
-        <section class="customSection sectionParent home-blog-2025_1_0" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-white-reviews-landing-casos-exito.webp') !!}')">
-            <div class="section-row">
-
-                <section class="innerSectionElement sct1">
-                    <div class="groupElements row">
-                        <div class="info col-md-12 col-lg-8 ">
-                            <div class="containElements">
-                                @php
-                                $elementsReviews = [
-                                [
-                                'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
-                                'text' => 'Escala / plataforma CRM',
-                                'points' => '4.9 / 5',
-                                ],
-                                [
-                                'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
-                                'text' => 'Escala / plataforma CRM',
-                                'points' => '4.8 / 5',
-                                ],
-                                [
-                                'logo' =>
-                                App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
-                                'text' => 'Escala / plataforma CRM',
-                                'points' => '4.8 / 5',
-                                ]
-                                ];
-                                @endphp
-                                <div class="ele reviews">
-                                    <div class="elements">
-                                        <div class="iconApp">
-                                            <a target="_blank"
-                                                href="https://www.getapp.com/customer-management-software/crm/category-leaders">
-                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_app_record_2025_category.svg') !!}"
-                                                    loading="lazy">
-                                            </a>
-                                        </div>
-                                        @foreach ($elementsReviews as $item)
-                                        <div class="refersElement">
-
-                                            <div class="infoInner">
-                                                <div class="tag">
-                                                    <div class="containerImage">
-                                                        <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                    </div>
-
-                                                    <span class="points">
-                                                        {!! $item['points'] !!}
-                                                    </span>
-                                                </div>
-                                                <p class="text">
-                                                    {!! $item['text'] !!}
-                                                </p>
-                                                <div class="stars">
-                                                    <div class="containerImage">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icons-stars-yellow.svg') !!}"
-                                                            loading="lazy">
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-                                        @endforeach
-
-                                    </div>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <section class="separador" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-home-blog-escala-separador.webp') !!}')">
                 </section>
             </div>
 
         </section>
+
 
 
         <section class="customSection sectionParent home-blog-2025-1">
@@ -133,172 +57,278 @@
             <div class="section-row ">
                 <section class="innerSectionElement sct1">
                     <h2 class="title">
-                        Caso de éxito destacado
+                        Articulo destacado
                     </h2>
 
+                </section>
+                <section class="innerSectionElement sct2">
+                    <a href="https://escala.com/que-es-la-omnicanalidad/">
+                        <div class="featured-success-card">
+                            <div class="featured-success-card__image">
+                                <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/omnicanal-estrategia-integrada-atencion-clientes-redes-sociales-escala.webp') !!}" loading="lazy">
+                            </div>
+                            <div class="featured-success-card__info">
+                                <div class="featured-success-card__category">Omnicanalidad</div>
+                                <div class="featured-success-card__text">
+                                    Omnicanalidad: Qué es y cómo desarrollar una estrategia
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </section>
+            </div>
+        </section>
+
+
+
+        <!-- Sección de artículos recientes con botón infinito -->
+        @php
+        $posts_per_page = 6;
+        $paged = 1;
+        $blog_query = new WP_Query([
+        'post_type' => 'post',
+        'posts_per_page' => $posts_per_page,
+        'paged' => $paged,
+        'orderby' => 'date',
+        'order' => 'DESC',
+        ]);
+        @endphp
+        <section class="customSection sectionParent home-blog-2025-2">
+            <div class="section-row">
+                <section class="innerSectionElement sct1">
+                    <h2 class="title">Artículos recientes</h2>
+
+                </section>
+                <section class="innerSectionElement sct2">
+                    <div class="related-cards blog-list">
+                        @foreach($blog_query->posts as $post)
+                        @php
+                        $title = get_the_title($post->ID);
+                        $permalink = get_permalink($post->ID);
+                        $image_id = get_post_thumbnail_id($post->ID);
+                        $image_url = $image_id ? wp_get_attachment_image_url($image_id, 'large') : '';
+                        $topic = function_exists('carbon_get_post_meta') ? carbon_get_post_meta($post->ID, 'main_topic') : '';
+                        @endphp
+                        <div class="related-card blog-card">
+                            <a href="{{ $permalink }}">
+                                <div class="card-image" style="background-image:url('{{ $image_url }}')"></div>
+                                <div class="card-topic">{{ $topic }}</div>
+                                <h4 class="card-title">{!! $title !!}</h4>
+                                <!-- Fecha removida -->
+                            </a>
+                        </div>
+                        @endforeach
+                    </div>
+                    @if($blog_query->max_num_pages > $paged)
+                    <button id="load-more-posts" class="btn-load-more" data-next="2">Cargar más articulos <span>→</span></button>
+                    @endif
+
+            </div>
+        </section>
+        <script>
+            var ajaxUrl = "{{ admin_url('admin-ajax.php') }}";
+            document.addEventListener('DOMContentLoaded', function() {
+                var loadMoreBtn = document.getElementById('load-more-posts');
+                if (loadMoreBtn) {
+                    loadMoreBtn.addEventListener('click', function() {
+                        var nextPage = this.getAttribute('data-next');
+                        var btn = this;
+                        btn.disabled = true;
+                        btn.textContent = 'Cargando...';
+                        fetch(ajaxUrl + '?action=load_more_blog_posts&page=' + nextPage)
+                            .then(response => response.text())
+                            .then(html => {
+                                var blogList = document.querySelector('.blog-list');
+                                blogList.insertAdjacentHTML('beforeend', html);
+                                btn.setAttribute('data-next', parseInt(nextPage) + 1);
+                                btn.disabled = false;
+                                btn.textContent = 'Cargar más artículos →';
+                                if (html.trim() === '') {
+                                    btn.style.display = 'none';
+                                }
+                            });
+                    });
+                }
+            });
+        </script>
+
+
+        <section class="customSection sectionParent home-blog-2025-3">
+
+            <div class="section-row ">
+                <section class="innerSectionElement sct1">
+                    <h2 class="title">
+                        Episodios del Escala Podcast
+                    </h2>
+                </section>
+                <section class="innerSectionElement sct2">
                     <div class="featured-success-card">
                         <div class="featured-success-card__image">
-                            <div class="video col-md-12">
+                            <div class="video ">
                                 @php
-                                $videoEmbed = App::setFilePath('/assets/videos/caso_de_exito_video_miller_romero_taller_5.mp4');
-                                $videoCover = App::setFilePath('/assets/images/illustrations/others/bg-caso-exito-taller-5-video.webp');
+                                $youtubeUrl = 'https://youtu.be/tJFFpMhJT4M?si=CWB6ob-UWN2tEnDh';
+                                $youtubeId = null;
+                                if (preg_match('/youtu\.be\/([\w-]+)/', $youtubeUrl, $matches)) {
+                                $youtubeId = $matches[1];
+                                } elseif (preg_match('/v=([\w-]+)/', $youtubeUrl, $matches)) {
+                                $youtubeId = $matches[1];
+                                }
                                 @endphp
-
-                                @if (isset($videoEmbed) && $videoEmbed != null)
-                                <div class="youtubeImageContainer">
-                                    <video class="featured-video" id="featured-video" poster="{{ $videoCover }}">
-                                        <source src="{{ $videoEmbed }}" type="video/mp4" />
-                                        <p>
-                                            Para ver este video, habilita JavaScript y usa un navegador compatible con HTML5 video.
-                                        </p>
-                                    </video>
+                                <div class="podcast-preview-container">
+                                    @if($youtubeId)
+                                    <img class="podcast-preview-image" src="https://img.youtube.com/vi/{{ $youtubeId }}/hqdefault.jpg" alt="Preview YouTube" loading="lazy" data-youtubeid="{{ $youtubeId }}">
+                                    <button class="play-button" style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);" data-youtubeid="{{ $youtubeId }}">
+                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') }}" alt="Play">
+                                    </button>
+                                    @endif
                                 </div>
-                                @endif
-
-                                <button id="play-featured-video" type="button" class="play-button">
-                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') }}" alt="Play">
-                                </button>
                                 <script>
                                     document.addEventListener('DOMContentLoaded', function() {
-                                        var playBtn = document.getElementById('play-featured-video');
-                                        var video = document.getElementById('featured-video');
-                                        if (playBtn && video && typeof video.play === 'function') {
-                                            playBtn.addEventListener('click', function(e) {
-                                                e.preventDefault();
-                                                video.setAttribute('controls', 'controls');
-                                                playBtn.style.display = 'none';
-                                                video.play();
-                                            });
-                                            video.addEventListener('pause', function() {
-                                                playBtn.style.display = '';
-                                            });
-                                            video.addEventListener('ended', function() {
-                                                playBtn.style.display = '';
-                                                video.removeAttribute('controls');
-                                                video.currentTime = 0;
-                                            });
+                                        function playYoutube(previewContainer, youtubeId) {
+                                            if (youtubeId && previewContainer) {
+                                                previewContainer.innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + youtubeId + '?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+                                            }
                                         }
+                                        document.querySelectorAll('.featured-success-card__image .podcast-preview-image').forEach(function(img) {
+                                            img.addEventListener('click', function(e) {
+                                                e.preventDefault();
+                                                var youtubeId = img.getAttribute('data-youtubeid');
+                                                var previewContainer = img.closest('.podcast-preview-container');
+                                                playYoutube(previewContainer, youtubeId);
+                                            });
+                                        });
+                                        document.querySelectorAll('.featured-success-card__image .play-button').forEach(function(btn) {
+                                            btn.addEventListener('click', function(e) {
+                                                e.preventDefault();
+                                                var youtubeId = btn.getAttribute('data-youtubeid');
+                                                var previewContainer = btn.closest('.podcast-preview-container');
+                                                playYoutube(previewContainer, youtubeId);
+                                            });
+                                        });
                                     });
                                 </script>
                             </div>
                         </div>
                         <div class="featured-success-card__info">
-                            <img class="logo-testimonial" src="{{ App::setFilePath('/assets/images/illustrations/others/logo-caso-exito-taller-5-video.webp') }}" alt="Taller Cinco" loading="lazy">
-                            <div class="featured-success-card__text">
-                                Esta universidad, líder en formación artística, incrementó sus ingresos en más del 50% con Escala CRM en menos de 6 meses
-                            </div>
                             <div class="featured-success-card__category">Educación</div>
+
+                            <div class="featured-success-card__text">
+                                La fórmula de Sileo para crecer gastando menos en adquisición
+                            </div>
+                            <p class="podcast-card__desc">La entrevista completa en</p>
+
+                            <div class="podcast-card__tags">
+                                <a class="podcast-card__tag" href="https://youtu.be/tJFFpMhJT4M?si=CWB6ob-UWN2tEnDh" target="_blank">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon-youtube.webp') }}" alt="YouTube">
+                                </a>
+                                <a class="podcast-card__tag" href="https://open.spotify.com/episode/3I2yOTRe4AwLLnWKTK7H6O?si=bf2e50a707c740fd  " target="_blank">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon-spotify.webp') }}" alt="Spotify">
+                                </a>
+                            </div>
                         </div>
                     </div>
-
                 </section>
+                <!-- Sección de entrevistas podcast -->
+                @php
+                $podcastCards = [
+
+                [
+                'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-1.webp'),
+                'desc' => 'La entrevista completa en',
+                'tags' => [
+                [
+                'url' => 'https://open.spotify.com/episode/1blStnuUfTjR8PWcTiRkFy?si=db920a234d8a4c7e',
+                ],
+                [
+                'url' => 'https://youtu.be/0QKyCSECm6k?si=ooIlkoTMfNQuZ0Mb',
+                ],
+                ],
+                'categoria' => 'Marketing',
+                'personas' => ['Alfonso Santiago', 'Catalina González'],
+                'cargo' => 'CEO KataGoGo',
+                ],
+                [
+                'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-2.webp'),
+                'desc' => 'La entrevista completa en',
+                'tags' => [
+                [
+                'url' => 'https://open.spotify.com/episode/3I2yOTRe4AwLLnWKTK7H6O?si=bf2e50a707c740fd',
+                ],
+                [
+                'url' => 'https://youtu.be/tJFFpMhJT4M?si=CWB6ob-UWN2tEnDh',
+                ],
+                ],
+                'categoria' => 'Educación',
+                'personas' => ['Alfonso Santiago', 'Mau Tassara'],
+                'cargo' => 'Director Nacional Comercial Sileo',
+                ],
+                [
+                'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-3.webp'),
+                'desc' => 'La entrevista completa en',
+                'tags' => [
+                [
+                'url' => 'https://open.spotify.com/episode/5jMi8cpBKDusyiX53NmRCp?si=ef4ef7ff88cf4341',
+                ],
+                [
+                'url' => 'https://youtu.be/zlHnyqjD2ps?si=FTQpC-9WoaNTwmeI',
+                ],
+                ],
+                'categoria' => 'Otras',
+                'personas' => ['ANDRÉS MORENO', 'Areli Alarcón'],
+                'cargo' => 'Gerente General Kangen',
+                ],
+                [
+                'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-4.webp'),
+                'desc' => 'La entrevista completa en',
+                'tags' => [
+                [
+                'url' => 'https://open.spotify.com/episode/2EIkeCXHhaen5aPv6XGP2Y?si=f0f9d5b5026f49f2',
+                ],
+                [
+                'url' => 'https://youtu.be/Qm7gh-0qIyI?si=_3QDDbaSsG36ys3U',
+                ],
+                ],
+                'categoria' => 'Educación',
+                'personas' => ['ANDRÉS MORENO', 'ESTEBAN MELO'],
+                'cargo' => 'Líder Mercadeo Alianza Francesa',
+                ],
+                [
+                'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-5.webp'),
+                'desc' => 'La entrevista completa en',
+                'tags' => [
+                [
+                'url' => 'https://open.spotify.com/episode/7A8i5DDjkSBdtP77g9e5f4?si=439a87644a0e4789',
+                ],
+                [
+                'url' => 'https://youtu.be/ScqISD9kvx8?si=ByqWEB504Onx2ubl',
+                ],
+                ],
+                'categoria' => 'Marketing',
+                'personas' => ['Andrea Ortíz', 'William Ávila'],
+                'cargo' => 'Dir.a Comercial Comunidad GIVE',
+                ],
+                [
+                'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-6.webp'),
+                'desc' => 'La entrevista completa en',
+                'tags' => [
+                [
+
+                'url' => 'https://open.spotify.com/episode/4jhz7NEPESD2M330CGhzbE?si=dac3633721854ed3',
+                ],
+                [
+                'url' => 'https://youtu.be/JthA8wHUloE?si=gtBgidkox9MF7dq4',
+                ],
+                ],
+                'categoria' => 'Consultoría',
+                'personas' => ['Fundador Causa y Solución'],
+                'cargo' => 'Fundador Causa y Solución',
+                ],
+                ];
+                @endphp
 
 
-            </div>
-        </section>
-
-
-        <!-- Sección de entrevistas podcast -->
-        @php
-        $podcastCards = [
-
-        [
-        'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-1.webp'),
-        'desc' => 'La entrevista completa en',
-        'tags' => [
-        [
-        'url' => 'https://open.spotify.com/episode/1blStnuUfTjR8PWcTiRkFy?si=db920a234d8a4c7e',
-        ],
-        [
-        'url' => 'https://youtu.be/0QKyCSECm6k?si=ooIlkoTMfNQuZ0Mb',
-        ],
-        ],
-        'categoria' => 'Marketing',
-        'personas' => ['Alfonso Santiago', 'Catalina González'],
-        'cargo' => 'CEO KataGoGo',
-        ],
-        [
-        'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-2.webp'),
-        'desc' => 'La entrevista completa en',
-        'tags' => [
-        [
-        'url' => 'https://open.spotify.com/episode/3I2yOTRe4AwLLnWKTK7H6O?si=bf2e50a707c740fd',
-        ],
-        [
-        'url' => 'https://youtu.be/tJFFpMhJT4M?si=CWB6ob-UWN2tEnDh',
-        ],
-        ],
-        'categoria' => 'Educación',
-        'personas' => ['Alfonso Santiago', 'Mau Tassara'],
-        'cargo' => 'Director Nacional Comercial Sileo',
-        ],
-        [
-        'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-3.webp'),
-        'desc' => 'La entrevista completa en',
-        'tags' => [
-        [
-        'url' => 'https://open.spotify.com/episode/5jMi8cpBKDusyiX53NmRCp?si=ef4ef7ff88cf4341',
-        ],
-        [
-        'url' => 'https://youtu.be/zlHnyqjD2ps?si=FTQpC-9WoaNTwmeI',
-        ],
-        ],
-        'categoria' => 'Otras',
-        'personas' => ['ANDRÉS MORENO', 'Areli Alarcón'],
-        'cargo' => 'Gerente General Kangen',
-        ],
-        [
-        'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-4.webp'),
-        'desc' => 'La entrevista completa en',
-        'tags' => [
-        [
-        'url' => 'https://open.spotify.com/episode/2EIkeCXHhaen5aPv6XGP2Y?si=f0f9d5b5026f49f2',
-        ],
-        [
-        'url' => 'https://youtu.be/Qm7gh-0qIyI?si=_3QDDbaSsG36ys3U',
-        ],
-        ],
-        'categoria' => 'Educación',
-        'personas' => ['ANDRÉS MORENO', 'ESTEBAN MELO'],
-        'cargo' => 'Líder Mercadeo Alianza Francesa',
-        ],
-        [
-        'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-5.webp'),
-        'desc' => 'La entrevista completa en',
-        'tags' => [
-        [
-        'url' => 'https://open.spotify.com/episode/7A8i5DDjkSBdtP77g9e5f4?si=439a87644a0e4789',
-        ],
-        [
-        'url' => 'https://youtu.be/ScqISD9kvx8?si=ByqWEB504Onx2ubl',
-        ],
-        ],
-        'categoria' => 'Marketing',
-        'personas' => ['Andrea Ortíz', 'William Ávila'],
-        'cargo' => 'Dir.a Comercial Comunidad GIVE',
-        ],
-        [
-        'imagen' => App::setFilePath('/assets/images/illustrations/others/podcast-card-6.webp'),
-        'desc' => 'La entrevista completa en',
-        'tags' => [
-        [
-
-        'url' => 'https://open.spotify.com/episode/4jhz7NEPESD2M330CGhzbE?si=dac3633721854ed3',
-        ],
-        [
-        'url' => 'https://youtu.be/JthA8wHUloE?si=gtBgidkox9MF7dq4',
-        ],
-        ],
-        'categoria' => 'Consultoría',
-        'personas' => ['Fundador Causa y Solución'],
-        'cargo' => 'Fundador Causa y Solución',
-        ],
-        ];
-        @endphp
-        <section class="customSection sectionParent home-blog-2025-2">
-            <div class="section-row">
-                <section class="innerSectionElement sct1">
-                    <h2 class="title">Entrevistas a clientes en nuestro Escala Podcast</h2>
+                <section class="innerSectionElement sct3">
                     <div class="podcast-cards-grid">
                         @foreach($podcastCards as $card)
                         <div class="podcast-card">
@@ -442,94 +472,39 @@
                         @endforeach
                     </div>
                 </section>
+
+                <button id="load-more-podcast" class="btn-load-more" type="button">Escuchar más episodios <span>→</span></button>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var sct3 = document.querySelector('.sct3');
+                        var btn = document.getElementById('load-more-podcast');
+                        if (btn && sct3) {
+                            btn.addEventListener('click', function() {
+                                if (sct3.style.display === 'none' || sct3.style.display === '') {
+                                    sct3.style.display = 'block';
+                                    btn.innerHTML = 'Ocultar episodios <span>↑</span>';
+                                } else {
+                                    sct3.style.display = 'none';
+                                    btn.innerHTML = 'Escuchar más episodios <span>→</span>';
+                                }
+                            });
+                        }
+                    });
+                </script>
+
+                <span class="text">
+                    Escala es el CRM todo-en-uno para líderes comerciales que <br class="DT_e">
+                    quieren vender más con menos esfuerzo.
+                </span>
             </div>
         </section>
 
-        <!-- Sección de artículos y video-testimoniales -->
-        @php
-        $articulosCards = [
-        [
-        'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-1.webp'),
-        'desc' => 'Laboratorio clínico con más de 30 años en el mercado duplicó sus ventas con el CRM de Escala en menos de un año',
-        'categoria' => 'Salud',
 
-        'url' => 'https://escala.com/casos-de-exito-poctlab/',
-        ],
-        [
-        'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-5.webp'),
-        'desc' => 'Aumentó 5X su tasa de recuperación de carrito de compra abandonado',
-        'categoria' => 'Salud y Fitness',
-        'url' => ' https://escala.com/caso-de-uso-salud-y-fitness/',
-        ],
-        [
-        'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-2.webp'),
-        'desc' => 'Esta universidad, líder en formación artística, incrementó sus ingresos en más del 50% con Escala CRM en menos de 6 meses',
-        'categoria' => 'Educación',
-
-        'url' => 'https://escala.com/casos-de-exito-taller-5/',
-        ],
-        [
-        'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-6.webp'),
-        'desc' => 'Aumentó 20% su cantidad de clientes con Escala',
-        'categoria' => 'Financiera',
-        'url' => 'https://escala.com/caso-de-exito-gestion-financiera/',
-        ],
-        [
-        'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-8.webp'),
-        'desc' => 'Mejoró su eficiencia y potenció las ventas de sus clientes con el CRM de Escala',
-        'categoria' => 'Marketing',
-        'url' => 'https://escala.com/casos-de-exito-kata-gogo/',
-        ],
-        [
-        'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-3.webp'),
-        'desc' => 'Real de los Cues, aumentó un 30% sus ventas del canal digital con el CRM de Escala',
-        'categoria' => 'Bienes raíces',
-        'url' => 'https://escala.com/casos-de-exito-real-de-los-cues/',
-        ],
-        [
-        'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-9.webp'),
-        'desc' => 'Este gran distribuidor de motocicletas, incrementó sus ventas en un 30%, en menos de un año gracias al CRM de Escala',
-        'categoria' => 'Automotriz',
-        'url' => 'https://escala.com/casos-de-exito-motored/',
-        ],
-        [
-        'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-4.webp'),
-        'desc' => 'Esta aseguradora blindó su información frente a fugas de datos comerciales con Escala CRM',
-        'categoria' => 'Seguros',
-
-        'url' => 'https://escala.com/caso-de-exito-loyal-seguros/',
-        ],
-        [
-        'imagen' => App::setFilePath('/assets/images/illustrations/others/articulo-card-7.webp'),
-        'desc' => 'Esta empresa, aumentó sus ventas un 40% en menos de un año con el control y automatizaciones de Escala CRM',
-        'categoria' => 'E-commerce',
-        'url' => 'https://escala.com/casos-de-exito-desayunos-del-cielo/',
-        ],
-        ];
-        @endphp
-        <section class="customSection sectionParent home-blog-2025-3">
-            <div class="section-row">
-                <section class="innerSectionElement sct1">
-                    <h2 class="title">Artículos y video-testimoniales</h2>
-                    <div class="articulos-cards-grid">
-                        @foreach($articulosCards as $card)
-                        <a href="{{ $card['url'] ?? '#' }}" class="articulo-card" style="text-decoration:none;color:inherit;">
-                            <div class="articulo-card__image"><img src="{{ $card['imagen'] ?? '' }}" alt="{{ $card['desc'] ?? '' }}" loading="lazy"></div>
-                            <div class="articulo-card__info">
-                                <p class="articulo-card__desc">{{ $card['desc'] ?? '' }}</p>
-                                <span class="articulo-card__category">{{ $card['categoria'] ?? '' }}</span>
-                            </div>
-                        </a>
-                        @endforeach
-                    </div>
-                </section>
-            </div>
-        </section>
 
 
         <!-- Sección CTA: Listo para vender más con menos esfuerzo -->
         <section class="customSection sectionParent home-blog-2025-4">
-            <div class="section-row" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-banner-home-casos-exito-demo.webp') !!}')">
+            <div class="section-row" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-banner-home-blog-demo.webp') !!}')">
                 <h2 class="title">¿Listo para vender más con <br class="DT_e">
                     menos esfuerzo?</h2>
                 <div>
@@ -537,6 +512,7 @@
                     <a class="primaryButton hoverInEffect whatsapp" href="https://api.whatsapp.com/send?phone=17863042407&text=Hola%21%20Me%20interesa%20recibir%20un%20demo%20personalizado%20de%20Escala" target="_blank">Escríbenos por WhatsApp →</a>
                 </div>
             </div>
+
         </section>
 
 

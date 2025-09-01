@@ -463,4 +463,45 @@ get_include_contents(CHILD_DIR . '/resources/shortcodes/main.php');
 
 
 
+
+// Handler AJAX para cargar más artículos recientes en el blog
+add_action('wp_ajax_load_more_blog_posts', 'load_more_blog_posts');
+add_action('wp_ajax_nopriv_load_more_blog_posts', 'load_more_blog_posts');
+function load_more_blog_posts() {
+    $page = isset($_GET['page']) ? intval($_GET['page']) : 1;
+    $posts_per_page = 6;
+    $query = new WP_Query([
+        'post_type' => 'post',
+        'posts_per_page' => $posts_per_page,
+        'paged' => $page,
+        'orderby' => 'date',
+        'order' => 'DESC',
+    ]);
+    foreach ($query->posts as $post) {
+        $title = get_the_title($post->ID);
+        $permalink = get_permalink($post->ID);
+        $main_image_id = function_exists('carbon_get_post_meta') ? carbon_get_post_meta($post->ID, 'main_image') : '';
+        $image_url = '';
+        if ($main_image_id && class_exists('App\Classes\GlobalServices')) {
+            $image_url = App\Classes\GlobalServices::get_img($main_image_id, 'src');
+        }
+        if (!$image_url) {
+            $image_id = get_post_thumbnail_id($post->ID);
+            $image_url = $image_id ? wp_get_attachment_image_url($image_id, 'large') : '';
+        }
+        if (!$image_url) {
+            $image_url = get_stylesheet_directory_uri() . '/resources/assets/images/banners/bg-cover-cards-articulos.webp';
+        }
+        $topic = function_exists('carbon_get_post_meta') ? carbon_get_post_meta($post->ID, 'main_topic') : '';
+        echo '<div class="related-card blog-card">
+                <a href="' . $permalink . '">';
+    echo '<div class="card-image" style="background-image:url(\'' . htmlspecialchars($image_url, ENT_QUOTES, 'UTF-8') . '\')">';
+    
+    echo '</div>';
+        echo '<div class="card-topic">' . htmlspecialchars($topic, ENT_QUOTES, 'UTF-8') . '</div>';
+        echo '<h4 class="card-title">' . htmlspecialchars($title, ENT_QUOTES, 'UTF-8') . '</h4>';
+        echo '</a></div>';
+    }
+    wp_die();
+}
  ?>
