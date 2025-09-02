@@ -832,11 +832,11 @@ o",
                                     <span class="feature-value"></span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-name">Mensajes / mes*</span>
+                                    <span class="feature-name">Créditos  / mes*</span>
                                     <span class="feature-value"></span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-name">Valor por mensaje*</span>
+                                    <span class="feature-name">Valor por créditos*</span>
                                     <span class="feature-value"></span>
                                 </div>
                                 <div class="feature-row">
@@ -1190,10 +1190,10 @@ o",
                             <div class="mobile-feature-name">Precio</div>
                         </div>
                         <div class="mobile-feature-row">
-                            <div class="mobile-feature-name">Mensajes / mes*</div>
+                            <div class="mobile-feature-name">Créditos / mes*</div>
                         </div>
                         <div class="mobile-feature-row">
-                            <div class="mobile-feature-name">Valor por mensaje*</div>
+                            <div class="mobile-feature-name">Valor por créditos*</div>
                         </div>
                         <div class="mobile-feature-row">
                             <div class="mobile-feature-name">Agentes IA</div>
@@ -1258,7 +1258,7 @@ o",
                 <div class="innerSectionElement sct2-1">
                     <span>Notas:</span>
                     <ul>
-                        <li>*Solo cuentan los mensajes donde interviene un agente de IA</li>
+                        <li>*Solo cuentan los créditos donde interviene un agente de IA</li>
                         <li>Los Agentes Conversacionales de IA son un add-on del CRM de Escala. No una solución separada.</li>
                         <li>Todos los precios están en USD</li>
                     </ul>
@@ -1273,8 +1273,8 @@ o",
                             <div class="column-body">
                                 <div class="section-title bg-blue radius">Plan</div>
                                 <div class="section-title bg-blue-2">Precio único total</div>
-                                <div class="section-title bg-blue-2">Mensajes</div>
-                                <div class="section-title bg-blue-2 radius-1">Valor por mensaje</div>
+                                <div class="section-title bg-blue-2">Créditos</div>
+                                <div class="section-title bg-blue-2 radius-1">Valor por créditos</div>
                             </div>
                         </div>
                         <!-- Columna creditos precios -->
