@@ -61,16 +61,24 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
                     <div style="display: flex; flex-direction: row" class="buttonSections">
 
 
-
+  {{--
                         {!! wp_nav_menu([
-                        'menu' => $navBar_ID,
-                        'container' => false,
-                        'menu_class' => 'buttonsCTA',
-                        'fallback_cb' => '__return_false',
-                        'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
-                        'depth' => 3,
-                        'walker' => new \App\wp_bootstrap5_navwalker(),
+                            'menu' => $navBar_ID,
+                            'container' => false,
+                            'menu_class' => 'buttonsCTA',
+                            'fallback_cb' => '__return_false',
+                            'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
+                            'depth' => 3,
+                            'walker' => new \App\wp_bootstrap5_navwalker(),
                         ]) !!}
+
+                        --}}
+
+                        @php
+                        $menu_nav_extended = App::create_bootstrap_menu($navBar_ID, $classSection, 'buttonsCTA');
+                        @endphp
+
+                        {!! $menu_nav_extended; !!}
 
 
                         <button onclick="_openSideNav('open')" class="MT_e toggleSideMenu" type="button">
@@ -84,15 +92,22 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
                 <div class="D_e">
 
                     <div class="menusSection" id="main-menu">
-                        {!! wp_nav_menu([
-                        'menu' => $navBar_ID,
-                        'container' => false,
-                        'menu_class' => '',
-                        'fallback_cb' => '__return_false',
-                        'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
-                        'depth' => 3,
-                        'walker' => new \App\wp_bootstrap5_navwalker(),
-                        ]) !!}
+                   
+                        {{-- {!! wp_nav_menu([
+                            'menu' => $navBar_ID,
+                            'container' => false,
+                            'menu_class' => '',
+                            'fallback_cb' => '__return_false',
+                            'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
+                            'depth' => 3,
+                            'walker' => new \App\wp_bootstrap5_navwalker(),
+                        ]) !!} --}}
+
+                        @php
+                        $menu_nav_extended = App::create_bootstrap_menu($navBar_ID, $classSection);
+                        @endphp
+
+                        {!! $menu_nav_extended; !!}
 
                         <div class="searchContainer">
 
