@@ -195,75 +195,66 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
 
         @if (isset($posts) && $posts != null)
         <section class="customSection sectionParent single_blog_2024 single_blog_2024_11">
-            <div class="section-row">
-                <section class="innerSectionElement sct0">
-                    <div class="containElements">
-                        <div class="container">
-                            <div class="row">
-                                <div class="text-center col-md-12 col-lg-12">
-                                    <h2 class="primaryTitle">
-                                        Artículos <span class="blackColor2"> relacionados</span> <br class="DT_e">
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
-
-                <section class="innerSectionElement sct1 cards_parent row">
-                    @foreach ($posts as $index => $item)
+              <div class="section-row">
+                <section class="innerSectionElement sct1">
+                    <h2>Artículos populares</h2>
                     @php
-                    $post_tags = get_the_tags($item->ID);
+                    // Obtener la categoría principal del post actual
+                    $categories = get_the_category();
+                    $main_cat_id = $categories && count($categories) ? $categories[0]->term_id : null;
+                    // Último post publicado de la misma categoría (excluyendo el actual)
+                    $latest_args = [
+                    'post_type' => 'post',
+                    'posts_per_page' => 1,
+                    'post__not_in' => [get_the_ID()],
+                    'cat' => $main_cat_id,
+                    'orderby' => 'date',
+                    'order' => 'DESC',
+                    ];
+                    $latest_query = new WP_Query($latest_args);
+                    $latest_post = $latest_query->have_posts() ? $latest_query->posts[0] : null;
+                    // 8 aleatorios de la misma categoría, excluyendo el actual y el latest
+                    $exclude_ids = [get_the_ID()];
+                    if ($latest_post) $exclude_ids[] = $latest_post->ID;
+                    $random_args = [
+                    'post_type' => 'post',
+                    'posts_per_page' => 8,
+                    'post__not_in' => $exclude_ids,
+                    'cat' => $main_cat_id,
+                    'orderby' => 'rand',
+                    ];
+                    $random_query = new WP_Query($random_args);
                     @endphp
-
-                    <div class="mb-3 col-12 col-sm-4 col-md-4 col-lg-4 card_item">
-                        <div class="border-0 card">
-
-                            <a href="{!! App::setTypeUrl() !!}/blog/{{ $item->post_name }}">
-                                <img src="{{ Posts::getPhoto($item->ID) }}" class="card-img-top">
+                    <div class="related-cards">
+                        @php
+                        $related_posts = [];
+                        if($latest_post) $related_posts[] = $latest_post;
+                        foreach($random_query->posts as $related) {
+                            $related_posts[] = $related;
+                        }
+                        $related_posts = array_slice($related_posts, 0, 9);
+                        @endphp
+                        @foreach($related_posts as $related)
+                        @php
+                        $topic = carbon_get_post_meta($related->ID, 'main_topic');
+                        $title = get_the_title($related->ID);
+                        $permalink = get_permalink($related->ID);
+                        $image_id = get_post_thumbnail_id($related->ID);
+                        $image_url = $image_id ? wp_get_attachment_image_url($image_id, 'large') : '';
+                        $reading_time = carbon_get_post_meta($related->ID, 'reading_time');
+                        $text_autor = carbon_get_post_meta($related->ID, 'text_autor');
+                        @endphp
+                        <div class="related-card">
+                            <a href="{{ $permalink }}">
+                                <div class="card-image" style="background-image:url('{{ $image_url }}')"></div>
+                                <div class="card-topic">{{ $topic }}</div>
+                                <h4 class="card-title">{!! $title !!}</h4>
                             </a>
-
-                            <div class="card-body">
-                                <h6 class="">
-                                    @foreach ($category as $item)
-                                    {{ $item->name }}
-                                    @endforeach
-                                </h6>
-                                <h5 class="card-title">
-                                    {{ $item->post_title }}
-                                </h5>
-                                <p class="card-text">
-                                    {!! ACF_CUSTOM::_getField('excerpt_single', $item->ID) !!}
-                                </p>
-                                <div class="subCard d-flex justify-content-end align-items-center">
-                                    <!-- <div class="d-flex align-items-center">
-                                                    <img src="{!! App::setFilePath('/assets/images/blog/icons/writer.png') !!}" alt="Anne Bryan"
-                                                        class="mr-2 rounded-circle">
-                                                    <div>
-                                                        <p class="mb-0">Anne Bryan</p>
-                                                        <p class="mb-0">Verified writer</p>
-                                                    </div>
-                                                </div> -->
-                                    <div class="div-2">
-                                        <p class="mb-0">
-                                            @php
-                                            $date = $item->post_date;
-                                            $sec = strtotime($date);
-                                            $newdate = date ("j M ", $sec);
-                                            echo $newdate;
-                                            @endphp
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
+                        @endforeach
                     </div>
-                    @endforeach
-
+                    @php wp_reset_postdata(); @endphp
                 </section>
-
             </div>
         </section>
         @endif

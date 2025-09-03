@@ -832,13 +832,13 @@ o",
                                     <span class="feature-value"></span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-name">Mensajes / mes*</span>
+                                    <span class="feature-name">Créditos / mes*</span>
                                     <span class="feature-value"></span>
                                 </div>
-                                <div class="feature-row">
-                                    <span class="feature-name">Valor por mensaje*</span>
+                                <!-- <div class="feature-row">
+                                    <span class="feature-name">Valor por créditos*</span>
                                     <span class="feature-value"></span>
-                                </div>
+                                </div> -->
                                 <div class="feature-row">
                                     <span class="feature-name">Cantidad de Agentes IA</span>
                                     <span class="feature-value"></span>
@@ -869,11 +869,11 @@ o",
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">800</span>
+                                        <span class="feature-value">1,600</span>
                                     </div>
-                                    <div class="feature-row">
-                                        <span class="feature-value">$0,0500</span>
-                                    </div>
+                                    <!-- <div class="feature-row">
+                                        <span class="feature-value">$0,0250</span>
+                                    </div> -->
                                     <div class="feature-row">
                                         <span class="feature-value">Ilimitado</span>
                                     </div>
@@ -902,12 +902,12 @@ o",
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">2,400</span>
+                                        <span class="feature-value">4,800</span>
                                     </div>
-
+                                    <!-- 
                                     <div class="feature-row">
-                                        <span class="feature-value">$0,0458</span>
-                                    </div>
+                                        <span class="feature-value">$0,229</span>
+                                    </div> -->
                                     <div class="feature-row">
                                         <span class="feature-value">Ilimitado</span>
                                     </div>
@@ -935,12 +935,12 @@ o",
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">4,800</span>
+                                        <span class="feature-value">9,600</span>
                                     </div>
 
-                                    <div class="feature-row">
-                                        <span class="feature-value">$0,0417</span>
-                                    </div>
+                                    <!-- <div class="feature-row">
+                                        <span class="feature-value">$0,0208</span>
+                                    </div> -->
                                     <div class="feature-row">
                                         <span class="feature-value">Ilimitado</span>
                                     </div>
@@ -970,12 +970,12 @@ o",
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">9,600</span></span>
+                                        <span class="feature-value">16,000</span></span>
                                     </div>
-
+                                    <!-- 
                                     <div class="feature-row">
-                                        <span class="feature-value">$0,0344</span>
-                                    </div>
+                                        <span class="feature-value">$0,0206</span>
+                                    </div> -->
                                     <div class="feature-row">
 
                                         <span class="feature-value">Ilimitado</span>
@@ -1005,12 +1005,12 @@ o",
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">20,000</span>
+                                        <span class="feature-value">30,000</span>
                                     </div>
-
+                                    <!-- 
                                     <div class="feature-row">
-                                        <span class="feature-value">$0,0300</span>
-                                    </div>
+                                        <span class="feature-value">$0,0200</span>
+                                    </div> -->
 
                                     <div class="feature-row">
                                         <span class="feature-value">Ilimitados</span>
@@ -1040,11 +1040,11 @@ o",
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">40,000</span>
+                                        <span class="feature-value">52,000</span>
                                     </div>
-                                    <div class="feature-row">
-                                        <span class="feature-value">$0,0250</span>
-                                    </div>
+                                    <!-- <div class="feature-row">
+                                        <span class="feature-value">$0,0192</span>
+                                    </div> -->
                                     <div class="feature-row">
 
                                         <span class="feature-value">Ilimitado</span>
@@ -1074,12 +1074,12 @@ o",
                                     </div>
                                     <div class="feature-row">
 
-                                        <span class="feature-value">96,000</span>
+                                        <span class="feature-value">100,000</span>
                                     </div>
-                                    <div class="feature-row">
+                                    <!-- <div class="feature-row">
 
-                                        <span class="feature-value">$0,0188</span>
-                                    </div>
+                                        <span class="feature-value">$0,0180</span>
+                                    </div> -->
                                     <div class="feature-row">
                                         <span class="feature-value">Ilimitado</span>
                                     </div>
@@ -1106,8 +1106,8 @@ o",
                                 'nombre' => 'Bronce',
                                 'subtitulo' => 'Tier 1',
                                 'precio_mensual' => '$40 / mes',
-                                'mensajes_mes' => '800',
-                                'valor_mensaje' => '$0,0500',
+                                'mensajes_mes' => '1,600',
+                                'valor_mensaje' => '$0,0250',
                                 'agentes_ia' => 'Ilimitado',
                                 'chat_soporte' => 'checkmark',
                                 'acceso_tecnologia' => 'checkmark-not'
@@ -1116,8 +1116,8 @@ o",
                                 'nombre' => 'Plata',
                                 'subtitulo' => 'Tier 2',
                                 'precio_mensual' => '$110 / mes',
-                                'mensajes_mes' => '2,400',
-                                'valor_mensaje' => '$0,0458',
+                                'mensajes_mes' => '4,800',
+                                'valor_mensaje' => '$0,229',
                                 'agentes_ia' => 'Ilimitado',
                                 'chat_soporte' => 'checkmark',
                                 'acceso_tecnologia' => 'checkmark-not'
@@ -1126,8 +1126,8 @@ o",
                                 'nombre' => 'Oro',
                                 'subtitulo' => 'Tier 3',
                                 'precio_mensual' => '$200 / mes',
-                                'mensajes_mes' => '4,800',
-                                'valor_mensaje' => '$0,0417',
+                                'mensajes_mes' => '9,600',
+                                'valor_mensaje' => '$0,0208',
                                 'agentes_ia' => 'Ilimitado',
                                 'chat_soporte' => 'checkmark',
                                 'acceso_tecnologia' => 'checkmark-not'
@@ -1136,8 +1136,8 @@ o",
                                 'nombre' => 'Platino',
                                 'subtitulo' => 'Tier 4',
                                 'precio_mensual' => '$330 / mes',
-                                'mensajes_mes' => '9,600',
-                                'valor_mensaje' => '$0,0344',
+                                'mensajes_mes' => '16,000',
+                                'valor_mensaje' => '$0,0206',
                                 'agentes_ia' => 'Ilimitado',
                                 'chat_soporte' => 'checkmark',
                                 'acceso_tecnologia' => 'checkmark-not'
@@ -1146,8 +1146,8 @@ o",
                                 'nombre' => 'Diamante',
                                 'subtitulo' => 'Tier 5',
                                 'precio_mensual' => '$600 / mes',
-                                'mensajes_mes' => '20,000',
-                                'valor_mensaje' => '$0,0300',
+                                'mensajes_mes' => '30,000',
+                                'valor_mensaje' => '$0,0200',
                                 'agentes_ia' => 'Ilimitados',
                                 'chat_soporte' => 'checkmark',
                                 'acceso_tecnologia' => 'checkmark'
@@ -1156,8 +1156,8 @@ o",
                                 'nombre' => 'Zafiro',
                                 'subtitulo' => 'Tier 6',
                                 'precio_mensual' => '$1,000 / mes',
-                                'mensajes_mes' => '40,000',
-                                'valor_mensaje' => '$0,0250',
+                                'mensajes_mes' => '52,000',
+                                'valor_mensaje' => '$0,0192',
                                 'agentes_ia' => 'Ilimitado',
                                 'chat_soporte' => 'checkmark',
                                 'acceso_tecnologia' => 'checkmark'
@@ -1166,8 +1166,8 @@ o",
                                 'nombre' => 'Esmeralda',
                                 'subtitulo' => 'Tier 7',
                                 'precio_mensual' => '$1,800 / mes',
-                                'mensajes_mes' => '96,000',
-                                'valor_mensaje' => '$0,0188',
+                                'mensajes_mes' => '100,000',
+                                'valor_mensaje' => '$0,0180',
                                 'agentes_ia' => 'Ilimitado',
                                 'chat_soporte' => 'checkmark',
                                 'acceso_tecnologia' => 'checkmark'
@@ -1190,11 +1190,9 @@ o",
                             <div class="mobile-feature-name">Precio</div>
                         </div>
                         <div class="mobile-feature-row">
-                            <div class="mobile-feature-name">Mensajes / mes*</div>
+                            <div class="mobile-feature-name">Créditos / mes*</div>
                         </div>
-                        <div class="mobile-feature-row">
-                            <div class="mobile-feature-name">Valor por mensaje*</div>
-                        </div>
+                       
                         <div class="mobile-feature-row">
                             <div class="mobile-feature-name">Agentes IA</div>
                         </div>
@@ -1213,9 +1211,7 @@ o",
                         <div class="mobile-feature-row">
                             <div class="mobile-feature-value">' . $plan['mensajes_mes'] . '</div>
                         </div>
-                        <div class="mobile-feature-row">
-                            <div class="mobile-feature-value">' . $plan['valor_mensaje'] . '</div>
-                        </div>
+                   
                         <div class="mobile-feature-row">
                             <div class="mobile-feature-value">' . $plan['agentes_ia'] . '</div>
                         </div>
@@ -1258,7 +1254,8 @@ o",
                 <div class="innerSectionElement sct2-1">
                     <span>Notas:</span>
                     <ul>
-                        <li>*Solo cuentan los mensajes donde interviene un agente de IA</li>
+                        <li>*Solo cuentan los créditos donde interviene un agente de IA</li>
+                        <li>*El valor promedio de un mensaje es 25 créditos</li>
                         <li>Los Agentes Conversacionales de IA son un add-on del CRM de Escala. No una solución separada.</li>
                         <li>Todos los precios están en USD</li>
                     </ul>
@@ -1273,8 +1270,7 @@ o",
                             <div class="column-body">
                                 <div class="section-title bg-blue radius">Plan</div>
                                 <div class="section-title bg-blue-2">Precio único total</div>
-                                <div class="section-title bg-blue-2">Mensajes</div>
-                                <div class="section-title bg-blue-2 radius-1">Valor por mensaje</div>
+                                <div class="section-title bg-blue-2  radius-1">Créditos</div>
                             </div>
                         </div>
                         <!-- Columna creditos precios -->
@@ -1287,11 +1283,9 @@ o",
                                     <span class="feature-value">$90</span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-value">1,600</span>
+                                    <span class="feature-value">3,200</span>
                                 </div>
-                                <div class="feature-row">
-                                    <span class="feature-value">$0,0563</span>
-                                </div>
+                             
                             </div>
                         </div>
                         <!-- Columna creditos precios -->
@@ -1304,11 +1298,9 @@ o",
                                     <span class="feature-value">$150</span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-value">3,200</span>
+                                    <span class="feature-value">6,400</span>
                                 </div>
-                                <div class="feature-row">
-                                    <span class="feature-value">$0,0469</span>
-                                </div>
+                                
                             </div>
                         </div>
                         <!-- Columna creditos precios -->
@@ -1321,11 +1313,9 @@ o",
                                     <span class="feature-value">$300</span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-value">7,000</span>
+                                    <span class="feature-value">14,000</span>
                                 </div>
-                                <div class="feature-row">
-                                    <span class="feature-value">$0,0429</span>
-                                </div>
+                              
                             </div>
                         </div>
                         <!-- Columna creditos precios -->
@@ -1338,15 +1328,12 @@ o",
                                     <span class="feature-value">$500</span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-value">14,000</span>
+                                    <span class="feature-value">24,000</span>
                                 </div>
-                                <div class="feature-row">
-                                    <span class="feature-value">$0,0357</span>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
-
                     <span><span>Nota:</span> Los créditos no tienen límite de tiempo (con contrato vigente) </span>
                 </div>
             </div>
