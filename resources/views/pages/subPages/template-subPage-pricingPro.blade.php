@@ -832,13 +832,13 @@ o",
                                     <span class="feature-value"></span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-name">Créditos  / mes*</span>
+                                    <span class="feature-name">Créditos / mes*</span>
                                     <span class="feature-value"></span>
                                 </div>
-                                <div class="feature-row">
+                                <!-- <div class="feature-row">
                                     <span class="feature-name">Valor por créditos*</span>
                                     <span class="feature-value"></span>
-                                </div>
+                                </div> -->
                                 <div class="feature-row">
                                     <span class="feature-name">Cantidad de Agentes IA</span>
                                     <span class="feature-value"></span>
@@ -871,9 +871,9 @@ o",
 
                                         <span class="feature-value">1,600</span>
                                     </div>
-                                    <div class="feature-row">
+                                    <!-- <div class="feature-row">
                                         <span class="feature-value">$0,0250</span>
-                                    </div>
+                                    </div> -->
                                     <div class="feature-row">
                                         <span class="feature-value">Ilimitado</span>
                                     </div>
@@ -904,10 +904,10 @@ o",
 
                                         <span class="feature-value">4,800</span>
                                     </div>
-
+                                    <!-- 
                                     <div class="feature-row">
                                         <span class="feature-value">$0,229</span>
-                                    </div>
+                                    </div> -->
                                     <div class="feature-row">
                                         <span class="feature-value">Ilimitado</span>
                                     </div>
@@ -938,9 +938,9 @@ o",
                                         <span class="feature-value">9,600</span>
                                     </div>
 
-                                    <div class="feature-row">
+                                    <!-- <div class="feature-row">
                                         <span class="feature-value">$0,0208</span>
-                                    </div>
+                                    </div> -->
                                     <div class="feature-row">
                                         <span class="feature-value">Ilimitado</span>
                                     </div>
@@ -972,10 +972,10 @@ o",
 
                                         <span class="feature-value">16,000</span></span>
                                     </div>
-
+                                    <!-- 
                                     <div class="feature-row">
                                         <span class="feature-value">$0,0206</span>
-                                    </div>
+                                    </div> -->
                                     <div class="feature-row">
 
                                         <span class="feature-value">Ilimitado</span>
@@ -1007,10 +1007,10 @@ o",
 
                                         <span class="feature-value">30,000</span>
                                     </div>
-
+                                    <!-- 
                                     <div class="feature-row">
                                         <span class="feature-value">$0,0200</span>
-                                    </div>
+                                    </div> -->
 
                                     <div class="feature-row">
                                         <span class="feature-value">Ilimitados</span>
@@ -1042,9 +1042,9 @@ o",
 
                                         <span class="feature-value">52,000</span>
                                     </div>
-                                    <div class="feature-row">
+                                    <!-- <div class="feature-row">
                                         <span class="feature-value">$0,0192</span>
-                                    </div>
+                                    </div> -->
                                     <div class="feature-row">
 
                                         <span class="feature-value">Ilimitado</span>
@@ -1076,10 +1076,10 @@ o",
 
                                         <span class="feature-value">100,000</span>
                                     </div>
-                                    <div class="feature-row">
+                                    <!-- <div class="feature-row">
 
                                         <span class="feature-value">$0,0180</span>
-                                    </div>
+                                    </div> -->
                                     <div class="feature-row">
                                         <span class="feature-value">Ilimitado</span>
                                     </div>
@@ -1192,9 +1192,7 @@ o",
                         <div class="mobile-feature-row">
                             <div class="mobile-feature-name">Créditos / mes*</div>
                         </div>
-                        <div class="mobile-feature-row">
-                            <div class="mobile-feature-name">Valor por créditos*</div>
-                        </div>
+                       
                         <div class="mobile-feature-row">
                             <div class="mobile-feature-name">Agentes IA</div>
                         </div>
@@ -1213,9 +1211,7 @@ o",
                         <div class="mobile-feature-row">
                             <div class="mobile-feature-value">' . $plan['mensajes_mes'] . '</div>
                         </div>
-                        <div class="mobile-feature-row">
-                            <div class="mobile-feature-value">' . $plan['valor_mensaje'] . '</div>
-                        </div>
+                   
                         <div class="mobile-feature-row">
                             <div class="mobile-feature-value">' . $plan['agentes_ia'] . '</div>
                         </div>
@@ -1259,6 +1255,7 @@ o",
                     <span>Notas:</span>
                     <ul>
                         <li>*Solo cuentan los créditos donde interviene un agente de IA</li>
+                        <li>*El valor promedio de un mensaje es 25 créditos</li>
                         <li>Los Agentes Conversacionales de IA son un add-on del CRM de Escala. No una solución separada.</li>
                         <li>Todos los precios están en USD</li>
                     </ul>
@@ -1273,8 +1270,7 @@ o",
                             <div class="column-body">
                                 <div class="section-title bg-blue radius">Plan</div>
                                 <div class="section-title bg-blue-2">Precio único total</div>
-                                <div class="section-title bg-blue-2">Créditos</div>
-                                <div class="section-title bg-blue-2 radius-1">Valor por créditos</div>
+                                <div class="section-title bg-blue-2  radius-1">Créditos</div>
                             </div>
                         </div>
                         <!-- Columna creditos precios -->
@@ -1289,9 +1285,7 @@ o",
                                 <div class="feature-row">
                                     <span class="feature-value">3,200</span>
                                 </div>
-                                <div class="feature-row">
-                                    <span class="feature-value">$0,0281</span>
-                                </div>
+                             
                             </div>
                         </div>
                         <!-- Columna creditos precios -->
@@ -1306,9 +1300,7 @@ o",
                                 <div class="feature-row">
                                     <span class="feature-value">6,400</span>
                                 </div>
-                                <div class="feature-row">
-                                    <span class="feature-value">$0,0234</span>
-                                </div>
+                                
                             </div>
                         </div>
                         <!-- Columna creditos precios -->
@@ -1323,9 +1315,7 @@ o",
                                 <div class="feature-row">
                                     <span class="feature-value">14,000</span>
                                 </div>
-                                <div class="feature-row">
-                                    <span class="feature-value">$0,0214</span>
-                                </div>
+                              
                             </div>
                         </div>
                         <!-- Columna creditos precios -->
@@ -1340,9 +1330,7 @@ o",
                                 <div class="feature-row">
                                     <span class="feature-value">24,000</span>
                                 </div>
-                                <div class="feature-row">
-                                    <span class="feature-value">$0,0208</span>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
