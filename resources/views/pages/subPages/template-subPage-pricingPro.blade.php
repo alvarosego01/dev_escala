@@ -1254,8 +1254,7 @@ o",
                 <div class="innerSectionElement sct2-1">
                     <span>Notas:</span>
                     <ul>
-                        <li>*Solo cuentan los créditos donde interviene un agente de IA</li>
-                        <li>*El valor promedio de un mensaje es 25 créditos</li>
+                        <li>*El consumo de 1 mensaje enviado por un Agente de IA equivale a 25 créditos</li>
                         <li>Los Agentes Conversacionales de IA son un add-on del CRM de Escala. No una solución separada.</li>
                         <li>Todos los precios están en USD</li>
                     </ul>

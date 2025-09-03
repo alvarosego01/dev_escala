@@ -314,8 +314,8 @@
                             [
                                 'nombre' => 'Bronce',
                                 'subtitulo' => 'Tier 1',
-                                    'precio_mensual' => '$40 / mes',
-                                    'mensajes_mes' => '40,000',
+                                'precio_mensual' => '$40 / mes',
+                                'mensajes_mes' => '40,000',
                                 'valor_mensaje' => '$0,0250',
                                 'agentes_ia' => 'Ilimitado',
                                 'chat_soporte' => 'checkmark',
@@ -324,8 +324,8 @@
                             [
                                 'nombre' => 'Plata',
                                 'subtitulo' => 'Tier 2',
-                                    'precio_mensual' => '$110 / mes',
-                                    'mensajes_mes' => '120,000',
+                                'precio_mensual' => '$110 / mes',
+                                'mensajes_mes' => '120,000',
                                 'valor_mensaje' => '$0,229',
                                 'agentes_ia' => 'Ilimitado',
                                 'chat_soporte' => 'checkmark',
@@ -334,8 +334,8 @@
                             [
                                 'nombre' => 'Oro',
                                 'subtitulo' => 'Tier 3',
-                                    'precio_mensual' => '$200 / mes',
-                                    'mensajes_mes' => '240,000',
+                                'precio_mensual' => '$200 / mes',
+                                'mensajes_mes' => '240,000',
                                 'valor_mensaje' => '$0,0208',
                                 'agentes_ia' => 'Ilimitado',
                                 'chat_soporte' => 'checkmark',
@@ -344,8 +344,8 @@
                             [
                                 'nombre' => 'Platino',
                                 'subtitulo' => 'Tier 4',
-                                    'precio_mensual' => '$330 / mes',
-                                    'mensajes_mes' => '400,000',
+                                'precio_mensual' => '$330 / mes',
+                                'mensajes_mes' => '400,000',
                                 'valor_mensaje' => '$0,0206',
                                 'agentes_ia' => 'Ilimitado',
                                 'chat_soporte' => 'checkmark',
@@ -354,8 +354,8 @@
                             [
                                 'nombre' => 'Diamante',
                                 'subtitulo' => 'Tier 5',
-                                    'precio_mensual' => '$600 / mes',
-                                    'mensajes_mes' => '750,000',
+                                'precio_mensual' => '$600 / mes',
+                                'mensajes_mes' => '750,000',
                                 'valor_mensaje' => '$0,0200',
                                 'agentes_ia' => 'Ilimitados',
                                 'chat_soporte' => 'checkmark',
@@ -364,8 +364,8 @@
                             [
                                 'nombre' => 'Zafiro',
                                 'subtitulo' => 'Tier 6',
-                                    'precio_mensual' => '$1,000 / mes',
-                                    'mensajes_mes' => '1,300,000',
+                                'precio_mensual' => '$1,000 / mes',
+                                'mensajes_mes' => '1,300,000',
                                 'valor_mensaje' => '$0,0192',
                                 'agentes_ia' => 'Ilimitado',
                                 'chat_soporte' => 'checkmark',
@@ -374,8 +374,8 @@
                             [
                                 'nombre' => 'Esmeralda',
                                 'subtitulo' => 'Tier 7',
-                                    'precio_mensual' => '$1,800 / mes',
-                                    'mensajes_mes' => '2,500,000',
+                                'precio_mensual' => '$1,800 / mes',
+                                'mensajes_mes' => '2,500,000',
                                 'valor_mensaje' => '$0,0180',
                                 'agentes_ia' => 'Ilimitado',
                                 'chat_soporte' => 'checkmark',
@@ -463,8 +463,7 @@
                 <div class="innerSectionElement sct2-1">
                     <span>Notas:</span>
                     <ul>
-                        <li>*Solo cuentan los créditos donde interviene un agente de IA</li>
-                        <li>*El valor promedio de un mensaje es 25 créditos</li>
+                        <li>*El consumo de 1 mensaje enviado por un Agente de IA equivale a 25 créditos</li>
                         <li>Los Agentes Conversacionales de IA son un add-on del CRM de Escala. No una solución separada.</li>
                         <li>Todos los precios están en USD</li>
                     </ul>
@@ -494,7 +493,7 @@
                                 <div class="feature-row">
                                     <span class="feature-value">80,000</span>
                                 </div>
-                             
+
                             </div>
                         </div>
                         <!-- Columna creditos precios -->
@@ -509,7 +508,7 @@
                                 <div class="feature-row">
                                     <span class="feature-value">160,000</span>
                                 </div>
-                               
+
                             </div>
                         </div>
                         <!-- Columna creditos precios -->
@@ -524,7 +523,7 @@
                                 <div class="feature-row">
                                     <span class="feature-value">350,000</span>
                                 </div>
-                               
+
                             </div>
                         </div>
                         <!-- Columna creditos precios -->
@@ -539,7 +538,7 @@
                                 <div class="feature-row">
                                     <span class="feature-value">600,000</span>
                                 </div>
-                           
+
                             </div>
                         </div>
                     </div>
