@@ -22,15 +22,11 @@
                                 Escala en menos <br class="DT_e">
                                 de un año.
                             </h1>
-
-                            <h1 class="principalBigTitleMb">
-                                Laboratorio clínico con
-                                más de 30 años en el
-                                mercado duplicó sus
-                                ventas con el CRM de
-                                Escala en menos
-                                de un año.
-                            </h1>
+                        </div>
+                        <div class="containerImage">
+                            <img alt="Ilustración app escala"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/poctlab-casos-exito-laboratorio-clinico.webp') !!}"
+                                loading="lazy">
                         </div>
                     </section>
 
@@ -138,40 +134,38 @@
                 </section>
 
                 <section class="innerSectionElement sct2">
-                    <div class="groupElements row">
-                        <div class="video col-md-12">
-                            @php
-                            $videoEmbed = App::setFilePath('/assets/videos/Caso de éxito PoctLab Final-enhanced-v2-90p (1).mp4');
-                            $videoCover = App::setFilePath('/assets/images/illustrations/others/img_overlay_Caso_de_exito_poctlab.png');
-                            @endphp
+                    <div class="video">
+                        @php
+                        $videoEmbed = App::setFilePath('/assets/videos/Caso de éxito PoctLab Final-enhanced-v2-90p (1).mp4');
+                        $videoCover = App::setFilePath('/assets/images/illustrations/others/img_overlay_Caso_de_exito_poctlab.png');
+                        @endphp
 
-                            @if (isset($videoEmbed) && $videoEmbed != null)
-                            <div class="youtubeImageContainer ">
+                        @if (isset($videoEmbed) && $videoEmbed != null)
+                        <div class="youtubeImageContainer ">
 
-                                <video class="video-js" controls preload="none" poster="{{ $videoCover }}"
-                                    {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                    data-setup="{
+                            <video class="video-js" controls preload="none" poster="{{ $videoCover }}"
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{
                                   autoplay: false
                                 }">
-                                    <source src="{{ $videoEmbed }}" type="video/mp4" />
-                                    <source src="{{ $videoEmbed }}" type="video/webm" />
-                                    <p class="vjs-no-js">
-                                        To view this video please enable JavaScript, and consider upgrading to a
-                                        web browser that
-                                        <a href="https://videojs.com/html5-video-support/" target="_blank">supports
-                                            HTML5 video</a>
-                                    </p>
-                                </video>
+                                <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                <source src="{{ $videoEmbed }}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                    To view this video please enable JavaScript, and consider upgrading to a
+                                    web browser that
+                                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports
+                                        HTML5 video</a>
+                                </p>
+                            </video>
 
-                                {{--
+                            {{--
                                         <a class=" secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                             Ver el demo
                                         </a> --}}
 
-                            </div>
-                            @endif
-
                         </div>
+                        @endif
+
 
                     </div>
 
@@ -238,105 +232,102 @@
 
 
         <section class="customSection sectionParent casoExito_PoctLab_4">
-            <div class="backgroundFull">
+            <div class="section-row">
+                <div class="containElements">
 
-                <div class="section-row">
-                    <div class="containElements">
+                    <section class="innerSectionElement sct1">
+                        <h2 class="primaryTitle">
+                            Las herramientas de Escala que utilizan
+                        </h2>
+                    </section>
 
-                        <section class="innerSectionElement sct1">
-                            <h2 class="primaryTitle">
-                                Las herramientas de Escala que utilizan
-                            </h2>
-                        </section>
+                    <section class="innerSectionElement sct2">
+                        <div class="containElements">
+                            <ul class="itemsList">
+                                <li>
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/crm-icon-list.webp') !!}" alt="">
+                                    <span><span class="title">CRM</span> para gestionar y almacenar los contactos de prospectos y clientes</span>
+                                </li>
 
-                        <section class="innerSectionElement sct2">
-                            <div class="containElements">
-                                <ul class="itemsList">
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/crm-icon-list.webp') !!}" alt="">
-                                        <span><span class="title">CRM</span> para gestionar y almacenar los contactos de prospectos y clientes</span>
-                                    </li>
+                                <li>
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/anuncios-icon-list.webp') !!}" alt="">
+                                    <span><span class="title">Anuncios digitales</span> integrado a Escala para medir el rendimiento de campañas de marketing</span>
+                                </li>
+                                <li>
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp-icon-list.webp') !!}" alt="">
+                                    <span> <span class="title">Whatsapp Inbox</span> para centralizar y automatizar la comunicación con sus prospectos y clientes</span>
+                                </li>
 
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/anuncios-icon-list.webp') !!}" alt="">
-                                        <span><span class="title">Anuncios digitales</span> integrado a Escala para medir el rendimiento de campañas de marketing</span>
-                                    </li>
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp-icon-list.webp') !!}" alt="">
-                                        <span> <span class="title">Whatsapp Inbox</span> para centralizar y automatizar la comunicación con sus prospectos y clientes</span>
-                                    </li>
-
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/email-icon-list.webp') !!}" alt="">
-                                        <span> <span class="title">Email Marketing </span>para enviar comunicados masivos a prospectos y clientes</span>
-                                    </li>
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/flujos-icon-list.webp') !!}" alt="">
-                                        <span> <span class="title">Flujos Automatizados</span> para ahorrar tiempo en tareas rutinarias</span>
-                                    </li>
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/reportes.icon-list.webp') !!}" alt="">
-                                        <span> <span class="title">Reportes Personalizados</span> para medir el desempeño del negocio y aplicar mejoras</span>
-                                    </li>
+                                <li>
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/email-icon-list.webp') !!}" alt="">
+                                    <span> <span class="title">Email Marketing </span>para enviar comunicados masivos a prospectos y clientes</span>
+                                </li>
+                                <li>
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/flujos-icon-list.webp') !!}" alt="">
+                                    <span> <span class="title">Flujos Automatizados</span> para ahorrar tiempo en tareas rutinarias</span>
+                                </li>
+                                <li>
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/reportes.icon-list.webp') !!}" alt="">
+                                    <span> <span class="title">Reportes Personalizados</span> para medir el desempeño del negocio y aplicar mejoras</span>
+                                </li>
 
 
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing-icon-list.webp') !!}" alt="">
-                                        <span> <span class="title">Landing pages </span>para crear páginas web efectivas y capturar información de prospectos interesados</span>
-                                    </li>
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/app-icon-list.webp') !!}" alt="">
-                                        <span> <span class="title">Escala App</span> para gestionar el negocio desde cualquier lugar</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </section>
-                        <section class="innerSectionElement sct3">
+                                <li>
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing-icon-list.webp') !!}" alt="">
+                                    <span> <span class="title">Landing pages </span>para crear páginas web efectivas y capturar información de prospectos interesados</span>
+                                </li>
+                                <li>
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/app-icon-list.webp') !!}" alt="">
+                                    <span> <span class="title">Escala App</span> para gestionar el negocio desde cualquier lugar</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="innerSectionElement sct3">
 
-                            <h2 class="primaryTitle">
-                                El desafío antes de Escala:
-                            </h2>
-                            <span class="subTitle">
-                                PoctLab enfrentaba limitaciones de crecimiento por:
-                            </span>
+                        <h2 class="primaryTitle">
+                            El desafío antes de Escala:
+                        </h2>
+                        <span class="subTitle">
+                            PoctLab enfrentaba limitaciones de crecimiento por:
+                        </span>
 
-                            <div class="containElements left" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-poctlab-casos-exito-4.webp') !!}')">
-                                <div class="image">
-                                    <div class="containerImage">
-                                        <img src="{!! App::setFilePath('/assets/images//illustrations/others/el-desafio-antes-de-escala.webp') !!}" alt="">
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <p>
-                                        <span>
-                                            Falta de automatización en ventas:
-                                        </span>
-                                        El proceso
-                                        comercial se realizaba 100% manual. Esto consumía tiempo valioso
-                                        de vendedores en tareas repetitivas y pérdidas de oportunidades de
-                                        venta debido a tiempos largos de respuesta y falta de seguimiento.
-                                    </p>
-                                    <p>
-                                        <span>
-                                            Uso de herramientas poco integradas:
-                                        </span>
-                                        El seguimiento
-                                        comercial se documentabaen un Excel, complicando la medición y comunicación
-                                        eficiente con prospectos interesados.
-                                    </p>
-                                    <p>
-                                        <span>Falta de seguimiento y claridad en el
-                                            proceso comercial:
-                                        </span>
-                                        Poca visibilidad de
-                                        la información, las actividades y los resultados
-                                        de venta dificultaba la optimización y entrega de
-                                        una buena experiencia de compra.
-                                    </p>
+                        <div class="containElements left" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-poctlab-casos-exito-4-0.webp') !!}')">
+                            <div class="image">
+                                <div class="containerImage">
+                                    <img src="{!! App::setFilePath('/assets/images//illustrations/others/el-desafio-antes-de-escala.webp') !!}" alt="">
                                 </div>
                             </div>
-                        </section>
-                    </div>
+                            <div class="info">
+                                <p>
+                                    <span>
+                                        Falta de automatización en ventas:
+                                    </span>
+                                    El proceso
+                                    comercial se realizaba 100% manual. Esto consumía tiempo valioso
+                                    de vendedores en tareas repetitivas y pérdidas de oportunidades de
+                                    venta debido a tiempos largos de respuesta y falta de seguimiento.
+                                </p>
+                                <p>
+                                    <span>
+                                        Uso de herramientas poco integradas:
+                                    </span>
+                                    El seguimiento
+                                    comercial se documentabaen un Excel, complicando la medición y comunicación
+                                    eficiente con prospectos interesados.
+                                </p>
+                                <p>
+                                    <span>Falta de seguimiento y claridad en el
+                                        proceso comercial:
+                                    </span>
+                                    Poca visibilidad de
+                                    la información, las actividades y los resultados
+                                    de venta dificultaba la optimización y entrega de
+                                    una buena experiencia de compra.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </section>
@@ -512,36 +503,26 @@
         <section class="customSection sectionParent casoExito_PoctLab_6">
 
             <div class="section-row">
-
-
                 <section class="innerSectionElement sct1" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-poctlab-casos-exito-5.webp') !!}')">
 
                     <div class="containElements">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-5 column-img">
-                                <div class="img-container">
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_director_comercial_poctlab_1.webp') !!}" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-lg-7 column-text">
-                                <p>
-                                    "La experiencia con Escala ha sido excelente. <br class="DT_e">
-                                    Nuestra empresa ha aumentado las ventas en <br class="DT_e">
-                                    un 100%. Hemos aprendido a usar la <br class="DT_e">
-                                    herramienta y el acompañamiento del equipo <br class="DT_e">
-                                    ha sido fundamental. Definitivamente, <br class="DT_e">
-                                    recomiendo Escala a todas las personas <br class="DT_e">
-                                    que deseen llevar su empresa a otro nivel”.
-                                    <br class="space">
-                                    <br class="space">
-
-                                    <span class="blue">
-                                        Miguel Urrego
-                                        <span>Líder Comercial Poctlab</span>
-                                    </span>
-                                </p>
-
-                            </div>
+                        <div class="image">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_director_comercial_poctlab_1.webp') !!}" loading="lazy">
+                        </div>
+                        <div class="info">
+                            <p>
+                                "La experiencia con Escala ha sido excelente. Nuestra empresa ha <br class="DT_e">
+                                aumentado las ventas en un 100%. Hemos aprendido a usar la <br class="DT_e">
+                                herramienta y el acompañamiento del equipo ha sido fundamental <br class="DT_e">
+                                Definitivamente, recomiendo Escala a todas las personas que deseen <br class="DT_e">
+                                llevar su empresa a otro nivel”.
+                                <br class="space">
+                                <br class="space">
+                                <span class="white">
+                                    Miguel Urrego
+                                    <span>Líder Comercial Poctlab</span>
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </section>
