@@ -1,0 +1,187 @@
+@php
+$navBar_ID = null;
+if (is_page() && get_post_type() == 'page' && get_permalink() == home_url('/blog/')) {
+    // Página principal del blog
+    $navBar_ID = ACF_CUSTOM::_getField('nav_global');
+} elseif (is_singular('post')) {
+    // Entradas individuales del blog usan el menú de la página blog
+    $idPostParent = url_to_postid('blog');
+    $navBar_ID = ACF_CUSTOM::_getField('nav_global', $idPostParent);
+} else {
+    $navBar_ID = ACF_CUSTOM::_getField('nav_global');
+}
+
+@endphp
+<header id="masthead"
+    class="customHeader component-header-blog-2 navBar_blog2 customSection fullWidth {{ $classSection }}">
+
+
+    <nav class="principal navbar navbar-expand-md">
+
+        <div class="section-row">
+
+
+            <div class="container-fluid sct2">
+
+                <div class="logo">
+                    <a class="navbar-brand" href="{!! home_url() !!}/blog">
+                        <!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
+                        <img src="{!! App::setFilePath('/assets/images/logos/logo-escala-blue-blog.webp') !!}" alt="Logo" class="logo-img logo-default">
+                        <img src="{!! App::setFilePath('/assets/images/logos/logo-escala-blue-blog.webp') !!}" alt="Logo Fixed" class="logo-img logo-fixed" style="display:none;">
+                    </a>
+                </div>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        function toggleLogo() {
+                            var navbar = document.querySelector('.navbar');
+                            var logoDefault = document.querySelector('.logo-img.logo-default');
+                            var logoFixed = document.querySelector('.logo-img.logo-fixed');
+                            if (navbar && logoDefault && logoFixed) {
+                                if (navbar.classList.contains('fixedNav')) {
+                                    logoDefault.style.display = 'none';
+                                    logoFixed.style.display = '';
+                                } else {
+                                    logoDefault.style.display = '';
+                                    logoFixed.style.display = 'none';
+                                }
+                            }
+                        }
+                        window.addEventListener('scroll', toggleLogo);
+                        // Por si la clase se agrega dinámicamente
+                        setInterval(toggleLogo, 300);
+                    });
+                </script>
+
+                <div class="MT_e">
+
+                    <div style="display: flex; flex-direction: row" class="buttonSections">
+
+
+  {{--
+                        {!! wp_nav_menu([
+                            'menu' => $navBar_ID,
+                            'container' => false,
+                            'menu_class' => 'menu-blog-global2 buttonsCTA',
+                            'fallback_cb' => '__return_false',
+                            'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
+                            'depth' => 3,
+                            'walker' => new \App\wp_bootstrap5_navwalker(),
+                        ]) !!}
+
+                        --}}
+
+                        @php
+                        $menu_nav_extended = App::create_bootstrap_menu($navBar_ID, $classSection, 'buttonsCTA');
+                        @endphp
+
+                        {!! $menu_nav_extended; !!}
+
+
+                        <button onclick="_openSideNav('open')" class="MT_e toggleSideMenu" type="button">
+
+                            <i class="fas fa-bars    "></i>
+
+                        </button>
+
+                    </div>
+                </div>
+                <div class="D_e">
+
+                    <div class="menusSection" id="main-menu">
+                   
+                        {{-- {!! wp_nav_menu([
+                            'menu' => $navBar_ID,
+                            'container' => false,
+                            'menu_class' => '',
+                            'fallback_cb' => '__return_false',
+                            'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
+                            'depth' => 3,
+                            'walker' => new \App\wp_bootstrap5_navwalker(),
+                        ]) !!} --}}
+
+                        @php
+                        $menu_nav_extended = App::create_bootstrap_menu($navBar_ID, $classSection);
+                        @endphp
+
+                        {!! $menu_nav_extended; !!}
+
+                        <div class="searchContainer">
+
+                            <div class="containElements">
+                                <div class="container-2">
+                                    <form action="{{App::setTypeUrl().'/blog-search'}}" method="get">
+
+                                        <span class="icon"><i class="fa fa-search"></i></span>
+                                        <input type="search" name="arg" id="search" placeholder="Buscar..." />
+                                        <input type="hidden" name="pag" value="1" />
+
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </nav>
+
+
+</header>
+
+{{-- D_e --}}
+{{-- MT_e --}}
+
+
+<div class=" animate__animated animate__faster" id="sideNavBar">
+
+
+
+    <nav id="innerNavBar" class="animate__animated animate__faster principal navbar">
+
+        <div class="section-row">
+
+            <div class="closeButtonSideBar">
+
+                <button id="closeSidebarButton" onclick="_openSideNav('close')" class="closeButton">
+                    <i class="fas fa-times    "></i>
+                </button>
+
+            </div>
+
+            <div class="M_e logo">
+                <a class="navbar-brand" href="{!! home_url() !!}">
+                    <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
+                </a>
+            </div>
+
+
+            <div class="container-fluid sct2">
+
+
+                <div class="menusSection">
+
+                    {!! wp_nav_menu([
+                    'menu' => $navBar_ID,
+                    'container' => false,
+                    'menu_class' => '',
+                    'fallback_cb' => '__return_false',
+                    'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
+                    'depth' => 3,
+                    'walker' => new \App\wp_bootstrap5_navwalker(),
+                    ]) !!}
+
+                </div>
+
+            </div>
+
+
+        </div>
+</div>

@@ -2,17 +2,17 @@
 
     $navBar = null;
 
-    if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
+    // Página principal del blog
+    if (is_page() && get_post_type() == 'page' && get_permalink() == home_url('/blog/')) {
+        $navBar = 'blog-global1';
+    }
+    // Entradas individuales del blog
+    elseif (is_singular('post')) {
+        $navBar = 'blog-global2';
+    }
+    // Otras páginas
+    elseif (is_page()) {
         $navBar = ACF_CUSTOM::_getField('nav_settings');
-    } elseif (is_singular() != null && is_singular() == 1 && get_post_type() == 'post') {
-        # code...
-        $idPostParent = url_to_postid('blog');
-        $navBar = ACF_CUSTOM::_getField('nav_settings', $idPostParent);
-    } elseif ( is_singular() != null && is_singular() == 1 && get_post_type() == 'caso-de-exito' ) {
-      # code...
-      $idPostParent = url_to_postid('casos-de-exito');
-      $navBar = ACF_CUSTOM::_getField('nav_settings', $idPostParent );
-
     }
 
 
@@ -21,9 +21,10 @@
 
 
 
-
 {{-- navBar_default --}}
 {{-- navBar_blog --}}
+{{-- navBar_blog_2 --}}
+
 {{-- navBar_landings --}}
 
 
@@ -127,6 +128,16 @@
             {{ $navBar }}
         @endslot
     @endnavBar_blog
+
+@endif
+
+@if ($navBar == 'blog-global2')
+
+    @navBar_blog2()
+        @slot('classSection')
+            {{ $navBar }}
+        @endslot
+    @endnavBar_blog2
 
 @endif
 
