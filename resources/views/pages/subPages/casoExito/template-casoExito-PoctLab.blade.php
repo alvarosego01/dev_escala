@@ -2,117 +2,78 @@
     <div class="sections">
 
 
-        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol casoExito_PoctLab_0 newHome ">
+        <section id="lead-form" class="hero2025 casoExito_PoctLab_0">
 
+            <div class="backgroundFull"
+                style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-poctlab-casos-exito-0.webp') !!}')">
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_1_poctlab.svg') }}')" class="backgroundFull">
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
-
-                        <div class="groupElements row">
-
-
-                            <div class="info
-                                                col-md-12 col-lg-8
-                                            ">
-
-
-                                <div class="containElements row threeCol">
-
-                                    <div class="ele ele1 col-md-12 col-lg-6">
-
-                                        <div class="containerImage">
-                                            <img src="{!! App::setFilePath('/assets/images/person/casos_de_uso_poctlab_mujer_feliz.png') !!}" alt="Ilustración medico poctlab feliz" loading="lazy">
-
-                                        </div>
-
-                                    </div>
-
-                                    <div class="ele ele2 col-md-12 col-lg-6">
-                                        <h1 class="principalBigTitle blackColor">
-                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_poctlab_casos_de_exito.png') !!}" alt="" class="logo-img" loading="lazy">
-                                            <small><span>Caso de éxito:</span> Salud</small>
-
-                                        </h1>
-
-                                        <p class="principalBigText grayColorTexts">
-                                            <span class="whiteColor">
-                                                Laboratorio clínico con más <br class="DT_e">
-                                                de 30 años en el mercado
-                                            </span>
-                                            <span class="span2">
-                                                duplicó sus ventas con <br class="DT_e">
-                                                el CRM de Escala en <br class="DT_e">
-                                                menos de un año
-                                            </span>
-
-
-                                        </p>
-
-                                    </div>
-
-                                </div>
-
-
-
+                        <div class="sectionText">
+                            <div class="imgTop">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_poctlab_casos_de_exito.webp') !!}" alt="" class="logo-img" loading="lazy">
+                                <span>Caso de éxito: Salud</span>
                             </div>
-                            <div class="form7
-                                                        col-md-12 col-lg-4
-                                                ">
-                                <div class="containElements">
+                            <h1 class="principalBigTitle">
+                                Laboratorio clínico con <br class="DT_e">
+                                más de 30 años en el <br class="DT_e">
+                                mercado duplicó sus <br class="DT_e">
+                                ventas con el CRM de <br class="DT_e">
+                                Escala en menos <br class="DT_e">
+                                de un año.
+                            </h1>
 
-                                    <div class="formatForm redirectWeb" redirectweb="true">
-
-
-                                        <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
-
-
-                                        @php
-                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                        $_rs = [];
-                                        $_formShortcode = null;
-                                        if ($_data = get_posts($_args)) {
-                                        foreach ($_data as $_key) {
-                                        $_rs[$_key->ID] = $_key->post_title;
-                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                        }
-                                        }
-                                        } else {
-                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                        }
-                                        @endphp
-                                        {!! do_shortcode($_formShortcode) !!}
-
-
-                                    </div>
-
-                                </div>
-
-
-                            </div>
-
-                            <div class=" ele3 col-md-12 col-lg-6">
-
-                                <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/person/casos_de_uso_poctlab_mujer_feliz.png') !!}" alt="Ilustración medico poctlab feliz" loading="lazy">
-
-                                </div>
-
-                            </div>
-
-
-
+                            <h1 class="principalBigTitleMb">
+                                Laboratorio clínico con
+                                más de 30 años en el
+                                mercado duplicó sus
+                                ventas con el CRM de
+                                Escala en menos
+                                de un año.
+                            </h1>
                         </div>
-
                     </section>
 
+                    <section class="innerSectionElement sct2">
+                        <div class="containerImage">
+                            <img alt="Ilustración app escala"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/poctlab-casos-exito-laboratorio-clinico.webp') !!}"
+                                loading="lazy">
+                        </div>
+                    </section>
+
+                    <section class="innerSectionElement sct3">
+                        <div class="form7">
+                            <div class="containElements">
+
+                                <div class="formatForm redirectWeb" redirectweb="true">
+
+                                    <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
+
+                                    @php
+                                    $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                    $_rs = [];
+                                    $_formShortcode = null;
+                                    if ($_data = get_posts($_args)) {
+                                    foreach ($_data as $_key) {
+                                    $_rs[$_key->ID] = $_key->post_title;
+                                    if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                    $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                    }
+                                    }
+                                    } else {
+                                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                    }
+                                    @endphp
+                                    {!! do_shortcode($_formShortcode) !!}
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
                 </div>
-
-
-
             </div>
-
         </section>
 
         <section class="customSection sectionParent casoExito_PoctLab_1">
@@ -126,7 +87,7 @@
                         <div class="element">
                             <div class="numbers">
                                 <span>
-                                    Duplicaron
+                                    2X
                                 </span>
                             </div>
                             <p class="text">
@@ -137,24 +98,25 @@
                         <div class="element">
                             <div class="numbers">
                                 <span>
-                                    Triplicaron
+                                    3X
                                 </span>
                             </div>
                             <p class="text">
                                 el volumen de <br class="DT_e">
                                 conversaciones con <br class="DT_e">
-                                prospectos por WhatsAPP
+                                prospectos por <br class="DT_e">
+                                WhatsAPP
                             </p>
                         </div>
                         <div class="element">
                             <div class="numbers">
                                 <span>
-                                    Duplicaron
+                                    2X
                                 </span>
                             </div>
                             <p class="text">
                                 la eficiencia operativa de <br class="DT_e">
-                                sus procesos comerciales
+                                sus procesos <br class="DT_e"> comerciales
                             </p>
                         </div>
                     </div>
@@ -168,25 +130,16 @@
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
-
                     <div class="containElements">
-
                         <h2 class="primaryTitle whiteColor">
                             ¿Qué dice el líder comercial sobre Escala?
                         </h2>
-
                     </div>
-
                 </section>
 
                 <section class="innerSectionElement sct2">
-
                     <div class="groupElements row">
-
-                        <img src="{!! App::setFilePath('/assets/images/overlays/overlay_sky_1.png') !!}" alt="" class="overlaySky1">
-
                         <div class="video col-md-12">
-
                             @php
                             $videoEmbed = App::setFilePath('/assets/videos/Caso de éxito PoctLab Final-enhanced-v2-90p (1).mp4');
                             $videoCover = App::setFilePath('/assets/images/illustrations/others/img_overlay_Caso_de_exito_poctlab.png');
@@ -229,27 +182,22 @@
         </section>
         <section class="component-info-text-image-T1 customSection sectionParent casoExito_PoctLab_3">
 
-
             <div class="section-row">
 
                 <section class="innerSectionElement sct2 right">
 
                     <div class="groupElements row">
 
-
                         <div class="info col-md-12 col-lg-6">
 
                             <h3 class="secondaryTitle">
-
                                 Sobre Poctlab
-
-
                             </h3>
 
                             <p class="text">
-                                Poctlab, es un laboratorio clínico en la ciudad <br class="DT_e">
-                                de Medellín, que apoya el diagnóstico médico, <br class="DT_e">
-                                ofreciendo resultados rápidos y confiables, <br class="DT_e">
+                                Poctlab, es un laboratorio clínico en la ciudad de <br class="DT_e">
+                                Medellín, que apoya el diagnóstico médico, ofreciendo <br class="DT_e">
+                                resultados rápidos y confiables,
                                 con servicio a domicilio.
                             </p>
 
@@ -259,21 +207,21 @@
                             <div class="containElements">
                                 <ul class="itemsList">
                                     <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/industria_salud_icon_orange.png') !!}" alt=""></div>
+                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-industria.webp') !!}" alt=""></div>
                                         <strong>Industria:</strong> Salud
                                     </li>
 
                                     <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/tamaño_icon_orange.png') !!}" alt=""></div>
+                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-tamaño.webp') !!}" alt=""></div>
                                         <strong>Tamaño:</strong> 13 - 50 empleados
                                     </li>
                                     <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/locacion_icon_orange.png') !!}" alt=""></div>
-                                        <strong>Locación:</strong> Colombia
+                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-locacion.webp') !!}" alt=""></div>
+                                        <strong>Locación:</strong> Medellín, Colombia
 
                                     </li>
                                     <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/website_icon_orange.png') !!}" alt=""></div>
+                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-wensite.webp') !!}" alt=""></div>
                                         <strong>Website:</strong> <a target="_blank" href="https://laboratoriospoct.com">laboratoriospoct.com</a>
 
                                     </li>
@@ -290,57 +238,54 @@
 
 
         <section class="customSection sectionParent casoExito_PoctLab_4">
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_poctlab_section_5.svg') }}')" class="backgroundFull">
+            <div class="backgroundFull">
 
                 <div class="section-row">
                     <div class="containElements">
 
                         <section class="innerSectionElement sct1">
-                            <img src="{!! App::setFilePath('/assets/images/person/img_doctora_poctlab.png') !!}" alt="">
-
                             <h2 class="primaryTitle">
                                 Las herramientas de Escala que utilizan
                             </h2>
-
                         </section>
 
                         <section class="innerSectionElement sct2">
                             <div class="containElements">
                                 <ul class="itemsList">
                                     <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/crm_icon_escala.png') !!}" alt="">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/crm-icon-list.webp') !!}" alt="">
                                         <span><span class="title">CRM</span> para gestionar y almacenar los contactos de prospectos y clientes</span>
                                     </li>
 
                                     <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/ads_icon_escala.png') !!}" alt="">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/anuncios-icon-list.webp') !!}" alt="">
                                         <span><span class="title">Anuncios digitales</span> integrado a Escala para medir el rendimiento de campañas de marketing</span>
                                     </li>
                                     <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_icon_escala.png') !!}" alt="">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp-icon-list.webp') !!}" alt="">
                                         <span> <span class="title">Whatsapp Inbox</span> para centralizar y automatizar la comunicación con sus prospectos y clientes</span>
                                     </li>
 
                                     <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/email_icon_escala.png') !!}" alt="">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/email-icon-list.webp') !!}" alt="">
                                         <span> <span class="title">Email Marketing </span>para enviar comunicados masivos a prospectos y clientes</span>
                                     </li>
                                     <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/flujos_icon_escala.png') !!}" alt="">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/flujos-icon-list.webp') !!}" alt="">
                                         <span> <span class="title">Flujos Automatizados</span> para ahorrar tiempo en tareas rutinarias</span>
                                     </li>
                                     <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/reportes_icon_escala.png') !!}" alt="">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/reportes.icon-list.webp') !!}" alt="">
                                         <span> <span class="title">Reportes Personalizados</span> para medir el desempeño del negocio y aplicar mejoras</span>
                                     </li>
 
 
                                     <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing_icon_escala.png') !!}" alt="">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing-icon-list.webp') !!}" alt="">
                                         <span> <span class="title">Landing pages </span>para crear páginas web efectivas y capturar información de prospectos interesados</span>
                                     </li>
                                     <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/app_icon_escala.png') !!}" alt="">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/app-icon-list.webp') !!}" alt="">
                                         <span> <span class="title">Escala App</span> para gestionar el negocio desde cualquier lugar</span>
                                     </li>
                                 </ul>
@@ -355,43 +300,39 @@
                                 PoctLab enfrentaba limitaciones de crecimiento por:
                             </span>
 
-                            <div class="containElements left">
+                            <div class="containElements left" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-poctlab-casos-exito-4.webp') !!}')">
                                 <div class="image">
                                     <div class="containerImage">
-                                        <img src="{!! App::setFilePath('/assets/images//illustrations/otto/otto_incognito_desafio.png') !!}" alt="">
+                                        <img src="{!! App::setFilePath('/assets/images//illustrations/others/el-desafio-antes-de-escala.webp') !!}" alt="">
                                     </div>
                                 </div>
                                 <div class="info">
-                                    <ul>
-                                        <li>
-                                            <span>
-                                                Falta de automatización en ventas:
-                                            </span>
-                                            El proceso
-                                            comercial se realizaba 100% manual. Esto consumía tiempo valioso
-                                            de vendedores en tareas repetitivas y pérdidas de oportunidades de
-                                            venta debido a tiempos largos de respuesta y falta de seguimiento.
-                                        </li>
-
-                                        <li>
-                                            <span>
-                                                Uso de herramientas poco integradas:
-                                            </span>
-                                            El seguimiento
-                                            comercial se documentabaen un Excel, complicando la medición y comunicación
-                                            eficiente con prospectos interesados.
-                                        </li>
-
-                                        <li>
-                                            <span>Falta de seguimiento y claridad en el
-                                                proceso comercial:
-                                            </span>
-                                            Poca visibilidad de
-                                            la información, las actividades y los resultados
-                                            de venta dificultaba la optimización y entrega de
-                                            una buena experiencia de compra.
-                                        </li>
-                                    </ul>
+                                    <p>
+                                        <span>
+                                            Falta de automatización en ventas:
+                                        </span>
+                                        El proceso
+                                        comercial se realizaba 100% manual. Esto consumía tiempo valioso
+                                        de vendedores en tareas repetitivas y pérdidas de oportunidades de
+                                        venta debido a tiempos largos de respuesta y falta de seguimiento.
+                                    </p>
+                                    <p>
+                                        <span>
+                                            Uso de herramientas poco integradas:
+                                        </span>
+                                        El seguimiento
+                                        comercial se documentabaen un Excel, complicando la medición y comunicación
+                                        eficiente con prospectos interesados.
+                                    </p>
+                                    <p>
+                                        <span>Falta de seguimiento y claridad en el
+                                            proceso comercial:
+                                        </span>
+                                        Poca visibilidad de
+                                        la información, las actividades y los resultados
+                                        de venta dificultaba la optimización y entrega de
+                                        una buena experiencia de compra.
+                                    </p>
                                 </div>
                             </div>
                         </section>
@@ -413,7 +354,7 @@
                     </section>
 
                     <section class="innerSectionElement sct2">
-                        <div class="containElements left">
+                        <div class="containElements right">
                             <div class="image">
                                 <div class="containerImage">
                                     <img src="{!! App::setFilePath('/assets/images/gifs/1_poctlab_gift_caso_de_exito.gif') !!}" alt="">
@@ -422,20 +363,20 @@
 
                             <div class="info">
                                 <div class="containElements">
-                                    <span>1</span>
                                     <h3 class="subTittle">
-                                        WhatsApp integrado al CRM:
+                                        1. WhatsApp integrado al CRM:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
                                         Cuando alguien solicita información sobre servicios del
                                         laboratorio vía WhatsApp, la información de contacto del
-                                        potencial cliente queda registrada en el CRM de forma automática
-                                        y se asigna, también automáticamente, a un asesor miembro de
-                                        Poctlab según criterios predefinidos para su gestión comercial
-                                        . Los datos del potencial cliente quedan guardados y el mismo se
-                                        etiqueta según el tipo de servicio que solicitado , facilitando la
+                                        potencial cliente queda registrada en el CRM de forma
+                                        automática y se asigna, también automáticamente, a un
+                                        asesor miembro de Poctlab según criterios predefinidos
+                                        para su gestión comercial. Los datos del potencial
+                                        cliente quedan guardados y el mismo se etiqueta según
+                                        el tipo de servicio que solicitado , facilitando la
                                         priorización y delegación al área correspondiente.
                                     </p>
                                     <h3 class="subTitle">
@@ -452,7 +393,7 @@
 
                         </div>
 
-                        <div class="containElements right">
+                        <div class="containElements left">
 
                             <div class="image">
                                 <div class="containerImage">
@@ -462,14 +403,12 @@
 
                             <div class="info">
                                 <div class="containElements">
-                                    <span>2</span>
                                     <h3 class="subTittle">
-                                        Landing pages:
+                                        2. Landing pages:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-
                                         Poctlab crea una página específica para cada servicio.
                                         Estas páginas ayudan a atraer personas interesadas en ese servicio,
                                         asegurando que cada cliente reciba atención personalizada según sus
@@ -488,7 +427,7 @@
 
                         </div>
 
-                        <div class="containElements left">
+                        <div class="containElements right">
 
                             <div class="image">
                                 <div class="containerImage">
@@ -498,9 +437,8 @@
 
                             <div class="info">
                                 <div class="containElements">
-                                    <span>3</span>
                                     <h3 class="subTittle">
-                                        Flujos de automatización:
+                                        3. Flujos de automatización:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
@@ -524,7 +462,7 @@
 
                         </div>
 
-                        <div class="containElements right special">
+                        <div class="containElements left special">
 
                             <div class="image">
                                 <div class="containerImage">
@@ -534,9 +472,8 @@
 
                             <div class="info">
                                 <div class="containElements">
-                                    <span>4</span>
                                     <h3 class="subTittle">
-                                        Escala App:
+                                        4. Escala App:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
@@ -577,14 +514,13 @@
             <div class="section-row">
 
 
-                <section class="innerSectionElement sct1">
-                    <img src="{!! App::setFilePath('/assets/images/banners/bg_section_8_poctlab.png') !!}" alt="" class="overlay">
+                <section class="innerSectionElement sct1" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-poctlab-casos-exito-5.webp') !!}')">
 
                     <div class="containElements">
                         <div class="row">
                             <div class="col-md-12 col-lg-5 column-img">
                                 <div class="img-container">
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_director_comercial_poctlab.png') !!}" loading="lazy">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_director_comercial_poctlab_1.webp') !!}" loading="lazy">
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-7 column-text">
@@ -598,10 +534,9 @@
                                     que deseen llevar su empresa a otro nivel”.
                                     <br class="space">
                                     <br class="space">
-                                   
+
                                     <span class="blue">
                                         Miguel Urrego
-                                        <br class="space">
                                         <span>Líder Comercial Poctlab</span>
                                     </span>
                                 </p>
@@ -614,32 +549,22 @@
 
         </section>
 
-        <section class="customSection sectionParent casoExito_PoctLab_7 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_9.svg') }}')">
+        <section class="customSection sectionParent casoExito_PoctLab_7 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-poctlab-casos-exito-7.webp') }}')">
 
             <div class="section-row">
-
                 <section class="innerSectionElement sct1">
 
                     <div class="containElements">
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/escalanauta-volador.png.png') !!}"
-                            loading="lazy">
-                    </div>
-
-                </section>
-                <section class="innerSectionElement sct2">
-
-                    <div class="containElements">
                         <h2 class="title">
-                            ¿Listo para alcanzar resultados similares en tu negocio?
+                            ¿Listo para alcanzar resultados <br class="space">
+                            similares en tu negocio?
                         </h2>
                     </div>
                 </section>
-                <section class="innerSectionElement sct3">
-
+                <section class="innerSectionElement sct2">
                     <div class="btnCenter">
-
                         <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Recibe un demo de Escala
+                            Empieza ahora →
                         </a>
                     </div>
                 </section>
