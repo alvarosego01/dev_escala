@@ -252,7 +252,7 @@
                                     <span><span class="title">Flujos Automatizados</span> para eliminar tareas repetitivas, ahorrando tiempo y recursos.</span>
                                 </li>
                                 <li>
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/embudos-icon-list.webp') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Planificador.webp') !!}" alt="">
                                     <span><span class="title">Planificador de Embudos</span> para organizar estrategias de captación y seguimiento en embudos claros.</span>
                                 </li>
                                 <li>
@@ -334,35 +334,32 @@
                         <div class="containElements right">
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/1_poctlab_gift_caso_de_exito.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/2. WhatsApp - copia.gif') !!}" alt="">
                                 </div>
                             </div>
 
                             <div class="info">
                                 <div class="containElements">
                                     <h3 class="subTittle">
-                                        1. WhatsApp integrado al CRM:
+                                        1. Email Marketing y WhatsApp integrados al CRM:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-                                        Cuando alguien solicita información sobre servicios del
-                                        laboratorio vía WhatsApp, la información de contacto del
-                                        potencial cliente queda registrada en el CRM de forma
-                                        automática y se asigna, también automáticamente, a un
-                                        asesor miembro de Poctlab según criterios predefinidos
-                                        para su gestión comercial. Los datos del potencial
-                                        cliente quedan guardados y el mismo se etiqueta según
-                                        el tipo de servicio que solicitado , facilitando la
-                                        priorización y delegación al área correspondiente.
+                                        Cuando un prospecto de Taller 5 solicita información, su contacto se
+                                        registra automáticamente en el CRM. Se activan comunicaciones personalizadas
+                                        por email y WhatsApp según sus intereses. Además, se asignan etiquetas
+                                        para organizarlo y darle seguimiento de manera efectiva. Este proceso
+                                        optimiza la experiencia del prospecto, asegurando que reciba la atención
+                                        adecuada en cada etapa.
                                     </p>
                                     <h3 class="subTitle">
                                         Impacto:
                                     </h3>
                                     <ul>
-                                        <li>Mejoraron la atención y satisfacción del cliente/paciente</li>
-                                        <li>Aumentaron eficiencia en sus procesos comerciales</li>
-                                        <li>Redujeron pérdida de información valiosa de cada contacto</li>
+                                        <li>Mejoraron la eficiencia en la gestión de prospectos</li>
+                                        <li>Aumentaron la conversión con seguimientos más personalizados</li>
+                                        <li>Optimizan la experiencia de cada prospecto, mejorando el cierre de ventas</li>
                                     </ul>
                                 </div>
                             </div>
@@ -374,30 +371,30 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/2_poctlab_gift_caso_de_exito.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-(2).gif') !!}" alt="">
                                 </div>
                             </div>
 
                             <div class="info">
                                 <div class="containElements">
                                     <h3 class="subTittle">
-                                        2. Landing pages:
+                                        2. Flujos automatizados de asignación automática de leads:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-                                        Poctlab crea una página específica para cada servicio.
-                                        Estas páginas ayudan a atraer personas interesadas en ese servicio,
-                                        asegurando que cada cliente reciba atención personalizada según sus
-                                        necesidades.
+                                        Cuando se recibe un nuevo prospecto, el CRM asigna automáticamente
+                                        el contacto al vendedor correspondiente según la sede de estudio
+                                        del interesado. Esto permite que el equipo comercial se enfoque
+                                        más en cerrar ventas y menos en tareas operativas.
                                     </p>
                                     <h3 class="subTitle">
                                         Impacto:
                                     </h3>
                                     <ul>
-                                        <li>Aumentaron la tasa de conversión de visitas a leads/prospecto y de leads/prospecto a clientes</li>
-                                        <li>Aumentaron sus ingresos por ventas</li>
-                                        <li>Redujeron costos asociados a la adquisición de clientes</li>
+                                        <li>Aumentaron la productividad del equipo comercial</li>
+                                        <li>Mejoraron la eficiencia en la asignación de leads</li>
+                                        <li>Incrementaron las ventas al reducir el tiempo dedicado a tareas operativas</li>
                                     </ul>
                                 </div>
                             </div>
@@ -408,58 +405,51 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/3_poctlab_gift_caso_de_exito.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/landing-page.gif') !!}" alt="">
                                 </div>
                             </div>
 
                             <div class="info">
                                 <div class="containElements">
                                     <h3 class="subTittle">
-                                        3. Flujos de automatización:
+                                        3. Landing Pages y formularios
+                                        segmentados por interés: 
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-                                        Crearon flujos automatizados para el envío de respuestas vía WhatsApp
-                                        a consultas frecuentes de potenciales clientes. Con simples preguntas
-                                        que se envían automáticamente por WhatsApp, el sistema responde con
-                                        la información correspondiente de forma automática. Esto les permitió
-                                        atender a clientes fuera del horario laboral y ganar eficiencias operativas.
+                                        Para sus campañas en Google Ads y Meta, Taller 5 utiliza landing pages y formularios específicos según el interés de cada prospecto. Esto asegura que al registrarse, reciban comunicaciones alineadas con su interés. 
                                     </p>
                                     <h3 class="subTitle">
                                         Impacto:
                                     </h3>
                                     <ul>
-                                        <li>Incrementaron la capacidad del equipo al ahorrar tiempo en tareas operativas</li>
-                                        <li>Redujeron errores en las respuestas a pacientes</li>
-                                        <li>Mejoraron el servicio y la experiencia de compra</li>
+                                        <li>Mejoraron la calidad de los leads generados</li>
+                                        <li>Optimizan la comunicación y conversión</li>
+                                        <li>Aumentaron la efectividad de sus campañas publicitarias</li>
                                     </ul>
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="containElements left special">
+                        <div class="containElements left ">
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/4_poctlab_gift_caso_de_exito.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/gif_reports.gif') !!}" alt="">
                                 </div>
                             </div>
 
                             <div class="info">
                                 <div class="containElements">
                                     <h3 class="subTittle">
-                                        4. Escala App:
+                                        4. Uso embudos de ventas y reportes personalizados:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-                                        Tanto los asesores comerciales como los líderes de Poctlab,
-                                        usan el CRM de Escala integrado al WhatsApp Inbox desde sus
-                                        celulares. Esto les permite hacer seguimiento, gestionar el
-                                        flujo de trabajo y monitorear resultados desde cualquier lugar,
-                                        sin depender de una computadora.
+                                        Taller 5 utiliza el planificador de embudos de Escala y los reportes personalizados para monitorear cada etapa de sus procesos comerciales en tiempo real. Esto les permite identificar rápidamente áreas de mejora y ajustar sus estrategias con mayor agilidad.
                                     </p>
                                     <h3 class="subTitle">
                                         Impacto:
@@ -474,7 +464,34 @@
                             </div>
 
                         </div>
+                        <div class="containElements right special">
 
+                            <div class="image">
+                                <div class="containerImage">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/8-Anuncios Digitales.gif') !!}" alt="">
+                                </div>
+                            </div>
+
+                            <div class="info">
+                                <div class="containElements">
+                                    <h3 class="subTittle">
+                                        5. Integración de anuncios de Meta con Escala: 
+                                    </h3>
+                                </div>
+                                <div class="containElements_2">
+                                    <p class="text">
+                                        A través de esta integración se sincronizan automáticamente los leads generados en las campañas publicitarias.   </p>
+                                    <h3 class="subTitle">
+                                        Impacto:
+                                    </h3>
+                                    <ul>
+                                        <li>Agilizaron el flujo de leads desde los anuncios hacia el CRM</li>
+                                        <li>Mejoraron la tasa de respuesta al reducir el tiempo entre la captación del lead y el primer contacto</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
 
                     </section>
 
@@ -493,20 +510,24 @@
 
                     <div class="containElements">
                         <div class="image">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_director_comercial_poctlab_1.webp') !!}" loading="lazy">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_miller_romero_taller_5_escala_caso_de_exito.webp') !!}" loading="lazy">
                         </div>
                         <div class="info">
                             <p>
-                                "La experiencia con Escala ha sido excelente. Nuestra empresa ha <br class="DT_e">
-                                aumentado las ventas en un 100%. Hemos aprendido a usar la <br class="DT_e">
-                                herramienta y el acompañamiento del equipo ha sido fundamental <br class="DT_e">
-                                Definitivamente, recomiendo Escala a todas las personas que deseen <br class="DT_e">
-                                llevar su empresa a otro nivel”.
+                                “Recomiendo ampliamente Escala, es una
+                                herramienta que no solo organiza nuestro
+                                proceso comercial, sino que nos permite hacer
+                                un seguimiento preciso de cada prospecto y
+                                alumno. Su equipo de soporte siempre está
+                                ahí, acompañándonos y facilitando cada paso.
+                                Escala ha sido un gran aliado para mejorar
+                                nuestra operación, automatizar tareas y
+                                optimizar nuestra inversión en marketing”.
                                 <br class="space">
                                 <br class="space">
                                 <span class="white">
-                                    Miguel Urrego
-                                    <span>Líder Comercial Poctlab</span>
+                                    Miller Romero -
+                                    <span>Coordinador de Comunicaciones y Mercadeo </span>
                                 </span>
                             </p>
                         </div>

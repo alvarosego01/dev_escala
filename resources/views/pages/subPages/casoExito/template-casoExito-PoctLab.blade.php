@@ -519,7 +519,7 @@
                                 <br class="space">
                                 <br class="space">
                                 <span class="white">
-                                    Miguel Urrego
+                                    Miguel Urrego -
                                     <span>Líder Comercial Poctlab</span>
                                 </span>
                             </p>
