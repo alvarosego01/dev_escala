@@ -5,7 +5,7 @@
         <section id="lead-form" class="hero2025 casoExito_PoctLab_0">
 
             <div class="backgroundFull"
-                style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-poctlab-casos-exito-0.webp') !!}')">
+                style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-2025-casos-exito-0.webp') !!}')">
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
@@ -292,7 +292,7 @@
                             PoctLab enfrentaba limitaciones de crecimiento por:
                         </span>
 
-                        <div class="containElements left" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-poctlab-casos-exito-4-0.webp') !!}')">
+                        <div class="containElements left" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-2025-casos-exito-4-0.webp') !!}')">
                             <div class="image">
                                 <div class="containerImage">
                                     <img src="{!! App::setFilePath('/assets/images//illustrations/others/el-desafio-antes-de-escala.webp') !!}" alt="">
@@ -503,7 +503,7 @@
         <section class="customSection sectionParent casoExito_PoctLab_6">
 
             <div class="section-row">
-                <section class="innerSectionElement sct1" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-poctlab-casos-exito-5.webp') !!}')">
+                <section class="innerSectionElement sct1" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-2025-casos-exito-5.webp') !!}')">
 
                     <div class="containElements">
                         <div class="image">
@@ -530,7 +530,7 @@
 
         </section>
 
-        <section class="customSection sectionParent casoExito_PoctLab_7 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-poctlab-casos-exito-7.webp') }}')">
+        <section class="customSection sectionParent casoExito_PoctLab_7 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-2025-casos-exito-7.webp') }}')">
 
             <div class="section-row">
                 <section class="innerSectionElement sct1">
