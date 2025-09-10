@@ -272,6 +272,13 @@
                         flex-direction: column
                         gap: 20px
                         padding-bottom: 30px
+                        width: 60%
+                        @include responsivo(telefonoTable)
+                            width: 100%
+                        @include responsivo(pcMedio)
+                            width: 100%
+                        @include responsivo(smallPcTablet)
+                            width: 50%
                         ul
                             margin: 0
                             li 
