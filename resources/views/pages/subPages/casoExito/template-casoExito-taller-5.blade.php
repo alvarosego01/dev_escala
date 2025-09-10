@@ -5,13 +5,13 @@
         <section id="lead-form" class="hero2025 casoExito_taller_5_0">
 
             <div class="backgroundFull"
-                style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-poctlab-casos-exito-0.webp') !!}')">
+                style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-2025-casos-exito-0.webp') !!}')">
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
                         <div class="sectionText">
                             <div class="imgTop">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_taller_5_caso_de_exito.webp') !!}" alt="" class="logo-img" loading="lazy">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_taller_5_caso_de_exito.webp') !!}" alt="Logo Taller 5 Caso de Éxito" class="logo-img" loading="lazy">
                                 <span>Caso de éxito: Educación </span>
                             </div>
                             <h1 class="principalBigTitle">
@@ -22,17 +22,13 @@
                             </h1>
                         </div>
                         <div class="containerImage">
-                            <img alt="Ilustración app escala"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/img_chico_feliz_taller_5_escala_caso_de_exito.webp') !!}"
-                                loading="lazy">
+                            <img alt="Joven feliz usando Escala CRM en Taller 5" src="{!! App::setFilePath('/assets/images/illustrations/others/img_chico_feliz_taller_5_escala_caso_de_exito.webp') !!}" loading="lazy">
                         </div>
                     </section>
 
                     <section class="innerSectionElement sct2">
                         <div class="containerImage">
-                            <img alt="Ilustración app escala"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/img_chico_feliz_taller_5_escala_caso_de_exito.webp') !!}"
-                                loading="lazy">
+                            <img alt="Joven feliz usando Escala CRM en Taller 5" src="{!! App::setFilePath('/assets/images/illustrations/others/img_chico_feliz_taller_5_escala_caso_de_exito.webp') !!}" loading="lazy">
                         </div>
                     </section>
 
@@ -100,7 +96,16 @@
                                 la gestión de leads y clientes
                             </p>
                         </div>
-
+                        <div class="element">
+                            <div class="numbers">
+                                <span>
+                                   Redujeron
+                                </span>
+                            </div>
+                            <p class="text">
+                                sus costos operativos
+                            </p>
+                        </div>
                     </div>
 
                 </section>
@@ -188,21 +193,21 @@
                             <div class="containElements">
                                 <ul class="itemsList">
                                     <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-industria.webp') !!}" alt=""></div>
+                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-industria.webp') !!}" alt="Icono industria educación"></div>
                                         <strong>Industria:</strong> Educación
                                     </li>
 
                                     <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-tamaño.webp') !!}" alt=""></div>
+                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-tamaño.webp') !!}" alt="Icono tamaño empresa"></div>
                                         <strong>Tamaño:</strong> 13 - 50 empleados
                                     </li>
                                     <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-locacion.webp') !!}" alt=""></div>
+                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-locacion.webp') !!}" alt="Icono ubicación Taller 5"></div>
                                         <strong>Locación:</strong> Bogotá, Chía y Cali, Col.
 
                                     </li>
                                     <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-wensite.webp') !!}" alt=""></div>
+                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-wensite.webp') !!}" alt="Icono sitio web Taller 5"></div>
                                         <strong>Website:</strong> <a target="_blank" href="https://www.taller5.edu.co/">www.taller5.edu.co/</a>
 
                                     </li>
@@ -232,39 +237,39 @@
                         <div class="containElements">
                             <ul class="itemsList">
                                 <li>
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/crm-icon-list.webp') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/crm-icon-list.webp') !!}" alt="Icono CRM Escala">
                                     <span><span class="title">CRM</span> para organizar y centralizar información de prospectos y estudiantes, facilitando el seguimiento.</span>
                                 </li>
                                 <li>
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/email-icon-list.webp') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/email-icon-list.webp') !!}" alt="Icono Email Marketing Escala">
                                     <span><span class="title">Email Marketing</span> para diseñar campañas personalizadas que aumenten la conversión.</span>
                                 </li>
                                 <li>
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp-icon-list.webp') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp-icon-list.webp') !!}" alt="Icono WhatsApp Inbox Escala">
                                     <span><span class="title">Whatsapp Inbox</span> para mejorar la comunicación con respuestas rápidas y automatizadas.</span>
                                 </li>
                                 <li>
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/anuncios-icon-list.webp') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/anuncios-icon-list.webp') !!}" alt="Icono anuncios digitales Escala">
                                     <span><span class="title">Anuncios digitales</span> para medir el rendimiento de campañas y optimizar resultados en tiempo real.</span>
                                 </li>
                                 <li>
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/flujos-icon-list.webp') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/flujos-icon-list.webp') !!}" alt="Icono flujos automatizados Escala">
                                     <span><span class="title">Flujos Automatizados</span> para eliminar tareas repetitivas, ahorrando tiempo y recursos.</span>
                                 </li>
                                 <li>
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Planificador.webp') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Planificador.webp') !!}" alt="Icono planificador de embudos Escala">
                                     <span><span class="title">Planificador de Embudos</span> para organizar estrategias de captación y seguimiento en embudos claros.</span>
                                 </li>
                                 <li>
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing-icon-list.webp') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing-icon-list.webp') !!}" alt="Icono landing pages Escala">
                                     <span><span class="title">Landing pages</span> personalizadas y optimizadas por programa educativo, para captar prospectos efectivamente.</span>
                                 </li>
                                 <li>
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/reportes.icon-list.webp') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/reportes.icon-list.webp') !!}" alt="Icono reportes personalizados Escala">
                                     <span><span class="title">Reportes Personalizados</span> para obtener métricas clave y tomar decisiones estratégicas.</span>
                                 </li>
                                 <li>
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/app-icon-list.webp') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/app-icon-list.webp') !!}" alt="Icono Escala App CRM">
                                     <span><span class="title">Escala App</span> para acceder al CRM y herramientas de Escala desde cualquier lugar.</span>
                                 </li>
                             </ul>
@@ -280,10 +285,10 @@
                             la efectividad de sus procesos comerciales:
                         </span>
 
-                        <div class="containElements left" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-poctlab-casos-exito-4-0.webp') !!}')">
+                        <div class="containElements left" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-2025-casos-exito-4-0.webp') !!}')">
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images//illustrations/others/el-desafio-antes-de-escala.webp') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images//illustrations/others/el-desafio-antes-de-escala.webp') !!}" alt="Ilustración desafío antes de Escala CRM">
                                 </div>
                             </div>
                             <div class="info">
@@ -334,7 +339,7 @@
                         <div class="containElements right">
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/2. WhatsApp - copia.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/2. WhatsApp - copia.gif') !!}" alt="GIF integración WhatsApp y CRM Escala">
                                 </div>
                             </div>
 
@@ -371,7 +376,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-(2).gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-(2).gif') !!}" alt="GIF automatización de asignación de leads Escala">
                                 </div>
                             </div>
 
@@ -405,7 +410,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/landing-page.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/landing-page.gif') !!}" alt="GIF landing pages segmentadas Escala">
                                 </div>
                             </div>
 
@@ -437,7 +442,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/gif_reports.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/gif_reports.gif') !!}" alt="GIF reportes personalizados Escala">
                                 </div>
                             </div>
 
@@ -468,7 +473,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/8-Anuncios Digitales.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/8-Anuncios Digitales.gif') !!}" alt="GIF integración anuncios digitales Escala">
                                 </div>
                             </div>
 
@@ -506,11 +511,11 @@
         <section class="customSection sectionParent casoExito_taller_5_6">
 
             <div class="section-row">
-                <section class="innerSectionElement sct1" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-poctlab-casos-exito-5.webp') !!}')">
+                <section class="innerSectionElement sct1" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-2025-casos-exito-5.webp') !!}')">
 
                     <div class="containElements">
                         <div class="image">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_miller_romero_taller_5_escala_caso_de_exito.webp') !!}" loading="lazy">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_miller_romero_taller_5_escala_caso_de_exito.webp') !!}" alt="Foto Miller Romero coordinador Taller 5" loading="lazy">
                         </div>
                         <div class="info">
                             <p>
@@ -537,7 +542,7 @@
 
         </section>
 
-        <section class="customSection sectionParent casoExito_taller_5_7 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-poctlab-casos-exito-7.webp') }}')">
+        <section class="customSection sectionParent casoExito_taller_5_7 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-2025-casos-exito-7.webp') }}')">
 
             <div class="section-row">
                 <section class="innerSectionElement sct1">

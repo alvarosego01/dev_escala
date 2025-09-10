@@ -279,23 +279,32 @@
                 text-align: center
                 margin-bottom: 60px
                 color: #2C4857
-
+                @include responsivo(telefonoTable)
+                    br
+                        display: none!important
+                @include responsivo(pcMedio)
+                    br
+                        display: none!important
             .containElements
                 display: flex
                 flex-direction: row
                 justify-content: center
                 align-content: center
+                width: 90% 
+                margin: 0 auto
                 @include responsivo(telefonoTable)
                     flex-direction: column
                     align-items: center
-
+                    width: 100%
+                @include responsivo(pcMedio)
+                    width: 90%
                 .element
                     display: flex
                     flex-direction: column
                     justify-content: flex-start
                     gap: 15px
                     align-items: center
-                    padding: 0
+                    padding: 20px 
                     width: 100%
                     @include responsivo(telefonoTable)
                         margin-bottom: 20px
@@ -306,10 +315,9 @@
                     &:nth-last-child(2)
                         border-right: 1px solid #E9E9E9
                         border-left: 1px solid #E9E9E9
-                        padding-left: 0
                         @include responsivo(telefonoTable)
-                            border-top: 1px solid #E9E9E9
                             border-bottom:  1px solid #E9E9E9
+                            border-top: 1px solid #E9E9E9
                         @include responsivo(telefonoTable)
                             border-left: none
                             border-right: none
@@ -337,15 +345,11 @@
                             font-family: 'Mulish', sans-serif
                             font-style: normal
                             font-weight: 800
-                            font-size: 60px
+                            font-size: 40px
                             line-height: 1
                             color: #F1685A
                             text-align: center
-                            @include responsivo(telefonoTable)
-                                font-size: 50px
-                            @include responsivo(pcMedio)
-                                font-size: 50px
-
+                        
                     p.text
                         font-family: 'Mulish', sans-serif
                         font-style: normal
@@ -356,7 +360,6 @@
                         // text-decoration-line: underline
                         color: #2C4857
                         margin-bottom: 0
-            
 
 #casoExito_PoctLab .sections .customSection.sectionParent.casoExito_PoctLab_2
     padding: 0px
