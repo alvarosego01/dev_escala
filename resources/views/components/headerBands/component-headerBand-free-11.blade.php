@@ -1,4 +1,4 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/banner-mc-2025-black-friday.webp') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/banner-mc-2025-blue-dk.webp') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -7,15 +7,15 @@
             <div class="containElements">
 
                 <div class="contain">
-                    <!-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-star-white.webp') !!}" alt="" class="icon"> -->
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-star-blue.webp') !!}" alt="" class="icon">
 
                     <span class="hashTitle">
-                        Prepárate para unas Ventas Imparables en <span>Black Friday con IA y CRM</span>
+                        Optimiza tu embudo de venta <span>con inteligencia artificial y CRM</span>
                     </span>
 
                     <div class="separator"></div>
                     <span class="sub">
-                        Workshop Gratuito - 17 de septiembre
+                        Masterclass gratuita - 17 de septiembre
                     </span>
                 </div>
 
@@ -31,7 +31,7 @@
 </section>
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/banner-mc-2025-black-friday-mb.webp') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/banner-mc-2025-blue-mb.webp') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -40,15 +40,15 @@
 
 
                 <div class="contain">
-                    <!-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-star-white.webp') !!}" alt="" class="icon"> -->
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-star-blue.webp') !!}" alt="" class="icon">
 
                     <span class="hashTitle">
-                        Prepárate para unas Ventas Imparables en <span>Black Friday con IA y CRM</span>
+                        Optimiza tu embudo de venta <span>con inteligencia artificial y CRM</span>
                     </span>
 
                     <div class="separator"></div>
                     <span class="sub">
-                        Workshop Gratuito - 17 de septiembre
+                        Masterclass gratuita - 17 de septiembre
                     </span>
                 </div>
 
