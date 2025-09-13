@@ -464,7 +464,6 @@
                                 la conexión en múltiples canales y fortalecido
                                 mi posición como una empresa sólida y diferencial
                                 en el mercado".
-
                                 <br class="space">
                                 <br class="space">
                                 <span class="white">
