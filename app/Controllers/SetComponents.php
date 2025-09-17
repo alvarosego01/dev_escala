@@ -309,9 +309,9 @@ class SetComponents extends Controller
 
         if ($type == 'casoExito') {
             return [
-            'views/template-caso-exito-home.blade.php',
-            'views/single-exitocaso.blade.php',
-        ];
+                'views/template-caso-exito-home.blade.php',
+                'views/single-exitocaso.blade.php',
+            ];
         }
         if ($type == 'all') {
             return [
@@ -343,6 +343,7 @@ class SetComponents extends Controller
                 'views/template-automatizaciones-crm-whatsapp-2025.blade.php',
                 'views/template-home-casos-exito-2025.blade.php',
                 'views/template-home-blog-2025.blade.php',
+                'views/template-landing-alianzas-2025.blade.php',
 
                 'views/template-subPage-acompanamiento-2023.blade.php',
                 'views/template-subPage-educacion-2023.blade.php',
@@ -482,4 +483,3 @@ class SetComponents extends Controller
         }
     }
 }
-

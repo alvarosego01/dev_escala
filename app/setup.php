@@ -409,6 +409,10 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-subPage-campaña-AI.blade.php')) {
         wp_enqueue_style('subpageCampañaAI.css', asset_path('styles/pages/subPages/subpageCampañaAI.css'), false, THEME_VERSION);
     }
+    // --- Sección programa alianzas 2025
+    if (is_page_template('views/template-landing-alianzas-2025.blade.php')) {
+        wp_enqueue_style('landing_alianzas_2025.css', asset_path('styles/pages/landingPages/landing_alianzas_2025.css'), false, THEME_VERSION);
+    }
     // --- Seccion partners
     if (is_page_template('views/template-subPage-partners-2022.blade.php')) {
         wp_enqueue_style('subPage_partners_2022.css', asset_path('styles/pages/subPages/subPage_partners_2022.css'), false, THEME_VERSION);
