@@ -251,11 +251,11 @@
                                     <span><span class="title">Email Marketing</span> para nutrir la relación con los clientes, asegurando una comunicación constante que mejore la conversión.</span>
                                 </li>
                                 <li>
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/leadscoring-icon-list.webp') !!}" alt="Icono Lead Scoring KataGoGo">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/lead-scoring-icon-2.webp') !!}" alt="Icono Lead Scoring KataGoGo">
                                     <span><span class="title">Lead Scoring</span> para evaluar y priorizar prospectos según su potencial de conversión, optimizando el tiempo de atención del equipo.</span>
                                 </li>
                                 <li>
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-card-formularios.webp') !!}" alt="Icono formularios KataGoGo">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-form-2.webp') !!}" alt="Icono formularios KataGoGo">
                                     <span><span class="title">Formularios</span> con campos personalizados, para perfilar a los clientes y facilitar la automatización de procesos y comunicaciones según su perfil.</span>
                                 </li>
                                 <li>
