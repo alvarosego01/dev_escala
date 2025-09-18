@@ -401,36 +401,36 @@
                                 Freelancers
                             </span>
                         </div>
-                        <div class="card-row">
-                            <div class="cards">
-                                <img class="img-top"
-                                    src="{!! App::setFilePath('/assets/images/illustrations/others/servicios-digitales-icon.webp') !!}"
-                                    alt="">
-                                <span>
-                                    Empresas de servicios digitales o tecnológicos
-                                </span>
-                            </div>
-                            <div class="cards">
-                                <img class="img-top"
-                                    src="{!! App::setFilePath('/assets/images/illustrations/others/icon-profesionales-negocio-coaches.webp') !!}"
-                                    alt="">
-                                <span>
-                                    Profesionales de negocio o coaches
-                                </span>
-                            </div>
+                        <div class="cards">
+                            <img class="img-top"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/servicios-digitales-icon.webp') !!}"
+                                alt="">
+                            <span>
+                                Empresas de servicios digitales o tecnológicos
+                            </span>
+                        </div>
+                        <div class="cards">
+                            <img class="img-top"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-profesionales-negocio-coaches.webp') !!}"
+                                alt="">
+                            <span>
+                                Profesionales de negocio o coaches
+                            </span>
                         </div>
                     </div>
                 </section>
-                <span class="span2">
-                    Especialmente si trabajas con pymes que cuentan con un equipo comercial y procesos de <br class="space">
-                    ventas consultivos, porque allí Escala genera el mayor impacto.
-                </span>
-                <h3 class="subTitle">
-                    Conectan más con nosotros los Partners que valoran:
-                </h3>
-                <p>
-                    +Profesionalismo · +Buena Vibra · +Teamwork · +Crecimiento Continuo
-                </p>
+                <section class="innerSectionElement sct2">
+                    <span class="span2">
+                        Especialmente si trabajas con pymes que cuentan con un equipo comercial y procesos de <br class="space">
+                        ventas consultivos, porque allí Escala genera el mayor impacto.
+                    </span>
+                    <h3 class="subTitle">
+                        Conectan más con nosotros los Partners que valoran:
+                    </h3>
+                    <p>
+                        +Profesionalismo · +Buena Vibra · +Teamwork · +Crecimiento Continuo
+                    </p>
+                </section>
             </div>
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -515,7 +515,7 @@
                                 (cupos limitados al mes)
                             </span>
                             <h4 class="subtTitle">
-                                ¿Qué logra el Agente de IA en Escala?
+                                ¿Qué logra el Agente de IA en Escala?
                             </h4>
 
                             <ul>
@@ -545,7 +545,7 @@
                                 <li>Promocionar tus servicios con nuestro respaldo.</li>
                                 <li>Participar en MasterClass compartiendo contenido de valor.</li>
                             </ul>
-                            <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/otto-oportunidades.webp') !!}" loading="lazy">
+                            <img class="ottoImg" alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/otto-oportunidades.webp') !!}" loading="lazy">
                         </div>
                         <div class="cards">
                             <img class="img-top"
@@ -557,7 +557,7 @@
                             <p>
                                 Gana visibilidad, posiciónate como experto, aprende y expande tu red en nuestros eventos digitales y presenciales en Hispanoamérica.
                             </p>
-                            <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/andrea-escala-comunidad.webp') !!}" loading="lazy">
+                            <img class="andreaImg" alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/andrea-img-card.webp') !!}" loading="lazy">
                         </div>
                     </div>
                 </section>
@@ -595,87 +595,6 @@
                             </div>
                         </div>
                     </div>
-                    <style>
-                        .testimonial-escala {
-                            filter: drop-shadow(0 6px 30px rgba(54, 118, 138, 0.10));
-                            display: flex;
-                            flex-direction: column;
-                            max-width: 600px;
-                            margin: 0 auto;
-                            position: relative;
-                        }
-
-                        .testimonial-quote-icon {
-                            position: absolute;
-                            top: 24px;
-                            left: 24px;
-                        }
-
-                        .testimonial-content {
-                            margin-top: 16px;
-                            padding-left: 56px;
-                        }
-
-                        .testimonial-text {
-                            font-size: 1.2rem;
-                            color: #222;
-                            margin-bottom: 24px;
-                            font-weight: 400;
-                            line-height: 1.5;
-                        }
-
-                        .testimonial-user {
-                            display: flex;
-                            align-items: center;
-                            gap: 16px;
-                        }
-
-                        .testimonial-avatar img {
-                            width: 56px;
-                            height: 56px;
-                            border-radius: 50%;
-                            object-fit: cover;
-                            border: 3px solid #FFD600;
-                            background: #FFD600;
-                        }
-
-                        .testimonial-user-info {
-                            display: flex;
-                            flex-direction: column;
-                        }
-
-                        .testimonial-name {
-                            color: #0097A9;
-                            font-weight: 700;
-                            font-size: 1rem;
-                        }
-
-                        .testimonial-role {
-                            color: #666;
-                            font-size: 0.95rem;
-                            margin-bottom: 4px;
-                        }
-
-                        .testimonial-stars img {
-                            height: 20px;
-                        }
-
-                        @media (max-width: 600px) {
-                            .testimonial-escala {
-                                padding: 20px 12px 16px 12px;
-                            }
-
-                            .testimonial-content {
-                                padding-left: 0;
-                                margin-top: 48px;
-                            }
-
-                            .testimonial-quote-icon {
-                                top: 8px;
-                                left: 8px;
-                            }
-                        }
-                    </style>
                 </section>
             </div>
         </section>
