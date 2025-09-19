@@ -25,7 +25,7 @@
                             <div class="containerImage">
                                 <div class="video-cover" id="video-cover-landing-2">
                                     <!-- <div class="video-cover" id="video-cover-landing" tabindex="0" data-video-src="https://player.vimeo.com/video/1097895831?autoplay=1"> -->
-                                    <img alt="Andres presentando Escala CRM con integración a WhatsApp y automatización de ventas" src="{!! App::setFilePath('/assets/images/illustrations/others/am-partner-hero-img.webp') !!}" loading="lazy">
+                                    <img alt="Ilustración Escala Partner: consultor mostrando CRM y WhatsApp" src="{!! App::setFilePath('/assets/images/illustrations/others/am-partner-hero-img.webp') !!}" loading="lazy">
                                     <!-- <div class="play-button">
                                         <img class="play-icon" alt="Icon play"
                                             src="{{ App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') }}"
@@ -47,7 +47,7 @@
                         <div class="containerImage">
                             <div class="video-cover" id="video-cover-landing-2">
                                 <!-- <div class="video-cover" id="video-cover-landing-2" tabindex="0" data-video-src="https://player.vimeo.com/video/1097895831?autoplay=1"> -->
-                                <img alt="Andres presentando Escala CRM con integración a WhatsApp y automatización de ventas" src="{!! App::setFilePath('/assets/images/illustrations/others/am-partner-hero-img.webp') !!}" loading="lazy">
+                                <img alt="Ilustración Escala Partner: consultor mostrando CRM y WhatsApp" src="{!! App::setFilePath('/assets/images/illustrations/others/am-partner-hero-img.webp') !!}" loading="lazy">
 
                                 <!-- <div class="play-button">
                                     <img class="play-icon" alt="Icon play"
@@ -128,7 +128,7 @@
                                                 <a target="_blank"
                                                     href="https://www.getapp.com/customer-management-software/crm/category-leaders">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_app_record_2025_category.svg') !!}"
-                                                        loading="lazy">
+                                                        alt="Reconocimiento Escala CRM en GetApp" loading="lazy">
                                                 </a>
                                             </div>
                                             @foreach ($elementsReviews as $item)
@@ -137,7 +137,7 @@
                                                 <div class="infoInner">
                                                     <div class="tag">
                                                         <div class="containerImage">
-                                                            <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                            <img src="{!! $item['logo'] !!}" alt="Logo review Escala CRM" loading="lazy">
                                                         </div>
 
                                                         <span class="points">
@@ -150,7 +150,7 @@
                                                     <div class="stars">
                                                         <div class="containerImage">
                                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/icons-stars-yellow.svg') !!}"
-                                                                loading="lazy">
+                                                                alt="Calificación estrellas Escala CRM" loading="lazy">
                                                         </div>
                                                     </div>
 
@@ -175,21 +175,11 @@
                                     Destacados en:
                                 </span>
                             </div>
-                            <img alt="Logos empresa"
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_forbes.png') }}"
-                                loading="lazy">
-                            <img alt="Logos empresa"
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_yahoo_finance.png') }}"
-                                loading="lazy">
-                            <img alt="Logos empresa"
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_latam_list.png') }}"
-                                loading="lazy">
-                            <img alt="Logos empresa"
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_refresh_miami.png') }}"
-                                loading="lazy">
-                            <img alt="Logos empresa"
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_valora.png') }}"
-                                loading="lazy">
+                            <img alt="Logo Forbes" src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_forbes.png') }}" loading="lazy">
+                            <img alt="Logo Yahoo Finance" src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_yahoo_finance.png') }}" loading="lazy">
+                            <img alt="Logo Latam List" src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_latam_list.png') }}" loading="lazy">
+                            <img alt="Logo Refresh Miami" src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_refresh_miami.png') }}" loading="lazy">
+                            <img alt="Logo Valora" src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_valora.png') }}" loading="lazy">
                         </div>
                     </section>
                 </div>
@@ -314,7 +304,7 @@
 
                     <div class="containElement">
                         <div class="left">
-                            <img alt="Ilustración de escala chica feliz" src="{!! App::setFilePath('/assets/images/illustrations/others/beneficios-de-ser-escala-partner.webp') !!}" loading="lazy">
+                            <img alt="Ilustración beneficios de ser Escala Partner" src="{!! App::setFilePath('/assets/images/illustrations/others/beneficios-de-ser-escala-partner.webp') !!}" loading="lazy">
                         </div>
 
 
@@ -324,7 +314,7 @@
                             </span>
                             <ul>
                                 <li>
-                                    <img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                    <img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" alt="Icono check beneficio Escala Partner" loading="lazy">
                                     <span><b>Más Ingresos recurrentes</b> que otros CRMs</span>
                                 </li>
                                 <li>
@@ -350,7 +340,7 @@
                             </ul>
                         </div>
                     </div>
-                    <img class="bgCard" src="{!! App::setFilePath('/assets/images/banners/bg-contain-left.svg') !!}" loading="lazy">
+                    <img class="bgCard" src="{!! App::setFilePath('/assets/images/banners/bg-contain-left.svg') !!}" alt="Fondo decorativo Escala Partner" loading="lazy">
 
                 </section>
                 <section class="innerSectionElement sct2">
@@ -378,41 +368,31 @@
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-comunicacion-cards.webp') !!}"
-                                alt="">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icon-comunicacion-cards.webp') !!}" alt="Icono agencias de marketing y ventas">
                             <span>
                                 Agencias de marketing y ventas
                             </span>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-consultores.webp') !!}"
-                                alt="">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icon-consultores.webp') !!}" alt="Icono consultores">
                             <span>
                                 Consultores
                             </span>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/plataformas-complejas-icon.webp') !!}"
-                                alt="">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/plataformas-complejas-icon.webp') !!}" alt="Icono freelancers">
                             <span>
                                 Freelancers
                             </span>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/servicios-digitales-icon.webp') !!}"
-                                alt="">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/servicios-digitales-icon.webp') !!}" alt="Icono empresas de servicios digitales o tecnológicos">
                             <span>
                                 Empresas de servicios digitales o tecnológicos
                             </span>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-profesionales-negocio-coaches.webp') !!}"
-                                alt="">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icon-profesionales-negocio-coaches.webp') !!}" alt="Icono profesionales de negocio o coaches">
                             <span>
                                 Profesionales de negocio o coaches
                             </span>
@@ -453,9 +433,7 @@
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/partner-comercial.webp') !!}"
-                                alt="">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/partner-comercial.webp') !!}" alt="Ilustración partner comercial Escala">
                             <h3>
                                 Partner <span class="span1">Comercial</span>
                             </h3>
@@ -466,9 +444,7 @@
                             </ul>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/partner-de-servicio.webp') !!}"
-                                alt="">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/partner-de-servicio.webp') !!}" alt="Ilustración partner de servicio Escala">
                             <h3>
                                 Partner de <span class="span2">Servicio</span>
                             </h3>
@@ -501,9 +477,7 @@
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/1-icon-top.webp') !!}"
-                                alt="">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/1-icon-top.webp') !!}" alt="Icono IA Escala Partner">
                             <h3>
                                 Apoyo con Tu Agente de Inteligencia Artificial
                             </h3>
@@ -530,9 +504,7 @@
                             </span>
                         </div>
                         <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/2-icon-top.webp') !!}"
-                                alt="">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/2-icon-top.webp') !!}" alt="Icono oportunidades de crecimiento Escala Partner">
                             <h3>
                                 Oportunidades de crecimiento
                             </h3>
@@ -545,19 +517,17 @@
                                 <li>Promocionar tus servicios con nuestro respaldo.</li>
                                 <li>Participar en MasterClass compartiendo contenido de valor.</li>
                             </ul>
-                            <img class="ottoImg" alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/otto-oportunidades.webp') !!}" loading="lazy">
+                            <img class="ottoImg" alt="Ilustración Otto oportunidades Escala Partner" src="{!! App::setFilePath('/assets/images/illustrations/others/otto-oportunidades.webp') !!}" loading="lazy">
                         </div>
-                        <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/3-icon-top.webp') !!}"
-                                alt="">
+                        <div class="cards" style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/sombra_480.webp') !!}')"> 
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/3-icon-top.webp') !!}" alt="Icono comunidad Escala Partner">
                             <h3>
                                 Comunidad
                             </h3>
                             <p>
                                 Gana visibilidad, posiciónate como experto, aprende y expande tu red en nuestros eventos digitales y presenciales en Hispanoamérica.
                             </p>
-                            <img class="andreaImg" alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/andrea-img-card.webp') !!}" loading="lazy">
+                            <img class="andreaImg" alt="Ilustración Andrea comunidad Escala Partner" src="{!! App::setFilePath('/assets/images/illustrations/others/Andrea-Escala.webp') !!}" loading="lazy">
                         </div>
                     </div>
                 </section>
@@ -575,7 +545,7 @@
                 <section class="innerSectionElement sct1">
                     <div class="testimonial-escala" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-review-patners.webp') !!}')">
                         <div class="testimonial-quote-icon">
-                            <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/icon-testimonial.webp') !!}" loading="lazy">
+                            <img alt="Icono testimonio Escala Partner" src="{!! App::setFilePath('/assets/images/illustrations/others/icon-testimonial.webp') !!}" loading="lazy">
                         </div>
                         <div class="testimonial-content">
                             <p class="testimonial-text">
@@ -583,13 +553,13 @@
                             </p>
                             <div class="testimonial-user">
                                 <div class="testimonial-avatar">
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/catalina_gonzalez_katagogo.webp') !!}" alt="Catalina González Goez" loading="lazy">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/catalina_gonzalez_katagogo.webp') !!}" alt="Foto Catalina González Goez CEO KataGoGo y Partner Escala" loading="lazy">
                                 </div>
                                 <div class="testimonial-user-info">
                                     <span class="testimonial-name">Catalina González Goez</span>
                                     <span class="testimonial-role">CEO de Kata GoGo y Partner de Escala</span>
                                     <div class="testimonial-stars">
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/start-review-crm.webp') !!}" alt="5 estrellas" loading="lazy" style="height:20px;">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/start-review-crm.webp') !!}" alt="Calificación 5 estrellas Escala CRM" loading="lazy" style="height:20px;">
                                     </div>
                                 </div>
                             </div>
@@ -604,9 +574,7 @@
                 <div class="containElements">
                     <section class="innerSectionElement sct1">
                         <div class="containElement">
-                            <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/alfonso-ceo-escala.webp') }}"
-                                loading="lazy">
+                            <img alt="Foto Alfonso CEO Escala" src="{{ App::setFilePath('/assets/images/illustrations/others/alfonso-ceo-escala.webp') }}" loading="lazy">
                         </div>
                     </section>
                     <section class="innerSectionElement sct2">
