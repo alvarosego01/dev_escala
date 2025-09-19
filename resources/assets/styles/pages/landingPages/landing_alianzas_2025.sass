@@ -1454,6 +1454,7 @@ img
                         margin-top: -35px
                         @include responsivo(telefonoTable)
                             height: 60px
+                            margin-top: -80px
                         @include responsivo(pcMedio)
                             height: 60px
 
@@ -1488,9 +1489,19 @@ img
                             height: 180px                
                 .cards:nth-child(3)
                     padding-bottom: 0
+                    background-size: contain
+                    background-repeat: no-repeat
+                    background-position: -79px 346px 
+                    @include responsivo(telefonoTable)
+                        background-position: -79px 298px
+                    @include responsivo(pcMedio)
+                        background-position: -79px 271px
+                    @include responsivo(smallPcTablet)
+                        background-position: -79px 559px
                     .andreaImg
                         height: 429px
                         margin-top: auto
+                        position: relative
                         @include responsivo(telefonoTable)
                             height: 285px
                         @include responsivo(smallPcTablet)
@@ -1649,6 +1660,8 @@ img
                                 font-weight: 400
                                 text-align: left
                                 line-height: 1.2
+                                margin-bottom: 10px
+                                display: block
                                 @include responsivo(smallPcTablet)
                                     font-size: 12px
                         span
