@@ -32,11 +32,11 @@
                             <div class="info col-md-12 col-lg-8 ">
                                 <div class="video-player">
                                     <div class="video-cover" id="video-cover-main" tabindex="0" data-video-src="https://player.vimeo.com/video/1083588922?autoplay=1">
-                                        <img class="cover-image" alt="Ilustración Andrés Moreno"
+                                        <img class="cover-image" alt="Portada video CRM inteligente Escala 2025"
                                             src="{{ App::setFilePath('/assets/images/illustrations/others/img_am_home_crm_inteligente_escala_2025.png') }}"
                                             loading="lazy">
                                         <div class="play-button">
-                                            <img class="play-icon" alt="Icon play"
+                                            <img class="play-icon" alt="Botón reproducir video Escala"
                                                 src="{{ App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') }}"
                                                 loading="lazy">
                                         </div>
@@ -49,8 +49,8 @@
                                         </div>
                                     </div>
                                 </div>
-                           
-                          
+
+
                                 <div class="containElements">
                                     @php
                                     $elementsReviews = [
@@ -79,7 +79,14 @@
                                                 <a target="_blank"
                                                     href="https://www.getapp.com/customer-management-software/crm/category-leaders">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_app_record_2025_category.svg') !!}"
-                                                        loading="lazy">
+                                                        loading="lazy" alt="Distintivo categoría líder GetApp Escala CRM">
+                                                </a>
+                                            </div>
+                                            <div class="iconAppMeta">
+                                                <a target="_blank"
+                                                    href="">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-meta-business-partner.webp') !!}"
+                                                        loading="lazy" alt="Icono Meta Business Partner Escala">
                                                 </a>
                                             </div>
                                             @foreach ($elementsReviews as $item)
@@ -88,7 +95,7 @@
                                                 <div class="infoInner">
                                                     <div class="tag">
                                                         <div class="containerImage">
-                                                            <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                            <img src="{!! $item['logo'] !!}" loading="lazy" alt="Logo reseña {{ $item['text'] }}">
                                                         </div>
 
                                                         <span class="points">
@@ -101,7 +108,7 @@
                                                     <div class="stars">
                                                         <div class="containerImage">
                                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/icons-stars-yellow.svg') !!}"
-                                                                loading="lazy">
+                                                                loading="lazy" alt="Calificación 5 estrellas Escala CRM">
                                                         </div>
                                                     </div>
 
@@ -198,6 +205,13 @@
                                                         loading="lazy">
                                                 </a>
                                             </div>
+                                            <div class="iconAppMeta">
+                                                <a target="_blank"
+                                                    href="">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-meta-business-partner.webp') !!}"
+                                                        loading="lazy" alt="Icono Meta Business Partner Escala">
+                                                </a>
+                                            </div>
                                             @foreach ($elementsReviews as $item)
                                             <div class="refersElement">
 
@@ -258,37 +272,37 @@
                     </div>
                     <div class="logos_empresas">
                         <img src="{{ App::setFilePath('/assets/images/illustrations/others/nvidia-inception-program-badge-rgb-for-screen.svg') }}"
-                            loading="lazy" alt="Logo empresa nividia">
-                        <img alt="Logos empresa"
+                            loading="lazy" alt="Logo empresa Nvidia Inception Program">
+                        <img alt="Logo empresa Forbes"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_forbes.png') }}"
                             loading="lazy">
-                        <img alt="Logos empresa"
+                        <img alt="Logo empresa Yahoo Finance"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_yahoo_finance.png') }}"
                             loading="lazy">
-                        <img alt="Logos empresa"
+                        <img alt="Logo empresa Latam List"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_latam_list.png') }}"
                             loading="lazy">
-                        <img alt="Logos empresa"
+                        <img alt="Logo empresa Refresh Miami"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_refresh_miami.png') }}"
                             loading="lazy">
-                        <img alt="Logos empresa"
+                        <img alt="Logo empresa Valora Analitik"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_valora.png') }}"
                             loading="lazy">
                     </div>
                     <div class="logos_empresas mb_logos">
-                        <img alt="Logos empresa"
+                        <img alt="Logo empresa Forbes"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_forbes.png') }}"
                             loading="lazy">
-                        <img alt="Logos empresa"
+                        <img alt="Logo empresa Valora Analitik"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_valora.png') }}"
                             loading="lazy">
-                        <img alt="Logos empresa"
+                        <img alt="Logo empresa Refresh Miami"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_refresh_miami.png') }}"
                             loading="lazy">
-                        <img alt="Logos empresa"
+                        <img alt="Logo empresa Yahoo Finance"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_yahoo_finance.png') }}"
                             loading="lazy">
-                        <img alt="Logos empresa"
+                        <img alt="Logo empresa Latam List"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_latam_list.png') }}"
                             loading="lazy">
 
@@ -318,7 +332,7 @@
                             style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
                             <img class="img-top"
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue_white.png') !!}"
-                                alt="">
+                                alt="Icono testimonios Escala CRM">
                             <div class="card-body">
                                 <h5 class="card-title"><b>Aumentamos las <br class="DT_e">
                                         ventas en un 100%.</b> <br class="DT_e">
@@ -331,12 +345,12 @@
                                 </h5>
                                 <div class="card-text">
                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_miguel_urrego_poctlab.png') !!}"
-                                        alt="">
+                                        alt="Foto Miguel Urrego Poctlab">
                                     <div class="text-internal">
                                         <span class="card-title">Miguel Urrego</span>
                                         <p class="card-text">Líder Comercial Poctlab</p>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}"
-                                            alt="">
+                                            alt="Calificación 5 estrellas Poctlab">
                                     </div>
                                 </div>
                             </div>
@@ -347,7 +361,7 @@
                             style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
                             <img class="img-top"
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue_white.png') !!}"
-                                alt="">
+                                alt="Icono testimonios Escala CRM">
                             <div class="card-body">
                                 <h5 class="card-title">Escala ha sido un gran <br class="DT_e">
                                     aliado para <b> mejorar nuestra operación <br class="DT_e">
@@ -358,12 +372,12 @@
                                 </h5>
                                 <div class="card-text">
                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/miller_romero_taller_cinco.png') !!}"
-                                        alt="">
+                                        alt="Foto Miller Romero Taller Cinco">
                                     <div class="text-internal">
                                         <span class="card-title">Miller Romero</span>
                                         <p class="card-text">Líder Comunicaciones Taller Cinco</p>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}"
-                                            alt="">
+                                            alt="Calificación 5 estrellas Taller Cinco">
                                     </div>
                                 </div>
                             </div>
@@ -374,7 +388,7 @@
                             style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
                             <img class="img-top"
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue_white.png') !!}"
-                                alt="">
+                                alt="Icono testimonios Escala CRM">
                             <div class="card-body">
                                 <h5 class="card-title">Escala no solo ofrecen un <b> software robusto y amigable,</b>
                                     sino también un servicio excepcional que asegura que aprovechemos al máximo
@@ -382,13 +396,13 @@
                                 </h5>
                                 <div class="card-text">
                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/catalina_gonzalez_katagogo.png') !!}"
-                                        alt="">
+                                        alt="Foto Catalina González CEO KataGoGo">
                                     <div class="text-internal">
                                         <span class="card-title">Catalina González Goez
                                         </span>
                                         <p class="card-text"> CEO KataGoGo</p>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}"
-                                            alt="">
+                                            alt="Calificación 5 estrellas KataGoGo">
                                     </div>
                                 </div>
                             </div>
@@ -418,7 +432,7 @@
                             </span>
                             <div class="containImages">
                                 <img src="{{ App::setFilePath('/assets/images/illustrations/others/vender_era_complicado_img_section_home_escala.png') }}"
-                                    loading="lazy">
+                                    loading="lazy" alt="Ilustración vender era complicado Escala CRM">
                             </div>
                         </div>
 
@@ -429,7 +443,7 @@
                                 en un solo lugar</span>
                             <div class="containImages imgEspecial">
                                 <img src="{{ App::setFilePath('/assets/images/illustrations/others/escala_img_crm_todo_en_uno.png') }}"
-                                    loading="lazy">
+                                    loading="lazy" alt="Ilustración CRM todo en uno Escala">
                             </div>
                         </div>
                     </div>
@@ -476,7 +490,7 @@
                                     <div class="tag">EL CRM</div>
                                 </div>
 
-                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/img_chica_feliz_estadisticas_ventas_inteligente_6_0.png') }}" loading="lazy">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/img_chica_feliz_estadisticas_ventas_inteligente_6_0.png') }}" loading="lazy" alt="Imagen gestión de contactos y oportunidades Escala CRM">
                             </div>
                         </a>
                         <div class="cardRight">
@@ -489,7 +503,7 @@
 
                                     <div>
                                         <img src="{{ App::setFilePath('/assets/images/illustrations/others/andres_moreno_feliz_centralizando_conversasiones_crm_escala_2.png') }}"
-                                            loading="lazy">
+                                            loading="lazy" alt="Imagen centralización de conversaciones Escala CRM">
                                     </div>
                                 </div>
                             </a>
@@ -502,7 +516,7 @@
 
                                     <div>
                                         <img src="{{ App::setFilePath('/assets/images/illustrations/others/andrea_molle_automatizaciones_comunicaciones_tareas.png') }}"
-                                            loading="lazy">
+                                            loading="lazy" alt="Imagen automatización de tareas y comunicaciones Escala CRM">
                                     </div>
                                 </div>
                             </a>
@@ -571,31 +585,31 @@
                         </h2>
 
                         <div class="containerImg">
-                            <img class="ottoPcGif" id="firstGif" alt="Imagen equipo escala aprender a usar tu crm"
+                            <img class="ottoPcGif" id="firstGif" alt="Animación Otto inicio Escala CRM"
                                 src="{{ App::setFilePath('/assets/images/gifs/2-2x-logo-otto-inicio.gif') }}"
                                 loading="lazy">
-                            <img class="ottoPcGif" id="finalGif" alt="Imagen equipo escala aprender a usar tu crm"
+                            <img class="ottoPcGif" id="finalGif" alt="Animación Otto final Escala CRM"
                                 src="{{ App::setFilePath('/assets/images/gifs/2-2x-logo-otto-final.gif') }}"
                                 loading="lazy">
 
-                            <img class="ottoPc img1" alt="Imagen equipo escala aprender a usar tu crm"
+                            <img class="ottoPc img1" alt="Chat Otto Escala CRM imagen 1"
                                 src="{{ App::setFilePath('/assets/images/illustrations/others/escala-chat-otto-img-1.webp') }}"
                                 loading="lazy">
-                            <img class="ottoPc img2" alt="Imagen equipo escala aprender a usar tu crm"
+                            <img class="ottoPc img2" alt="Chat Otto Escala CRM imagen 2"
                                 src="{{ App::setFilePath('/assets/images/illustrations/others/escala-chat-otto-img-2.webp') }}"
                                 loading="lazy">
-                            <img class="ottoChat" alt="Imagen equipo escala aprender a usar tu crm"
+                            <img class="ottoChat" alt="Chat Otto Escala CRM imagen 3"
                                 src="{{ App::setFilePath('/assets/images/illustrations/others/escala-chat-otto-img-3.webp') }}"
                                 loading="lazy">
 
 
-                            <img class="ottoMb mb1" alt="Imagen equipo escala aprender a usar tu crm"
+                            <img class="ottoMb mb1" alt="Chat Otto Escala CRM móvil imagen 1"
                                 src="{{ App::setFilePath('/assets/images/illustrations/others/escala-chat-otto-img-1-mb.webp') }}"
                                 loading="lazy">
-                            <img class="ottoMb mb2" alt="Imagen equipo escala aprender a usar tu crm"
+                            <img class="ottoMb mb2" alt="Chat Otto Escala CRM móvil imagen 2"
                                 src="{{ App::setFilePath('/assets/images/illustrations/others/escala-chat-otto-img-2-mb.webp') }}"
                                 loading="lazy">
-                            <img class="ottoMbChat" alt="Imagen equipo escala aprender a usar tu crm"
+                            <img class="ottoMbChat" alt="Chat Otto Escala CRM móvil imagen 3"
                                 src="{{ App::setFilePath('/assets/images/illustrations/others/escala-chat-otto-img-3-mb.webp') }}"
                                 loading="lazy">
                         </div>
@@ -678,7 +692,7 @@
                         </div>
 
                         <div class="image">
-                            <img alt=""
+                            <img alt="Equipo Escala configurando CRM por ti"
                                 src="{{ App::setFilePath('/assets/images/illustrations/others/equipo_escala_plataforma_crm_configuracion_por_ti.png') }}"
                                 loading="lazy">
                         </div>
@@ -707,31 +721,31 @@
 
                 <div class="containerElement sct2">
                     <a href="https://escala.com/casos-de-exito-poctlab/" class="image-container">
-                        <img alt="" class="img-2"
+                        <img alt="Cliente Poctlab caso de éxito Escala" class="img-2"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/card_white_img_poctlab.png') }}"
                             loading="lazy">
 
-                        <img alt="" class="img-1"
+                        <img alt="Cliente Poctlab caso de éxito Escala fondo azul" class="img-1"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_poctlab_card_blue.png') }}"
                             loading="lazy">
                     </a>
 
                     <a href="https://escala.com/casos-de-exito-taller-5/" class="image-container">
-                        <img alt="" class="img-2"
+                        <img alt="Cliente Taller Cinco caso de éxito Escala" class="img-2"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_taller_5_card.png') }}"
                             loading="lazy">
 
-                        <img alt="" class="img-1"
+                        <img alt="Cliente Taller Cinco caso de éxito Escala fondo azul" class="img-1"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_taller_5_card_blue.png') }}"
                             loading="lazy">
                     </a>
 
                     <a href="https://escala.com/casos-de-exito-real-de-los-cues/" class="image-container">
-                        <img alt="" class="img-2"
+                        <img alt="Cliente Real de los Cues caso de éxito Escala" class="img-2"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_cues_real_card.png') }}"
                             loading="lazy">
 
-                        <img alt="" class="img-1"
+                        <img alt="Cliente Real de los Cues caso de éxito Escala fondo azul" class="img-1"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_cues_real_card_blue.png') }}"
                             loading="lazy">
                     </a>
@@ -759,7 +773,7 @@
 
                     <section class="innerSectionElement sct2">
                         <div class="containElement">
-                            <img alt=""
+                            <img alt="CEO Escala 2025"
                                 src="{{ App::setFilePath('/assets/images/illustrations/others/ceo_escala_2025.png') }}"
                                 loading="lazy">
                         </div>
