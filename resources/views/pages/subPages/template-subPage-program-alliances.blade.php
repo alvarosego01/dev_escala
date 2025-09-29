@@ -4,7 +4,7 @@ $featuresElements = [
 'items' => [
 [
 'name' => '¿Qué es?',
-'type' => 'closed',
+'type' => 'solid',
 'subItems' => [
 '¿Qué es?',
 'Partner Comercial (Reseller)',
@@ -13,7 +13,7 @@ $featuresElements = [
 ],
 [
 'name' => 'Valor para Escala',
-'type' => 'closed',
+'type' => 'solid',
 'subItems' => [
 'Valor para Escala',
 '<span>Refieren el lead y se encargan del proceso de vender Escala.</span>',
@@ -22,7 +22,7 @@ $featuresElements = [
 ],
 [
 'name' => 'Rol de Escala',
-'type' => 'closed',
+'type' => 'solid',
 'subItems' => [
 'Rol de Escala',
 '- Asiste en la venta.<br class="space">- Recolecta el pago (del partner o cliente).<br class="space">- Brinda implementación y soporte postventa.',
@@ -31,7 +31,7 @@ $featuresElements = [
 ],
 [
 'name' => 'Requisitos de ingreso',
-'type' => 'closed',
+'type' => 'solid',
 'subItems' => [
 'Requisitos de ingreso',
 '<span>- Completar training.<br class="space">- Firmar acuerdo.</span>',
@@ -40,7 +40,7 @@ $featuresElements = [
 ],
 [
 'name' => 'Comisión',
-'type' => 'closed',
+'type' => 'solid',
 'subItems' => [
 'Comisión',
 '20% lifetime por el valor de la suscripción del cliente, mientras se mantenga activo dentro del programa y el cliente continúe con una suscripción vigente a la plataforma Escala.',
@@ -140,7 +140,6 @@ $featuresElements = [
 ],
 ];
 @endphp
-
 
   <div id="program_alliances">
 
