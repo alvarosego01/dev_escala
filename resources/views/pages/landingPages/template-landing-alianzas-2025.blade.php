@@ -461,7 +461,7 @@
             </div>
             <div class="btnCenter">
                 <a href="https://escala.com/partners/" class="primaryButton hoverInEffect">
-                    Tener sesión personalizada →
+                    Conocer más →
                 </a>
             </div>
         </section>
