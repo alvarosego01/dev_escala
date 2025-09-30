@@ -460,7 +460,7 @@
                 </section>
             </div>
             <div class="btnCenter">
-                <a href="https://escala.com/partners/" class="primaryButton hoverInEffect">
+                <a href="https://escala.com/aliados/" class="primaryButton hoverInEffect">
                     Conocer más →
                 </a>
             </div>
