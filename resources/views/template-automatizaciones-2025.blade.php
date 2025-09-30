@@ -293,7 +293,7 @@
                 <section class="innerSectionElement sct2">
                     <div class="groupElements">
                         <div class="info">
-                        <h4 class="titleFloat">1</h4>
+                            <h4 class="titleFloat">1</h4>
 
                             <span>Muchos prospectos pierden <br class="DT_e">
                                 interés y no tienen el <br class="DT_e">
@@ -303,7 +303,7 @@
                     </div>
                     <div class="groupElements">
                         <div class="info">
-                        <h4 class="titleFloat">2</h4>
+                            <h4 class="titleFloat">2</h4>
 
                             <span>Mensajes de WhatsApp y <br class="DT_e">
                                 redes sociales se quedan sin <br class="DT_e">
@@ -312,7 +312,7 @@
                     </div>
                     <div class="groupElements">
                         <div class="info">
-                        <h4 class="titleFloat">3</h4>
+                            <h4 class="titleFloat">3</h4>
 
                             <span>Procesos de venta poco <br class="DT_e">
                                 estandarizados: cada <br class="DT_e">
@@ -321,7 +321,7 @@
                     </div>
                     <div class="groupElements">
                         <div class="info">
-                        <h4 class="titleFloat">4</h4>
+                            <h4 class="titleFloat">4</h4>
 
                             <span>Poca o cero visibilidad de lo <br class="DT_e">
                                 que pasa en ventas. Reportes <br class="DT_e">
@@ -546,7 +546,7 @@
                             apps, perdiendo tiempo o
                             conversaciones importantes.
                         </span>
-                        El Inbox en el CRM de Escala permite que
+                        El Centro de Conversaciones en el CRM de Escala permite que
                         todo quede organizado, y puedas ver el
                         historial completo de cada persona, sin
                         importar por dónde te contactaron.
@@ -569,7 +569,7 @@
                         <span>La inteligencia artificial
                             en Escala <br class="DT_e">
                             atiende las
-                            conversaciones en el Inbox
+                            conversaciones en el Centro de Conversaciones
                             logrando:</span>
                         <ul>
                             <li>Precalificar prospectos</li>
@@ -724,7 +724,7 @@
                 <section class="innerSectionElement sct2">
                     <ul>
                         <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/ia-icon-escala.webp') !!}" loading="lazy">Inteligencia Artificial </li>
-                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/inbox-icon-escala.webp') !!}" loading="lazy">Inbox Omnicanal </li>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/inbox-icon-escala.webp') !!}" loading="lazy">Centro de Conversaciones </li>
                         <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/flujos-icon-escala.webp') !!}" loading="lazy">Flujos Automatizados </li>
                         <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/email-icon-escala.webp') !!}" loading="lazy">Email Marketing </li>
                         <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/anuncios-icon-escala.webp') !!}" loading="lazy">Anuncios Digitales </li>

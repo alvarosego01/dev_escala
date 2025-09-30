@@ -472,8 +472,8 @@
         'img_alt' => null,
         'img' => App::setFilePath('/assets/images/illustrations/others/inbox-omnicanal-icons.png'),
         'title' => '
-        Inbox <br class="space">
-        Omnicanal
+        Centro de <br class="space">
+        Conversaciones
         ',
         'enableButton' => false,
         ],

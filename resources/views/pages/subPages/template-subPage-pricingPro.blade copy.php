@@ -116,7 +116,7 @@ $featuresElements = [
 ],
 
 [
-"name" => 'Inbox',
+"name" => 'Centro de Conversaciones',
 "subItems" => array(
 [
 "name" => "Canal de Whatsapp Api",
@@ -688,12 +688,12 @@ o",
                                                                 </div>
                                                             </div>
                                                             <label for="_omnicanalField">
-                                                                Incluye <span> Inbox Omnicanal*</span>
+                                                                Incluye <span> Centro de Conversaciones*</span>
                                                             </label>
                                                         </div>
                                                         <div class="omniInfo">
                                                             <span>
-                                                                <strong>*El Inbox Omnicanal incluye</strong> una línea de WhatsApp y una cuenta de Facebook e Instagram
+                                                                <strong>*El Centro de Conversaciones incluye</strong> una línea de WhatsApp y una cuenta de Facebook e Instagram
                                                             </span>
                                                         </div>
                                                         <div class="field number omnicanal-options" style="display: none;">
