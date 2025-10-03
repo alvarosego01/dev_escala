@@ -106,20 +106,18 @@ img
                             left: 9px
                         .ele.reviews
                             display: flex
-                            justify-content: flex-start
-
+                            justify-content: center
                             @include responsivo(telefonoTable)
-                                margin-top: 0px
-                                justify-content: center
-                            @include responsivoSpecial(350px, 450px )
-                                margin-top: 0px
+                                margin-top: 55px
                             @include responsivo(pcMedio)
-                                justify-content: center
+                                margin-top: 55px
                             .elements
                                 width: fit-content
                                 display: flex
                                 flex-direction: row
-                                gap: 55px
+                                align-items: center
+
+                                gap: 35px
                                 @include responsivo(telefonoTable)
                                     justify-content: center
                                     align-content: center
@@ -137,11 +135,12 @@ img
                                     flex-direction: column
                                     gap: 20px
                                 @include responsivo(general)
-                                    gap: 30px
+                                    gap: 19px
                                 @include responsivo(smallPcTablet)
                                     gap: 20px
                                     position: relative
                                     left: -10px
+                                    flex-wrap: wrap
                                 .refersElement
                                     padding: 0
                                     display: flex
@@ -157,6 +156,9 @@ img
                                         justify-self: center
                                         align-content: center
                                         align-items: center
+
+                                    @include responsivo(smallPcTablet)
+                                        width: 28%
                                     &:last-child
                                         margin-bottom: 0
                                     .infoInner
@@ -196,7 +198,7 @@ img
                                                 font-family: "Mulish", sans-serif
                                                 font-style: normal
                                                 font-weight: 700
-                                                font-size: 24px
+                                                font-size: 20px
                                                 line-height: 1
                                                 display: flex
                                                 align-items: center
@@ -216,20 +218,13 @@ img
                                             font-family: "Mulish", sans-serif
                                             font-style: normal
                                             font-weight: 600
-                                            font-size: 16px
+                                            font-size: 14px
                                             line-height: 1
                                             display: flex
                                             align-items: center
                                             color: #A6A6A6
                                             margin-bottom: 10px
-                                            @include responsivo(telefonoTable)
-                                                font-size: 16px
-                                            @include responsivo(pcMedio)
-                                                font-size: 16px
-                                            @include responsivo(general)
-                                                font-size: 16px
                                             @include responsivo(smallPcTablet)
-                                                font-size: 14px
                                                 height: 20px
                                         .stars
                                             margin-bottom: 10px
@@ -258,6 +253,17 @@ img
                                         top: -10px
                                     img
                                         height: 85px!important
+                                .iconAppMeta
+                                    position: relative
+                                    top: -10px
+                                    @include responsivo(telefonoTable)
+                                        top: -10px
+                                    img
+                                        height: 52px!important
+                                        @include responsivo(telefonoTable)
+                                            height: 85px!important                                    
+                                        @include responsivo(pcMedio)
+                                            height: 85px!important
 
         .innerSectionElement.sct1
             padding: 0px 70px
@@ -644,7 +650,7 @@ img
     @include responsivo(general)
         margin-top: 270px
     @include responsivo(smallPcTablet)
-        margin-top: 175px
+        margin-top: 300px
     
     .section-row
         margin: 0 auto

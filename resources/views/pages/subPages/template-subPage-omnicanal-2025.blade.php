@@ -10,7 +10,7 @@
                             <h1 class="principalBigTitle">
                                 Simplifica tus <br class="space">
                                 ventas con el <br class="space">
-                                <span>Inbox Omnicanal</span>
+                                <span>Centro de Conversaciones</span>
                             </h1>
                             <p class="principalBigText">
                                 Centraliza y optimiza tus <br class="space">
@@ -194,7 +194,7 @@
 
                 <section class="innerSectionElement sct1">
                     <p>
-                        El Inbox Omnicanal de Escala transforma la manera en la que te <br class="DT_e">
+                        El Centro de Conversaciones de Escala transforma la manera en la que te <br class="DT_e">
                         relacionas con tus leads y clientes. Gestiona todos los mensajes de <br class="DT_e">
                         Meta en un solo lugar. Así, puedes responder más rápido, automatizar <br class="DT_e">
                         conversaciones y nunca perder una oportunidad de venta
@@ -222,7 +222,7 @@
                             </div>
 
                             <div class="textContainer textRight">
-                                <p>Todos los mensajes alojados en un solo Inbox.​</p>
+                                <p>Todos los mensajes alojados en un solo Centro de Conversaciones.​</p>
 
                             </div>
                         </div>
@@ -511,7 +511,7 @@
                     <div class="containElements">
                         <h2 class="primaryTitle blackColor">
                             Las empresas prefieren el <br class="DT_e">
-                            Inbox Omnicanal de Escala
+                            Centro de Conversaciones de Escala
                         </h2>
                     </div>
                 </section>
@@ -545,7 +545,7 @@
                             <h2 class="title">
                                 Maximiza tus <br class="DT_e">
                                 oportunidades de venta <br class="DT_e">
-                                con el Inbox Omnicanal <br class="DT_e">
+                                con el Centro de Conversaciones <br class="DT_e">
                                 de Escala
                             </h2>
 

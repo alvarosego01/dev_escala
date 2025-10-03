@@ -12,7 +12,7 @@
 
                             <h1 class="principalBigTitle">
                                 <span>CRM con Automatizaciones:</span><br class="DT_e">
-                                    vende más sin esfuerzo
+                                vende más sin esfuerzo
                             </h1>
 
 
@@ -125,6 +125,13 @@
                                                     href="https://www.getapp.com/customer-management-software/crm/category-leaders">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_app_record_2025_category.svg') !!}"
                                                         loading="lazy">
+                                                </a>
+                                            </div>
+                                            <div class="iconAppMeta">
+                                                <a target="_blank"
+                                                    href="">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-meta-business-partner.webp') !!}"
+                                                        loading="lazy" alt="Icono Meta Business Partner Escala">
                                                 </a>
                                             </div>
                                             @foreach ($elementsReviews as $item)
