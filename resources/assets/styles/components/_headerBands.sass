@@ -741,7 +741,7 @@
         background-position: 50% center
 
     .section-row
-        width: 1245px!important
+        width: 1305px!important
         padding: 7.5px 0
         @include responsivo(telefonoTable)
             width: 95%!important
@@ -755,6 +755,8 @@
 
         .innerSectionElement.sct1
             .contain
+                @include responsivo(telefonoTable)
+                    flex-direction: column-reverse!important
                 @include responsivo(general)
                     position: relative
                     left: -40px
@@ -780,7 +782,7 @@
                     justify-content: center!important
                 @include responsivo(resto)
                     left: 0px
-
+            
                 .icon
                     height: 35px
                     margin: 0px 15px
@@ -807,17 +809,17 @@
                     color: #fff
                     text-align: center
                     font-family: 'Mulish', sans-serif
-                    font-size: 18px
+                    font-size: 20px
                     font-style: normal
-                    font-weight: 400
+                    font-weight: 900!important
                     line-height: 1
                     @include responsivo(telefonoTable)
                         margin-left: auto
                         margin-right: auto
                         text-align: center
                         width: auto
-                        margin-bottom: 12px
-                        font-size: 20px
+                        margin-top: 12px
+                        font-size: 17px
                     @include responsivo(pcMedio)
                         font-size: 20px 
                         text-align: center
@@ -828,7 +830,6 @@
                     @include responsivo(smallPcTablet)
                         font-size: 17px
                         width: 100%
-                        
                     @include responsivo(resto)
                         text-align: left
                     span
@@ -916,9 +917,9 @@
                 .sub
                     color: #fff
                     font-family: 'Mulish', sans-serif
-                    font-size: 18px
+                    font-size: 20px
                     font-style: normal
-                    font-weight: 400
+                    font-weight: 600!important
                     line-height: 1
                     margin-left: 0
                     @include responsivo(telefonoTable)
@@ -947,12 +948,13 @@
                     font-weight: 900!important
                     color: #FFFFFF!important
                     border-radius: 4px
+                    padding: 10px 20px!important
                     background: linear-gradient(90deg, #F34F36 0%, #007F96 100%)
                     @include responsivo(telefonoTable)
                         margin: 10px auto
                         margin-bottom: 0
                         font-size: 15px!important
-                        padding: 10px 30px!important
+                        padding: 10px 20px!important
                     @include responsivo(pcMedio)
                         font-size: 18px!important
                         padding: 10px 20px!important
