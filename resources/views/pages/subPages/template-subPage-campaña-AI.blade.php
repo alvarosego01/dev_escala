@@ -134,6 +134,13 @@
                                                         loading="lazy">
                                                 </a>
                                             </div>
+                                            <div class="iconAppMeta">
+                                                <a target="_blank"
+                                                    href="">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-meta-business-partner.webp') !!}"
+                                                        loading="lazy" alt="Icono Meta Business Partner Escala">
+                                                </a>
+                                            </div>
                                             @foreach ($elementsReviews as $item)
                                             <div class="refersElement">
 
@@ -183,7 +190,7 @@
 
         <section class="customSection sectionParent subpage_campaign_AI_2">
 
-            <div class="section-row">   
+            <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <h2 class="primaryTitle">
                         ¿Qué pueden hacer los Agendes de IA <br class="space">
