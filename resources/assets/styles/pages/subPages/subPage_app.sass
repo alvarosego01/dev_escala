@@ -429,20 +429,18 @@
                             left: 9px
                         .ele.reviews
                             display: flex
-                            justify-content: flex-start
-
+                            justify-content: center
                             @include responsivo(telefonoTable)
-                                margin-top: 0px
-                                justify-content: center
-                            @include responsivoSpecial(350px, 450px )
-                                margin-top: 0px
+                                margin-top: 55px
                             @include responsivo(pcMedio)
-                                justify-content: center
+                                margin-top: 55px
                             .elements
                                 width: fit-content
                                 display: flex
                                 flex-direction: row
-                                gap: 55px
+                                align-items: center
+
+                                gap: 35px
                                 @include responsivo(telefonoTable)
                                     justify-content: center
                                     align-content: center
@@ -460,11 +458,12 @@
                                     flex-direction: column
                                     gap: 20px
                                 @include responsivo(general)
-                                    gap: 30px
+                                    gap: 25px
                                 @include responsivo(smallPcTablet)
                                     gap: 20px
                                     position: relative
                                     left: -10px
+                                    flex-wrap: wrap
                                 .refersElement
                                     padding: 0
                                     display: flex
@@ -480,6 +479,9 @@
                                         justify-self: center
                                         align-content: center
                                         align-items: center
+
+                                    @include responsivo(smallPcTablet)
+                                        width: 28%
                                     &:last-child
                                         margin-bottom: 0
                                     .infoInner
@@ -510,8 +512,6 @@
                                                     @include responsivo(general)
                                                         height: 21px
                                                         padding-left: 0
-                                                    @include responsivo(smallPcTablet)
-                                                        height: auto
                                                     @include responsivo(resto)
                                                         height: 21px
                                                     
@@ -519,7 +519,7 @@
                                                 font-family: "Mulish", sans-serif
                                                 font-style: normal
                                                 font-weight: 700
-                                                font-size: 24px
+                                                font-size: 20px
                                                 line-height: 1
                                                 display: flex
                                                 align-items: center
@@ -539,20 +539,13 @@
                                             font-family: "Mulish", sans-serif
                                             font-style: normal
                                             font-weight: 600
-                                            font-size: 16px
+                                            font-size: 14px
                                             line-height: 1
                                             display: flex
                                             align-items: center
                                             color: #A6A6A6
                                             margin-bottom: 10px
-                                            @include responsivo(telefonoTable)
-                                                font-size: 16px
-                                            @include responsivo(pcMedio)
-                                                font-size: 16px
-                                            @include responsivo(general)
-                                                font-size: 16px
                                             @include responsivo(smallPcTablet)
-                                                font-size: 14px
                                                 height: 20px
                                         .stars
                                             margin-bottom: 10px
@@ -571,8 +564,7 @@
                                                         height: 20px
                                                         padding-left: 0px
                                                     @include responsivo(resto)
-                                                        height: 20px           
-                                    
+                                                        height: 20px   
 
                                 .iconApp
                                     position: relative
@@ -580,7 +572,19 @@
                                     @include responsivo(telefonoTable)
                                         top: -10px
                                     img
-                                        height: 85px!important
+                                        height: 77px!important
+                                        @include responsivo(pcMedio)
+                                            height: 120px!important
+                                .iconAppMeta
+                                    position: relative
+                                    top: -10px
+                                    @include responsivo(telefonoTable)
+                                        top: -10px
+                                    img
+                                        height: 52px!important
+                                        @include responsivo(pcMedio)
+                                            height: 120px!important
+
 
 #escala_app .escala_app_2
     padding-top: 0
