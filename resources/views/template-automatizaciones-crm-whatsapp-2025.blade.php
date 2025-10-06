@@ -20,7 +20,7 @@
                         <div class="sectionText">
                             <h1 class="principalBigTitle">
                                 Escala las ventas <br class="space">
-                                de tu empresa<br class="space"> con  
+                                de tu empresa<br class="space"> con
                                 <span class="principalBigText">
                                     <span class="gradient-text2"> CRM, automatización <br class="DT_e">
                                         y WhatsApp</span>
@@ -110,6 +110,13 @@
                                                 href="https://www.getapp.com/customer-management-software/crm/category-leaders">
                                                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_app_record_2025_category.svg') !!}"
                                                     loading="lazy">
+                                            </a>
+                                        </div>
+                                        <div class="iconAppMeta">
+                                            <a target="_blank"
+                                                href="">
+                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-meta-business-partner.webp') !!}"
+                                                    loading="lazy" alt="Icono Meta Business Partner Escala">
                                             </a>
                                         </div>
                                         @foreach ($elementsReviews as $item)
