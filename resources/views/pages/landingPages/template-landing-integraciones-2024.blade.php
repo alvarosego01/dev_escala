@@ -1,70 +1,117 @@
 <div id="landing_integraciones_2024">
 
     <div class="sections">
-        @php
-        $elementsReviews = [
+        <section id="lead-form" class="hero2025 landing_integraciones_2024_0">
 
-        [
-        'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
-        'text' => 'Escala / plataforma CRM',
-        'points' => '4.9 / 5',
-        ],
-        [
-        'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
-        'text' => 'Escala / plataforma CRM',
-        'points' => '4.8 / 5',
-        ],
-        [
-        'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
-        'text' => 'Escala / plataforma CRM',
-        'points' => '4.8 / 5',
-        ]
-        ];
-        @endphp
+            <div class="backgroundFull"
+                style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-integraciones-2025-hero.webp') !!}')">
 
-        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_integraciones_2024 landing_integraciones_2024_0 ">
-
-
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_integraciones_0.svg') }}')" class="backgroundFull">
                 <div class="section-row">
+
                     <section class="innerSectionElement sct1">
+                        <div class="sectionText">
 
+                            <h1 class="principalBigTitle">
+                                Integra tus <br class="DT_e">
+                                herramientas al <br class="DT_e">
+                                CRM y maximiza <br class="DT_e">
+                                tu productividad
+                            </h1>
+
+                            <p class="principalBigText">
+                                ¡Conecta, gestiona y <br class="DT_e"> crece en Escala!
+                            </p>
+                            <div class="containerImage">
+                                <div class="cover">
+                                    <img alt="Andres presentando Escala CRM con integración a WhatsApp y automatización de ventas" src="{!! App::setFilePath('/assets/images/illustrations/others/hero-integraciones-chica-escala.webp') !!}" loading="lazy">
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="innerSectionElement sct2">
+                        <div class="containerImage">
+                            <div class="cover">
+                                <img alt="Andres presentando Escala CRM con integración a WhatsApp y automatización de ventas" src="{!! App::setFilePath('/assets/images/illustrations/others/hero-integraciones-chica-escala.webp') !!}" loading="lazy">
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <section class="innerSectionElement sct3">
+                        <div class="form7">
+                            <div class="containElements">
+
+                                <div class="formatForm redirectWeb" redirectweb="true">
+
+                                    <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
+
+                                    @php
+                                    $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                    $_rs = [];
+                                    $_formShortcode = null;
+                                    if ($_data = get_posts($_args)) {
+                                    foreach ($_data as $_key) {
+                                    $_rs[$_key->ID] = $_key->post_title;
+                                    if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                    $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                    }
+                                    }
+                                    } else {
+                                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                    }
+                                    @endphp
+                                    {!! do_shortcode($_formShortcode) !!}
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+                <div class="section-row-2">
+                    <section class="innerSectionElement sctO1">
                         <div class="groupElements row">
-
-
                             <div class="info col-md-12 col-lg-8 ">
-
-
-                                <div class="containElements row threeCol">
-
-                                    <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
-
-                                        <div class="containerImage">
-                                            <img alt="Ilustración Andrés Moreno, CEO de Escala" src="{{ App::setFilePath('/assets/images/person/am/andres-moreno-integraciones.png') }}" loading="lazy">
-                                        </div>
-
-                                    </div>
-
-                                    <div class="ele ele2 col-md-12 col-lg-7">
-                                        <h1 class="principalBigTitle blackColor">
-
-                                            <span>
-                                                Maximiza tu productividad
-
-                                            </span>
-
-                                            integrando las herramientas <br class="space">
-                                            que necesites a tu CRM
-                                            <br class="space">
-                                        </h1>
-
-                                        <p class="principalBigText grayColorTexts">
-
-                                            ¡Conecta, gestiona y crece en Escala!
-                                        </p>
-
-                                        <div class="elements hideOnmobile hideOnTablet">
-
+                                <div class="containElements">
+                                    @php
+                                    $elementsReviews = [
+                                    [
+                                    'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                                    'text' => 'Escala / plataforma CRM',
+                                    'points' => '4.9 / 5',
+                                    ],
+                                    [
+                                    'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                                    'text' => 'Escala / plataforma CRM',
+                                    'points' => '4.8 / 5',
+                                    ],
+                                    [
+                                    'logo' =>
+                                    App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
+                                    'text' => 'Escala / plataforma CRM',
+                                    'points' => '4.8 / 5',
+                                    ]
+                                    ];
+                                    @endphp
+                                    <div class="ele reviews">
+                                        <div class="elements">
+                                            <div class="iconApp">
+                                                <a target="_blank"
+                                                    href="https://www.getapp.com/customer-management-software/crm/category-leaders">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_app_record_2025_category.svg') !!}"
+                                                        loading="lazy">
+                                                </a>
+                                            </div>
+                                            <div class="iconAppMeta">
+                                                <a target="_blank"
+                                                    href="">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-meta-business-partner.webp') !!}"
+                                                        loading="lazy" alt="Icono Meta Business Partner Escala">
+                                                </a>
+                                            </div>
                                             @foreach ($elementsReviews as $item)
                                             <div class="refersElement">
 
@@ -83,7 +130,8 @@
                                                     </p>
                                                     <div class="stars">
                                                         <div class="containerImage">
-                                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
+                                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icons-stars-yellow.svg') !!}"
+                                                                loading="lazy">
                                                         </div>
                                                     </div>
 
@@ -94,520 +142,435 @@
 
                                         </div>
 
+
                                     </div>
-
                                 </div>
-
-
-
                             </div>
-                            <div class="form7 col-md-12 col-lg-4 ">
-
-                                <div class="containElements">
-
-                                    <div class="formatForm redirectWeb" redirectweb="true">
-
-
-                                        <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
-
-
-                                        @php
-                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                        $_rs = [];
-                                        $_formShortcode = null;
-                                        if ($_data = get_posts($_args)) {
-                                        foreach ($_data as $_key) {
-                                        $_rs[$_key->ID] = $_key->post_title;
-                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                        }
-                                        }
-                                        } else {
-                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                        }
-                                        @endphp
-                                        {!! do_shortcode($_formShortcode) !!}
-
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="imageReviewsMobile hideOnDesktop">
-
-                                <div class="image">
-                                    <div class="containerImage">
-                                        <img alt="Ilustración Andrés Moreno, CEO de Escala" src="{{ App::setFilePath('/assets/images/person/am/andres-moreno-integraciones.png') }}" loading="lazy">
-                                    </div>
-
-                                </div>
-
-                                <div class="elements">
-
-                                    @foreach ($elementsReviews as $item)
-                                    <div class="refersElement">
-
-                                        <div class="infoInner">
-                                            <div class="tag">
-                                                <div class="containerImage">
-                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                </div>
-
-                                                <span class="points">
-                                                    {!! $item['points'] !!}
-                                                </span>
-                                            </div>
-                                            <p class="text">
-                                                {!! $item['text'] !!}
-                                            </p>
-                                            <div class="stars">
-                                                <div class="containerImage">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                    @endforeach
-
-                                </div>
-
-                            </div>
-
-
-
-
-
                         </div>
-
                     </section>
 
                 </div>
-
-
-
             </div>
-
         </section>
 
+        <section class="customSection sectionParent landing_integraciones_2024_1">
+
+            <div class="section-row">
+                <section class="innerSectionElement sct0">
+                    <h2 class="primaryTitle">
+                        Ventajas de integrar otros <br class="space">
+                        softwares a Escala
+                    </h2>
+
+                </section>
+                <section class="innerSectionElement sct1">
+                    <div class="containElements">
+                        <div class="cards">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/optimiza-icon.webp') !!}"
+                                    alt="">
+                            </div>
+                            <span>
+                                Optimiza la gestión <br class="DT_e">
+                                de datos
+                            </span>
+
+                        </div>
+                        <div class="cards">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/aumenta-icon.webp') !!}"
+                                    alt="">
+                            </div>
+                            <span>
+                                Mejora la experiencia <br class="DT_e"> del cliente
+                            </span>
+                        </div>
+                        <div class="cards">
+                            <div class="img"> <img class="img-top"
+                                    src="{!! App::setFilePath('/assets/images/illustrations/others/mejora-icon.webp') !!}"
+                                    alt="">
+                            </div>
+                            <span>
+                                Aumenta la eficiencia <br class="DT_e"> de tu equipo
+                            </span>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+        </section>
+
+
         @php
-        $elements = [
-        [
-        'img' => App::setFilePath('/assets/images/illustrations/others/icon-integraciones-escala-optimizar.png'),
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'landing_integraciones_2024_2',
+        'enableTitle' => true,
+        'titlePrincipal' => '
+        Conoce las integraciones <br class="space"> nativas de Escala',
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/sigo-contifico.webp'),
+
         'title' => '
-        Optimiza la gestión<br class="space"> de datos
+        <span>
+            Integración con Siigo y Contífico
+        </span>
+        Centraliza la información del registro de tus facturas',
+        'text'=> '
+        Con esta integración, podrás crear oportunidades <br class="DT_e">
+        desde tu
+        cuenta Escala a partir de Facturas <br class="DT_e">
+        emitidas en SIIGO /
+        Contífico y también crear <br class="DT_e">
+        información en SIIGO / Contífico
+        a través de la <br class="DT_e">
+        creación de oportunidades en determinada
+        etapa <br class="DT_e">
+        desde Escala.',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'left',
+        ];
+        @endphp
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+
+        @php
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'landing_integraciones_2024_3',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/twilo-icon.webp'),
+        'title' => '
+        <span>
+            Integración con Twilio
+        </span>
+        Conecta con tus clientes en tiempo real
+        ',
+        'text' => '
+        Envía SMS automáticos desde tus flujos en Escala y <br class="DT_e">
+        haz seguimiento desde el historial del contacto. <br class="DT_e">
+        Comunicación directa, seguimiento total.
         ',
         'enableButton' => false,
-        ],
-        [
-        'img' => App::setFilePath('/assets/images/illustrations/others/icon-integraciones-escala-mejorar.png'),
-        'title' => '
-        Mejora la experiencia<br class="space"> del cliente
-        ',
-        'enableButton' => false,
-        ],
-        [
-        'img' => App::setFilePath('/assets/images/illustrations/others/icon-integraciones-escala-aumentar.png'),
-        'title' => '
-        Aumenta la eficiencia<br class="space"> de tu equipo
-        ',
-        'enableButton' => false,
-        ]
-        ]
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'right',
+        ];
         @endphp
 
 
-        <section class="component-info-multiple-cards-T2 customSection sectionParent landing_integraciones_2024_1 ">
-
-            <div class="section-row">
-
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <h2 class="primaryTitle blackColor">
-
-                            Ventajas de integrar otros <br class="space">
-                            <span>softwares a Escala</span>
-
-                        </h2>
-
-                    </div>
-
-                </section>
-
-                <section class="innerSectionElement sct2 ">
-
-                    @foreach ($elements as $item)
-
-                    {{-- style="background-image: url({!! App::setFilePath('/assets/images/illustrations/others/box_container_medium_integraciones.png') !!})" --}}
-                    <div class="groupElements">
-
-                        <div class="image">
-                            <div class="containerImage">
-                                <img src="{!! $item['img'] !!}" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="info">
-
-                            <h3 class="secondaryTitle">
-                                {!! $item['title'] !!}
-
-                            </h3>
-
-                        </div>
-
-                        {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/box_container_medium_integraciones.png') !!}" alt="" class="bgOverlay"> --}}
-
-                        <svg class="bgOverlay" xmlns="http://www.w3.org/2000/svg" width="423" height="321" viewBox="0 0 423 321" fill="none">
-                            <g filter="url(#filter0_d_13_2816)">
-                                <path d="M30 73.9662C30 58.1275 42.3127 45.0176 58.1202 44.0251L361.12 25.0015C378.394 23.917 393 37.6346 393 54.9426V254.5C393 271.069 379.569 284.5 363 284.5H60C43.4315 284.5 30 271.069 30 254.5V73.9662Z" fill="white" />
-                            </g>
-                            <defs>
-                                <filter id="filter0_d_13_2816" x="0" y="0.941406" width="423" height="319.559" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                    <feOffset dy="6" />
-                                    <feGaussianBlur stdDeviation="15" />
-                                    <feComposite in2="hardAlpha" operator="out" />
-                                    <feColorMatrix type="matrix" values="0 0 0 0 0.211765 0 0 0 0 0.462745 0 0 0 0 0.541176 0 0 0 0.1 0" />
-                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_13_2816" />
-                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_13_2816" result="shape" />
-                                </filter>
-                            </defs>
-                        </svg>
-
-                    </div>
-
-                    @endforeach
-
-                    <div class="btnCenter">
-                        <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Empezar ahora →
-                        </a>
-                    </div>
-                </section>
-
-            </div>
-
-
-        </section>
-
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
 
         @php
-        $elements = [
-        [
-        'type' => 'backgroundColor',
-        'classSection' => 'landing_integraciones_2024_3',
-        'enableTitle' => true,
-        'titlePrincipal' => '
-        Conoce las integraciones <br class="space"><span> nativas de Escala</span>
-        ',
-        ],
-        [
+        $parameters = [
         'type' => 'backgroundColor',
         'classSection' => 'landing_integraciones_2024_4',
         'enableTitle' => false,
         'titlePrincipal' => null,
         'subTitlePrincipal' => null,
-        'img' => App::setFilePath(
-        '/assets/images/illustrations/others/integraciones-woocommerce.png',
-        ),
+        'img' => App::setFilePath('/assets/images/illustrations/others/aircall-icon.webp'),
         'title' => '
-        Integración con <br class="space">
-        <span>Woocommerce</span>
+        <span>
+            Integración con Aircall
+        </span>
+        Maximiza tu comunicación telefónica
         ',
-        'text' => '<span>Guarda la información de tus usuarios. </span>
-        <br class="space"><br class="space">
-        Al integrar WooCommerce con Escala, podrás registrar la inforación de tus clientes de forma automática a momento de que finalicen una compra.
+        'text' => '
+        Al integrar esta herramienta con Escala, podrás <br class="DT_e"> realizar
+        llamadas telefónicas a tus contactos, crear <br class="DT_e"> notas, dejar
+        registro y grabaciones. Todo gestionado <br class="DT_e"> desde Escala.
         ',
         'enableButton' => false,
         'urlButton' => '#lead-form',
         'textButton' => 'Recibe un demo',
         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         'side' => 'left',
-        ],
-        [
+        ];
+        @endphp
+
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+
+        @php
+        $parameters = [
         'type' => 'backgroundColor',
         'classSection' => 'landing_integraciones_2024_5',
         'enableTitle' => false,
         'titlePrincipal' => null,
         'subTitlePrincipal' => null,
-        'img' => App::setFilePath(
-        '/assets/images/illustrations/others/integraciones-aircall.png',
-        ),
+        'img' => App::setFilePath('/assets/images/illustrations/others/calendly-icon.webp'),
         'title' => '
-        Integración con <br class="space">
-        <span>Aircall</span>
+        <span>
+            Integración con Calendly
+        </span>
+        Optimiza el trabajo de tu equipo
         ',
-        'text' => '<span>Maximiza tu comunicación telefónica.</span>
-        <br class="space">
-        <br class="space">
-        Al integrar esta herramienta con Escala, podrás realizar llamadas telefónicas a tus contactos, crear notas, dejar registro y grabaciones. Todo gestionado desde Escala.
+        'text' => '
+        Al programar reuniones o consultas con Calendly,
+        se <br class="DT_e"> creará o actualizará de forma automática en el <br class="DT_e">
+        CRM, las actividades y los contactos vinculados.
         ',
         'enableButton' => false,
         'urlButton' => '#lead-form',
         'textButton' => 'Recibe un demo',
         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         'side' => 'right',
-        ],
-        [
-        'type' => 'backgroundColor',
-        'classSection' => 'landing_integraciones_2024_6',
-        'enableTitle' => false,
-        'titlePrincipal' => null,
-        'subTitlePrincipal' => null,
-        'img' => App::setFilePath(
-        '/assets/images/illustrations/others/integraciones-siigo.png',
-        ),
-        'title' => '
-        Integración con <br class="space">
-        <span>Siigo</span>
-        ',
-        'text' => '<span>Centraliza la información del registro de tus facturas.</span>
-        <br class="space">
-        <br class="space">
-        Con esta integración, podrás crear oportunidades desde tu cuenta Escala a partir de Facturas
-        emitidas en SIIGO y también crear información en SIIGO a través de la creación de oportunidades
-        en determinada etapa desde Escala.
-        ',
-        'enableButton' => false,
-        'urlButton' => '#lead-form',
-        'textButton' => 'Recibe un demo',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-        'side' => 'left',
-        ],
-        [
-        'type' => 'backgroundColor',
-        'classSection' => 'landing_integraciones_2024_6',
-        'enableTitle' => false,
-        'titlePrincipal' => null,
-        'subTitlePrincipal' => null,
-        'img' => App::setFilePath(
-        '/assets/images/illustrations/others/integraciones-typeform.png',
-        ),
-        'title' => '
-        Integración con <br class="space">
-        <span>Typeform</span>
-        ',
-        'text' => '<span>Genera formularios inteligentes</span>
-        <br class="space">
-        <br class="space">
-        Al crear un formulario en Typeform e integrarlo con Escala, podrás crear o actualizar contactos en tu CRM, permitiendote optimizar la gestión de leads y clientes.
-        ',
-        'enableButton' => false,
-        'urlButton' => '#lead-form',
-        'textButton' => 'Recibe un demo',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-        'side' => 'right',
-        ],
-        [
-        'type' => 'backgroundColor',
-        'classSection' => 'landing_integraciones_2024_6',
-        'enableTitle' => false,
-        'titlePrincipal' => null,
-        'subTitlePrincipal' => null,
-        'img' => App::setFilePath('/assets/images/illustrations/others/integraciones-calendly.png'),
-        'title' => '
-        Integración con <br class="space">
-        <span>Calendly</span>
-        ',
-        'text' => '<span>Optimiza el trabajo de tu equipo.</span>
-        <br class="space">
-        <br class="space">
-
-        Al programar reuniones o consultas con Calendly, se creará o actualizará de forma automática en el CRM, las actividades y los contactos vinculados.
-        ',
-        'enableButton' => false,
-        'urlButton' => '#lead-form',
-        'textButton' => 'Recibe un demo',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-        'side' => 'left',
-        ],
-        [
-        'type' => 'backgroundColor',
-        'classSection' => 'landing_integraciones_2024_6',
-        'enableTitle' => false,
-        'titlePrincipal' => null,
-        'subTitlePrincipal' => null,
-        'img' => App::setFilePath(
-        '/assets/images/illustrations/others/integraciones-zapier.png',
-        ),
-        'title' => '
-        Integración con <br class="space">
-        <span>Zapier</span>
-        ',
-        'text' => '<span>Conecta otras plataformas a Escala,</span>
-        <br class="space">
-        <br class="space">
-        Con esta integración, tienes la libertad de enlazar diferentes herramientas y plataformas a tu CRM a través de Zapier.
-        ',
-        'enableButton' => false,
-        'urlButton' => '#lead-form',
-        'textButton' => 'Recibe un demo',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-        'side' => 'right',
-        ],
-        [
-        'type' => 'backgroundColor',
-        'classSection' => 'landing_integraciones_2024_6',
-        'enableTitle' => false,
-        'titlePrincipal' => null,
-        'subTitlePrincipal' => null,
-        'img' => App::setFilePath('/assets/images/illustrations/others/integraciones-sheets.png'),
-        'title' => '
-        Integración con <br class="space">
-        <span>Google Sheets</span>
-        ',
-        'text' => '<span>Respalda la información de tus contactos de forma automática.</span>
-        <br class="space">
-        <br class="space">
-
-        Al crear o actualizar un contacto en Escala, podrás guardar de forma automática toda la información del contacto en Google Sheet al realizar esta integración, personalizando también los campos que desees. ',
-        'enableButton' => false,
-        'urlButton' => '#lead-form',
-        'textButton' => 'Recibe un demo',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-        'side' => 'left',
-        ],
         ];
         @endphp
-        <div class="sectionInfo_1">
 
-            @if (isset($elements) && count($elements) > 0)
-            @foreach ($elements as $item)
-            @contain_text_image_T1($item)
-            @endcontain_text_image_T1
-            @endforeach
-            @endif
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+        @php
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'landing_integraciones_2024_6',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/shopify-icon.webp'),
+        'title' => '
+        <span>
+            Integración con Shopify
+        </span>
+        Conecta tus ventas con tu CRM en automático
+        ',
+        'text' => '
+        Cada nuevo cliente en Shopify se transforma
+        en un <br class="DT_e"> contacto listo para seguimiento en Escala <br class="DT_e">
+        Sincroniza, organiza y automatiza sin mover un dedo.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'left',
+        ];
+        @endphp
 
-            <div class="overlay" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_integraciones_2.svg') !!})">
-            </div>
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+        @php
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'landing_integraciones_2024_7',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/typeform-icon.webp'),
+        'title' => '
+        <span>
+            Integración con Typeform
+        </span>
+        Genera formularios inteligentes
+        ',
+        'text' => '
+        Al crear un formulario en Typeform e integrarlo con <br class="DT_e"> Escala,
+        podrás crear o actualizar contactos en tu <br class="DT_e"> CRM, permitiendote
+        optimizar la gestión de leads y <br class="DT_e"> clientes.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'right',
+        ];
+        @endphp
 
-        </div>
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+        @php
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'landing_integraciones_2024_8',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/zapier-icon.webp'),
+        'title' => '
+        <span>
+            Integración con Zapier
+        </span>
+        Conecta otras plataformas a Escala
+        ',
+        'text' => '
+        Con esta integración, tienes la libertad de enlazar <br class="DT_e">
+        diferentes herramientas y plataformas a <br class="DT_e"> tu CRM
+        a través de Zapier.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'left',
+        ];
+        @endphp
 
-        <section class="customSection sectionParent aux_landing_integraciones_2024_7">
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+
+        @php
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'landing_integraciones_2024_9',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/google-sheets-icon.webp'),
+        'title' => '
+        <span>
+            Integración con Google Sheets
+        </span>
+        Respalda la información de tus contactos de forma automática
+        ',
+        'text' => '
+        Al crear o actualizar un contacto en Escala,
+        podrás <br class="DT_e"> guardar de forma automática toda la
+        información <br class="DT_e"> del contacto en Google Sheet al
+        realizar esta <br class="DT_e"> integración, personalizando
+        también los campos <br class="DT_e"> que desees.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'right',
+        ];
+        @endphp
+
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+
+        @php
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'landing_integraciones_2024_10',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/woo-icon.webp'),
+        'title' => '
+        <span>
+            Integración con Woocommerce
+        </span>
+        Guarda la información de tus usuarios
+        ',
+        'text' => '
+        Al integrar WooCommerce con Escala, <br class="DT_e"> podrás registrar
+        la información de tus clientes <br class="DT_e"> de forma automática
+        a momento de que <br class="DT_e"> finalicen una compra.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'left',
+        ];
+        @endphp
+
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+
+        @php
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'landing_integraciones_2024_11',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/bsale-icon.webp'),
+        'title' => '
+        <span>
+            Integración con Bsale
+        </span>
+        Convierte tus cotizaciones en oportunidades
+        ',
+        'text' => '
+        Cada cotización creada en Bsale se sincroniza
+        como <br class="DT_e"> oportunidad en Escala. Más visibilidad,
+        mejor <br class="DT_e"> seguimiento y ventas más organizadas,
+        todo desde <br class="DT_e"> un solo lugar.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'right',
+        ];
+        @endphp
+
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+
+        <section class="customSection sectionParent landing_integraciones_2024_11_1">
 
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
-
                     <div class="btnCenter">
-                        <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Recibir un tour guiado
+                        <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
+                            Tener sesión personalizada →
                         </a>
                     </div>
                 </section>
-
             </div>
-
         </section>
 
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_integraciones_3.svg') !!})" class="customSection sectionParent landing_integraciones_2024_11">
+
+
+        <section class="w-full customSection sectionParent landing_integraciones_2024_12">
 
             <div class="section-row">
 
-                <section class="innerSectionElement sct1">
-
+                <section class="innerSectionElement sct0 ">
                     <div class="containElements">
-
-                        <div class="image">
-
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/team/integraciones-team-escala.png') !!}" alt="">
-                            </div>
-
-                        </div>
-
-                        <div class="info">
-                            <h2 class="primaryTitle">
-                                ¿Necesitas apoyo integrando?
-                                <br class="space">
-                                <span> ¡Te acompañamos en cada paso! </span>
-                            </h2>
-                            <p class="text">
-                                Nuestro equipo de especialistas está listo para acelerar tu aprendizaje <br class="DT_e">
-                                y potenciar tus resultados con las herramientas de Escala.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </section>
-
-            </div>
-
-        </section>
-
-        {{--
-                @php
-            $parameters = [
-                'classSection' => 'landing_integraciones_2024_12',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-                Qué dicen nuestros clientes sobre las funcionalidades de Escala
-                ',
-                'subTitlePrincipal' => null,
-                'enableContainerButton' => false,
-                'urlButton' => '#',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'textButton' => 'Recibe un demo',
-                'mob_reviews' => [
-                    App::setFilePath('/assets/images/illustrations/others/landingpages_review_1.png'),
-                App::setFilePath('/assets/images/illustrations/others/landingpages_review_2.png'),
-                App::setFilePath('/assets/images/illustrations/others/landingpages_review_3.png')
-                ],
-                'desk_reviews' => [
-                    [
-                    App::setFilePath('/assets/images/illustrations/others/landingpages_review_1.png'),
-                App::setFilePath('/assets/images/illustrations/others/landingpages_review_2.png'),
-                App::setFilePath('/assets/images/illustrations/others/landingpages_review_3.png')]
-                ],
-            ];
-        @endphp
-        @reviews_sliders_T1($parameters)    
-        @endreviews_sliders_T1 --}}
-
-        <section class='w-full customSection sectionParent landing_integraciones_2024_12'>
-
-            <div class="section-row">
-
-                <section class='innerSectionElement sct0 '>
-                    <div class='containElements'>
                         <h2 class="primaryTitle">
-                            Qué dicen nuestros clientes sobre <br class="DT_e">
-                            <span>las funcionalidades de Escala</span>
-
+                            Qué dicen nuestros clientes sobre Escala
                         </h2>
                     </div>
 
                 </section>
-                <section class='innerSectionElement sct1 '>
-                    <div class='containElements'>
-
+                <section class="innerSectionElement sct1 ">
+                    <div class="containElements reviews-group">
                         @php
                         $reviews = [
-                        App::setFilePath('/assets/images/illustrations/others/review-1.png'),
-                        App::setFilePath('/assets/images/illustrations/others/review-2.png'),
-                        App::setFilePath('/assets/images/illustrations/others/review-3.png')
-                        ]
+                            App::setFilePath('/assets/images/illustrations/others/review-1.png'),
+                            App::setFilePath('/assets/images/illustrations/others/review-3.png')
+                        ];
                         @endphp
 
                         @foreach ($reviews as $item)
-                        <div class="review">
-                            <div class="containerImage">
-                                <img src="{!! $item !!}" loading="lazy">
+                        <div class="review-item">
+                            <div class="container-image">
+                                <img src="{!! $item !!}" loading="lazy" alt="Reseña de cliente Escala">
                             </div>
                         </div>
                         @endforeach
-
                     </div>
 
+                    <div class="containElements2 reviews-group2">
+                        @php
+                        $reviews2 = [
+                            App::setFilePath('/assets/images/illustrations/others/review-2.png')
+                        ];
+                        @endphp
+
+                        @foreach ($reviews2 as $item2)
+                        <div class="review-item2">
+                            <div class="container-image2">
+                                <img src="{!! $item2 !!}" loading="lazy" alt="Reseña de cliente Escala">
+                            </div>
+                        </div>
+                        @endforeach
+                    </div>
+                </section>
                 </section>
             </div>
 
@@ -615,34 +578,35 @@
 
 
 
-
-
-        <section class="sectionParent customSection landing_integraciones_2024_13">
-            <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_integraciones_4.svg') !!}')" class="backgroundFull">
-                <div class="section-row">
-                    <section class="innerSectionElement sct2">
-                        <div class="groupElements row">
-                            <div class="info col-md-12 col-lg-8 sectionTexts textRight">
-                                <h3 class="secondaryTitle">
-                                    Impulsa la productividad de tu equipo al máximo
-                                    <span>¡Optimiza tu CRM y transforma tu estrategia comercial HOY!</span>
-                                </h3>
-                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                    Recibir un tour guiado
-                                </a>
-                            </div>
-                            <div class="image">
-
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/integraciones-cohete.png') !!}" alt="">
-
-                            </div>
+        <section class="customSection sectionParent landing_integraciones_2024_13" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-integraciones-2025-banner.webp') }}')">
+            <div class="section-row ">
+                <div class="containElements">
+                    <section class="innerSectionElement sct1">
+                        <div class="containElement">
+                            <img alt=""
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/img-ceo-alfonzo-4.webp') }}"
+                                loading="lazy">
                         </div>
                     </section>
+                    <section class="innerSectionElement sct2">
+                        <div class="containElement">
+                            <h2 class="title">
+                                Impulsa la productividad <br class="space">
+                                de tu equipo al máximo
+                            </h2>
+
+                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                Empieza ahora →
+                            </a>
+
+                        </div>
+                    </section>
+
+
+
                 </div>
             </div>
         </section>
-
-
 
 
 
