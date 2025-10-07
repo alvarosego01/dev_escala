@@ -50,7 +50,7 @@
 
                                 <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
+                                    <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
 
                                     @php
                                     $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
@@ -113,6 +113,13 @@
                                                     loading="lazy">
                                             </a>
                                         </div>
+                                        <div class="iconAppMeta">
+                                            <a target="_blank"
+                                                href="">
+                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-meta-business-partner.webp') !!}"
+                                                    loading="lazy" alt="Icono Meta Business Partner Escala">
+                                            </a>
+                                        </div>
                                         @foreach ($elementsReviews as $item)
                                         <div class="refersElement">
 
@@ -158,7 +165,7 @@
                     <div class="containElements">
 
                         <h2 class="primaryTitle">
-                            Todo lo que tus<br class="brMm">     emails  necesitan, <br class="space">
+                            Todo lo que tus<br class="brMm"> emails necesitan, <br class="space">
                             en un solo lugar
                         </h2>
 
@@ -280,7 +287,7 @@
             </div>
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                 Tener sesión personalizada →
+                    Tener sesión personalizada →
                 </a>
             </div>
         </section>
@@ -395,7 +402,7 @@
                     <div class="cards left">
                         <div class="containerImage">
                             <img alt="Ilustración de CEO ESCALA" src="{!! App::setFilePath('/assets/images/illustrations/others/andres-moreno-hero-email-2025-8.webp') !!}" loading="lazy">
-                        </div>  
+                        </div>
                     </div>
                     <div class="cards right">
                         <p>
@@ -528,7 +535,7 @@
                             </h2>
 
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                              Empezar ahora →
+                                Empezar ahora →
                             </a>
 
                         </div>

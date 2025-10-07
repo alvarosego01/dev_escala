@@ -10,7 +10,7 @@
                             <h1 class="principalBigTitle">
                                 Simplifica tus <br class="space">
                                 ventas con el <br class="space">
-                                <span>Inbox Omnicanal</span>
+                                <span>Centro de Conversaciones</span>
                             </h1>
                             <p class="principalBigText">
                                 Centraliza y optimiza tus <br class="space">
@@ -18,8 +18,8 @@
                                 Instagram y Facebook
                             </p>
                             <div class="containerImage">
-                            <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/img-hero-chica-omnicanal-2025.png') !!}" loading="lazy">
-                        </div>
+                                <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/img-hero-chica-omnicanal-2025.png') !!}" loading="lazy">
+                            </div>
                         </div>
                     </section>
 
@@ -35,7 +35,7 @@
 
                                 <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
+                                    <h5 class="titleFormat blackcolor"> Conoce Escala en una <br class="space"> sesión personalizada</h5>
 
                                     @php
                                     $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
@@ -164,7 +164,7 @@
 
                 <section class="innerSectionElement sct1">
                     <p>
-                        El Inbox Omnicanal de Escala transforma la manera en la que te <br class="DT_e">
+                        El Centro de Conversaciones de Escala transforma la manera en la que te <br class="DT_e">
                         relacionas con tus leads y clientes. Gestiona todos los mensajes de <br class="DT_e">
                         Meta en un solo lugar. Así, puedes responder más rápido, automatizar <br class="DT_e">
                         conversaciones y nunca perder una oportunidad de venta
@@ -481,7 +481,7 @@
                     <div class="containElements">
                         <h2 class="primaryTitle blackColor">
                             Las empresas prefieren el <br class="DT_e">
-                            Inbox Omnicanal de Escala
+                            Centro de Conversaciones de Escala
                         </h2>
                     </div>
                 </section>
@@ -515,7 +515,7 @@
                             <h2 class="title">
                                 Maximiza tus <br class="DT_e">
                                 oportunidades de venta <br class="DT_e">
-                                con el Inbox Omnicanal <br class="DT_e">
+                                con el Centro de Conversaciones <br class="DT_e">
                                 de Escala
                             </h2>
 

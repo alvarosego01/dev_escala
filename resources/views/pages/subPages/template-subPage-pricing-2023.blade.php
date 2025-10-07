@@ -220,7 +220,7 @@ y conexión Meta Business ",
 ],
 ],
 [
-'name' => 'Inbox',
+'name' => 'Centro de Conversaciones',
 'subItems' => [
 [
 'name' => 'Canal de Whatsapp Api',
@@ -988,12 +988,12 @@ y conexión Meta Business ",
                                                                 </div>
                                                             </div>
                                                             <label for="_omnicanalField">
-                                                                Incluye <span><strong> Inbox Omnicanal*</strong></span>
+                                                                Incluye <span><strong> Centro de Conversaciones*</strong></span>
                                                             </label>
                                                         </div>
                                                         <div class="omniInfo">
                                                             <span>
-                                                                <strong>*El Inbox Omnicanal incluye</strong> una línea de WhatsApp y una cuenta de Facebook e Instagram
+                                                                <strong>*El Centro de Conversaciones incluye</strong> una línea de WhatsApp y una cuenta de Facebook e Instagram
                                                             </span>
                                                         </div>
                                                         <div class="field number omnicanal-options" style="display: none;">

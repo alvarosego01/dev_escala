@@ -131,6 +131,13 @@
                                                         alt="Reconocimiento Escala CRM en GetApp" loading="lazy">
                                                 </a>
                                             </div>
+                                            <div class="iconAppMeta">
+                                                <a target="_blank"
+                                                    href="">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-meta-business-partner.webp') !!}"
+                                                        loading="lazy" alt="Icono Meta Business Partner Escala">
+                                                </a>
+                                            </div>
                                             @foreach ($elementsReviews as $item)
                                             <div class="refersElement">
 
@@ -460,8 +467,8 @@
                 </section>
             </div>
             <div class="btnCenter">
-                <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                    Tener sesión personalizada →
+                <a href="https://escala.com/aliados/" class="primaryButton hoverInEffect">
+                    Conocer más →
                 </a>
             </div>
         </section>
@@ -519,7 +526,7 @@
                             </ul>
                             <img class="ottoImg" alt="Ilustración Otto oportunidades Escala Partner" src="{!! App::setFilePath('/assets/images/illustrations/others/otto-oportunidades.webp') !!}" loading="lazy">
                         </div>
-                        <div class="cards" style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/sombra_480.webp') !!}')"> 
+                        <div class="cards" style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/sombra_480.webp') !!}')">
                             <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/3-icon-top.webp') !!}" alt="Icono comunidad Escala Partner">
                             <h3>
                                 Comunidad

@@ -68,9 +68,9 @@
                                 <img alt="" src="{!! App::setFilePath('/assets/images/illustrations/others/omnicanal-estrategia-integrada-atencion-clientes-redes-sociales-escala.webp') !!}" loading="lazy">
                             </div>
                             <div class="featured-success-card__info">
-                                <div class="featured-success-card__category">Omnicanalidad</div>
+                                <div class="featured-success-card__category">Centro de Conversaciones</div>
                                 <div class="featured-success-card__text">
-                                    Omnicanalidad: Qué es y cómo desarrollar una estrategia
+                                    Centro de Conversaciones: Qué es y cómo desarrollar una estrategia
                                 </div>
 
                             </div>
