@@ -1670,10 +1670,9 @@ o",
                                         <div class="containElements">
 
                                             <p class="text">
-                                                El servicio de Acompañamiento e Implementación Guiado de <br class="DT_e">
-                                                Escala, con un Gerente de Éxito dedicado, está disponible <br class="DT_e">
-                                                exclusivamente para cuentas Pro con planes anuales <br class="DT_e">
-                                                superiores a USD 1,000 al año.
+                                                El servicio de Acompañamiento e Implementación Guiado de Escala,
+                                                 con un Gerente de Éxito dedicado, está disponible exclusivamente 
+                                                 para cuentas Pro con planes anuales superiores a USD 2,500 al año.
                                                 <br class="space"><br class="space">
                                                 Las cuentas con un valor anual menor cuentan con soporte <br class="DT_e">
                                                 técnico ilimitado vía chat para resolver consultas y acceso <br class="DT_e">
@@ -1729,11 +1728,9 @@ o",
                                         <div class="containElements">
 
                                             <p class="text">
-                                                El servicio de Acompañamiento e Implementación <br class="DT_e">
-                                                Guiado de Escala, con un Gerente de Éxito <br class="DT_e">
-                                                dedicado, está disponible exclusivamente para <br class="DT_e">
-                                                cuentas Pro con planes anuales superiores a USD <br class="DT_e">
-                                                1,000 al año.
+                                               El servicio de Acompañamiento e Implementación Guiado de Escala, 
+                                               con un Gerente de Éxito dedicado, está disponible exclusivamente
+                                                para cuentas Pro con planes anuales superiores a USD 2,500 al año.
                                                 <br class="space">
                                                 <br class="space">
                                                 Las cuentas con un valor anual menor cuentan con <br class="DT_e">
