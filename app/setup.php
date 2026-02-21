@@ -327,6 +327,10 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-subPage-marketing-ventas-automat-2024.blade.php')) {
         wp_enqueue_style('subPage_ventas_automat_2024.css', asset_path('styles/pages/subPages/subPage_ventas_automat_2024.css'), false, THEME_VERSION);
     }
+    // --- Template interna seguros
+    if (is_page_template('views/template-subPage-interna-seguros.blade.php')) {
+        wp_enqueue_style('subPage_interna_seguros.css', asset_path('styles/pages/subPages/subPage_interna_seguros.css'), false, THEME_VERSION);
+    }
 
     // --- Template subpage reportes 2023
     if (is_page_template('views/template-subPage-reports-2024.blade.php')) {

@@ -349,6 +349,7 @@ class SetComponents extends Controller
                 'views/template-subPage-educacion-2023.blade.php',
                 'views/template-subPage-implementacion-2023.blade.php',
                 'views/template-subPage-marketing-ventas-automat-2024.blade.php',
+                'views/template-subPage-interna-seguros.blade.php',
                 'views/template-subPage-landingPage-base-2023.blade.php',
                 'views/template-subPage-CRM-2023.blade.php',
                 'views/template-subPage-automatizacion-2023.blade.php',
