@@ -37,7 +37,7 @@
                                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                     Solicita una Demo Gratis →
                                 </a>
-                                <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                <a class="btnWhite openPopUpButton">
                                     Hablar con Experto →
                                 </a>
                             </div>
@@ -161,8 +161,6 @@
         </section>
         <section class="customSection sectionParent interna_seguros_1">
             <div class="section-row">
-
-
             </div>
 
         </section>
@@ -197,13 +195,8 @@
                                 y lograr mayor productividad.”
                             </p>
                         </div>
-
-
-
                     </div>
                 </section>
-
-
             </div>
 
         </section>
@@ -212,11 +205,12 @@
             <div class="section-row">
                 <section class="innerSectionElement sct1 ">
                     <div class="containElements">
-                        <p>
+                        <span>
                             El problema
-                        </p>
+                        </span>
                         <h2 class="primaryTitle">
-                            El crecimiento de los asesores de seguros está limitado
+                            El crecimiento de los asesores de <br class="space">
+                            seguros está limitado
                         </h2>
 
                     </div>
@@ -368,7 +362,7 @@
                 <section class="innerSectionElement sct2 ">
                     <div class="containElements">
                         <p>
-                            No es sólo eficiencia. Es potenciar a los asesores
+                            No es sólo eficiencia. Es potenciar a los asesores <br class="DT_e">
                             con el poder de IA para crecer su cartera de clientes.
                         </p>
                     </div>

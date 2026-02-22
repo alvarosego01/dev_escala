@@ -37,7 +37,7 @@
         font-size: 25px!important
 
 #interna_seguros
-    background-color: white
+    background-color: #FAFBFD
     .groupBackground
         background-color: #FAFBFD
 
@@ -50,7 +50,7 @@
     z-index: 2
     position: relative   
     .section-row-2
-        background: #fff 
+        background: #FAFBFD 
         border-radius: 20px 20px 0px 0px
         width: 95%
         margin: 0 auto
@@ -59,6 +59,8 @@
         @include responsivo(telefonoTable)
             top: 0
         @include responsivo(pcMedio)
+            top: 0
+        @include responsivo(general)
             top: 0
         .innerSectionElement.sctO1
             padding: 50px 70px
@@ -134,9 +136,9 @@
                                     flex-direction: column
                                     gap: 20px
                                 @include responsivo(general)
-                                    gap: 25px
+                                    gap: 14px
                                 @include responsivo(smallPcTablet)
-                                    gap: 20px
+                                    gap: 14px
                                     position: relative
                                     left: -10px
                                     flex-wrap: wrap
@@ -272,17 +274,20 @@
             width: 95%
             height: auto!important
             flex-direction: column
+            gap: 50px
+
         @include responsivo(pcMedio)
             width: 80%
             height: auto!important
             flex-direction: column
+            gap: 50px
         @include responsivo(general)
             width: 100%!important
             max-width: 1210px!important
-            height: 730px
         @include responsivo(smallPcTablet)
             max-width: 1000px!important
             height: 840px
+            gap: 30px
         @include responsivo(resto)
             width: 100%!important
             max-width: 1305px!important
@@ -296,23 +301,19 @@
         background-position: center -83px
         background-size: cover
         background-repeat: no-repeat
+        border-radius: 0px 0px 40px 40px
         @include responsivo(telefonoTable)
             padding-top: 100px!important
             padding-bottom: 0!important
             height: auto
-            border-radius: 0px 0px 20px 20px
             background-position: center
-            background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-automatizaciones-2025-hero-mb.webp')!important
         @include responsivo(pcMedio)
             padding-top: 100px!important
             padding-bottom: 0!important
             height: auto
-            border-radius: 0px 0px 20px 20px
-            background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-automatizaciones-2025-hero-mb.webp')!important
 
         @include responsivo(general)
             background-position: 60%
-            height: 730px 
         @include responsivo(smallPcTablet)
             background-position: 70% 
             height: 840px
@@ -324,7 +325,8 @@
         .innerSectionElement.sct1
             position: relative
             @include responsivo(telefonoTable)
-               top: 0 
+               top: 0
+               width: 100% 
             @include responsivo(pcMedio)
                top: 0 
 
@@ -357,13 +359,11 @@
                     font-style: normal
                     font-weight: 800
                     text-align: center
-                    margin-bottom: 20px
+                    margin-bottom: 32px
                     line-height: 1
                     color: #fff
                     font-family: 'Mulish', sans-serif
                     font-weight: 800
-                    @include responsivo(telefonoTable)
-                        display: none
                     @include responsivo(pcMedio)
                         text-align: center
                         br
@@ -372,9 +372,8 @@
                     @include responsivo(general)
                         margin-top: 0
                         font-size: 45px
-                        width: 540px
                     @include responsivo(smallPcTablet)
-                        font-size: 45px
+                        font-size: 42px
                     @include responsivo(resto)
                         margin-top: 0
                         font-size: 45px
@@ -385,10 +384,10 @@
                     @include responsivo(smallPcTablet)
                         display: block!important
                     img
-                        height: 266px
-                        @include responsivo(smallPcTablet)
-                            height: 395px
-                            padding-top: 40px
+                        height: 321px
+                        @include responsivo(telefonoTable)
+                            height: 185px
+                            
                     .iconClick
                         height: 90px
                         position: absolute
@@ -398,45 +397,62 @@
                         z-index: 1
                         cursor: pointer
                         animation: pulse 2s infinite ease-in-out
-
+                        @include responsivo(telefonoTable)
+                            left: 37%
+                            top: 10%
                         @include responsivo(smallPcTablet)
-                            height: 130px
-                            top: 65%
+                            height: 90px
+                            top: 50%
                             left: 43%
                      
             .principalBigText
                 font-family: 'Mulish', sans-serif
                 font-style: normal
                 font-weight: 500
-                text-align: left
+                text-align: center
                 margin-bottom: 0
-                line-height: 1
+                line-height: 1.2
                 color: #fff
+                font-size: 24px
                 @include responsivo(telefonoTable)
-                    font-size: 25px
-                    text-align: center
-                    margin-bottom: 40px
-                
                     br
                         display: none!important
-                @include responsivo(pcMedio)
-                    font-size: 30px
-                    text-align: center
-                    margin-bottom: 40px
                     
-                @include responsivo(general)
-                    font-size: 30px
                 @include responsivo(smallPcTablet)
-                    font-size: 25px
-                    margin-bottom: 20px
                     width: 84%
-                @include responsivo(resto)
-                    font-size: 30px
-       
+            .containBtn 
+                display: flex
+                justify-content: center
+                align-items: center
+                gap: 30px
+                @include responsivo(telefonoTable)
+                    flex-direction: column !important
+                .primaryButton
+                    font-weight: 900!important
+                    font-size: 22px!important
+                    border-radius: 10px
+                    font-family: "Mulish", sans-serif!important
+                    width: fit-content
+                    text-transform: none!important
+                    background: linear-gradient(90deg, #F34F36 0%, #007F96 100%)!important
+                    transition: background 0.3s ease
+                    padding: 15px 30px
+                    &:hover
+                        background: linear-gradient(90deg, #ff6b60 0%, #1fdad3 100%)!important
+                .btnWhite
+                    color: #fff
+                    font-size: 22px
+                    font-weight: 700
+                    font-family: 'Mulish', sans-serif
+
             .innerSectionElement.sct2
                 overflow: hidden
                 position: relative
-                
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                gap: 32px
                 @include responsivo(telefonoTable)
                     margin-top: 50px
                     top: 0
@@ -450,7 +466,6 @@
                 @include responsivo(smallPcTablet)
                     display: none
                 @include responsivo(general)
-                    width: 390px
                     top: 53px
                     left: -15px
                 .containerImage
@@ -460,30 +475,31 @@
                         position: relative
                         height: 321px
                         @include responsivo(telefonoTable)
-                            height: 321px
+                            height: 185px
                         @include responsivo(pcMedio)
                             height: 321px
                         @include responsivo(general)
                             height: 321px
                             left: -10px
                     .iconClick
-                        height: 130px
+                        height: 110px
                         position: absolute
-                        top: 25%
-                        left: 44%
+                        top: 22%
+                        left: 45%
                         transform: translate(-50%, -50%)
                         z-index: 1
                         cursor: pointer
                         animation: pulse 2s infinite ease-in-out
                         @include responsivo(telefonoTable)
                             height: 90px
-                            left: 27%
+                            left: 37%
+                            top: 10%
                         @include responsivo(pcMedio)
                             height: 90px
-                            left: 27%
+                            left: 42%
 
                         @include responsivo(general)
-                            left: 22%
+                            left: 42%
                         // Animación del icono
                         @keyframes pulse
                             0%
@@ -496,7 +512,7 @@
         .innerSectionElement.sct3
             padding-top: 0
             position: relative
-            top: 165px
+            top: 135px
             @include responsivo(telefonoTable)
                 padding-top: 0
                 top: 0
@@ -571,16 +587,13 @@
     justify-items: center
     text-align: center
     margin-bottom: 0 
-    margin-top: 120px
     @include responsivo(telefonoTable)
         margin-bottom: 0
         margin-top: 0
     @include responsivo(pcMedio)
         margin-bottom: 0
         margin-top: 0
-    @include responsivo(general)
     @include responsivo(smallPcTablet)
-        margin-bottom: 0
         margin-top: 40px
 
     .section-row
@@ -621,18 +634,43 @@
             max-width: 1140px!important
         @include responsivo(smallPcTablet)
             max-width: 900px!important
+            padding-top: 150px
+            z-index: 1
+            position: relative
         @include responsivo(resto)
             width: 100%!important
+        .innerSectionElement.sct0
+            h2.primaryTitle
+                font-family: 'Mulish', sans-serif
+                font-style: normal
+                font-weight: 700
+                line-height: 1
+                text-align: center
+                margin-bottom: 55px
+                color: #2c4857
+                font-size: 30px
+                @include responsivo(telefonoTable)
+                    br
+                        display: none!important
+                @include responsivo(pcMedio)
+                    br
+                        display: none!important
 
         .innerSectionElement.sct1
             margin: 0 auto
+
             .containElements
                 display: flex
                 justify-content: center
                 align-items: center
                 margin: 0 auto
                 gap: 60px
-                max-width: 1200px
+                max-width: 1100px
+                background-size: cover
+                background-position: center
+                border-radius: 40px
+                padding: 30px 40px
+                min-height: 290px
                 @include responsivo(telefonoTable)
                     flex-direction: column-reverse
                     align-items: center
@@ -651,24 +689,50 @@
                     position: relative
                 
                     img
-                        margin-top: auto
-                        height: 270px
+                        height: 90px
+                        margin: 0
+                        margin-bottom: 15px
                         padding: 0
                         z-index: 1
                         position: relative
-                        filter: drop-shadow(0px 4.158px 20px rgba(0, 127, 150, 0.10))
+                    h3.subtiTitle
+                        color: #fff
+                        font-size: 24px
+                        font-weight: 700
+                        font-family: 'Mulish', sans-serif
+                        margin:  0
+                        line-height: 1
                         @include responsivo(telefonoTable)
-                            height: 195px
+                            text-align: center
+                            margin-top: 20px
+                    .span1
+                        color: #fff
+                        font-size: 16px
+                        font-weight: 500
+                        font-family: 'Mulish', sans-serif
+                        margin:  3px 0px 10px 0px
+                        line-height: 1
+                        display: block
+                        @include responsivo(telefonoTable)
+                            text-align: center
+                    .span2
+                        display: block
+                        color: #fff
+                        font-size: 16px
+                        font-weight: 700
+                        font-family: 'Mulish', sans-serif
+                        margin:  0
+                        line-height: 1
+                        @include responsivo(telefonoTable)
+                            text-align: center
                 .info-second
                     p
                         font-family: 'Mulish', sans-serif
-                        font-size: 30px
+                        font-size: 24px
                         font-weight: 500
-                        line-height: 1
-                        list-style-type: none 
-                        color: #212A31
+                        line-height: 1.2
+                        color: #fff
                         display: flex
-                        align-items: flex-start
                         gap: 10px
                         @include responsivo(telefonoTable)
                             align-items: center
@@ -695,8 +759,7 @@
                             text-align: center
 
 #interna_seguros .interna_seguros_3
-    padding-top: 0
-    padding-bottom: 0px
+    padding: 100px 0px
     .section-row
         margin: 0 auto
         @include responsivo(telefonoTable)
@@ -717,7 +780,7 @@
 
         @include responsivo(resto)
             width: 100%!important
-            max-width:1358px!important
+            max-width:1100px!important
 
         .innerSectionElement.sct1
             margin-bottom: 0
@@ -730,7 +793,7 @@
                     font-weight: 700
                     line-height: 1
                     text-align: center
-                    margin-bottom: 20px
+                    margin-bottom: 60px
                     color: #2c4857
                     @include responsivo(telefonoTable)
                         font-size: 40px
@@ -744,24 +807,15 @@
                         font-size: 40px
                     @include responsivo(resto)
                         font-size: 48px
-                p
+                span
                     font-family: "Mulish", sans-serif
-                    font-size: 40px
-                    font-weight: 500
+                    font-size: 30px
+                    font-weight: 700
                     line-height: 1
-                    color: #212a31
+                    color: #007F96
                     text-align: center
-                    margin-bottom: 60px     
-                    @include responsivo(telefonoTable)
-                        font-size: 35px
-                        margin-bottom: 40px
-                    @include responsivo(pcMedio)
-                        font-size: 35px
-                        margin-bottom: 40px
-                    @include responsivo(smallPcTablet)
-                        font-size: 35px               
-                    span
-                        color: #007f96
+                    display: block
+                    margin-bottom: 12px     
         .innerSectionElement.sct2
 
             .containElements
@@ -786,17 +840,10 @@
                     top: 0px
                     img
                         margin-top: auto
-                        height: 429px
+                        height: 390px
                         padding: 0
                         @include responsivo(telefonoTable)
                             height: 268px
-                            display: none
-                        @include responsivo(smallPcTablet)
-                            height: 390px
-                    .imgMb
-                        display: none
-                        @include responsivo(telefonoTable)
-                            display: block!important
                 .info-second
                     @include responsivo(telefonoTable)
                         display: flex
@@ -809,45 +856,63 @@
                         justify-content: center
                         align-items: center
                         flex-direction: column
-                    p
-                        font-family: "Mulish", sans-serif
-                        font-size: 30px
-                        font-weight: 500
-                        line-height: 1
-                        color: #212a31
-                        text-align: left
-                        margin-bottom: 0               
-                        @include responsivo(telefonoTable)
-                            text-align: center
-                        @include responsivo(pcMedio)
-                            text-align: center
-                        @include responsivo(smallPcTablet)
-                            font-size: 22px          
 
                     ul
                         margin: 30px 0
                         li
                             font-family: 'Mulish', sans-serif
-                            font-size: 30px
+                            font-size: 24px
                             font-weight: 500
                             line-height: 1
                             color: #212A31
+                            margin-bottom: 25px
                             @include responsivo(smallPcTablet)
                                 font-size: 22px
                             &:not(:nth-last-child)
-                                margin-bottom: 10px
+                                margin-bottom: 0
                                   
                             &::marker
                                 color: #f34f36
+                            span
+                                font-weight: 700
+                                color: #212A31
+                                font-family: 'Mulish', sans-serif
+                                display: block
+        .innerSectionElement.sct3
+            .containElements
+                h3.primaryTitle
+                    font-family: 'Mulish', sans-serif
+                    font-style: normal
+                    font-weight: 700
+                    line-height: 1
+                    text-align: center
+                    margin-bottom: 20px
+                    color: #2c4857
+                    margin-top: 60px
+                p
+                    font-family: 'Mulish', sans-serif
+                    font-size: 24px
+                    font-weight: 500
+                    line-height: 1.2
+                    color: #212A31
+                    display: flex
+                    gap: 10px
+                    justify-content: center
+                    align-items: center
+                    text-align: center
+                    @include responsivo(telefonoTable)
+                        br
+                            display: none!important
+                    @include responsivo(pcMedio)
+                        br
+                            display: none!important
+
+
 
 #interna_seguros .interna_seguros_3_1   
-    padding: 140px 0px 
+    padding: 0px 
     background-color: transparent
     text-align: center
-    @include responsivo(telefonoTable)
-        padding: 100px 0px 
-    @include responsivo(pcMedio)
-        padding: 100px 0px 
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
@@ -862,7 +927,28 @@
         @include responsivo(resto)
             max-width: 1100px!important
 
-        
+        .innerSectionElement.sct0
+            margin-bottom: 0
+            h2.primaryTitle
+                font-family: 'Mulish', sans-serif
+                font-style: normal
+                font-weight: 700
+                line-height: 1
+                text-align: center
+                margin-bottom: 60px
+                color: #2c4857
+                @include responsivo(telefonoTable)
+                    font-size: 40px
+                    br
+                        display: none!important
+                @include responsivo(pcMedio)
+                    font-size: 40px
+                @include responsivo(general)
+                    font-size: 45px
+                @include responsivo(smallPcTablet)
+                    font-size: 40px
+                @include responsivo(resto)
+                    font-size: 48px
         .slider-container 
             position: relative
             width: 100%
@@ -905,15 +991,32 @@
             @include responsivo(telefonoTable)
                 display: flex!important
                 flex-direction: column
+                gap: 55px
 
             .mobile-img
                 width: auto
                 height: 550px
-
+        .innerSectionElement.sct2
+            .containElements
+                p
+                    font-family: 'Mulish', sans-serif
+                    font-size: 24px
+                    font-weight: 500
+                    line-height: 1.2
+                    color: #2C4857
+                    text-align: center
+                    display: block
+                    margin-top: 60px
+                    margin-bottom: 0
+                    @include responsivo(telefonoTable)
+                        br
+                            display: none!important
+                    @include responsivo(pcMedio)
+                        br
+                            display: none!important
 
 #interna_seguros .interna_seguros_4
-    padding-top: 0
-    padding-bottom: 0
+    padding: 100px 0px
     .section-row
         @include responsivo(telefonoTable)
             width: 100%
@@ -1154,8 +1257,8 @@
                         padding: 0
                         margin: 0
 
-                        li::marker
-                            color: #F1685A       
+                    li::marker
+                        color: #F1685A       
                     
                     li
                         font-family: 'Mulish', sans-serif
@@ -1177,6 +1280,7 @@
                             font-size: 22px
                         @include responsivo(resto)
                             font-size: 24px
+
                 .image
                     padding: 0
                     @include responsivo(telefonoTable)
@@ -1194,7 +1298,7 @@
                             display: block
                             margin: auto
                             @include responsivo(telefonoTable)
-                                height: 140px
+                                height: 180px
                                 margin-bottom: 0
                             @include responsivo(pcMedio)
                                 height: 200px
@@ -1285,22 +1389,23 @@
                 text-align: left
                 @include responsivo(telefonoTable)
                     padding: 0px 37px!important
+            
 
 
 #interna_seguros .interna_seguros_9
     padding: 0
+    padding-bottom: 60px
     .section-row
         margin: 0 auto
         background-color: transparent
         background-size: cover 
         background-repeat: no-repeat
         background-position: center
-        border-radius: 20px 20px 0px 0px  
-        padding: 0px 50px 0px 50px
+        border-radius: 20px 
+        padding: 20px 50px 0px 50px
         width: 95%!important
         @include responsivo(telefonoTable)
             background-position: center
-            background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-automatizaciones-section-9-mb.webp')!important
             width: 100%
             position: relative
             padding: 40px 10px 0px 10px
