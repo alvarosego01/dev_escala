@@ -4,14 +4,15 @@
         <section id="lead-form" class="hero2025 interna_seguros_0">
 
             <div class="backgroundFull"
-                style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-escala-interna-seguros-hero.webp') !!}')">
+                style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-escala-seguros-hero-1.webp') !!}')">
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
                         <div class="sectionText">
 
                             <h1 class="principalBigTitle">
-                                Inteligencia Comercial para vender Seguros en la era de IA
+                                Aumenta las ventas de tus asesores<br>
+                                de seguros con <span>Inteligencia Artificial</span>
                             </h1>
 
 
@@ -29,10 +30,11 @@
                                 <img class="iconClick" src="{!! App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') !!}" loading="lazy" onclick="openVideoPopup()">
                             </div>
                             <p class="principalBigText">
-                                CRM para asesores que impulsa ventas, <br class="space">
-                                retiene clientes y automatiza procesos.
+                                Centraliza leads, automatiza el seguimiento y obtén <br class="DT_e">
+                                visibilidad total del pipeline para que tu fuerza comercial <br class="DT_e">
+                                cierre más pólizas y renueve más clientes.
                             </p>
-                            <div class="containBtn">
+                            <!-- <div class="containBtn">
 
                                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                     Solicita una Demo Gratis →
@@ -40,7 +42,7 @@
                                 <a class="btnWhite openPopUpButton">
                                     Hablar con Experto →
                                 </a>
-                            </div>
+                            </div> -->
                         </section>
 
 

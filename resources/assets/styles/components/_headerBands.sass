@@ -719,7 +719,7 @@
 
 
 .headerband_promo_freeclass_t1.customSection.sectionParent
-    background-color: transparent
+    background-color: #007F96
     z-index: 10
     background-size: cover
     background-position: center 
@@ -766,7 +766,8 @@
             .contain
                 display: flex
                 flex-direction: row
-                justify-content: space-between
+                justify-content: center!important
+                gap: 15px
                 align-content: center
                 align-items: center
                 position: relative
@@ -809,7 +810,7 @@
                     color: #fff
                     text-align: center
                     font-family: 'Mulish', sans-serif
-                    font-size: 20px
+                    font-size: 22px
                     font-style: normal
                     font-weight: 900!important
                     line-height: 1
@@ -818,17 +819,16 @@
                         margin-right: auto
                         text-align: center
                         width: auto
-                        margin-top: 12px
-                        font-size: 17px
+                        font-size: 20px
+
                     @include responsivo(pcMedio)
-                        font-size: 20px 
+                        font-size: 22px 
                         text-align: center
-                        margin-bottom: 10px
                     @include responsivo(general)
                         text-align: left
-                        font-size: 18px
+                        font-size: 22px
                     @include responsivo(smallPcTablet)
-                        font-size: 17px
+                        font-size: 22px
                         width: 100%
                     @include responsivo(resto)
                         text-align: left
@@ -946,21 +946,20 @@
                         padding-left: 3px
                 a
                     font-weight: 900!important
-                    color: #FFFFFF!important
                     border-radius: 4px
                     padding: 10px 20px!important
-                    background: linear-gradient(90deg, #F34F36 0%, #007F96 100%)
+                    background-color: #fff!important
                     @include responsivo(telefonoTable)
                         margin: 10px auto
                         margin-bottom: 0
-                        font-size: 15px!important
+                        font-size: 20px!important
                         padding: 10px 20px!important
                     @include responsivo(pcMedio)
-                        font-size: 18px!important
+                        font-size: 22px!important
                         padding: 10px 20px!important
                         margin: 0
                     @include responsivo(general)
-                        font-size: 18px!important
+                        font-size: 22px!important
                         padding: 10px 20px!important
                         margin: 0
                         left: 0
@@ -968,12 +967,19 @@
                         margin: 0  6px
                     @include responsivo(resto)
                         margin: 0
-                        font-size: 18px!important
+                        font-size: 22px!important
                         position: relative
                         left: 0
                         // padding: 7.5px 20px!important
-                    &:hover
-                        background: linear-gradient(90deg, #ff6b60 0%, #1fdad3 100%) !important
+                    span
+                        background: linear-gradient(90deg, #F16A5B 0%, #007D94 100%)!important
+                        background-clip: text!important
+                        -webkit-background-clip: text!important
+                        -webkit-text-fill-color: transparent!important
+                        color: transparent!important
+
+
+                  
 .MbHeadbandfree
     display: none!important
     @include responsivo(telefonoTable)
