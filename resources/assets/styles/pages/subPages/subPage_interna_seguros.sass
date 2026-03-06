@@ -73,7 +73,7 @@
                 position: relative
                 display: flex
                 justify-content: center
-                align-items: flex-start
+                align-items: center
                 flex-direction: column-reverse
                 .info
                     display: flex
@@ -353,7 +353,6 @@
                         color: #fff
                         font-family: 'Mulish', sans-serif
                         font-weight: 800
-
                 .principalBigTitle
                     font-family: 'Mulish', sans-serif
                     font-style: normal
@@ -377,6 +376,12 @@
                     @include responsivo(resto)
                         margin-top: 0
                         font-size: 45px
+                    span
+                        background: linear-gradient(90deg, #83E3D0 0.31%, #F1685A 99.99%)
+                        background-clip: text
+                        -webkit-background-clip: text
+                        -webkit-text-fill-color: transparent
+                        color: transparent
                 .containerImage
                     display: none
                     margin: 0
