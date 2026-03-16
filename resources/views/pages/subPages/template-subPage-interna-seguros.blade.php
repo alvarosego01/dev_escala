@@ -17,7 +17,7 @@
 
 
                             <div class="containerImage">
-                                <img alt="Ilustración video" src="{!! App::setFilePath('/assets/images/illustrations/others/img-overlay-video-seguro.webp') !!}" loading="lazy">
+                                <img alt="Ilustración video" src="{!! App::setFilePath('/assets/images/illustrations/others/seo escala fondo video.webp') !!}" loading="lazy">
                                 <img class="iconClick" src="{!! App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') !!}" loading="lazy" onclick="openVideoPopup()">
                             </div>
 
@@ -26,7 +26,7 @@
 
                         <section class="innerSectionElement sct2">
                             <div class="containerImage">
-                                <img alt="Ilustración video" src="{!! App::setFilePath('/assets/images/illustrations/others/img-overlay-video-seguro.webp') !!}" loading="lazy">
+                                <img alt="Ilustración video" src="{!! App::setFilePath('/assets/images/illustrations/others/seo escala fondo video.webp') !!}" loading="lazy">
                                 <img class="iconClick" src="{!! App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') !!}" loading="lazy" onclick="openVideoPopup()">
                             </div>
                             <p class="principalBigText">
@@ -551,7 +551,7 @@
                 // Solo crear el iframe si no existe ya
                 if (!container.querySelector('iframe')) {
                     container.innerHTML = `
-                <iframe src="https://player.vimeo.com/video/1094458807?autoplay=1&badge=0&autopause=0&player_id=0&app_id=58479" 
+                <iframe src="https://player.vimeo.com/video/1174024884?autoplay=1&badge=0&autopause=0&player_id=0&app_id=58479" 
                         frameborder="0" 
                         allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
                         style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:20px;" 
