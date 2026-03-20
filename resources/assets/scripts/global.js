@@ -545,5 +545,14 @@ jQuery(document).ready(function($) {
     });
 });
 
+jQuery(document).ready(function($) {
+    $('#no-asesores').change(function() {
+        if(this.checked) {
+            $('#asesores-field').val('').attr('readonly', true).css('opacity', '0.5');
+        } else {
+            $('#asesores-field').attr('readonly', false).css('opacity', '1');
+        }
+    });
+});
 
 
