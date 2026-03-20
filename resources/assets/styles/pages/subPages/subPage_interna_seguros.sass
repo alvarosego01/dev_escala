@@ -2,7 +2,7 @@
 
 @mixin body_sectionTitle()
     color: #2C4857
-    text-align: center
+    text-align: center 
     font-family: 'Mulish', sans-serif
     font-style: normal
     font-weight: 700
@@ -20,7 +20,7 @@
 
 @mixin body_sectionPreTitle()
     color: #F34F36
-    text-align: center
+    text-align: center 
     font-family: 'Mulish', sans-serif
     font-style: normal
     font-weight: 500
@@ -90,7 +90,7 @@
                         margin-bottom: 60px
                         padding: 0
                         @include responsivo(telefonoTable)
-                            display: none
+                            display: none 
                         @include responsivo(pcMedio)
                             display: none
                         img
@@ -168,6 +168,9 @@
                                         @include responsivo(telefonoTable)
                                             margin: 0 auto
                                             width: 240px
+                                            align-items: center
+                                            text-align: center
+                                            justify-content: center
                                         @include responsivo(pcMedio)
                                             margin: 0 auto
                                             width: auto
@@ -177,6 +180,11 @@
                                             flex-direction: row
                                             align-content: flex-end
                                             position: relative
+                                            @include responsivo(telefonoTable)
+                                                align-items: center 
+                                                justify-content: center
+                                                
+                                                 
                                             .containerImage
                                                 padding: 0
                                                 margin: 0!important
@@ -403,8 +411,8 @@
                         cursor: pointer
                         animation: pulse 2s infinite ease-in-out
                         @include responsivo(telefonoTable)
-                            left: 38%
-                            top: 14%
+                            left: 39%
+                            top: 13%
                         @include responsivo(smallPcTablet)
                             height: 90px
                             top: 55%
@@ -497,8 +505,8 @@
                         animation: pulse 2s infinite ease-in-out
                         @include responsivo(telefonoTable)
                             height: 90px
-                            left: 37%
-                            top: 12%
+                            left: 39%
+                            top: 13%
                         @include responsivo(pcMedio)
                             height: 90px
                             left: 42%
@@ -657,6 +665,7 @@
                 @include responsivo(telefonoTable)
                     br
                         display: none!important
+                    font-size: 40px
                 @include responsivo(pcMedio)
                     br
                         display: none!important
@@ -1000,7 +1009,7 @@
 
             .mobile-img
                 width: auto
-                height: 550px
+                height: auto
         .innerSectionElement.sct2
             .containElements
                 p
