@@ -44,11 +44,39 @@ function setResize() {
 
 
         navScrollFixed();
+        headerBandSticky();
 
     }, true);
 
 }
 
+function headerBandSticky() {
+
+    var banner = jQuery('section.headerband_promo_freeclass_t1.customSection.sectionParent');
+    if (!banner.length) {
+        jQuery('header').removeClass('bannerSticky');
+        return;
+    }
+
+    if (!banner.data('stickyAnchor')) {
+        banner.data('stickyAnchor', banner.offset().top || 0);
+    }
+
+    var bannerAnchor = banner.data('stickyAnchor');
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop || 0;
+    var bannerHeight = banner.outerHeight() || 0;
+
+    if (scrollTop > bannerAnchor) {
+        banner.addClass('is-fixed');
+        jQuery('header').addClass('bannerSticky');
+        jQuery('header.bannerSticky nav.fixedNav').css('top', bannerHeight + 'px');
+    } else {
+        banner.removeClass('is-fixed');
+        jQuery('header').removeClass('bannerSticky');
+        jQuery('header nav.fixedNav').css('top', '0');
+    }
+
+}
 
 function _serializeFormToObject(form) {
 
@@ -503,9 +531,10 @@ jQuery(document).ready(function () {
 
     window.onload = function () {
         setResize();
+        headerBandSticky();
     }
 
-    window.onscroll = function () { navScrollFixed() };
+    window.onscroll = function () { navScrollFixed(); headerBandSticky(); };
 
     closingSidebarClick();
 
