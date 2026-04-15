@@ -14,7 +14,10 @@
                                 Aumenta las ventas de tus asesores<br>
                                 de seguros con <span>Inteligencia Artificial</span>
                             </h1>
-
+                            <h1 class="principalBigTitleMb">
+                                Aumenta las ventas  <br class="space"> de tus asesores 
+                                de<br class="space"> seguros con<br class="space">  <span>Inteligencia Artificial</span>
+                            </h1>
 
                             <div class="containerImage">
                                 <img alt="Ilustración video" src="{!! App::setFilePath('/assets/images/illustrations/others/escala crm .webp') !!}" loading="lazy">
@@ -30,8 +33,8 @@
                                 <img class="iconClick" src="{!! App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') !!}" loading="lazy" onclick="openVideoPopup()">
                             </div>
                             <p class="principalBigText">
-                                Centraliza leads, automatiza el seguimiento y obtén 
-                                visibilidad total del pipeline <br class="DT_e"> para que tu fuerza comercial 
+                                Centraliza leads, automatiza el seguimiento y obtén
+                                visibilidad total del pipeline <br class="DT_e"> para que tu fuerza comercial
                                 cierre más pólizas y renueve más clientes.
                             </p>
                             <!-- <div class="containBtn">
@@ -185,7 +188,7 @@
                             <span class="span1">
                                 Líder en Analytics, IA y CRM <br class="DT_e"> Seguros SURA Colombia
                             </span>
-                           
+
                         </div>
                         <div class="info-second">
                             <p>
@@ -201,7 +204,7 @@
 
         </section>
 
-        <section class="w-full customSection sectionParent interna_seguros_3"  style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg internas seguros (3).webp') !!}')">
+        <section class="w-full customSection sectionParent interna_seguros_3" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg internas seguros (3).webp') !!}')">
             <div class="section-row">
                 <section class="innerSectionElement sct1 ">
                     <div class="containElements">
@@ -209,7 +212,7 @@
                             El problema
                         </span>
                         <h2 class="primaryTitle">
-                            El crecimiento de los asesores de 
+                            El crecimiento de los asesores de
                             seguros está limitado
                         </h2>
 
@@ -244,7 +247,7 @@
                         </h3>
                         <p>
                             El Un canal comercial ineficiente, difícil de escalar
-                            y altamente  dependiente del esfuerzo manual.
+                            y altamente dependiente del esfuerzo manual.
                         </p>
                     </div>
                 </section>
@@ -362,7 +365,7 @@
                 <section class="innerSectionElement sct2 ">
                     <div class="containElements">
                         <p>
-                            No es sólo eficiencia. Es potenciar a los asesores 
+                            No es sólo eficiencia. Es potenciar a los asesores
                             con el poder de IA para crecer su cartera de clientes.
                         </p>
                     </div>

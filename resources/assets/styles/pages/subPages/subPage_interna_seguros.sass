@@ -45,7 +45,7 @@
         font-size: 44px
         line-height: 1.1
     h2
-        font-size: 38px
+        font-size: 36px
         line-height: 1.15
     h3
         font-size: 24px
@@ -388,6 +388,13 @@
                         color: #fff
                         font-family: 'Mulish', sans-serif
                         font-weight: 800
+
+                    span
+                        background: linear-gradient(90deg, #83E3D0 0.31%, #F1685A 99.99%)
+                        background-clip: text
+                        -webkit-background-clip: text
+                        -webkit-text-fill-color: transparent
+                        color: transparent
                 .principalBigTitle
                     font-family: 'Mulish', sans-serif
                     font-style: normal
@@ -400,6 +407,7 @@
                     font-weight: 800
                     @include responsivo(telefonoTable)
                         font-size: 32px
+                        display: none!important
                     @include responsivo(pcMedio)
                         text-align: center
                         br
@@ -513,11 +521,14 @@
                 .containerImage
                     margin: 0
                     padding: 0
+                    @include responsivo(telefonoTable)
+                        position: relative
                     img
                         position: relative
                         height: 321px
                         @include responsivo(telefonoTable)
-                            height: 185px
+                            height: auto
+                            width: 100%
                         @include responsivo(pcMedio)
                             height: 321px
                         @include responsivo(general)
@@ -534,8 +545,8 @@
                         animation: pulse 2s infinite ease-in-out
                         @include responsivo(telefonoTable)
                             height: 90px
-                            left: 39%
-                            top: 13%
+                            left: 0%
+                            top: 27%
                         @include responsivo(pcMedio)
                             height: 90px
                             left: 42%
@@ -694,7 +705,7 @@
                 text-align: center
                 margin-bottom: 55px
                 color: #2c4857
-                font-size: 38px
+                font-size: 36px
                 @include responsivo(telefonoTable)
                     br
                         display: none!important
@@ -848,20 +859,20 @@
                     text-align: center
                     margin-bottom: 60px
                     color: #2c4857
-                    font-size: 38px
+                    font-size: 36px
                     @include responsivo(telefonoTable)
                         font-size: 26px
                         br
                             display: none!important
                     @include responsivo(pcMedio)
-                        font-size: 38px
+                        font-size: 36px
                     @include responsivo(general)
-                        font-size: 38px
+                        font-size: 36px
                     @include responsivo(smallPcTablet)
-                        font-size: 38px
+                        font-size: 36px
                     @include responsivo(resto)
                         font-size: 3ivo(resto)
-                        font-size: 38px
+                        font-size: 36px
                 span
                     font-family: "Mulish", sans-serif
                     font-size: 24px
@@ -999,19 +1010,19 @@
                 text-align: center
                 margin-bottom: 60px
                 color: #2c4857
-                font-size: 38px
+                font-size: 36px
                 @include responsivo(telefonoTable)
                     font-size: 26px
                     br
                         display: none!important
                 @include responsivo(pcMedio)
-                    font-size: 38px
+                    font-size: 36px
                 @include responsivo(general)
-                    font-size: 38px
+                    font-size: 36px
                 @include responsivo(smallPcTablet)
-                    font-size: 38px
+                    font-size: 36px
                 @include responsivo(resto)
-                    font-size: 38px
+                    font-size: 36px
         .slider-container 
             position: relative
             width: 100%
@@ -1110,26 +1121,23 @@
                     text-align: center
                     margin-bottom: 20px
                     color: #2c4857
-                    font-size: 38px
-                    @include responsivo(telefonoTable)
-                        font-size: 26px
-                        margin: 0
-                        br
-                            display: none!important
-                    @include responsivo(pcMedio)
-                        font-size: 38px
-                        br
-                            display: none!important
-                    @include responsivo(general)
-                        font-size: 38px
-                    @include responsivo(smallPcTablet)
-                        font-size: 38px
-                    @include responsivo(resto)
-                        font-size: 3ivo(resto)
-                        font-size: 38px
-
-
-        .innerSectionElement.sct1
+                font-size: 36px
+                @include responsivo(telefonoTable)
+                    font-size: 26px
+                    margin: 0
+                    br
+                        display: none!important
+                @include responsivo(pcMedio)
+                    font-size: 36px
+                    br
+                        display: none!important
+                @include responsivo(general)
+                    font-size: 36px
+                @include responsivo(smallPcTablet)
+                    font-size: 36px
+                @include responsivo(resto)
+                    font-size: 3ivo(resto)
+                    font-size: 36px
             .containElements
 
                 .containerImage
@@ -1203,7 +1211,7 @@
                     font-family: "Mulish", sans-serif
                     font-style: normal
                     font-weight: bold
-                    font-size: 38px
+                    font-size: 36px
                     line-height: 1.15
                     text-align: center
                     margin-bottom: 25px
@@ -1212,9 +1220,9 @@
                         font-size: 26px
                         margin: 0
                     @include responsivo(pcMedio)
-                        font-size: 38px
+                        font-size: 36px
                     @include responsivo(smallPcTablet)
-                        font-size: 38px
+                        font-size: 36px
         section.innerSectionElement.sct2
             .groupElements.row
                 @include responsivo(telefonoTable)
