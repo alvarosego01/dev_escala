@@ -719,15 +719,25 @@
 
 
 .headerband_promo_freeclass_t1.customSection.sectionParent
-    background-color: #007F96
+    background-color: #F34F36
     z-index: 10
     background-size: cover
     background-position: center 
     position: absolute
     top: 128px
+    &.is-fixed
+        position: fixed !important
+        top: 0 !important
+        left: 0
+        right: 0
+        width: 100%
+        z-index: 99999
+        @include responsivo(telefonoTable)
+            top: 0
     @include responsivo(telefonoTable)
         display: none
         top: 75px
+        border-radius: 20px
     @include responsivo(pcMedio)
         background-position: left
         top: 80px
@@ -745,7 +755,7 @@
         padding: 7.5px 0
         @include responsivo(telefonoTable)
             width: 95%!important
-            padding: 12px 0
+            padding: 20px
         @include responsivo(pcMedio)
             width: 95%!important
         @include responsivo(general)
@@ -810,9 +820,9 @@
                     color: #fff
                     text-align: center
                     font-family: 'Mulish', sans-serif
-                    font-size: 22px
+                    font-size: 20px
                     font-style: normal
-                    font-weight: 900!important
+                    font-weight: 600!important
                     line-height: 1
                     @include responsivo(telefonoTable)
                         margin-left: auto
@@ -822,13 +832,10 @@
                         font-size: 20px
 
                     @include responsivo(pcMedio)
-                        font-size: 22px 
                         text-align: center
                     @include responsivo(general)
                         text-align: left
-                        font-size: 22px
                     @include responsivo(smallPcTablet)
-                        font-size: 22px
                         width: 100%
                     @include responsivo(resto)
                         text-align: left
@@ -945,22 +952,16 @@
                         font-weight: 400
                         padding-left: 3px
                 a
-                    font-weight: 900!important
-                    border-radius: 4px
-                    padding: 10px 20px!important
+                    font-weight: 700!important
+                    border-radius: 8px
+                    padding: 4px 10px!important
+                    font-size: 20px!important
                     background-color: #fff!important
                     @include responsivo(telefonoTable)
-                        margin: 10px auto
                         margin-bottom: 0
-                        font-size: 20px!important
-                        padding: 10px 20px!important
                     @include responsivo(pcMedio)
-                        font-size: 22px!important
-                        padding: 10px 20px!important
                         margin: 0
                     @include responsivo(general)
-                        font-size: 22px!important
-                        padding: 10px 20px!important
                         margin: 0
                         left: 0
                     @include responsivo(smallPcTablet)
@@ -978,8 +979,6 @@
                         -webkit-text-fill-color: transparent!important
                         color: transparent!important
 
-
-                  
 .MbHeadbandfree
     display: none!important
     @include responsivo(telefonoTable)

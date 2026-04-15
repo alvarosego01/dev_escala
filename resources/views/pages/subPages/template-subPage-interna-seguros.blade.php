@@ -4,7 +4,7 @@
         <section id="lead-form" class="hero2025 interna_seguros_0">
 
             <div class="backgroundFull"
-                style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-escala-seguros-hero-1.webp') !!}')">
+                style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg hero interna seguros.webp') !!}')">
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
@@ -17,7 +17,7 @@
 
 
                             <div class="containerImage">
-                                <img alt="Ilustración video" src="{!! App::setFilePath('/assets/images/illustrations/others/seo escala fondo video.webp') !!}" loading="lazy">
+                                <img alt="Ilustración video" src="{!! App::setFilePath('/assets/images/illustrations/others/escala crm .webp') !!}" loading="lazy">
                                 <img class="iconClick" src="{!! App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') !!}" loading="lazy" onclick="openVideoPopup()">
                             </div>
 
@@ -26,12 +26,12 @@
 
                         <section class="innerSectionElement sct2">
                             <div class="containerImage">
-                                <img alt="Ilustración video" src="{!! App::setFilePath('/assets/images/illustrations/others/seo escala fondo video.webp') !!}" loading="lazy">
+                                <img alt="Ilustración video" src="{!! App::setFilePath('/assets/images/illustrations/others/escala crm .webp') !!}" loading="lazy">
                                 <img class="iconClick" src="{!! App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') !!}" loading="lazy" onclick="openVideoPopup()">
                             </div>
                             <p class="principalBigText">
-                                Centraliza leads, automatiza el seguimiento y obtén <br class="DT_e">
-                                visibilidad total del pipeline para que tu fuerza comercial <br class="DT_e">
+                                Centraliza leads, automatiza el seguimiento y obtén 
+                                visibilidad total del pipeline <br class="DT_e"> para que tu fuerza comercial 
                                 cierre más pólizas y renueve más clientes.
                             </p>
                             <!-- <div class="containBtn">
@@ -167,7 +167,7 @@
 
         </section>
 
-        <section class="w-full customSection sectionParent  interna_seguros_2">
+        <section class="w-full customSection sectionParent  interna_seguros_2" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg internas seguros (2).webp') !!}')">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <h2 class="primaryTitle">
@@ -176,18 +176,16 @@
                     </h2>
                 </section>
                 <section class="innerSectionElement sct1">
-                    <div class="containElements" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-sura-banner.webp') !!}')">
+                    <div class="containElements" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg interna seguros.webp') !!}')">
                         <div class="containerImage">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-sura.webp') !!}" loading="lazy">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/sura ceo.webp') !!}" loading="lazy">
                             <h3 class="subtiTitle">
                                 Carlos Carmona
                             </h3>
                             <span class="span1">
-                                Líder en Analytics, IA y CRM
+                                Líder en Analytics, IA y CRM <br class="DT_e"> Seguros SURA Colombia
                             </span>
-                            <span class="span2">
-                                Seguros SURA Colombia
-                            </span>
+                           
                         </div>
                         <div class="info-second">
                             <p>
@@ -203,7 +201,7 @@
 
         </section>
 
-        <section class="w-full customSection sectionParent interna_seguros_3">
+        <section class="w-full customSection sectionParent interna_seguros_3"  style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg internas seguros (3).webp') !!}')">
             <div class="section-row">
                 <section class="innerSectionElement sct1 ">
                     <div class="containElements">
@@ -211,7 +209,7 @@
                             El problema
                         </span>
                         <h2 class="primaryTitle">
-                            El crecimiento de los asesores de <br class="space">
+                            El crecimiento de los asesores de 
                             seguros está limitado
                         </h2>
 
@@ -221,7 +219,7 @@
 
                     <div class="containElements">
                         <div class="containerImage">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/vender_era_complicado_img_section_home_escala 1.webp') !!}" loading="lazy">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/vender_era_complicado_img_section_home_escala 1 (1).webp') !!}" loading="lazy">
                         </div>
                         <div class="info-second">
                             <ul>
@@ -246,14 +244,14 @@
                         </h3>
                         <p>
                             El Un canal comercial ineficiente, difícil de escalar
-                            y altamente <br class="DT_e"> dependiente del esfuerzo manual.
+                            y altamente  dependiente del esfuerzo manual.
                         </p>
                     </div>
                 </section>
             </div>
         </section>
 
-        <section class="customSection sectionParent interna_seguros_3_1">
+        <section class="customSection sectionParent interna_seguros_3_1" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg internas seguros (1).webp') !!}')">
 
             <div class="section-row">
                 <section class="innerSectionElement sct0">
@@ -264,39 +262,39 @@
                 <section class="innerSectionElement sct1">
                     <div class="mobile-contain-slider">
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/banne-solucion-interna-seguros-mb (2).webp') !!}"
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución mobile (2).webp') !!}"
                             alt="Imagen 1 mobile" class="mobile-img">
 
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/banne-solucion-interna-seguros-mb (3).webp') !!}"
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución mobile (3).webp') !!}"
                             alt="Imagen 2 mobile" class="mobile-img">
 
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/banne-solucion-interna-seguros-mb (4).webp') !!}"
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución mobile (1).webp') !!}"
                             alt="Imagen 3 mobile" class="mobile-img">
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/banne-solucion-interna-seguros-mb (1).webp') !!}"
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución mobile (4).webp') !!}"
                             alt="Imagen 4 mobile" class="mobile-img">
                     </div>
 
                     <div class="slider-container" id="sliderContainer">
                         <div class="slider" id="slider">
                             <div class="slide">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/banner-solucion-interna-seguros (2).webp') !!}"
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución (2).webp') !!}"
                                     alt="Imagen 4 Desktop" class="desktop-img">
                             </div>
                             <div class="slide">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/banner-solucion-interna-seguros (3).webp') !!}"
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución (3).webp') !!}"
                                     alt="Imagen 1 Desktop" class="desktop-img">
 
                             </div>
                             <div class="slide">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/banner-solucion-interna-seguros (4).webp') !!}"
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución (1).webp') !!}"
                                     alt="Imagen 2 Desktop" class="desktop-img">
 
                             </div>
                             <div class="slide">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/banner-solucion-interna-seguros (1).webp') !!}"
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución (4).webp') !!}"
                                     alt="Imagen 3 Desktop" class="desktop-img">
 
                             </div>
@@ -364,7 +362,7 @@
                 <section class="innerSectionElement sct2 ">
                     <div class="containElements">
                         <p>
-                            No es sólo eficiencia. Es potenciar a los asesores <br class="DT_e">
+                            No es sólo eficiencia. Es potenciar a los asesores 
                             con el poder de IA para crecer su cartera de clientes.
                         </p>
                     </div>
@@ -372,7 +370,7 @@
             </div>
         </section>
 
-        <section class="w-full customSection sectionParent interna_seguros_4">
+        <section class="w-full customSection sectionParent interna_seguros_4" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg interna white.webp') !!}')">
             <div class="section-row">
                 <section class="innerSectionElement sct0 ">
                     <div class="containElements">
@@ -510,7 +508,7 @@
                             </h2>
 
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Empezar ahora →
+                                Solicita una Demo Gratis →
                             </a>
 
                         </div>

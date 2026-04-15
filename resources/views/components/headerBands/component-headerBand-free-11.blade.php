@@ -10,7 +10,7 @@
                     <!-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-star-blue.webp') !!}" alt="" class="icon"> -->
 
                     <span class="hashTitle">
-                        Conoce Escala para </span>
+                        Conoce el ultimo lanzamiento de Escala para la vertical de</span>
                     <!-- 
                     <div class="separator"></div>
                     <span class="sub">
@@ -19,7 +19,7 @@
                 </div>
 
                 <a target="_blank" href="https://experiencia.escala.com/eventos-escala" class=" primaryButton hoverInEffect ">
-                    <span>Seguros</span>
+                    <span>Asesores de Seguros</span>
 
                 </a>
 
@@ -42,7 +42,7 @@
                     <!-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-star-blue.webp') !!}" alt="" class="icon"> -->
 
                     <span class="hashTitle">
-                        Conoce Escala para </span>
+                        Conoce el ultimo lanzamiento de Escala para la vertical de</span>
                     <!-- 
                     <div class="separator"></div>
                     <span class="sub">
@@ -51,7 +51,8 @@
                 </div>
 
                 <a target="_blank" href="https://experiencia.escala.com/eventos-escala" class=" primaryButton hoverInEffect ">
-                    <span>Seguros</span>
+                    <span>Asesores de Seguros</span>
+
                 </a>
 
             </div>
