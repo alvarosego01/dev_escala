@@ -18,7 +18,7 @@
                     </span> -->
                 </div>
 
-                <a target="_blank" href="https://experiencia.escala.com/eventos-escala" class=" primaryButton hoverInEffect ">
+                <a target="_blank" href="https://escala.com/seguros" class=" primaryButton hoverInEffect ">
                     <span>Asesores de Seguros</span>
 
                 </a>
@@ -50,7 +50,7 @@
                     </span> -->
                 </div>
 
-                <a target="_blank" href="https://experiencia.escala.com/eventos-escala" class=" primaryButton hoverInEffect ">
+                <a target="_blank" href="https://escala.com/seguros" class=" primaryButton hoverInEffect ">
                     <span>Asesores de Seguros</span>
 
                 </a>

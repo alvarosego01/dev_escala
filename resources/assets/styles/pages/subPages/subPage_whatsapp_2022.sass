@@ -70,11 +70,22 @@ html
 #subPage_whatsapp_2022 .customSection.sectionParent.subpage_whatsapp_0
 
     margin-bottom: 0
+
     @include responsivo(telefonoTable)
         padding-bottom: 25px
 
     @include responsivo(smallPcTablet)
         padding-bottom: 0
+    .backgroundFull
+        padding-top: 60px
+        @include responsivo(telefonoTable)
+            padding-top: 220px!important
+        @include responsivo(pcMedio)
+            padding-top: 190px!important
+        @include responsivo(general)
+            padding-top: 70px
+        @include responsivo(smallPcTablet)
+            padding-top: 85px 
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
@@ -96,7 +107,6 @@ html
         background-position: 47% 
         height: 850px
         padding: 0
-        padding-top: 75px
         @include responsivo(telefonoTable)
             background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-dk-escala-whatsapp-hero-mb-1-1.png')!important
             background-position: center
