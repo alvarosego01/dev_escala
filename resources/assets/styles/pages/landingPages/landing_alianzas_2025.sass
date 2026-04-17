@@ -36,7 +36,17 @@ img
 
 #landing_alianzas_2025 .landing_alianzas_2025_0
     z-index: 2
-    position: relative   
+    position: relative 
+    .backgroundFull
+        padding-top: 60px
+        @include responsivo(telefonoTable)
+            padding-top: 220px!important
+        @include responsivo(pcMedio)
+            padding-top: 190px!important
+        @include responsivo(general)
+            padding-top: 70px
+        @include responsivo(smallPcTablet)
+            padding-top: 85px  
     .section-row-2
         background: #FAFBFD 
         border-radius: 20px 20px 0px 0px
