@@ -265,39 +265,39 @@
                 <section class="innerSectionElement sct1">
                     <div class="mobile-contain-slider">
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución mobile (2).webp') !!}"
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/solucion seguros escala mobile 1.webp') !!}"
                             alt="Imagen 1 mobile" class="mobile-img">
 
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución mobile (3).webp') !!}"
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/solucion seguros escala mobile 2.webp') !!}"
                             alt="Imagen 2 mobile" class="mobile-img">
 
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución mobile (1).webp') !!}"
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/solucion seguros escala mobile 3.webp') !!}"
                             alt="Imagen 3 mobile" class="mobile-img">
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución mobile (4).webp') !!}"
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/solucion seguros escala mobile 4.webp') !!}"
                             alt="Imagen 4 mobile" class="mobile-img">
                     </div>
 
                     <div class="slider-container" id="sliderContainer">
                         <div class="slider" id="slider">
                             <div class="slide">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución (2).webp') !!}"
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/solucion seguros escala desktop 1.webp') !!}"
                                     alt="Imagen 4 Desktop" class="desktop-img">
                             </div>
                             <div class="slide">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución (3).webp') !!}"
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/solucion seguros escala desktop 2.webp') !!}"
                                     alt="Imagen 1 Desktop" class="desktop-img">
 
                             </div>
                             <div class="slide">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución (1).webp') !!}"
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/solucion seguros escala desktop 3.webp') !!}"
                                     alt="Imagen 2 Desktop" class="desktop-img">
 
                             </div>
                             <div class="slide">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/La solución (4).webp') !!}"
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/solucion seguros escala desktop 4.webp') !!}"
                                     alt="Imagen 3 Desktop" class="desktop-img">
 
                             </div>
