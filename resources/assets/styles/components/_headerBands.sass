@@ -723,24 +723,20 @@
     z-index: 10
     background-size: cover
     background-position: center 
-    position: absolute
-    top: 128px
+    position: relative
+    width: 100%
     &.is-fixed
         position: fixed !important
         top: 0 !important
         left: 0
         right: 0
         width: 100%
-        z-index: 99999
-        @include responsivo(telefonoTable)
-            top: 0
+        // Debajo del nav fijo (z-index ~1000) para que el menú/hamburguesa sigan por encima
+        z-index: 100
     @include responsivo(telefonoTable)
         display: none
-        top: 75px
-        border-radius: 20px
     @include responsivo(pcMedio)
         background-position: left
-        top: 80px
     @include responsivoSpecial(2100px, 99999px)
         background-size: cover
     @include responsivo(general)
