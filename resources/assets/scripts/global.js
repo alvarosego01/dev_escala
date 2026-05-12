@@ -28,9 +28,8 @@ function navScrollFixed() {
 
         } else {
             inner[0].classList.remove("fixedNav");
-            // navbar.css({
-            //     'height': heightNavbar + 'px'
-            // })
+            navbar.css('height', '');
+            jQuery('.jet-popup.jet-popup--front-mode').css('top', '');
         }
     }
 }
