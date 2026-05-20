@@ -329,20 +329,10 @@ add_action('wp_enqueue_scripts', function () {
     }
     // --- Template interna seguros
     if (is_page_template('views/template-subPage-interna-seguros.blade.php')) {
-        $internaSegurosStyleDeps = [];
-        if (is_page(13689)) {
-            wp_enqueue_style(
-                'google-font-inter-interna-seguros',
-                'https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap',
-                [],
-                null
-            );
-            $internaSegurosStyleDeps = ['google-font-inter-interna-seguros'];
-        }
         wp_enqueue_style(
             'subPage_interna_seguros.css',
             asset_path('styles/pages/subPages/subPage_interna_seguros.css'),
-            $internaSegurosStyleDeps,
+            false,
             THEME_VERSION
         );
     }
