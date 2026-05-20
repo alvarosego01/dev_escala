@@ -213,55 +213,75 @@ function closingSidebarClick() {
 
 
 
-function scrollToHash() {
+var escalaLeadFormLoadLock = true;
 
-    jQuery('.goToHash').click(function (e) {
-
+function scrollToLeadForm(smooth) {
+    var element = jQuery('#lead-form .formatForm')[0];
+    if (!element) {
         return;
-        e.preventDefault();
+    }
 
-        // let w = window.innerWidth;
-        // document.getElementById('lead-form').scrollIntoView();
+    var yOffset = window.innerWidth <= 999 ? -110 : -160;
+    var y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
-        var yOffset = -10;
-        var element = jQuery('#lead-form .formatForm')[0];
-        if (element) {
+    window.scrollTo({
+        top: Math.max(0, y),
+        behavior: smooth ? 'smooth' : 'auto'
+    });
+}
 
-            if (window.innerWidth <= 999) {
+/**
+ * Evita que al cargar la landing el navegador o CF7 hagan scroll al formulario
+ * (rompe el hero/banner). Solo bloquea el arranque; los clics en .goToHash sí desplazan.
+ */
+function preventLeadFormScrollOnLoad() {
+    if (!document.getElementById('lead-form')) {
+        return;
+    }
 
-                var y = element.getBoundingClientRect().top + window.pageYOffset + yOffset - 100;
+    if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+    }
 
-                window.scrollTo({ top: y, behavior: 'smooth' });
-            }
-            if (window.innerWidth >= 1000) {
+    if (window.location.hash === '#lead-form') {
+        history.replaceState(
+            null,
+            '',
+            window.location.pathname + window.location.search
+        );
+    }
 
-                var y = element.getBoundingClientRect().top + window.pageYOffset + yOffset - 150;
-
-                window.scrollTo({ top: y, behavior: 'smooth' });
-            }
+    var resetScroll = function () {
+        if (!escalaLeadFormLoadLock) {
+            return;
         }
+        window.scrollTo(0, 0);
+    };
 
-        // const Toast = Swal.mixin({
-        //     toast: true,
-        //     position: 'top',
-        //     showConfirmButton: false,
-        //     timer: 4500,
-        //     timerProgressBar: true,
-        //     // didOpen: (toast) => {
-        //     //   toast.addEventListener('mouseenter', Swal.stopTimer)
-        //     //   toast.addEventListener('mouseleave', Swal.resumeTimer)
-        //     // }
-        //   })
-
-        //   Toast.fire({
-        //     icon: 'success',
-        //     title: '¡Completa este formulario para probar <strong>Escala</strong> ahora!'
-        //   })
-
-
-
+    resetScroll();
+    window.addEventListener('load', resetScroll);
+    jQuery(document).on('wpcf7DOMContentLoaded', resetScroll);
+    [0, 80, 250, 600, 1000].forEach(function (ms) {
+        setTimeout(resetScroll, ms);
     });
 
+    setTimeout(function () {
+        escalaLeadFormLoadLock = false;
+    }, 1200);
+}
+
+function scrollToHash() {
+    jQuery(document).on('click', '.goToHash', function (e) {
+        var href = this.getAttribute('href') || '';
+
+        if (href.indexOf('#lead-form') === -1) {
+            return;
+        }
+
+        e.preventDefault();
+        escalaLeadFormLoadLock = false;
+        scrollToLeadForm(true);
+    });
 }
 
 function showTestimonials(type) {
@@ -521,6 +541,8 @@ _preventResetForms();
 
 
 jQuery(document).ready(function () {
+
+    preventLeadFormScrollOnLoad();
 
     setInnerElement();
 
