@@ -14,17 +14,83 @@
   $featured_img_url = get_the_post_thumbnail_url(get_the_ID(), 'large');
   $featured_img_alt = get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true) ?: get_the_title();
   $yoast_desc = get_post_meta(get_the_ID(), '_yoast_wpseo_metadesc', true);
-  // Fall back to excerpt or impulso_subtitle meta
   if (empty($yoast_desc)) $yoast_desc = get_post_meta(get_the_ID(), 'impulso_subtitle', true);
   if (empty($yoast_desc)) $yoast_desc = get_the_excerpt();
   $word_count = str_word_count(strip_tags(get_the_content()));
   $read_time = max(1, round($word_count / 200)) . ' min de lectura';
   $post_date_formatted = get_the_date('F j, Y');
+  $last_modified = get_the_modified_date('F j, Y');
+  $was_updated = $last_modified !== $post_date_formatted;
+  $author_id = get_the_author_meta('ID');
+  $author_name = get_post_meta(get_the_ID(), 'impulso_author', true) ?: get_the_author();
+
+  // Extract FAQ Q&As from content for FAQPage schema
+  $content = get_the_content();
+  $faqs = [];
+  if (preg_match('/^##\s+Preguntas\s+frecuentes\s*\n(.+?)(?=^##\s|\z)/imsu', $content, $faqMatch)) {
+    if (preg_match_all('/\*\*([^*]+\?)\*\*\s*\n+(.+?)(?=\n\*\*[^*]+\?\*\*|\z)/su', $faqMatch[1], $qaMatches, PREG_SET_ORDER)) {
+      foreach ($qaMatches as $qa) {
+        $faqs[] = ['q' => trim($qa[1]), 'a' => trim(preg_replace('/\s+/', ' ', $qa[2]))];
+      }
+    }
+  }
 @endphp
 
 @extends('layouts.app')
 
 @section('content')
+
+{{-- JSON-LD: Article schema --}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": @json(get_the_title()),
+  "description": @json($yoast_desc),
+  "image": @json($featured_img_url),
+  "datePublished": @json(get_the_date('c')),
+  "dateModified": @json(get_the_modified_date('c')),
+  "author": {
+    "@type": "Person",
+    "name": @json($author_name),
+    "url": @json(get_author_posts_url($author_id))
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Escala",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ get_site_url() }}/wp-content/themes/oceanwp-child/resources/assets/images/logos/log-escala-oscuro-2025.webp"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": @json(get_the_permalink())
+  }
+}
+</script>
+
+@if(!empty($faqs))
+{{-- JSON-LD: FAQPage schema --}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    @foreach($faqs as $i => $faq)
+    {
+      "@type": "Question",
+      "name": @json($faq['q']),
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": @json($faq['a'])
+      }
+    }@if(!$loop->last),@endif
+    @endforeach
+  ]
+}
+</script>
+@endif
 
 <style>
   /* Impulso article styles */
@@ -106,6 +172,29 @@
   #single_blog_2025 .text-block-content .impulso-callout.success {
     background: #ecfdf5;
     border-left-color: #10b981;
+  }
+  /* Respuesta rápida (TL;DR) callout — prominent, top of article */
+  #single_blog_2025 .text-block-content .impulso-callout.tldr {
+    background: linear-gradient(135deg, #fff8f4 0%, #f0f8fb 100%);
+    border-left: 4px solid #F34F36;
+    padding: 20px 24px;
+    margin: 24px 0 32px;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  }
+  #single_blog_2025 .text-block-content .impulso-callout.tldr .icon {
+    font-size: 24px;
+    color: #F34F36;
+  }
+  #single_blog_2025 .text-block-content .impulso-callout.tldr .label {
+    color: #F34F36;
+    font-size: 12px;
+    font-weight: 800;
+  }
+  #single_blog_2025 .text-block-content .impulso-callout.tldr p {
+    font-size: 16px;
+    line-height: 1.55;
+    color: #1A2B3C;
+    font-weight: 500;
   }
   /* Match reference article spacing: 50px gap between hr-bottom and first content */
   #single_blog_2025 .blog-header-section {
@@ -218,6 +307,9 @@
                             <div class="meta-info">
                                 <h4>{{ $post_date_formatted }}</h4> -
                                 <h4>{{ $read_time }}</h4>
+                                @if($was_updated)
+                                <h4 style="color: #36768A; font-weight: 600;">• Actualizado {{ $last_modified }}</h4>
+                                @endif
                             </div>
                         </div>
                     </div>
