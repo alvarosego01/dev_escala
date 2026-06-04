@@ -107,15 +107,13 @@
     background: #ecfdf5;
     border-left-color: #10b981;
   }
-  /* Spacing around hero hr-bottom divider */
-  #single_blog_2025 .blog-header-section .section-row {
-    margin-bottom: 8px;
+  /* Hero header bottom spacing */
+  #single_blog_2025 .blog-header-section {
+    margin-bottom: 32px !important;
   }
-  #single_blog_2025 .hr-bottom {
-    margin: 0 0 32px;
-  }
-  #single_blog_2025 .blog-header-section .meta-mb {
-    margin-bottom: 0;
+  /* Add breathing room between hr-bottom and the content section */
+  #single_blog_2025 .index-section.customSection {
+    padding-top: 32px !important;
   }
   #single_blog_2025 .text-block-content table.impulso-table {
     width: 100%;
@@ -179,10 +177,13 @@
     margin-top: 0;
     margin-bottom: 24px;
   }
-  /* Tighter spacing right after hero header */
+  /* No extra top margin on the first text section (we add padding to the parent instead) */
   #single_blog_2025 .index-section.customSection .innerSectionElement.sct0 > .text-block-section:first-child {
     margin-top: 0 !important;
     padding-top: 0 !important;
+  }
+  #single_blog_2025 .index-section.customSection .innerSectionElement.sct0 > .text-block-section:first-child .text-block-content > p:first-child {
+    margin-top: 0 !important;
   }
 </style>
 
