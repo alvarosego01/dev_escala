@@ -23,6 +23,74 @@
 
 @section('content')
 
+<style>
+  /* Impulso article-specific styles */
+  #single_blog_2025 .text-block-content table.impulso-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+    font-size: 14px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  #single_blog_2025 .text-block-content table.impulso-table th {
+    background: #36768A;
+    color: #fff;
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 600;
+  }
+  #single_blog_2025 .text-block-content table.impulso-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #e8edf2;
+    vertical-align: top;
+  }
+  #single_blog_2025 .text-block-content table.impulso-table tr:last-child td {
+    border-bottom: none;
+  }
+  #single_blog_2025 .text-block-content table.impulso-table tr:nth-child(even) td {
+    background: #f8fafc;
+  }
+  #single_blog_2025 .text-block-content blockquote.impulso-highlight {
+    border-left: 4px solid #F34F36;
+    background: #fff7f5;
+    padding: 16px 20px;
+    margin: 20px 0;
+    border-radius: 0 8px 8px 0;
+    color: #1A2B3C;
+  }
+  #single_blog_2025 .text-block-content hr.impulso-divider {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+    margin: 32px 0;
+  }
+  #single_blog_2025 .text-block-content a {
+    color: #36768A;
+    text-decoration: underline;
+  }
+  #single_blog_2025 .text-block-content a:hover {
+    color: #F34F36;
+  }
+  #single_blog_2025 .text-block-content h4.section-subheading {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1A2B3C;
+    margin: 24px 0 12px;
+  }
+  #single_blog_2025 .text-block-content ul,
+  #single_blog_2025 .text-block-content ol {
+    padding-left: 24px;
+    margin: 12px 0;
+  }
+  #single_blog_2025 .text-block-content ul li,
+  #single_blog_2025 .text-block-content ol li {
+    margin: 6px 0;
+    line-height: 1.6;
+  }
+</style>
+
 <div id="single_blog_2025" class="post-template">
     <div class="sections">
         {{-- Header principal --}}
