@@ -43,17 +43,25 @@
   }
   #single_blog_2025 .text-block-content ul,
   #single_blog_2025 .text-block-content ol {
-    padding-left: 24px;
-    margin: 12px 0 20px;
+    padding-left: 24px !important;
+    margin: 12px 0 20px !important;
   }
   #single_blog_2025 .text-block-content ul li,
   #single_blog_2025 .text-block-content ol li {
-    margin: 0 0 8px;
-    line-height: 1.55;
+    margin: 0 0 8px !important;
+    line-height: 1.55 !important;
+    padding: 0 !important;
   }
   #single_blog_2025 .text-block-content ul li:last-child,
   #single_blog_2025 .text-block-content ol li:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
+  }
+  /* Hero image breathing room */
+  #single_blog_2025 .blog-header-section .main-image {
+    margin-bottom: 16px;
+  }
+  #single_blog_2025 .blog-header-section .main-image img {
+    border-radius: 12px;
   }
   /* Callout boxes — "Dato clave", "Tip", "Importante" */
   #single_blog_2025 .text-block-content .impulso-callout {
