@@ -14,6 +14,9 @@
   $featured_img_url = get_the_post_thumbnail_url(get_the_ID(), 'large');
   $featured_img_alt = get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true) ?: get_the_title();
   $yoast_desc = get_post_meta(get_the_ID(), '_yoast_wpseo_metadesc', true);
+  // Fall back to excerpt or impulso_subtitle meta
+  if (empty($yoast_desc)) $yoast_desc = get_post_meta(get_the_ID(), 'impulso_subtitle', true);
+  if (empty($yoast_desc)) $yoast_desc = get_the_excerpt();
   $word_count = str_word_count(strip_tags(get_the_content()));
   $read_time = max(1, round($word_count / 200)) . ' min de lectura';
   $post_date_formatted = get_the_date('F j, Y');
