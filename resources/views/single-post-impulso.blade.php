@@ -107,13 +107,15 @@
     background: #ecfdf5;
     border-left-color: #10b981;
   }
-  /* Hero header bottom spacing */
+  /* Match reference article spacing: 50px gap between hr-bottom and first content */
   #single_blog_2025 .blog-header-section {
-    margin-bottom: 32px !important;
+    margin-bottom: 0 !important;
   }
-  /* Add breathing room between hr-bottom and the content section */
   #single_blog_2025 .index-section.customSection {
-    padding-top: 32px !important;
+    padding-top: 0 !important;
+  }
+  #single_blog_2025 .index-section.customSection .innerSectionElement.sct0 {
+    padding-top: 30px;
   }
   #single_blog_2025 .text-block-content table.impulso-table {
     width: 100%;
