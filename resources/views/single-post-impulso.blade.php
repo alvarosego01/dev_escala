@@ -43,13 +43,65 @@
   }
   #single_blog_2025 .text-block-content ul,
   #single_blog_2025 .text-block-content ol {
-    padding-left: 22px;
-    margin: 16px 0;
+    padding-left: 24px;
+    margin: 12px 0 20px;
   }
   #single_blog_2025 .text-block-content ul li,
   #single_blog_2025 .text-block-content ol li {
-    margin: 4px 0;
+    margin: 0 0 8px;
     line-height: 1.55;
+  }
+  #single_blog_2025 .text-block-content ul li:last-child,
+  #single_blog_2025 .text-block-content ol li:last-child {
+    margin-bottom: 0;
+  }
+  /* Callout boxes — "Dato clave", "Tip", "Importante" */
+  #single_blog_2025 .text-block-content .impulso-callout {
+    background: #f0f8fb;
+    border-left: 4px solid #36768A;
+    border-radius: 0 10px 10px 0;
+    padding: 18px 22px;
+    margin: 24px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  #single_blog_2025 .text-block-content .impulso-callout .icon {
+    font-size: 22px;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  #single_blog_2025 .text-block-content .impulso-callout .body {
+    flex: 1;
+  }
+  #single_blog_2025 .text-block-content .impulso-callout .label {
+    font-weight: 700;
+    color: #1A2B3C;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+    display: block;
+  }
+  #single_blog_2025 .text-block-content .impulso-callout p {
+    margin: 0;
+    color: #1A2B3C;
+  }
+  #single_blog_2025 .text-block-content .impulso-callout.tip {
+    background: #fff7f5;
+    border-left-color: #F34F36;
+  }
+  #single_blog_2025 .text-block-content .impulso-callout.warning {
+    background: #fef3c7;
+    border-left-color: #d97706;
+  }
+  #single_blog_2025 .text-block-content .impulso-callout.success {
+    background: #ecfdf5;
+    border-left-color: #10b981;
+  }
+  /* Improved spacing around hero hr-bottom */
+  #single_blog_2025 .hr-bottom {
+    margin: 24px 0 8px;
   }
   #single_blog_2025 .text-block-content table.impulso-table {
     width: 100%;
