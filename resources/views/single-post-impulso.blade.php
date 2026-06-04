@@ -24,44 +24,75 @@
 @section('content')
 
 <style>
-  /* Impulso article-specific styles */
+  /* Impulso article styles */
+  #single_blog_2025 .text-block-content p {
+    margin: 0 0 16px;
+    line-height: 1.6;
+  }
+  #single_blog_2025 .text-block-content p:last-child {
+    margin-bottom: 0;
+  }
+  #single_blog_2025 .text-block-content h4.section-subheading {
+    font-size: 19px;
+    font-weight: 700;
+    color: #1A2B3C;
+    margin: 32px 0 16px;
+  }
+  #single_blog_2025 .text-block-content ul,
+  #single_blog_2025 .text-block-content ol {
+    padding-left: 22px;
+    margin: 16px 0;
+  }
+  #single_blog_2025 .text-block-content ul li,
+  #single_blog_2025 .text-block-content ol li {
+    margin: 4px 0;
+    line-height: 1.55;
+  }
   #single_blog_2025 .text-block-content table.impulso-table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
     margin: 24px 0;
-    font-size: 14px;
+    font-size: 15px;
     background: #fff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
-    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
   }
   #single_blog_2025 .text-block-content table.impulso-table th {
-    background: #36768A;
-    color: #fff;
-    padding: 12px 16px;
+    background: #f0f4f8;
+    color: #1A2B3C;
+    padding: 14px 18px;
     text-align: left;
     font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-bottom: 2px solid #36768A;
   }
   #single_blog_2025 .text-block-content table.impulso-table td {
-    padding: 12px 16px;
-    border-bottom: 1px solid #e8edf2;
+    padding: 14px 18px;
+    border-bottom: 1px solid #f1f5f9;
     vertical-align: top;
+    line-height: 1.5;
   }
   #single_blog_2025 .text-block-content table.impulso-table tr:last-child td {
     border-bottom: none;
   }
-  #single_blog_2025 .text-block-content table.impulso-table tr:nth-child(even) td {
-    background: #f8fafc;
+  #single_blog_2025 .text-block-content table.impulso-table tr:hover td {
+    background: #fafbfc;
   }
-  #single_blog_2025 .text-block-content blockquote.impulso-highlight {
+  #single_blog_2025 .text-block-content blockquote {
     border-left: 4px solid #F34F36;
     background: #fff7f5;
-    padding: 16px 20px;
+    padding: 14px 20px;
     margin: 20px 0;
     border-radius: 0 8px 8px 0;
     color: #1A2B3C;
+    font-style: normal;
   }
-  #single_blog_2025 .text-block-content hr.impulso-divider {
+  #single_blog_2025 .text-block-content hr {
     border: none;
     border-top: 1px solid #e2e8f0;
     margin: 32px 0;
@@ -69,25 +100,19 @@
   #single_blog_2025 .text-block-content a {
     color: #36768A;
     text-decoration: underline;
+    text-underline-offset: 2px;
   }
   #single_blog_2025 .text-block-content a:hover {
     color: #F34F36;
   }
-  #single_blog_2025 .text-block-content h4.section-subheading {
-    font-size: 18px;
-    font-weight: 700;
-    color: #1A2B3C;
-    margin: 24px 0 12px;
+  /* Override default text-block-section to add spacing on H3 */
+  #single_blog_2025 .text-block-section > h3 {
+    margin-top: 0;
+    margin-bottom: 24px;
   }
-  #single_blog_2025 .text-block-content ul,
-  #single_blog_2025 .text-block-content ol {
-    padding-left: 24px;
-    margin: 12px 0;
-  }
-  #single_blog_2025 .text-block-content ul li,
-  #single_blog_2025 .text-block-content ol li {
-    margin: 6px 0;
-    line-height: 1.6;
+  /* Space-block fallback (in case theme CSS doesn't define it for desktop) */
+  #single_blog_2025 .space-block.mb-xl {
+    height: 40px;
   }
 </style>
 
