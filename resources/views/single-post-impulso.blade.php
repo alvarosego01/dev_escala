@@ -1,0 +1,188 @@
+{{--
+    Template Name: [B] Blog - Single - Impulso
+    Template Post Type: post
+
+    Blog post template for Impulso-generated content.
+    Reads article body from the standard WP content field (the_content),
+    while replicating the exact layout of single-post-2025.
+    Content should be pre-formatted with text-block-section structure.
+--}}
+
+@php
+  $categories = get_the_category();
+  $main_cat = $categories && count($categories) ? $categories[0] : null;
+  $featured_img_url = get_the_post_thumbnail_url(get_the_ID(), 'large');
+  $featured_img_alt = get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true) ?: get_the_title();
+  $yoast_desc = get_post_meta(get_the_ID(), '_yoast_wpseo_metadesc', true);
+  $word_count = str_word_count(strip_tags(get_the_content()));
+  $read_time = max(1, round($word_count / 200)) . ' min de lectura';
+  $post_date_formatted = get_the_date('F j, Y');
+@endphp
+
+@extends('layouts.app')
+
+@section('content')
+
+<div id="single_blog_2025" class="post-template">
+    <div class="sections">
+        {{-- Header principal --}}
+        <section class="blog-header-section customSection sectionParent fullWidth">
+            <div class="breadcrumb">
+                <nav aria-label="breadcrumb">
+                    <a href="/escala/blog/">Blog/Topic/</a>
+                    {{ get_the_title() }}/
+                </nav>
+            </div>
+            <div class="section-row">
+                <div class="innerSectionElement sct0">
+                    @if($main_cat)
+                      <div class="topic-label">{{ $main_cat->name }}</div>
+                    @endif
+                    <h1>{!! get_the_title() !!}</h1>
+                    @if($yoast_desc)
+                      <div class="subtitle">{{ $yoast_desc }}</div>
+                    @endif
+
+                    <div class="meta">
+                        <div class="img">
+                            <img alt="Icon escala" src="{{ App::setFilePath('/assets/images/icons/icon escala blog.webp') }}" loading="lazy">
+                        </div>
+                        <div class="meta-text">
+                            <h4 class="title-meta">Escala CRM</h4>
+                            <div class="meta-info">
+                                <h4>{{ $post_date_formatted }}</h4> -
+                                <h4>{{ $read_time }}</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="innerSectionElement sct1">
+                    @if($featured_img_url)
+                    <div class="main-image">
+                        <img src="{{ $featured_img_url }}" alt="{{ $featured_img_alt }}">
+                    </div>
+                    @endif
+
+                    <div class="meta meta-mb">
+                        <div class="img">
+                            <img alt="Icon escala" src="{{ App::setFilePath('/assets/images/icons/icon escala blog.webp') }}" loading="lazy">
+                        </div>
+                        <div class="meta-text">
+                            <h4 class="title-meta">Escala CRM</h4>
+                            <div class="meta-info">
+                                <h4>{{ $post_date_formatted }}</h4> -
+                                <h4>{{ $read_time }}</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hr-bottom"></div>
+        </section>
+
+        {{-- Content Section — reads from the_content() --}}
+        <section class="index-section customSection sectionParent fullWidth">
+            <div class="section-row">
+                <div class="innerSectionElement sct0">
+                    {!! apply_filters('the_content', get_the_content()) !!}
+                </div>
+
+                <div class="innerSectionElement sct1">
+                    <div class="space-block mb-xxl"></div>
+                    {{-- Share --}}
+                    <section class="share-section">
+                        <h3>Compartir en</h3>
+                        <div class="social-share-buttons">
+                            <a href="https://www.facebook.com/escalasoftware/" target="_blank">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon-facebook-escala.webp') }}">
+                            </a>
+                            <a href="https://x.com/escalasoftware" target="_blank">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon-x-escala.webp') }}">
+                            </a>
+                            <a href="https://www.linkedin.com/company/escalacrm/posts/?feedView=all" target="_blank">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon-linkedin-escala.webp') }}">
+                            </a>
+                        </div>
+                    </section>
+
+                    {{-- Popular Articles --}}
+                    @php
+                    $recent_posts = new WP_Query([
+                        'post_type' => 'post',
+                        'posts_per_page' => 4,
+                        'post__not_in' => [get_the_ID()],
+                        'orderby' => 'date',
+                        'order' => 'DESC',
+                    ]);
+                    @endphp
+                    <section class="recent-posts-widget">
+                        <h3>Artículos populares</h3>
+                        <hr>
+                        <ul>
+                            @foreach($recent_posts->posts as $idx => $recent)
+                                @if($idx < 4)
+                                <li>
+                                    <a href="{{ get_permalink($recent->ID) }}">{{ get_the_title($recent->ID) }}</a>
+                                    <hr>
+                                </li>
+                                @endif
+                            @endforeach
+                        </ul>
+                    </section>
+                    @php wp_reset_postdata(); @endphp
+                </div>
+            </div>
+
+            <div class="section-row-2">
+                <div class="innerSectionElement sct0">
+                    {{-- CTA Banner --}}
+                    <section class="cta-banner-section" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-blog-cover.webp') !!}')">
+                        <div class="cta-banner-content">
+                            <div class="content">
+                                <div class="img">
+                                    <img alt="Logo escala" src="{{ App::setFilePath('/assets/images/logos/log-escala-oscuro-2025.webp') }}" loading="lazy">
+                                </div>
+                                <div class="cta-content">
+                                    Escala es el CRM todo-en-uno potenciado por Inteligencia Artificial que integra herramientas de marketing y ventas para que logres más con menos esfuerzo.
+                                </div>
+                                <h3>Conoce más de Escala</h3>
+                                <a href="https://escala.com/demo" class="btn btn-primary menuHoverInEffect openPopUpButton popup-general-demo-2022 mt-3">Agenda una demo</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="innerSectionElement sct1">
+                    <h2>Solo para ti</h2>
+                    @php
+                    $main_cat_id = $main_cat ? $main_cat->term_id : null;
+                    $related_query = new WP_Query([
+                        'post_type' => 'post',
+                        'posts_per_page' => 9,
+                        'post__not_in' => [get_the_ID()],
+                        'cat' => $main_cat_id,
+                        'orderby' => 'rand',
+                    ]);
+                    @endphp
+                    <div class="related-cards">
+                        @foreach($related_query->posts as $related)
+                        @php
+                            $image_id = get_post_thumbnail_id($related->ID);
+                            $image_url = $image_id ? wp_get_attachment_image_url($image_id, 'large') : '';
+                        @endphp
+                        <div class="related-card">
+                            <a href="{{ get_permalink($related->ID) }}">
+                                <div class="card-image" style="background-image:url('{{ $image_url }}')"></div>
+                                <h4 class="card-title">{!! get_the_title($related->ID) !!}</h4>
+                            </a>
+                        </div>
+                        @endforeach
+                    </div>
+                    @php wp_reset_postdata(); @endphp
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+@endsection
