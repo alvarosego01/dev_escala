@@ -107,9 +107,15 @@
     background: #ecfdf5;
     border-left-color: #10b981;
   }
-  /* Improved spacing around hero hr-bottom */
+  /* Spacing around hero hr-bottom divider */
+  #single_blog_2025 .blog-header-section .section-row {
+    margin-bottom: 8px;
+  }
   #single_blog_2025 .hr-bottom {
-    margin: 24px 0 8px;
+    margin: 0 0 32px;
+  }
+  #single_blog_2025 .blog-header-section .meta-mb {
+    margin-bottom: 0;
   }
   #single_blog_2025 .text-block-content table.impulso-table {
     width: 100%;
@@ -173,9 +179,10 @@
     margin-top: 0;
     margin-bottom: 24px;
   }
-  /* Space-block fallback (in case theme CSS doesn't define it for desktop) */
-  #single_blog_2025 .space-block.mb-xl {
-    height: 40px;
+  /* Tighter spacing right after hero header */
+  #single_blog_2025 .index-section.customSection .innerSectionElement.sct0 > .text-block-section:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
   }
 </style>
 
