@@ -437,6 +437,11 @@ add_action('wp_enqueue_scripts', function () {
 
         wp_enqueue_script('_pricingPro.js', asset_path('scripts/pages/_pricingPro.js'), ['jquery'], THEME_VERSION, true);
     }
+    // --- CRM Seguros pricing
+    if (is_page_template('views/template-subPage-crm-seguros-pricing.blade.php')) {
+        wp_enqueue_style('subPage_crm_seguros_pricing.css', asset_path('styles/pages/subPages/subPage_crm_seguros_pricing.css'), false, THEME_VERSION);
+        wp_enqueue_script('_crmSegurosPricing.js', asset_path('scripts/pages/_crmSegurosPricing.js'), ['jquery'], THEME_VERSION, true);
+    }
     // --- Pricing 2023
     if (is_page_template('views/template-subPage-pricing-2023.blade.php')) {
 

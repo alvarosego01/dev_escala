@@ -383,6 +383,7 @@ class SetComponents extends Controller
                 'views/template-casoExito-Cambridge.php',
                 'views/template-casoExito-kata-gogo.php',
                 'views/template-subPage-pricingPro.blade.php',
+                'views/template-subPage-crm-seguros-pricing.blade.php',
                 'views/template-subPage-planesIa.blade.php',
                 'views/template-subPage-pricing-2023.blade.php',
                 'views/template-corporative-resentation.blade.php',
