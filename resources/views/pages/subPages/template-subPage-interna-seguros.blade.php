@@ -65,12 +65,19 @@
                                     $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
                                     $_rs = [];
                                     $_formShortcode = null;
+                                    $_formLocal = null;
                                     if ($_data = get_posts($_args)) {
                                     foreach ($_data as $_key) {
                                     $_rs[$_key->ID] = $_key->post_title;
-                                    if ($_key->post_title === 'DEMOINTERNASEGUROS') {
+                                    if ($_key->post_title === 'Formulario Pagina Seguro') {
                                     $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
                                     }
+                                    if ($_key->post_title === 'DEMOINTERNASEGUROS') {
+                                    $_formLocal = '[contact-form-7 id="' . $_key->ID . '"]';
+                                    }
+                                    }
+                                    if (!$_formShortcode && $_formLocal) {
+                                    $_formShortcode = $_formLocal;
                                     }
                                     } else {
                                     $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
