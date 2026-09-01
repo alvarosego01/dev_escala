@@ -597,7 +597,23 @@
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
-    margin-bottom: 22px;
+    margin-bottom: 10px;
+  }
+
+  .csp-mods-note {
+    font-size: 12.5px;
+    color: var(--muted);
+    margin-bottom: 20px;
+    line-height: 1.45;
+  }
+
+  a.csp-ia-link {
+    color: var(--blue);
+    text-decoration: underline;
+  }
+
+  .csp-plan.feat a.csp-ia-link {
+    color: var(--gold);
   }
 
   .csp-chip {

@@ -13,16 +13,16 @@
 
     var P = {
         an: { core: 99, pro: 139, otto: 40, wa: 19 },
-        me: { core: 124, pro: 174, otto: 50, wa: 24 }
+        me: { core: 124, pro: 174, otto: 40, wa: 24 }
     };
     var ANN = { core: 1188, pro: 1668, otto: 480, wa: 228 };
     var INC = { users: 2, pol: 2500, mail: 5000 };
-    var MODINC = { otto: 40000, wa: 5000 };
+    var MODINC = { wa: 5000 };
     var ADD = {
-        an: { user: 25, mail: 20, pol: 10, otto: 90, wa: 8, polCap: 150 },
-        me: { user: 31, mail: 25, pol: 13, otto: 90, wa: 10, polCap: 188 }
+        an: { user: 25, mail: 20, pol: 10, wa: 8, polCap: 150 },
+        me: { user: 31, mail: 25, pol: 13, wa: 10, polCap: 188 }
     };
-    var PACK = { mail: 10000, pol: 500, otto: 80000, wa: 1000 };
+    var PACK = { mail: 10000, pol: 500, wa: 1000 };
 
     function byId(id) {
         return root.querySelector('#' + id);
@@ -94,16 +94,9 @@
         chip('csp-cOtto', onOtto, PLAN === 'pro', 'csp-pxOtto', pr.otto);
         chip('csp-cWa', onWa, PLAN === 'pro', 'csp-pxWa', pr.wa);
 
-        byId('csp-fOtto').classList.toggle('off', !onOtto);
         byId('csp-fWa').classList.toggle('off', !onWa);
-        byId('csp-incOtto').textContent = onOtto ? '40,000 incluidos' : 'activa el módulo';
         byId('csp-incWa').textContent = onWa ? '5,000 incluidos' : 'activa el módulo';
 
-        if (!onOtto) {
-            byId('csp-rOtto').value = 0;
-        } else if (+byId('csp-rOtto').value === 0) {
-            byId('csp-rOtto').value = MODINC.otto;
-        }
         if (!onWa) {
             byId('csp-rWa').value = 0;
         } else if (+byId('csp-rWa').value === 0) {
@@ -122,7 +115,6 @@
         var pol = SEG ? +byId('csp-rPol').value : 0;
         var mail = +byId('csp-rMail').value;
         var wa = +byId('csp-rWa').value;
-        var otto = +byId('csp-rOtto').value;
 
         setVal('csp-vUsers', users);
         if (SEG) {
@@ -130,9 +122,7 @@
         }
         setVal('csp-vMail', mail);
         setVal('csp-vWa', wa);
-        setVal('csp-vOtto', otto);
 
-        var onOtto = PLAN === 'pro' || M.otto;
         var onWa = PLAN === 'pro' || M.wa;
         var lines = [];
         var total = pr[PLAN];
@@ -188,7 +178,6 @@
 
         pack(mail, INC.mail, PACK.mail, A.mail, AN.mail, 'emails');
         pack(wa, onWa ? MODINC.wa : 0, PACK.wa, A.wa, AN.wa, 'mensajes de WhatsApp');
-        pack(otto, onOtto ? MODINC.otto : 0, PACK.otto, A.otto, AN.otto, 'créditos Otto');
 
         var html = '';
         lines.forEach(function (row, i) {

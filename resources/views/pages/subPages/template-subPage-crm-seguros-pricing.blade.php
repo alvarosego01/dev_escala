@@ -47,7 +47,7 @@
                 <a class="csp-btn openPopUpButton popup-general-demo-2022" href="#demo">Agenda una demo</a>
                 <div class="csp-incl">TODO LO DE INDEPENDIENTE, MÁS</div>
                 <ul>
-                    <li><b>Otto IA</b> — 40,000 créditos al mes</li>
+                    <li><b>Otto IA</b> — 40,000 créditos al mes · <a class="csp-ia-link" href="https://escala.com/planes-ia/">más créditos</a></li>
                     <li><b>Inbox</b> — WhatsApp, Instagram y Facebook en una bandeja</li>
                     <li>1 línea de WhatsApp · 5,000 mensajes al mes</li>
                     <li>Redacción, respuestas y scoring con IA</li>
@@ -78,15 +78,16 @@
     <section class="csp-section" id="modulos">
         <div class="csp-wrap">
             <h2 class="csp-h2">Súmalos por separado si los necesitas</h2>
-            <p class="csp-lead">Los módulos se contratan sueltos sobre el plan Independiente. Juntos cuestan $158 al mes; el plan Profesional los agrupa en $139. Los módulos también llevan el 20% de descuento al pagar anualmente.</p>
+            <p class="csp-lead">Los módulos se contratan sueltos sobre el plan Independiente. Juntos cuestan <span data-an="$158" data-me="$188">$158</span> al mes; el plan Profesional los agrupa en <span data-an="$139" data-me="$174">$139</span>. Los módulos también llevan el 20% de descuento al pagar anualmente.</p>
             <div class="csp-mods csp-mods-2">
                 <div class="csp-mod">
                     <div class="mn">Otto IA</div>
-                    <div class="mp"><span data-an="$40" data-me="$50">$40</span> <small>/ mes</small></div>
-                    <div class="mb" data-an="facturado anualmente · $480 / año" data-me="facturación mensual">facturado anualmente · $480 / año</div>
+                    <div class="mp">$40 <small>/ mes</small></div>
+                    <div class="mb">precio mensual, sin descuento anual</div>
                     <ul>
                         <li>40,000 créditos de IA al mes</li>
                         <li>Desde 25 créditos por mensaje del agente, según lo que deba resolver</li>
+                        <li><a class="csp-ia-link" href="https://escala.com/planes-ia/">Ver paquetes de créditos →</a></li>
                         <li>Redacción de correos y respuestas</li>
                         <li>Scoring y priorización de cartera</li>
                     </ul>
@@ -134,7 +135,7 @@
                     <tr class="grp"><td colspan="4">AUTOMATIZACIÓN E IA</td></tr>
                     <tr><td class="n">Flujos de automatización</td><td>Ilimitados</td><td>Ilimitados</td><td>Ilimitados</td></tr>
                     <tr><td class="n">Acciones ejecutadas al mes</td><td>10,000</td><td>10,000</td><td>10,000</td></tr>
-                    <tr><td class="n">Otto IA — créditos al mes</td><td class="csp-no">Módulo aparte</td><td>40,000</td><td>40,000</td></tr>
+                    <tr><td class="n">Otto IA — créditos al mes<span class="sub"><a class="csp-ia-link" href="https://escala.com/planes-ia/">Planes con más créditos →</a></span></td><td class="csp-no">Módulo aparte</td><td>40,000</td><td>40,000</td></tr>
                     <tr class="grp"><td colspan="4">ASEGURADORA</td></tr>
                     <tr><td class="n">Panel de canal y reportería</td><td class="csp-no">—</td><td class="csp-no">—</td><td class="csp-yes">✓</td></tr>
                     <tr><td class="n">Muro de datos entre aseguradoras</td><td class="csp-no">—</td><td class="csp-no">—</td><td class="csp-yes">✓</td></tr>
@@ -166,16 +167,12 @@
                         <td class="v"><span data-an="$20" data-me="$25">$20</span> / mes</td>
                     </tr>
                     <tr>
-                        <td class="n">Paquete de créditos Otto IA<span class="sub">80,000 créditos · hay paquetes mayores</span></td>
-                        <td class="v">$90</td>
-                    </tr>
-                    <tr>
                         <td class="n">Mensajes de WhatsApp<span class="sub">Paquete de 1,000 mensajes · cargo de plataforma de Escala</span></td>
                         <td class="v"><span data-an="$8" data-me="$10">$8</span> / mes</td>
                     </tr>
                 </table>
             </div>
-            <p class="csp-cap">Todos los paquetes adicionales llevan el mismo 20% de descuento al pagar anualmente. Los mensajes de WhatsApp los pagas directamente a Meta; Escala solo cobra el uso de la plataforma.</p>
+            <p class="csp-cap">Todos los paquetes adicionales llevan el mismo 20% de descuento al pagar anualmente. Los mensajes de WhatsApp los pagas directamente a Meta; Escala solo cobra el uso de la plataforma. Los créditos de IA se compran en paquetes de pago único que no expiran — <a class="csp-ia-link" href="https://escala.com/planes-ia/">ver precios</a>.</p>
         </div>
     </section>
 
@@ -204,6 +201,7 @@
                         <button type="button" class="csp-chip" id="csp-cOtto"><span class="bx"></span>Otto IA <span class="px" id="csp-pxOtto">+$40</span></button>
                         <button type="button" class="csp-chip" id="csp-cWa"><span class="bx"></span>Inbox <span class="px" id="csp-pxWa">+$19</span></button>
                     </div>
+                    <div class="csp-mods-note">Otto IA incluye 40,000 créditos al mes · <a class="csp-ia-link" href="https://escala.com/planes-ia/">planes con más créditos →</a></div>
 
                     <div class="csp-fld">
                         <div class="top">
@@ -229,20 +227,12 @@
                         <input type="range" aria-label="Emails al mes" id="csp-rMail" min="0" max="30000" step="1000" value="5000">
                     </div>
 
-                    <div class="csp-fld" id="csp-fWa">
+                    <div class="csp-fld" id="csp-fWa" style="margin-bottom:0">
                         <div class="top">
                             <label>Mensajes de WhatsApp<span class="csp-inc" id="csp-incWa">5,000 incluidos</span></label>
                             <input class="csp-val" id="csp-vWa" data-r="csp-rWa" type="text" inputmode="numeric" value="5,000" aria-label="Mensajes de WhatsApp">
                         </div>
                         <input type="range" aria-label="Mensajes de WhatsApp" id="csp-rWa" min="0" max="25000" step="1000" value="5000">
-                    </div>
-
-                    <div class="csp-fld" id="csp-fOtto" style="margin-bottom:0">
-                        <div class="top">
-                            <label>Créditos de Otto IA al mes<span class="csp-inc" id="csp-incOtto">40,000 incluidos</span></label>
-                            <input class="csp-val" id="csp-vOtto" data-r="csp-rOtto" type="text" inputmode="numeric" value="40,000" aria-label="Créditos de Otto IA">
-                        </div>
-                        <input type="range" aria-label="Créditos de Otto IA" id="csp-rOtto" min="0" max="240000" step="10000" value="40000">
                     </div>
                 </div>
 
@@ -308,7 +298,7 @@
                 </details>
                 <details>
                     <summary>¿Puedo contratar Independiente y sumar módulos después?</summary>
-                    <p>Sí. Independiente es un plan completo por sí mismo, y puedes activar Otto IA o Inbox cuando los necesites. Si terminas usando ambos, el plan Profesional te sale más barato que los tres por separado ($139 contra $158 al mes).</p>
+                    <p>Sí. Independiente es un plan completo por sí mismo, y puedes activar Otto IA o Inbox cuando los necesites. Si terminas usando ambos, el plan Profesional te sale más barato que los tres por separado (<span data-an="$139" data-me="$174">$139</span> contra <span data-an="$158" data-me="$188">$158</span> al mes).</p>
                 </details>
                 <details>
                     <summary>¿Cómo se cobra WhatsApp exactamente?</summary>
