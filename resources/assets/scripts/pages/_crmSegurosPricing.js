@@ -8,16 +8,21 @@
 
     var MODE = 'an';
     var PLAN = 'pro';
-    var M = { otto: false, wa: false, multi: false };
+    var M = { otto: false, wa: false };
     var SEG = true;
 
     var P = {
-        an: { core: 99, pro: 139, otto: 39, wa: 19, multi: 49 },
-        me: { core: 124, pro: 174, otto: 49, wa: 24, multi: 61 }
+        an: { core: 99, pro: 139, otto: 40, wa: 19 },
+        me: { core: 124, pro: 174, otto: 50, wa: 24 }
     };
-    var ANN = { core: 1188, pro: 1668, otto: 468, wa: 228, multi: 588 };
-    var INC = { users: 2, pol: 2500, cont: 2000, mail: 5000, auto: 500 };
-    var MODINC = { otto: 10000, wa: 5000 };
+    var ANN = { core: 1188, pro: 1668, otto: 480, wa: 228 };
+    var INC = { users: 2, pol: 2500, mail: 5000 };
+    var MODINC = { otto: 40000, wa: 5000 };
+    var ADD = {
+        an: { user: 25, mail: 20, pol: 10, otto: 90, wa: 8, polCap: 150 },
+        me: { user: 31, mail: 25, pol: 13, otto: 90, wa: 10, polCap: 188 }
+    };
+    var PACK = { mail: 10000, pol: 500, otto: 80000, wa: 1000 };
 
     function byId(id) {
         return root.querySelector('#' + id);
@@ -44,8 +49,9 @@
 
     function setMode(mo) {
         MODE = mo;
-        byId('csp-bAn').classList.toggle('on', mo === 'an');
-        byId('csp-bMe').classList.toggle('on', mo === 'me');
+        root.querySelectorAll('[data-mode]').forEach(function (el) {
+            el.classList.toggle('on', el.getAttribute('data-mode') === mo);
+        });
         root.querySelectorAll('[data-an]').forEach(function (el) {
             el.textContent = mo === 'an' ? el.getAttribute('data-an') : el.getAttribute('data-me');
         });
@@ -80,18 +86,17 @@
             if (!c) {
                 return;
             }
-            c.classList.toggle('on', on && !lock);
+            c.classList.toggle('on', on);
             c.classList.toggle('lock', lock);
             byId(pxId).textContent = lock ? 'incluido' : '+' + money(price);
         }
 
         chip('csp-cOtto', onOtto, PLAN === 'pro', 'csp-pxOtto', pr.otto);
         chip('csp-cWa', onWa, PLAN === 'pro', 'csp-pxWa', pr.wa);
-        chip('csp-cMulti', M.multi, false, 'csp-pxMulti', pr.multi);
 
         byId('csp-fOtto').classList.toggle('off', !onOtto);
         byId('csp-fWa').classList.toggle('off', !onWa);
-        byId('csp-incOtto').textContent = onOtto ? '10,000 incluidos' : 'activa el módulo';
+        byId('csp-incOtto').textContent = onOtto ? '40,000 incluidos' : 'activa el módulo';
         byId('csp-incWa').textContent = onWa ? '5,000 incluidos' : 'activa el módulo';
 
         if (!onOtto) {
@@ -115,9 +120,7 @@
         var pr = P[MODE];
         var users = +byId('csp-rUsers').value;
         var pol = SEG ? +byId('csp-rPol').value : 0;
-        var cont = +byId('csp-rCont').value;
         var mail = +byId('csp-rMail').value;
-        var auto = +byId('csp-rAuto').value;
         var wa = +byId('csp-rWa').value;
         var otto = +byId('csp-rOtto').value;
 
@@ -125,9 +128,7 @@
         if (SEG) {
             setVal('csp-vPol', pol);
         }
-        setVal('csp-vCont', cont);
         setVal('csp-vMail', mail);
-        setVal('csp-vAuto', auto);
         setVal('csp-vWa', wa);
         setVal('csp-vOtto', otto);
 
@@ -147,68 +148,47 @@
         if (PLAN === 'core' && M.wa) {
             total += pr.wa;
             ann += ANN.wa;
-            lines.push(['Módulo WhatsApp', pr.wa, '']);
-        }
-        if (M.multi) {
-            total += pr.multi;
-            ann += ANN.multi;
-            lines.push(['Módulo Multi-Aseguradora', pr.multi, '']);
+            lines.push(['Módulo Inbox', pr.wa, '']);
         }
 
+        var A = ADD[MODE];
+        var AN = ADD.an;
         var extra;
+
+        function pack(val, inc, size, rate, rateAn, unit) {
+            var x = up(val, inc);
+            if (!x) {
+                return;
+            }
+            var k = Math.ceil(x / size);
+            var cc = k * rate;
+            lines.push([k + ' × ' + n(size) + ' ' + unit, cc, '']);
+            total += cc;
+            ann += k * rateAn * 12;
+        }
+
         var extraUsers = up(users, INC.users);
-        extra = extraUsers * 25;
-        if (extra) {
+        if (extraUsers) {
+            extra = extraUsers * A.user;
             lines.push([extraUsers + (extraUsers === 1 ? ' usuario adicional' : ' usuarios adicionales'), extra, '']);
             total += extra;
-            ann += extra * 12;
+            ann += extraUsers * AN.user * 12;
         }
 
         if (SEG) {
             var extraPol = up(pol, INC.pol);
-            extra = Math.min(Math.ceil(extraPol / 500) * 10, 150);
-            if (extra) {
-                lines.push([n(extraPol) + ' pólizas adicionales', extra, extra >= 150 ? 'tope alcanzado' : '']);
+            if (extraPol) {
+                var packsPol = Math.ceil(extraPol / PACK.pol);
+                extra = Math.min(packsPol * A.pol, A.polCap);
+                lines.push([packsPol + ' × 500 pólizas', extra, extra >= A.polCap ? 'tope alcanzado' : '']);
                 total += extra;
-                ann += extra * 12;
+                ann += Math.min(packsPol * AN.pol, AN.polCap) * 12;
             }
         }
 
-        extra = Math.ceil(up(cont, INC.cont) / 1000) * 5;
-        if (extra) {
-            lines.push([n(up(cont, INC.cont)) + ' contactos adicionales', extra, '']);
-            total += extra;
-            ann += extra * 12;
-        }
-
-        extra = Math.ceil(up(mail, INC.mail) / 1000) * 1;
-        if (extra) {
-            lines.push([n(up(mail, INC.mail)) + ' emails adicionales', extra, '']);
-            total += extra;
-            ann += extra * 12;
-        }
-
-        extra = Math.ceil(up(auto, INC.auto) / 1000) * 10;
-        if (extra) {
-            lines.push([n(up(auto, INC.auto)) + ' automatizaciones adicionales', extra, '']);
-            total += extra;
-            ann += extra * 12;
-        }
-
-        var extraWa = up(wa, onWa ? MODINC.wa : 0);
-        extra = extraWa * 0.008;
-        if (extra) {
-            lines.push([n(extraWa) + ' mensajes adicionales', extra, '']);
-            total += extra;
-            ann += extra * 12;
-        }
-
-        extra = Math.ceil(up(otto, onOtto ? MODINC.otto : 0) / 50000) * 60;
-        if (extra) {
-            lines.push([n(up(otto, MODINC.otto)) + ' créditos adicionales', extra, '']);
-            total += extra;
-            ann += extra * 12;
-        }
+        pack(mail, INC.mail, PACK.mail, A.mail, AN.mail, 'emails');
+        pack(wa, onWa ? MODINC.wa : 0, PACK.wa, A.wa, AN.wa, 'mensajes de WhatsApp');
+        pack(otto, onOtto ? MODINC.otto : 0, PACK.otto, A.otto, AN.otto, 'créditos Otto');
 
         var html = '';
         lines.forEach(function (row, i) {
@@ -224,7 +204,7 @@
 
         var nudge = byId('csp-nudge');
         if (PLAN === 'core' && M.otto && M.wa) {
-            nudge.textContent = 'Con Otto IA y WhatsApp activos, el plan Profesional te sale ' +
+            nudge.textContent = 'Con Otto IA e Inbox activos, el plan Profesional te sale ' +
                 money(pr.core + pr.otto + pr.wa - pr.pro) + ' más barato al mes. Cámbialo arriba.';
             nudge.classList.add('show');
         } else {
@@ -232,13 +212,15 @@
         }
     }
 
-    root.querySelector('#csp-bAn').addEventListener('click', function () { setMode('an'); });
-    root.querySelector('#csp-bMe').addEventListener('click', function () { setMode('me'); });
+    root.querySelectorAll('[data-mode]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            setMode(btn.getAttribute('data-mode'));
+        });
+    });
     root.querySelector('#csp-pCore').addEventListener('click', function () { setPlan('core'); });
     root.querySelector('#csp-pPro').addEventListener('click', function () { setPlan('pro'); });
     root.querySelector('#csp-cOtto').addEventListener('click', function () { toggleMod('otto'); });
     root.querySelector('#csp-cWa').addEventListener('click', function () { toggleMod('wa'); });
-    root.querySelector('#csp-cMulti').addEventListener('click', function () { toggleMod('multi'); });
 
     root.querySelectorAll('input[type=range]').forEach(function (range) {
         range.addEventListener('input', calc);

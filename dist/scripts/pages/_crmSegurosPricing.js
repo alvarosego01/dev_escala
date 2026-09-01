@@ -1,1 +1,246 @@
-!function(){var f,h,g,M,L,S,A,E,o=document.getElementById("crmSegurosPricing");function w(t){return o.querySelector("#"+t)}function b(t){return t.toLocaleString("en-US")}function y(t){return"$"+Math.round(t).toLocaleString("en-US")}function C(t,e){return Math.max(0,t-e)}function x(t,e){t=w(t);t&&document.activeElement!==t&&(t.value=b(e))}function t(e){f=e,w("csp-bAn").classList.toggle("on","an"===e),w("csp-bMe").classList.toggle("on","me"===e),o.querySelectorAll("[data-an]").forEach(function(t){t.textContent="an"===e?t.getAttribute("data-an"):t.getAttribute("data-me")}),n()}function e(t){h=t,n()}function a(t){("pro"!==h||"otto"!==t&&"wa"!==t)&&(g[t]=!g[t],n())}function n(){var t=L[f],e=(w("csp-pCore").classList.toggle("on","core"===h),w("csp-pPro").classList.toggle("on","pro"===h),w("csp-pCore").textContent="Independiente · "+y(t.core)+"/mes",w("csp-pPro").textContent="Profesional · "+y(t.pro)+"/mes","pro"===h||g.otto),o="pro"===h||g.wa;function a(t,e,o,a,n){t=w(t);t&&(t.classList.toggle("on",e&&!o),t.classList.toggle("lock",o),w(a).textContent=o?"incluido":"+"+y(n))}a("csp-cOtto",e,"pro"===h,"csp-pxOtto",t.otto),a("csp-cWa",o,"pro"===h,"csp-pxWa",t.wa),a("csp-cMulti",g.multi,!1,"csp-pxMulti",t.multi),w("csp-fOtto").classList.toggle("off",!e),w("csp-fWa").classList.toggle("off",!o),w("csp-incOtto").textContent=e?"10,000 incluidos":"activa el módulo",w("csp-incWa").textContent=o?"5,000 incluidos":"activa el módulo",e?0==+w("csp-rOtto").value&&(w("csp-rOtto").value=E.otto):w("csp-rOtto").value=0,o?0==+w("csp-rWa").value&&(w("csp-rWa").value=E.wa):w("csp-rWa").value=0,w("csp-calcTtl").textContent="an"===f?"TU ESTIMADO MENSUAL · PAGO ANUAL":"TU ESTIMADO MENSUAL · MES A MES",c()}function c(){var t,e=L[f],o=+w("csp-rUsers").value,a=M?+w("csp-rPol").value:0,n=+w("csp-rCont").value,c=+w("csp-rMail").value,s=+w("csp-rAuto").value,i=+w("csp-rWa").value,l=+w("csp-rOtto").value,r=(x("csp-vUsers",o),M&&x("csp-vPol",a),x("csp-vCont",n),x("csp-vMail",c),x("csp-vAuto",s),x("csp-vWa",i),x("csp-vOtto",l),"pro"===h||g.otto),u="pro"===h||g.wa,p=[],d=e[h],v=S[h],o=(p.push(["Plan "+("pro"===h?"Profesional":"Independiente"),d,"base"]),"core"===h&&g.otto&&(d+=e.otto,v+=S.otto,p.push(["Módulo Otto IA",e.otto,""])),"core"===h&&g.wa&&(d+=e.wa,v+=S.wa,p.push(["Módulo WhatsApp",e.wa,""])),g.multi&&(d+=e.multi,v+=S.multi,p.push(["Módulo Multi-Aseguradora",e.multi,""])),C(o,A.users)),a=((t=25*o)&&(p.push([o+(1===o?" usuario adicional":" usuarios adicionales"),t,""]),d+=t,v+=12*t),M&&(o=C(a,A.pol),t=Math.min(10*Math.ceil(o/500),150))&&(p.push([b(o)+" pólizas adicionales",t,150<=t?"tope alcanzado":""]),d+=t,v+=12*t),(t=5*Math.ceil(C(n,A.cont)/1e3))&&(p.push([b(C(n,A.cont))+" contactos adicionales",t,""]),d+=t,v+=12*t),(t=+Math.ceil(C(c,A.mail)/1e3))&&(p.push([b(C(c,A.mail))+" emails adicionales",t,""]),d+=t,v+=12*t),(t=10*Math.ceil(C(s,A.auto)/1e3))&&(p.push([b(C(s,A.auto))+" automatizaciones adicionales",t,""]),d+=t,v+=12*t),C(i,u?E.wa:0)),m=((t=.008*a)&&(p.push([b(a)+" mensajes adicionales",t,""]),d+=t,v+=12*t),(t=60*Math.ceil(C(l,r?E.otto:0)/5e4))&&(p.push([b(C(l,E.otto))+" créditos adicionales",t,""]),d+=t,v+=12*t),""),o=(p.forEach(function(t,e){m+='<div class="csp-ln'+(0===e?" base":"")+'"><span>'+t[0]+(t[2]&&"base"!==t[2]?' <span class="csp-ln-note">· '+t[2]+"</span>":"")+"</span><b>"+y(t[1])+"</b></div>"}),w("csp-lines").innerHTML=m,w("csp-total").innerHTML=y(d)+"<span> USD</span>",w("csp-yearly").textContent="an"===f?y(v)+" al año, facturado anualmente":y(12*d)+" al año pagando mes a mes · "+y(12*d-v)+" más que el plan anual",w("csp-nudge"));"core"===h&&g.otto&&g.wa?(o.textContent="Con Otto IA y WhatsApp activos, el plan Profesional te sale "+y(e.core+e.otto+e.wa-e.pro)+" más barato al mes. Cámbialo arriba.",o.classList.add("show")):o.classList.remove("show")}o&&(g={otto:!(h="pro"),wa:!(f="an"),multi:!1},M=!0,L={an:{core:99,pro:139,otto:39,wa:19,multi:49},me:{core:124,pro:174,otto:49,wa:24,multi:61}},S={core:1188,pro:1668,otto:468,wa:228,multi:588},A={users:2,pol:2500,cont:2e3,mail:5e3,auto:500},E={otto:1e4,wa:5e3},o.querySelector("#csp-bAn").addEventListener("click",function(){t("an")}),o.querySelector("#csp-bMe").addEventListener("click",function(){t("me")}),o.querySelector("#csp-pCore").addEventListener("click",function(){e("core")}),o.querySelector("#csp-pPro").addEventListener("click",function(){e("pro")}),o.querySelector("#csp-cOtto").addEventListener("click",function(){a("otto")}),o.querySelector("#csp-cWa").addEventListener("click",function(){a("wa")}),o.querySelector("#csp-cMulti").addEventListener("click",function(){a("multi")}),o.querySelectorAll("input[type=range]").forEach(function(t){t.addEventListener("input",c)}),o.querySelectorAll("input.csp-val").forEach(function(t){t.addEventListener("input",function(){var t,e=w(this.getAttribute("data-r"));e&&(t=parseInt(String(this.value).replace(/[^0-9]/g,""),10),isNaN(t)&&(t=0),e.value=Math.max(+e.min,Math.min(+e.max,t)),c())}),t.addEventListener("blur",c)}),n())}();
+(function () {
+    'use strict';
+
+    var root = document.getElementById('crmSegurosPricing');
+    if (!root) {
+        return;
+    }
+
+    var MODE = 'an';
+    var PLAN = 'pro';
+    var M = { otto: false, wa: false };
+    var SEG = true;
+
+    var P = {
+        an: { core: 99, pro: 139, otto: 40, wa: 19 },
+        me: { core: 124, pro: 174, otto: 50, wa: 24 }
+    };
+    var ANN = { core: 1188, pro: 1668, otto: 480, wa: 228 };
+    var INC = { users: 2, pol: 2500, mail: 5000 };
+    var MODINC = { otto: 40000, wa: 5000 };
+    var ADD = {
+        an: { user: 25, mail: 20, pol: 10, otto: 90, wa: 8, polCap: 150 },
+        me: { user: 31, mail: 25, pol: 13, otto: 90, wa: 10, polCap: 188 }
+    };
+    var PACK = { mail: 10000, pol: 500, otto: 80000, wa: 1000 };
+
+    function byId(id) {
+        return root.querySelector('#' + id);
+    }
+
+    function n(x) {
+        return x.toLocaleString('en-US');
+    }
+
+    function money(x) {
+        return '$' + Math.round(x).toLocaleString('en-US');
+    }
+
+    function up(a, b) {
+        return Math.max(0, a - b);
+    }
+
+    function setVal(id, v) {
+        var el = byId(id);
+        if (el && document.activeElement !== el) {
+            el.value = n(v);
+        }
+    }
+
+    function setMode(mo) {
+        MODE = mo;
+        root.querySelectorAll('[data-mode]').forEach(function (el) {
+            el.classList.toggle('on', el.getAttribute('data-mode') === mo);
+        });
+        root.querySelectorAll('[data-an]').forEach(function (el) {
+            el.textContent = mo === 'an' ? el.getAttribute('data-an') : el.getAttribute('data-me');
+        });
+        sync();
+    }
+
+    function setPlan(p) {
+        PLAN = p;
+        sync();
+    }
+
+    function toggleMod(k) {
+        if (PLAN === 'pro' && (k === 'otto' || k === 'wa')) {
+            return;
+        }
+        M[k] = !M[k];
+        sync();
+    }
+
+    function sync() {
+        var pr = P[MODE];
+        byId('csp-pCore').classList.toggle('on', PLAN === 'core');
+        byId('csp-pPro').classList.toggle('on', PLAN === 'pro');
+        byId('csp-pCore').textContent = 'Independiente · ' + money(pr.core) + '/mes';
+        byId('csp-pPro').textContent = 'Profesional · ' + money(pr.pro) + '/mes';
+
+        var onOtto = PLAN === 'pro' || M.otto;
+        var onWa = PLAN === 'pro' || M.wa;
+
+        function chip(id, on, lock, pxId, price) {
+            var c = byId(id);
+            if (!c) {
+                return;
+            }
+            c.classList.toggle('on', on);
+            c.classList.toggle('lock', lock);
+            byId(pxId).textContent = lock ? 'incluido' : '+' + money(price);
+        }
+
+        chip('csp-cOtto', onOtto, PLAN === 'pro', 'csp-pxOtto', pr.otto);
+        chip('csp-cWa', onWa, PLAN === 'pro', 'csp-pxWa', pr.wa);
+
+        byId('csp-fOtto').classList.toggle('off', !onOtto);
+        byId('csp-fWa').classList.toggle('off', !onWa);
+        byId('csp-incOtto').textContent = onOtto ? '40,000 incluidos' : 'activa el módulo';
+        byId('csp-incWa').textContent = onWa ? '5,000 incluidos' : 'activa el módulo';
+
+        if (!onOtto) {
+            byId('csp-rOtto').value = 0;
+        } else if (+byId('csp-rOtto').value === 0) {
+            byId('csp-rOtto').value = MODINC.otto;
+        }
+        if (!onWa) {
+            byId('csp-rWa').value = 0;
+        } else if (+byId('csp-rWa').value === 0) {
+            byId('csp-rWa').value = MODINC.wa;
+        }
+
+        byId('csp-calcTtl').textContent = MODE === 'an'
+            ? 'TU ESTIMADO MENSUAL · PAGO ANUAL'
+            : 'TU ESTIMADO MENSUAL · MES A MES';
+        calc();
+    }
+
+    function calc() {
+        var pr = P[MODE];
+        var users = +byId('csp-rUsers').value;
+        var pol = SEG ? +byId('csp-rPol').value : 0;
+        var mail = +byId('csp-rMail').value;
+        var wa = +byId('csp-rWa').value;
+        var otto = +byId('csp-rOtto').value;
+
+        setVal('csp-vUsers', users);
+        if (SEG) {
+            setVal('csp-vPol', pol);
+        }
+        setVal('csp-vMail', mail);
+        setVal('csp-vWa', wa);
+        setVal('csp-vOtto', otto);
+
+        var onOtto = PLAN === 'pro' || M.otto;
+        var onWa = PLAN === 'pro' || M.wa;
+        var lines = [];
+        var total = pr[PLAN];
+        var ann = ANN[PLAN];
+
+        lines.push(['Plan ' + (PLAN === 'pro' ? 'Profesional' : 'Independiente'), total, 'base']);
+
+        if (PLAN === 'core' && M.otto) {
+            total += pr.otto;
+            ann += ANN.otto;
+            lines.push(['Módulo Otto IA', pr.otto, '']);
+        }
+        if (PLAN === 'core' && M.wa) {
+            total += pr.wa;
+            ann += ANN.wa;
+            lines.push(['Módulo Inbox', pr.wa, '']);
+        }
+
+        var A = ADD[MODE];
+        var AN = ADD.an;
+        var extra;
+
+        function pack(val, inc, size, rate, rateAn, unit) {
+            var x = up(val, inc);
+            if (!x) {
+                return;
+            }
+            var k = Math.ceil(x / size);
+            var cc = k * rate;
+            lines.push([k + ' × ' + n(size) + ' ' + unit, cc, '']);
+            total += cc;
+            ann += k * rateAn * 12;
+        }
+
+        var extraUsers = up(users, INC.users);
+        if (extraUsers) {
+            extra = extraUsers * A.user;
+            lines.push([extraUsers + (extraUsers === 1 ? ' usuario adicional' : ' usuarios adicionales'), extra, '']);
+            total += extra;
+            ann += extraUsers * AN.user * 12;
+        }
+
+        if (SEG) {
+            var extraPol = up(pol, INC.pol);
+            if (extraPol) {
+                var packsPol = Math.ceil(extraPol / PACK.pol);
+                extra = Math.min(packsPol * A.pol, A.polCap);
+                lines.push([packsPol + ' × 500 pólizas', extra, extra >= A.polCap ? 'tope alcanzado' : '']);
+                total += extra;
+                ann += Math.min(packsPol * AN.pol, AN.polCap) * 12;
+            }
+        }
+
+        pack(mail, INC.mail, PACK.mail, A.mail, AN.mail, 'emails');
+        pack(wa, onWa ? MODINC.wa : 0, PACK.wa, A.wa, AN.wa, 'mensajes de WhatsApp');
+        pack(otto, onOtto ? MODINC.otto : 0, PACK.otto, A.otto, AN.otto, 'créditos Otto');
+
+        var html = '';
+        lines.forEach(function (row, i) {
+            html += '<div class="csp-ln' + (i === 0 ? ' base' : '') + '"><span>' + row[0] +
+                (row[2] && row[2] !== 'base' ? ' <span class="csp-ln-note">· ' + row[2] + '</span>' : '') +
+                '</span><b>' + money(row[1]) + '</b></div>';
+        });
+        byId('csp-lines').innerHTML = html;
+        byId('csp-total').innerHTML = money(total) + '<span> USD</span>';
+        byId('csp-yearly').textContent = MODE === 'an'
+            ? money(ann) + ' al año, facturado anualmente'
+            : money(total * 12) + ' al año pagando mes a mes · ' + money(total * 12 - ann) + ' más que el plan anual';
+
+        var nudge = byId('csp-nudge');
+        if (PLAN === 'core' && M.otto && M.wa) {
+            nudge.textContent = 'Con Otto IA e Inbox activos, el plan Profesional te sale ' +
+                money(pr.core + pr.otto + pr.wa - pr.pro) + ' más barato al mes. Cámbialo arriba.';
+            nudge.classList.add('show');
+        } else {
+            nudge.classList.remove('show');
+        }
+    }
+
+    root.querySelectorAll('[data-mode]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            setMode(btn.getAttribute('data-mode'));
+        });
+    });
+    root.querySelector('#csp-pCore').addEventListener('click', function () { setPlan('core'); });
+    root.querySelector('#csp-pPro').addEventListener('click', function () { setPlan('pro'); });
+    root.querySelector('#csp-cOtto').addEventListener('click', function () { toggleMod('otto'); });
+    root.querySelector('#csp-cWa').addEventListener('click', function () { toggleMod('wa'); });
+
+    root.querySelectorAll('input[type=range]').forEach(function (range) {
+        range.addEventListener('input', calc);
+    });
+
+    root.querySelectorAll('input.csp-val').forEach(function (inp) {
+        inp.addEventListener('input', function () {
+            var range = byId(this.getAttribute('data-r'));
+            if (!range) {
+                return;
+            }
+            var v = parseInt(String(this.value).replace(/[^0-9]/g, ''), 10);
+            if (isNaN(v)) {
+                v = 0;
+            }
+            range.value = Math.max(+range.min, Math.min(+range.max, v));
+            calc();
+        });
+        inp.addEventListener('blur', calc);
+    });
+
+    sync();
+})();
